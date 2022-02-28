@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Quicksand:wght@500&display=swap');
+
+body {
+        background-color: #101010;
+        color: white;
+        font-family: 'Comfortaa', sans-serif
+}
+
+a {
+        color: #ce1818;
+        text-decoration: none;
+}
+a.hover {
+        color: rgb(233, 110, 110);
+}
+a.visited {
+        color: #5f1919;
+}
+
+.card {
+        display: flex;
+        justify-content: space-evenly;
+}
+
+.card > div {
+        word-wrap: break-word;
+        margin: 50px;
+        padding: 20px;
+        border-radius: 25px;
+        background-color: #252525;
+        box-shadow: 0 0 5px 5px #252525;
+}
+
+.gameserversCardTitle, .centreofattention {
+        text-align: center;
+}
+
+#wordwrappedlongthingaaa {
+        word-wrap: break-word;
+}
+
+@media (max-width: 800px) {
+  .card {
+    flex-direction: column;
+  }
+}
