@@ -1,6 +1,8 @@
 <header>
     <a href="/" style="color: #3DB686">MutaTechTips</a>
     |
+    <a href="/instances">Instances</a>
+    |
     <a href="/gameservers">Games</a>
     |
     <a href="/donate">Donate</a>
