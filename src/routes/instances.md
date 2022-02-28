@@ -36,4 +36,4 @@ title: Our Instances
 </div>
 <script lang="ts">
     import "../assets/global.css"
-</script
+</script>
