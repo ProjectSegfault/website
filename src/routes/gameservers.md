@@ -15,7 +15,8 @@ title: Our Gameservers
         <a href="https://gmod.mutahar.rocks">Garry's Mod has it's own website. Check it out here!</a>
         <br>
         <a href="steam://connect/gmodsrv.mutahar.rocks">Connect to the server using this link</a>
-        <a href="https://www.gametracker.com/server_info/176.174.120.242:27015/">GameTracker Link</a>
+        <br>
+        <a href="https://www.gametracker.com/server_info/176.174.120.242:27015/" target="_blank">GameTracker Link</a>
     </div>
     <div id="hl2dm">
         <h3 class="gameserversCardTitle"> Half-Life 2 Deathmatch </h3>
@@ -25,7 +26,7 @@ title: Our Gameservers
         <br>
         <a href="steam://connect/176.174.120.242:27017">Connect to the server using this link</a>
         <br>
-        <a href="https://www.gametracker.com/server_info/176.174.120.242:27017/">GameTracker Link</a>
+        <a href="https://www.gametracker.com/server_info/176.174.120.242:27017/" target="_blank">GameTracker Link</a>
     </div>
     <div id="ricochet">
         <h3 class="gameserversCardTitle"> Ricochet </h3>
@@ -44,7 +45,7 @@ title: Our Gameservers
         <br>
         <a href="steam://connect/176.174.120.242:27018">Connect to the server using this link</a>
         <br>
-        <a href="https://www.gametracker.com/server_info/176.174.120.242:27018/">GameTracker Link</a>
+        <a href="https://www.gametracker.com/server_info/176.174.120.242:27018/" target="_blank">GameTracker Link</a>
     </div>
 </div>
 <script lang="ts">
