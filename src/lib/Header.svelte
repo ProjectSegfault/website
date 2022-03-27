@@ -6,6 +6,8 @@
     <a href="/gameservers">Games</a>
     |
     <a href="/donate">Donate</a>
+    |
+    <a href="/minecraft">Minecraft</a>
 </header>
 
 <style>
