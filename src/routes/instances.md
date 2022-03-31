@@ -33,6 +33,15 @@ title: Our Instances
         <br>
         
     </div>
+    <div id="nitt">                                                                                                  
+        <h3 class="instances"> Nitter </h3>                                                                 
+        <br>                                                                                                         
+        You want to check something on twitter? Oh wait you don't have an account.. No worries! 
+        <br>                                                                                                         
+        <a href="https://nitter.mutahar.rocks">Nitter is here for that.</a>                                   
+        <br>                                                                                                         
+                                                                                                                     
+    </div>
 </div>
 <script lang="ts">
     import "../assets/global.css"
