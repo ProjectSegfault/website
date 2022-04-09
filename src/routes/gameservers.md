@@ -48,6 +48,3 @@ title: Our Gameservers
         <a href="https://www.gametracker.com/server_info/176.174.120.242:27018/" target="_blank">GameTracker Link</a>
     </div>
 </div>
-<script lang="ts">
-    import "../assets/global.css"
-</script>

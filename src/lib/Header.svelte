@@ -1,5 +1,5 @@
 <header>
-    <a href="/" style="color: #3DB686">MutaTechTips</a>
+    <a href="/" style="color: #3DB686">Project Segfault</a>
     |
     <a href="/instances">Instances</a>
     |

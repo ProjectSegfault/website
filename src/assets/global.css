@@ -50,6 +50,16 @@ a.visited {
   border: #3db686;
 }
 
+.ResponsiveImage {
+        max-inline-size: 50%;
+        block-size: auto;
+        aspect-ratio: 2/1;
+        object-fit: contain;
+}
+
+.pointyfinger {
+        cursor: pointer;
+}
 
 .gameserversCardTitle, .centreofattention {
         text-align: center;
@@ -62,5 +72,8 @@ a.visited {
 @media (max-width: 800px) {
   .card {
     flex-direction: column;
+  }
+  .ResponsiveImage {
+        max-inline-size: 100%;
   }
 }

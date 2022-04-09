@@ -31,7 +31,6 @@ title: Our Instances
         <br>
         <a href="https://lbry.mutahar.rocks">Click here to access the website.</a>
         <br>
-        
     </div>
     <div id="nitt">                                                                                                  
         <h3 class="instances"> Nitter </h3>                                                                 
@@ -40,9 +39,5 @@ title: Our Instances
         <br>                                                                                                         
         <a href="https://nitter.mutahar.rocks">Nitter is here for that.</a>                                   
         <br>                                                                                                         
-                                                                                                                     
     </div>
 </div>
-<script lang="ts">
-    import "../assets/global.css"
-</script>

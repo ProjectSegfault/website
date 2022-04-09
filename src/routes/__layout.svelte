@@ -1,8 +1,9 @@
 <script lang="ts">
     import Header from "$lib/Header.svelte"
+    import '../assets/global.css'
 </script>
 
-<title>MutaTechTips</title>
+<title>Project Segfault</title>
 
 <Header />
 

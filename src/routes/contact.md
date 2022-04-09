@@ -20,7 +20,3 @@ title: Contact Us
 <button type="button" class="button" onclick='document.getElementById("Active").innerHTML = "Midou (Matrix) / Mrlerien (Discord) / Odyssey (Both)"'>Click to show who is active on what platform</button>
 
 <p id="Activity"></p>
-
-<script lang="ts">
-    import "../assets/global.css"
-</script>

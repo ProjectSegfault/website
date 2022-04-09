@@ -1,5 +1,5 @@
 ---
-title: MutaTechTips MC
+title: Project Segfault MC
 ---
 # {title}
 
@@ -47,8 +47,4 @@ This is a manually made list of our plugins, so it might not be up to date.
 - ViaVersion (You may only connect from a base version and its subversions (1.18, 1.18.1, 1.18.2). You cannot connect from a major version older than the major version the server is running.)
 - PlugMan
 - CombatLogX
-- Plasmo Voice
-
-<script lang="ts">
-    import "../assets/global.css"
-</script>
+- Simple Voice Mod
