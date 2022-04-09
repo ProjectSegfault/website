@@ -8,6 +8,8 @@
     <a href="/donate">Donate</a>
     |
     <a href="/minecraft">Minecraft</a>
+    |
+    <a href="/contact">Contact</a>
 </header>
 
 <style>

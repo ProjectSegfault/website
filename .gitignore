@@ -6,4 +6,5 @@ node_modules
 /package
 .env
 .env.*
+yarn.lock
 !.env.example

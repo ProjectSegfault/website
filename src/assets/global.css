@@ -31,6 +31,26 @@ a.visited {
         box-shadow: 0 0 5px 5px #252525;
 }
 
+.button {
+  background-color: #3db686; 
+  border: none;
+  color: white;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #101010;
+  color: #3db686;
+  border: #3db686;
+}
+
+
 .gameserversCardTitle, .centreofattention {
         text-align: center;
 }
