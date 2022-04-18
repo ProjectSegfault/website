@@ -1,6 +1,11 @@
+
+<script lang="ts">
+    import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
+</script>
 <header>
-    <a href="/" style="color: #3DB686">Project Segfault</a>
-    |
+    <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="Why is this not loading? Anyway, project segfault's logo." />
+    <a href="/" style="color: #ce1717">Project</a> <a href="/" style="color: #00d4aa">Segfault</a>
+
     <a href="/instances">Instances</a>
     |
     <a href="/gameservers">Games</a>
@@ -18,5 +23,11 @@
         border: solid #252525;
         border-width: 1em;
         border-radius: 8px;
+    }
+    #ProjectSegfaultLogoHeader {
+        /*Here goes anything to do with the header logo*/
+        border-radius: 16px;
+        width: 32px;
+        vertical-align: middle;
     }
 </style>
