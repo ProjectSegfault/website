@@ -6,17 +6,17 @@
     <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="Why is this not loading? Anyway, project segfault's logo." />
     <a href="/" style="color: #ce1717">Project</a> <a href="/" style="color: #00d4aa">Segfault</a>
 	
-   <div class="center">
-    <a href="/instances">Instances</a>
-    |
-    <a href="/gameservers">Games</a>
-    |
-    <a href="/donate">Donate</a>
-    |
-    <a href="/minecraft">Minecraft</a>
-    |
-    <a href="/contact">Contact</a>
-  </div>
+   <section class="center">
+    <a href="/instances" class="button">Instances</a>
+    
+    <a href="/gameservers" class="button">Games</a>
+    
+    <a href="/donate" class="button">Donate</a>
+    
+    <a href="/minecraft" class="button">Minecraft</a>
+    
+    <a href="/contact" class="button">Contact</a>
+  </section>
 
 </header>
 
@@ -29,12 +29,38 @@
     }
     #ProjectSegfaultLogoHeader {
         /*Here goes anything to do with the header logo*/
-        border-radius: 16px;
+        border-radius: 5px;
         width: 32px;
-        vertical-align: middle;
+	vertical-align: middle;
+	display: inline-block;
     }
     .center {
 	    text-align: center;
     
+    }
+    .button {
+  background-color: #00755e; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    }
+    .button:hover {
+ 	background-color: #00d4aa;
+	color: black;
+	border-radius: 2px;
+	transform: translateY(-0.25em);
+        box-shadow: 0 0.5em 0.5em -0.4em #00755e;
+    }
+    .button:active {
+	    background-color: #4beacb;
+	    box-shadow: 0 0.51em 0.51em 0.4em #00b591;
     }
 </style>
