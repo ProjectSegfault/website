@@ -1,4 +1,3 @@
-
 <script lang="ts">
     import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
 </script>
@@ -16,9 +15,7 @@
     <a href="/minecraft" class="button">Minecraft</a>
     
     <a href="/contact" class="button">Contact</a>
-
-    <a href="/faq" class="button">FAQ</a>
-   </section>
+  </section>
 
 </header>
 
@@ -31,38 +28,13 @@
     }
     #ProjectSegfaultLogoHeader {
         /*Here goes anything to do with the header logo*/
-        border-radius: 5px;
+        border-radius: 16px;
         width: 32px;
-	vertical-align: middle;
-	display: inline-block;
+	    vertical-align: middle;
+	    display: inline-block;
     }
     .center {
 	    text-align: center;
     
-    }
-    .button {
-  background-color: #00755e; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 10px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-    }
-    .button:hover {
- 	background-color: #00d4aa;
-	color: black;
-	border-radius: 2px;
-	transform: translateY(-0.25em);
-        box-shadow: 0 0.5em 0.5em -0.4em #00755e;
-    }
-    .button:active {
-	    background-color: #4beacb;
-	    box-shadow: 0 0.51em 0.51em 0.4em #00b591;
     }
 </style>

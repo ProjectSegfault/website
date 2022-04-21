@@ -32,22 +32,27 @@ a.visited {
 }
 
 .button {
-  background-color: #3db686; 
+  background-color: #00755e; /* Green */
   border: none;
   color: white;
-  padding: 1% 1%;
+  padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+  border-radius: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
 .button:hover {
-  background-color: #101010;
-  color: #3db686;
-  border: #3db686;
+ 	background-color: #00d4aa;
+	color: black;
+	transform: translateY(-0.25em);
+}
+.button:active {
+	background-color: #4beacb;
 }
 
 .ResponsiveImage {
