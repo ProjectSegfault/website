@@ -16,7 +16,9 @@
     <a href="/minecraft" class="button">Minecraft</a>
     
     <a href="/contact" class="button">Contact</a>
-  </section>
+
+    <a href="/faq" class="button">FAQ</a>
+   </section>
 
 </header>
 

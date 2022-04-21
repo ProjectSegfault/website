@@ -4,9 +4,11 @@ title: Contact Us
 # {title}
 ## Do you want to contact us?
 
-# Our email (note that it is currently not working)
+# Our email
 
-<a href="mailto:contact@mutahar.rocks">contact@mutahar.rocks</a>
+<p><a href="mailto:contact@mutahar.rocks">contact@mutahar.rocks</a></p>
+
+<p><a href="mailto:contact@mutahar.rocks">contact@projectsegfau.lt</a></p>
 <p><i>Please be aware that Microsoft often blocks non-popular emails, if you do contact us through there, make sure to check your spam and mark it as not-spam!</i></p>
 
 # Invites
@@ -17,6 +19,6 @@ title: Contact Us
 
 <p id="Active"></p>
 
-<button type="button" class="button" onclick='document.getElementById("Active").innerHTML = "Midou (Matrix) / Mrlerien (Discord) / Odyssey (Both)"'>Click to show who is active on what platform</button>
+<button type="button" class="button" onclick='document.getElementById("Active").innerHTML = "Midou (Matrix) / Mrlerien (Discord) / Odyssey (Both) / Devnol (Matrix)"'>Click to show who is active on what platform</button>
 
 <p id="Activity"></p>
