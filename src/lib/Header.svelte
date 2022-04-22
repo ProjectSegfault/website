@@ -35,10 +35,8 @@
 	    text-align: center;
     }
     .text-flicker-in-glow {
-	    opacity:0;
-    }
-    .text-flicker-in-glow:hover {
-	    -webkit-animation: text-flicker-in-glow 900ms both;
+	    opacity:1;
+        -webkit-animation: text-flicker-in-glow 900ms both;
 	    animation: text-flicker-in-glow 900ms both;
     }
 </style>
