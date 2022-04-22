@@ -1,4 +1,5 @@
 <script lang="ts">
+	import css from "../assets/animation.css";
 	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
 </script>
 <header>
