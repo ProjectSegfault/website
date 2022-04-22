@@ -40,4 +40,9 @@
         -webkit-animation: text-flicker-in-glow 900ms both;
 	    animation: text-flicker-in-glow 900ms both;
     }
+    @media screen and (prefers-reduced-motion: reduce) {
+	.text-flicker-in-glow {
+		opacity:1;
+	}
+    }
 </style>
