@@ -1,4 +1,3 @@
-
 <script lang="ts">
 	import css from "../assets/animation.css";
 	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
@@ -16,9 +15,7 @@
     <a href="/minecraft" class="button">Minecraft</a>
     
     <a href="/contact" class="button">Contact</a>
-
-    <a href="/faq" class="button">FAQ</a>
-   </section>
+  </section>
 
 </header>
 
@@ -33,15 +30,16 @@
     }
     #ProjectSegfaultLogoHeader {
         /*Here goes anything to do with the header logo*/
-        border-radius: 5px;
+        border-radius: 16px;
         width: 32px;
-	vertical-align: middle;
-	display: inline-block;
+	    vertical-align: middle;
+	    display: inline-block;
     }
     .center {
 	    text-align: center;
     
     }
+<<<<<<< HEAD
     .button {
   background-color: #00755e; /* Green */
   border: none;
@@ -75,3 +73,6 @@
 	        animation: text-flicker-in-glow 900ms both;
 }
 </style>
+=======
+</style>
+>>>>>>> 6b6ede9b9439d9c99cdadfc28641f5c33151e600
