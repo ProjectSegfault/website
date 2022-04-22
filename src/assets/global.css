@@ -4,6 +4,7 @@ body {
         background-color: #101010;
         color: white;
         font-family: 'Comfortaa', sans-serif;
+        margin: 0;
 }
 
 a {
@@ -15,6 +16,10 @@ a.hover {
 }
 a.visited {
         color: #5f1919;
+}
+
+.center {
+	text-align: center;
 }
 
 .card {
@@ -74,7 +79,7 @@ a.visited {
         word-wrap: break-word;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .card {
     flex-direction: column;
   }
