@@ -2,7 +2,7 @@
     import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
 </script>
 <header>
-    <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="Why is this not loading? Anyway, project segfault's logo." />
+    <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="project segfault's logo." />
     <a href="/" style="color: #ce1717">Project</a> <a href="/" style="color: #00d4aa">Segfault</a>
 	
    <div class="center">
