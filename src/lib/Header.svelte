@@ -3,9 +3,16 @@
 	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
 </script>
 <header>
+<<<<<<< HEAD
     <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="Why is this not loading? Anyway, project segfault's logo." />
     <a href="/" class="text-flicker-in-glow" style="color: #ce1717">Project <span style="color: #00d4aa">Segfault</span></a> 
    <section class="center">
+=======
+    <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="project segfault's logo." />
+    <a href="/" style="color: #ce1717">Project</a> <a href="/" style="color: #00d4aa">Segfault</a>
+	
+   <div class="center">
+>>>>>>> 3d08dbd2ae052f04c710f8cb955d8bbc313399ad
     <a href="/instances" class="button">Instances</a>
     
     <a href="/gameservers" class="button">Games</a>
@@ -15,8 +22,7 @@
     <a href="/minecraft" class="button">Minecraft</a>
     
     <a href="/contact" class="button">Contact</a>
-  </section>
-
+   </div>
 </header>
 
 <style>
