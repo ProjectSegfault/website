@@ -5,7 +5,7 @@
     <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="Why is this not loading? Anyway, project segfault's logo." />
     <a href="/" style="color: #ce1717">Project</a> <a href="/" style="color: #00d4aa">Segfault</a>
 	
-   <section class="center">
+   <div class="center">
     <a href="/instances" class="button">Instances</a>
     
     <a href="/gameservers" class="button">Games</a>
@@ -15,8 +15,7 @@
     <a href="/minecraft" class="button">Minecraft</a>
     
     <a href="/contact" class="button">Contact</a>
-  </section>
-
+   </div>
 </header>
 
 <style>
