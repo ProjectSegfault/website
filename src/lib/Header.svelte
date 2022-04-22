@@ -1,11 +1,11 @@
 
 <script lang="ts">
-    import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
+	import css from "../assets/animation.css";
+	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
 </script>
 <header>
     <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="Why is this not loading? Anyway, project segfault's logo." />
-    <a href="/" style="color: #ce1717">Project</a> <a href="/" style="color: #00d4aa">Segfault</a>
-	
+    <a href="/" class="text-flicker-in-glow" style="color: #ce1717">Project <span style="color: #00d4aa">Segfault</span></a> 
    <section class="center">
     <a href="/instances" class="button">Instances</a>
     
@@ -23,6 +23,8 @@
 </header>
 
 <style>
+
+
     header {
         background-color: #252525;
         border: solid #252525;
@@ -65,4 +67,11 @@
 	    background-color: #4beacb;
 	    box-shadow: 0 0.51em 0.51em 0.4em #00b591;
     }
+    .text-flicker-in-glow {
+	opacity:0;	    
+    }
+    .text-flicker-in-glow:hover {
+	-webkit-animation: text-flicker-in-glow 900ms both;
+	        animation: text-flicker-in-glow 900ms both;
+}
 </style>
