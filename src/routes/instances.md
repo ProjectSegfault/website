@@ -5,7 +5,7 @@ title: Our Instances
 ## Privacy-respecting services hosted on our network.
 
 <div class="centreofattention">
-    
+   <p>Notice: Invidious, Libreddit, LBRY and nitter will move to the new domains soon.<p/> 
 </div>
 <div class="card">
     <div id="inv">
