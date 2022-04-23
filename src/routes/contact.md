@@ -13,11 +13,10 @@ title: Contact Us
 
 <p><a href="https://discord.gg/26EG7fFtfS">Discord</a></p>
 
-<p><a href="https://matrix.to/#/#general:projectsegfau.lt">Matrix</a></p>
-
-
-
-<button id="boop" type="button" class="button" onclick='document.getElementById("Active").innerHTML = "Midou (Matrix) / Mrlerien (Discord) / Odyssey (Both) / Devnol (Matrix)"; document.getElementById("boop").style.display = "none";'>Click to show who is active on what platform</button>
+<p><a href="https://matrix.to/#/#project-segfault:projectsegfau.lt">Matrix</a></p>
 
 <p id="Active"></p>
+
+<button type="button" class="button" onclick='document.getElementById("Active").innerHTML = "Midou (Matrix) / Mrlerien (Discord) / Odyssey (Both) / Devnol (Discord and Matrix)"'>Click to show who is active on what platform</button>
+
 <p id="Activity"></p>
