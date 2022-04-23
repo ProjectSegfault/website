@@ -59,7 +59,7 @@ a.visited {
 .button:active {
 	transform: translateY(0.10em);
 	background-color: #4beacb;
-	box-shadow: 0 0.5em 0.5em -0.4em #00c7a1;
+	box-shadow: 0 0.2em 0.2em -0.2em #00c7a1;
 }
 
 .ResponsiveImage {

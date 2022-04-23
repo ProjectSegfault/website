@@ -43,7 +43,7 @@
     @media screen and (prefers-reduced-motion: no-preference) {
 	.text-flicker-in-glow {
 		opacity:1;
-	-webkit-animation: text-flicker-in-glow 10ms both;
-	    animation: text-flicker-in-glow 10ms both;    }
+	-webkit-animation: text-flicker-in-glow 1000ms both;
+	    animation: text-flicker-in-glow 1000ms both;    }
     }
 </style>
