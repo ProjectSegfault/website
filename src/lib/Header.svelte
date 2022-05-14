@@ -32,6 +32,10 @@
     <a href="/minecraft" class="button">Minecraft</a>
     
     <a href="/contact" class="button">Contact</a>
+
+    <a href="/faq.md" class="button">FAQ</a>
+
+    <a href="/members.md" class="button">Members</a>
    </div>
 </header>
 
