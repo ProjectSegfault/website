@@ -78,6 +78,32 @@ a.visited {
         cursor: pointer;
 }
 
+.matrixcolored {
+        background-color: #0dbd8b;
+}
+
+.matrixcolored:hover {
+        background-color: #099970;
+        color: #fff;
+}
+
+.discordcolored {
+        background-color: #5865F2;
+}
+
+.discordcolored:hover {
+        background-color: hsl(235,calc(var(--saturation-factor, 1)*86.1%),71.8%); /* I didn't steal this from their website DONT SUE ME DONT FUCKING SUE ME PLEASEEEEEEEEEEEEEEEE */
+        color: #fff;
+}
+
+.githubcolored {
+        background-color: #333333;
+}
+
+.githubcolored:hover {
+        background-color: #666666;
+        color: #fff;
+}
 .gameserversCardTitle, .centreofattention {
         text-align: center;
 }

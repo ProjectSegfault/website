@@ -2,6 +2,13 @@
 title: Project Segfault
 ---
 # {title}
+
+<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt" class="button matrixcolored">Matrix</a>
+
+<a href="https://discord.gg/26EG7fFtfS" class="button discordcolored">Discord</a>
+
+<a href="https://github.com/ProjectSegfault" class="button githubcolored">GitHub</a>
+
 ## 4 idiots with an insanely good server.
 
 # what
