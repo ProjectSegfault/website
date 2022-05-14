@@ -2,7 +2,7 @@
 title: Members of the project 
 ---
 # {title}
-<h2> Midou </h2>
+<h2 style="color: #a44ef4"> Midou </h2>
 Project owner, manages the team. <a href="https://miicord.com" class="button">His website</a> <a href="https://social.projectsegfau.lt/Midou" class="button">His Pleroma account</a>
 
 <h2> MrLeRien </h2>
