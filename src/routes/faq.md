@@ -3,7 +3,7 @@ title: FAQ
 ---
 # {title}
 ## Who is the project owner?
-Orignally: Midou (Sysadmin) and Mrlerien (Hoster) and now Odyssey346 (Game Server Sysadmin, webdev and social media manager) and Devnol (Hoster) is with us.
+Orignally: Midou (Sysadmin) and Mrlerien (Hoster), but now Odyssey346 (Game Server Sysadmin, webdev and social media manager) and Devnol (Hoster) are with us.
 
 # Hold on, what if Devnol decides to backstab you?
 I highly doubt he will, but in any case this happens, critical services will stay up. So only extra (non important services) running on the server will be gone, but you should be aware of that anyways.
