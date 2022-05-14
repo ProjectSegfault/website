@@ -4,6 +4,7 @@ title: Our Gameservers
 # {title}
 ## The places to release good chemicals in your brain
 
+### Note: MOST OF THESE ARE NOT ONLINE! We're too fucking lazy to get them back right now.
 <div class="centreofattention">
     Please use common sense when playing on our servers. (<a href="https://www.google.com/search?q=i%27m%20stupid%20and%20i%20dont%20know%20what%20common%20sense%20is%20so%20i%20have%20to%20google%20it" target="_blank">What is common sense?</a>)
     <br>

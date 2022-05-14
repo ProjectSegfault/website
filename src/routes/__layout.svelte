@@ -10,11 +10,3 @@
 <main>
     <slot></slot>
 </main>
-
-<style>
-    :global(root) {
-        margin: 0;
-        padding: 0;
-        background-color: #505050;
-    }
-</style>
