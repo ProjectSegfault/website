@@ -1,5 +1,5 @@
 ---
-title: MutaTechTips MC
+title: Project Segfault MC
 ---
 # {title}
 
@@ -12,7 +12,3 @@ If you play on Bedrock, try to find an alternative to these. Mods like Simple Vo
 - [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) & [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
 - Any optimization mod (We recommend at least Sodium)
 - [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)
-
-<script lang="ts">
-    import "../assets/global.css"
-</script>

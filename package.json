@@ -1,5 +1,5 @@
 {
-  "name": "mcserverwebsite",
+  "name": "projectsegfaultwebsite",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -26,6 +26,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@modular-css/svelte": "^28.1.0",
     "@sveltejs/adapter-static": "next"
   }
 }

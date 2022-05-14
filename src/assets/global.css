@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Quicksand:wght@500&display=swap');
 
 body {
-        background-color: #101010;
+        background-color: #151515;
         color: white;
         font-family: 'Comfortaa', sans-serif;
+        margin: 0;
 }
 
 a {
@@ -17,9 +18,15 @@ a.visited {
         color: #5f1919;
 }
 
+.center {
+	text-align: center;
+}
+
 .card {
         display: flex;
         justify-content: space-evenly;
+        flex-direction: inherit;
+        flex-wrap: wrap;
 }
 
 .card > div {
@@ -32,25 +39,71 @@ a.visited {
 }
 
 .button {
-  background-color: #3db686; 
+  background-color: #00755e; /* Green */
   border: none;
+  font-family: 'Comfortaa', sans-serif;
   color: white;
-  padding: 1% 1%;
+  padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+  border-radius: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
 .button:hover {
-  background-color: #101010;
-  color: #3db686;
-  border: #3db686;
+ 	background-color: #00d4aa;
+	color: black;
+	border-radius: 12px;
+	transform: translateY(-0.25em);
+	box-shadow: 0 0.5em 0.5em -0.4em #00755e;
+}
+.button:active {
+	transform: translateY(0.10em);
+	background-color: #4beacb;
+	box-shadow: 0 0.2em 0.2em -0.2em #00c7a1;
 }
 
+.ResponsiveImage {
+        max-inline-size: 50%;
+        block-size: auto;
+        aspect-ratio: 2/1;
+        object-fit: contain;
+}
 
+.pointyfinger {
+        cursor: pointer;
+}
+
+.matrixcolored {
+        background-color: #0dbd8b;
+}
+
+.matrixcolored:hover {
+        background-color: #099970;
+        color: #fff;
+}
+
+.discordcolored {
+        background-color: #5865F2;
+}
+
+.discordcolored:hover {
+        background-color: hsl(235,calc(var(--saturation-factor, 1)*86.1%),71.8%); /* I didn't steal this from their website DONT SUE ME DONT FUCKING SUE ME PLEASEEEEEEEEEEEEEEEE */
+        color: #fff;
+}
+
+.githubcolored {
+        background-color: #333333;
+}
+
+.githubcolored:hover {
+        background-color: #666666;
+        color: #fff;
+}
 .gameserversCardTitle, .centreofattention {
         text-align: center;
 }
@@ -59,8 +112,27 @@ a.visited {
         word-wrap: break-word;
 }
 
-@media (max-width: 800px) {
+#MenuButton {
+        display: none;
+}
+
+@media screen and (max-width: 800px) {
   .card {
     flex-direction: column;
+  }
+  .ResponsiveImage {
+        max-inline-size: 100%;
+  }
+
+  .navbarpieceofshitfuckihatethis {display: none;}
+
+  .navbarpieceofshitfuckihatethis.responsive {display: initial;}
+  /*.navbarpieceofshitfuckihatethis.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }*/
+  #MenuButton {
+        display: initial;
   }
 }

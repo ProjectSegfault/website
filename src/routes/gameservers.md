@@ -4,6 +4,7 @@ title: Our Gameservers
 # {title}
 ## The places to release good chemicals in your brain
 
+### Note: MOST OF THESE ARE NOT ONLINE! We're too fucking lazy to get them back right now.
 <div class="centreofattention">
     Please use common sense when playing on our servers. (<a href="https://www.google.com/search?q=i%27m%20stupid%20and%20i%20dont%20know%20what%20common%20sense%20is%20so%20i%20have%20to%20google%20it" target="_blank">What is common sense?</a>)
     <br>
@@ -12,9 +13,9 @@ title: Our Gameservers
 <div class="card">
     <div id="gmod">
         <h3 class="gameserversCardTitle"> Garry's Mod </h3>
-        <a href="https://gmod.mutahar.rocks">Garry's Mod has it's own website. Check it out here!</a>
+        <a href="https://gmod.projectsegfau.lt">Garry's Mod has it's own website. Check it out here!</a>
         <br>
-        <a href="steam://connect/gmodsrv.mutahar.rocks">Connect to the server using this link</a>
+        <a href="steam://connect/gmodsrv.projectsegfau.lt">Connect to the server using this link</a>
         <br>
         <a href="https://www.gametracker.com/server_info/176.174.120.242:27015/" target="_blank">GameTracker Link</a>
     </div>
@@ -48,6 +49,3 @@ title: Our Gameservers
         <a href="https://www.gametracker.com/server_info/176.174.120.242:27018/" target="_blank">GameTracker Link</a>
     </div>
 </div>
-<script lang="ts">
-    import "../assets/global.css"
-</script>
