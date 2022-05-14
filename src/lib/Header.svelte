@@ -29,15 +29,15 @@
     
     <a href="/gameservers" class="button">Games</a>
     
+    <a href="/minecraft" class="button">Minecraft</a>
+
     <a href="/donate" class="button">Donate</a>
     
-    <a href="/minecraft" class="button">Minecraft</a>
-    
-    <a href="/contact" class="button">Contact</a>
-
     <a href="/faq" class="button">FAQ</a>
 
     <a href="/members" class="button">Members</a>
+
+    <a href="/contact" class="button">Contact</a>
    </div>
 </header>
 
