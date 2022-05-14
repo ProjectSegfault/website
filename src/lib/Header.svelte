@@ -1,4 +1,5 @@
 <script lang="ts">
+	import css from "../assets/animation.css";
 	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
 </script>
 <header>
@@ -36,7 +37,13 @@
     }
     .text-flicker-in-glow {
 	    opacity:1;
-        -webkit-animation: text-flicker-in-glow 900ms both;
-	    animation: text-flicker-in-glow 900ms both;
+        -webkit-animation: text-flicker-in-glow 3000ms both;
+	    animation: text-flicker-in-glow 3000ms both;
+    }
+    @media screen and (prefers-reduced-motion) {
+	.text-flicker-in-glow {
+		opacity:1;
+	-webkit-animation: text-flicker-in-glow 1000ms both;
+	    animation: text-flicker-in-glow 1000ms both;    }
     }
 </style>

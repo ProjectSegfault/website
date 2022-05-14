@@ -5,7 +5,7 @@ title: Our Instances
 ## Privacy-respecting services hosted on our network.
 
 <div class="centreofattention">
-    
+   <p>Notice: Invidious, Libreddit, LBRY and nitter will move to the new domains soon.<p/> 
 </div>
 <div class="card">
     <div id="inv">
@@ -39,5 +39,14 @@ title: Our Instances
         <br>                                                                                                         
         <a href="https://nitter.mutahar.rocks">Nitter is here for that.</a>                                   
         <br>                                                                                                         
+    </div>
+    <div id="pleroma">
+        <h3 class="instances"> Pleroma (Fediverse) </h3>
+        <br>
+        Imagine a twitter-like social media that is distributed throughout a network of individual servers and applications...
+        Then you should use Pleroma. It's like Twitter but less stupid and open source and decentralized. Works with the Fediverse, so you can see all your friends.
+        <br>
+        <a href="https://social.projectsegfau.lt">Click me to access our Pleroma instance</a>
+        <br>
     </div>
 </div>

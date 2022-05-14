@@ -25,6 +25,8 @@ a.visited {
 .card {
         display: flex;
         justify-content: space-evenly;
+        flex-direction: inherit;
+        flex-wrap: wrap;
 }
 
 .card > div {
@@ -39,6 +41,7 @@ a.visited {
 .button {
   background-color: #00755e; /* Green */
   border: none;
+  font-family: 'Comfortaa', sans-serif;
   color: white;
   padding: 16px 32px;
   text-align: center;
@@ -54,10 +57,14 @@ a.visited {
 .button:hover {
  	background-color: #00d4aa;
 	color: black;
+	border-radius: 12px;
 	transform: translateY(-0.25em);
+	box-shadow: 0 0.5em 0.5em -0.4em #00755e;
 }
 .button:active {
+	transform: translateY(0.10em);
 	background-color: #4beacb;
+	box-shadow: 0 0.2em 0.2em -0.2em #00c7a1;
 }
 
 .ResponsiveImage {
