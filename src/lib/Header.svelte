@@ -19,7 +19,7 @@
     };
 </script>
 <header id="navigationBar" class="navigvationBar">
-    <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="project segfault's logo." />
+    <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="project segfault's logo."/>
     <a href="/" class="text-flicker-in-glow" style="color: #ce1717">Project <span style="color: #00d4aa">Segfault</span></a> 
     <a href="javascript:void(0)" class="button" id="MenuButton" on:click={showResponsive}>Menu</a>
    <div class="center navbarpieceofshitfuckihatethis" id="navbarpieceofshitfuckihatethis">
@@ -32,6 +32,10 @@
     <a href="/minecraft" class="button">Minecraft</a>
     
     <a href="/contact" class="button">Contact</a>
+
+    <a href="/faq" class="button">FAQ</a>
+
+    <a href="/members" class="button">Members</a>
    </div>
 </header>
 
