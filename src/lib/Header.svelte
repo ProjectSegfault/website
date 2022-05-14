@@ -1,11 +1,28 @@
 <script lang="ts">
 	import css from "../assets/animation.css";
 	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
+    function showResponsive() {
+        var x = document.getElementById("navbarpieceofshitfuckihatethis");
+        var navbarClasses = x.classList;
+        var navbarClassesString = navbarClasses.toString();
+        const svelteclassthing = navbarClasses.item(2)
+        console.log(navbarClasses);
+        if (x.className === "center navbarpieceofshitfuckihatethis", svelteclassthing) {
+            console.log("Shit");
+            navbarClasses.add("responsive");
+        }
+
+        if (navbarClassesString.includes("responsive")){
+            console.log("Piss");
+            navbarClasses.remove("responsive");
+        }
+    };
 </script>
-<header>
+<header id="navigationBar" class="navigvationBar">
     <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="project segfault's logo." />
     <a href="/" class="text-flicker-in-glow" style="color: #ce1717">Project <span style="color: #00d4aa">Segfault</span></a> 
-   <div class="center">
+    <a href="javascript:void(0)" class="button" id="MenuButton" on:click={showResponsive}>Menu</a>
+   <div class="center navbarpieceofshitfuckihatethis" id="navbarpieceofshitfuckihatethis">
     <a href="/instances" class="button">Instances</a>
     
     <a href="/gameservers" class="button">Games</a>
@@ -23,7 +40,6 @@
         background-color: #252525;
         border: solid #252525;
         border-width: 1em;
-        border-radius: 8px;
     }
     #ProjectSegfaultLogoHeader {
         /*Here goes anything to do with the header logo*/
@@ -31,9 +47,6 @@
         width: 32px;
 	    vertical-align: middle;
 	    display: inline-block;
-    }
-    .center {
-	    text-align: center;
     }
     .text-flicker-in-glow {
 	    opacity:1;

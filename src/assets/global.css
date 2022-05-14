@@ -86,11 +86,27 @@ a.visited {
         word-wrap: break-word;
 }
 
+#MenuButton {
+        display: none;
+}
+
 @media screen and (max-width: 800px) {
   .card {
     flex-direction: column;
   }
   .ResponsiveImage {
         max-inline-size: 100%;
+  }
+
+  .navbarpieceofshitfuckihatethis {display: none;}
+
+  .navbarpieceofshitfuckihatethis.responsive {display: initial;}
+  /*.navbarpieceofshitfuckihatethis.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }*/
+  #MenuButton {
+        display: initial;
   }
 }
