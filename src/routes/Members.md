@@ -2,14 +2,14 @@
 title: Members of the project 
 ---
 # {title}
-## Midou 
+<h2> Midou </h2>
 Project owner, manages the team. <a href="https://miicord.com" class="button">His website</a>
 
-## MrLeRien
+<h2> MrLeRien </h2>
 Project co-owner + Hoster (hosts the Hitachi server in France), manages finances.
 
-## Odyssey346
+<h2 style="color: #7bc27d"> Odyssey346 </h2>
 Game server manager, web developer and occasional service borker. <a href="https://odyssey346.github.io" class="button">His website</a>
 
-## Devnol
+<h2> Devnol </h2>
 Hoster of our Helios server in Greece. <a href="https://devnol.github.io" class="button">His website</a>
