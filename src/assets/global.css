@@ -109,7 +109,8 @@ a:hover {
 }
 
 .matrixcolored {
-        background-color: #0dbd8b;
+        background-color: #fff;
+	color: #000;
 }
 
 .matrixcolored:hover {
