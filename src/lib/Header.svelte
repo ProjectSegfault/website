@@ -20,7 +20,7 @@
 </script>
 <header id="navigationBar" class="navigvationBar">
     <a href="/">
-    <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="project segfault's logo."/>
+    <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="Logo."/>
     </a>
     <a href="/" class="text-flicker-in-glow" style="color: #ce1717">Project <span style="color: #00d4aa">Segfault</span></a> 
     <a href="javascript:void(0)" class="button" id="MenuButton" on:click={showResponsive}>Menu</a>
