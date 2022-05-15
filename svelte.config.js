@@ -11,8 +11,10 @@ const config = {
   // for more information about preprocessors
   preprocess: [preprocess(), mdsvex(mdsvexConfig)],
 
+
   kit: {
     adapter: adapter(),
+    prerender: { default: true }
   },
 };
 
