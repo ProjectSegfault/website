@@ -55,14 +55,14 @@
 	    display: inline-block;
     }
     .text-flicker-in-glow {
-	    opacity:1;
+	    opacity: 1;
         -webkit-animation: text-flicker-in-glow 3000ms both;
 	    animation: text-flicker-in-glow 3000ms both;
     }
     @media screen and (prefers-reduced-motion) {
-	.text-flicker-in-glow {
-		opacity:1;
-	-webkit-animation: text-flicker-in-glow 1000ms both;
-	    animation: text-flicker-in-glow 1000ms both;    }
+	    .text-flicker-in-glow {
+	    	opacity: 1;
+            animation: none;
+       }
     }
 </style>
