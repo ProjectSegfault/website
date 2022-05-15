@@ -143,6 +143,12 @@ a:hover {
         word-wrap: break-word;
 }
 
+#shitfuck {
+        display: inline-block;
+        width: 80%;
+        word-wrap: break-word;
+}
+
 #MenuButton {
         display: none;
 }
@@ -164,6 +170,10 @@ a:hover {
     text-align: left;
   }*/
   #MenuButton {
+        display: initial;
+  }
+
+  #shitfuck {
         display: initial;
   }
 }
