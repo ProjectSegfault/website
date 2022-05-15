@@ -20,7 +20,7 @@ title: Contact Us
 
 <p id="Active"></p>
 <p id="Activity"></p>
-<button  id="hide" type="button" class="button" onclick='document.getElementById("Active").innerHTML = "Midou (Matrix) / Mrlerien (Discord) / Odyssey (Both) / Devnol (Discord and Matrix)"; document.getElementById("hide").style.display = "none" ;'>Click to show who is active on what platform</button>
+<button  id="hide" type="button" class="button" onclick='document.getElementById("Active").innerHTML = "Midou (Matrix) / Mrlerien (Discord) / Odyssey (Discord and Matrix) / Devnol (Discord and Matrix)"; document.getElementById("hide").style.display = "none" ;'>Click to show who is active on what platform</button>
 
 
 

@@ -99,6 +99,15 @@ a:hover {
         box-shadow: 0 0.2em 0.2em -0.2em #74e578;
 }
 
+.pleromacolored:hover {
+        box-shadow: 0 0.2em 0.2em -0.2em #fba457;
+        background-color: #fba457;
+}
+
+.pleromacolored:active {
+        background-color: #ffcc55;
+}
+
 .matrixcolored {
         background-color: #0dbd8b;
 }
