@@ -11,11 +11,8 @@ a {
         color: #ce1818;
         text-decoration: none;
 }
-a.hover {
+a:hover {
         color: rgb(233, 110, 110);
-}
-a.visited {
-        color: #5f1919;
 }
 
 .center {
