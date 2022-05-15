@@ -8,3 +8,5 @@ node_modules
 .env.*
 yarn.lock
 !.env.example
+# devnol is a fucking nigger
+client/
