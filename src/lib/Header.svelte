@@ -1,5 +1,5 @@
 <script lang="ts">
-	import css from "../assets/animation.css";
+	import "../assets/animation.css";
 	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
     function showResponsive() {
         var x = document.getElementById("navbarpieceofshitfuckihatethis");
