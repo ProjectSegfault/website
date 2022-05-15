@@ -1,6 +1,9 @@
 ---
 title: FAQ 
 ---
+
+<div class="oh-fuck-center">
+
 # {title}
 ## Who is the project owner?
 Orignally: Midou (Sysadmin) and Mrlerien (Hoster), but now Odyssey346 (Game Server Sysadmin, webdev and social media manager) and Devnol (Hoster) are with us.
@@ -17,3 +20,5 @@ Well, you really can't. We don't make our logs or anything public, however, if y
 
 # Which ways do you prefer to communicate?
 Look at <a href="/contact">Contact</a>.
+
+</div>

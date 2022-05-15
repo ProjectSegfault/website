@@ -1,6 +1,9 @@
 ---
 title: Project Segfault MC
 ---
+
+<div class="oh-fuck-center">
+
 # {title}
 
 # Yeah, we have a Minecraft server.
@@ -41,10 +44,12 @@ This is a manually made list of our plugins, so it might not be up to date.
 - EssentialsX (EssentialsXDiscord, EssentialsXGeoIP)
 - Geyser & Floodgate
 - LuckPerms
-- mcMMO (manually built! fuck buying things. [Click here to download our build](https://cloud.mutahar.rocks/s/YP5pP6G45HePcs9))
+- mcMMO (manually built! fuck buying things. [Click here to download our build](https://downloads.projectsegfau.lt))
 - TabTPS
 - Vault
 - ViaVersion (You may only connect from a base version and its subversions (1.18, 1.18.1, 1.18.2). You cannot connect from a major version older than the major version the server is running.)
 - PlugMan
 - CombatLogX
 - Simple Voice Mod
+
+</div>

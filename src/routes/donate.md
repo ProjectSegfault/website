@@ -1,6 +1,9 @@
 ---
 title: Donate to Project Segfault
 ---
+
+<div class="oh-fuck-center">
+
 # {title}
 ## Our donation methods
 
@@ -11,3 +14,5 @@ If you donate, we will be more motivated to work on the server and host more stu
 LiberaPay: <a href="https://liberapay.com/Midou/donate"><img alt="Donate using Liberapay" style="height: 1.5em;" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 
 Monero: <span id="wordwrappedlongthingaaa">47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA</span>
+
+</div>

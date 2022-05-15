@@ -1,6 +1,8 @@
 ---
 title: Project Segfault
 ---
+<div class="oh-fuck-center">
+
 # {title}
 
 <a href="https://matrix.to/#/#project-segfault:projectsegfau.lt" class="button matrixcolored">Matrix</a>
@@ -9,6 +11,7 @@ title: Project Segfault
 
 <a href="https://github.com/ProjectSegfault" class="button githubcolored">GitHub</a>
 
+
 ## 4 idiots & one Sun server.
 
 # what
@@ -16,3 +19,4 @@ We are 4 teenagers who have a decently powerful server. What do we do with this 
 
 # shut up nerd, I want to play games. Give me your ips!!!!
 There should be a navbar at the top.
+</div>

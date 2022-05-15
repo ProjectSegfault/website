@@ -1,6 +1,9 @@
 ---
 title: Contact Us 
 ---
+
+<div class="oh-fuck-center">
+
 # {title}
 ## Do you want to contact us?
 
@@ -16,7 +19,9 @@ title: Contact Us
 <p><a href="https://matrix.to/#/#project-segfault:projectsegfau.lt">Matrix</a></p>
 
 <p id="Active"></p>
-
-<button type="button" class="button" onclick='document.getElementById("Active").innerHTML = "Midou (Matrix) / Mrlerien (Discord) / Odyssey (Both) / Devnol (Discord and Matrix)"'>Click to show who is active on what platform</button>
-
 <p id="Activity"></p>
+<button  id="hide" type="button" class="button" onclick='document.getElementById("Active").innerHTML = "Midou (Matrix) / Mrlerien (Discord) / Odyssey (Both) / Devnol (Discord and Matrix)"; document.getElementById("hide").style.display = "none" ;'>Click to show who is active on what platform</button>
+
+
+
+</div>
