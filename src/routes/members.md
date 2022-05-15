@@ -1,10 +1,14 @@
 ---
-title: Members of the project 
+title: Members of the project
+description: A list of the members of Project Segfault!
 ---
 
 <div class="oh-fuck-center">
 
 # {title}
+
+## {description}
+
 <h2 style="color: #a44ef4"> Midou </h2>
 Project owner, manages the team. 
 <p><a href="https://miicord.com" class="button midoucolored">His website</a> <a href="https://social.projectsegfau.lt/Midou" class="button pleromacolored">His Pleroma account</a></p>

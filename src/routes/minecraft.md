@@ -1,12 +1,13 @@
 ---
 title: Project Segfault MC
+description: Yeah, we have a Minecraft server.
 ---
 
 <div class="oh-fuck-center">
 
 # {title}
 
-# Yeah, we have a Minecraft server.
+# {description}
 We have an invite-only SMP server running on our network on version 1.18* (1.18, 1.18.1, 1.18.2) which is also bridged to Bedrock using GeyserMC.
 
 If you would like to join, please [join our Discord](https://discord.gg/26EG7fFtfS) and ask us there to be whitelisted.

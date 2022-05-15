@@ -1,11 +1,12 @@
 ---
 title: Donate to Project Segfault
+description: Our donation methos
 ---
 
 <div class="oh-fuck-center">
 
 # {title}
-## Our donation methods
+## {description}
 
 # please do
 If you donate, we will be more motivated to work on the server and host more stuff and maybe even get more hardware. I really recommend you donate any spare money you have if you enjoy or use our services on a daily basis.

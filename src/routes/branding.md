@@ -1,5 +1,6 @@
 ---
 title: Project Segfault Branding
+description: The files for Project Segfault's Branding
 ---
 <script lang="ts">
     import ProjectSegfaultWallpaper from "../assets/images/projectsegfault1_wallpaper.png";
@@ -8,7 +9,7 @@ title: Project Segfault Branding
 
 # {title}
 
-## The files for Project Segfault's Branding
+## {description}
 
 ### Legal
 Our branding is protected under Creative Commonns Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).

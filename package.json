@@ -27,6 +27,7 @@
   "type": "module",
   "dependencies": {
     "@modular-css/svelte": "^28.1.0",
-    "@sveltejs/adapter-static": "next"
+    "@sveltejs/adapter-static": "next",
+    "svelte-seo": "^1.4.0"
   }
 }

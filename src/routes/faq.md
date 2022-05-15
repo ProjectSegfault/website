@@ -1,5 +1,6 @@
 ---
-title: FAQ 
+title: FAQ
+description: Frequently or not frequently asked questions about Project Segfault!
 ---
 
 <div class="oh-fuck-center">

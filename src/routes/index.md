@@ -1,5 +1,6 @@
 ---
 title: Project Segfault
+description: 4 idiots & one Sun server.
 ---
 <div class="oh-fuck-center">
 
@@ -12,7 +13,7 @@ title: Project Segfault
 <a href="https://github.com/ProjectSegfault" class="button githubcolored">GitHub</a>
 
 
-## 4 idiots & one Sun server.
+## {description}
 
 # what
 We are 4 teenagers who have a decently powerful server. What do we do with this server? Host game servers and random assortment of privacy respecting tools like Invidious, Nextcloud, Matrix etc.... and maybe some original works. You'll see eventually!

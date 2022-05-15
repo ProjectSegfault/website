@@ -1,11 +1,12 @@
 ---
-title: Contact Us 
+title: Contact Us
+description: Do you want to contact us?
 ---
 
 <div class="oh-fuck-center">
 
 # {title}
-## Do you want to contact us?
+## {description}
 
 # Our email
 

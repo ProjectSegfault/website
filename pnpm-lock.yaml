@@ -13,12 +13,14 @@ specifiers:
   svelte: ^3.48.0
   svelte-check: ^2.7.1
   svelte-preprocess: ^4.10.6
+  svelte-seo: ^1.4.0
   tslib: ^2.4.0
   typescript: ~4.5.5
 
 dependencies:
   '@modular-css/svelte': 28.1.0_svelte@3.48.0
   '@sveltejs/adapter-static': 1.0.0-next.30
+  svelte-seo: 1.4.0_typescript@4.5.5
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.42
@@ -1589,6 +1591,14 @@ packages:
       rimraf: 2.7.1
     dev: true
 
+  /schema-dts/0.8.3_typescript@4.5.5:
+    resolution: {integrity: sha512-GSLeVkUgEe8DzS8/FGWou1wlC8tQ1KXA5amCqCIH/psUzF74fWswtT0QFlSoJLT08CYyixnc3S/lkAm+RExoLQ==}
+    peerDependencies:
+      typescript: '>=3.4.0'
+    dependencies:
+      typescript: 4.5.5
+    dev: false
+
   /semver/6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
@@ -1784,6 +1794,14 @@ packages:
       svelte: 3.48.0
       typescript: 4.5.5
     dev: true
+
+  /svelte-seo/1.4.0_typescript@4.5.5:
+    resolution: {integrity: sha512-44kvY3+t8QBjjQPlKIXXRSgp+XzV0OBO4qLs0T3nx7lzgxVzmDI1G+nAgrSYXMbmZAZmmvZGpZpbUBTJckM0Lw==}
+    dependencies:
+      schema-dts: 0.8.3_typescript@4.5.5
+    transitivePeerDependencies:
+      - typescript
+    dev: false
 
   /svelte/3.48.0:
     resolution: {integrity: sha512-fN2YRm/bGumvjUpu6yI3BpvZnpIm9I6A7HR4oUNYd7ggYyIwSA/BX7DJ+UXXffLp6XNcUijyLvttbPVCYa/3xQ==}
