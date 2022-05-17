@@ -20,6 +20,6 @@ jobs:
                   branch: build # The branch the action should deploy to.
                   folder: build # The folder the action should deploy.
                   commit-message: Successfully built
-                  clean: false
-                  single-commit: true
+                  clean: true
+                  single-commit: false
             
