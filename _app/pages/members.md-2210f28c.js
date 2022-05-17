@@ -1,0 +1,21 @@
+import{S as Se,i as ke,s as xe,e as s,t as c,k as E,c as o,a as l,h as n,d as r,m as g,f as j,b as h,g as De,G as e,n as he}from"../chunks/index-8798d9d3.js";var Ge="/_app/assets/DevnolNamesACat-cd443e9d.png",Fe="/_app/assets/Cat-ba5836dc.png";function Le(Oe){let t,O,L,N,M,R,q,y,I,V,d,u,z,B,p,J,K,S,Q,T,P,U,W,v,m,X,Y,_,Z,$,w,ee,te,A,b,ae,H,re,se,C,i,oe,le,k,f,ce,D;return{c(){t=s("div"),O=s("h1"),L=c(Ce),N=E(),M=s("h2"),R=c(je),q=E(),y=s("h2"),I=c("Midou"),V=c(`
+Project owner, manages the team. 
+`),d=s("p"),u=s("a"),z=c("His website"),B=E(),p=s("a"),J=c("His Pleroma account"),K=E(),S=s("h2"),Q=c("MrLeRien"),T=c(`
+Project co-owner + Hoster (hosts the Hitachi server in France), master of coins.
+`),P=s("h2"),U=c("Odyssey346"),W=c(`
+Chief Gaming Officer, web developer and occasional service borker. 
+`),v=s("p"),m=s("a"),X=c("His website"),Y=E(),_=s("a"),Z=c("His Pleroma account"),$=E(),w=s("h2"),ee=c("Devnol"),te=c(`
+Owner of our Helios server in Greece. 
+`),A=s("p"),b=s("a"),ae=c("His website"),H=s("a"),re=c("His Pleroma account"),se=E(),C=s("h2"),i=s("a"),oe=c('"Segfault"'),le=c(`
+Chief Cuteness Officer
+`),k=s("p"),f=s("a"),ce=c("Selfie"),D=s("p"),this.h()},l(x){t=o(x,"DIV",{class:!0});var a=l(t);O=o(a,"H1",{});var ie=l(O);L=n(ie,Ce),ie.forEach(r),N=g(a),M=o(a,"H2",{});var fe=l(M);R=n(fe,je),fe.forEach(r),q=g(a),y=o(a,"H2",{style:!0});var de=l(y);I=n(de,"Midou"),de.forEach(r),V=n(a,`
+Project owner, manages the team. 
+`),d=o(a,"P",{});var G=l(d);u=o(G,"A",{href:!0,class:!0});var ue=l(u);z=n(ue,"His website"),ue.forEach(r),B=g(G),p=o(G,"A",{href:!0,class:!0});var pe=l(p);J=n(pe,"His Pleroma account"),pe.forEach(r),G.forEach(r),K=g(a),S=o(a,"H2",{});var ve=l(S);Q=n(ve,"MrLeRien"),ve.forEach(r),T=n(a,`
+Project co-owner + Hoster (hosts the Hitachi server in France), master of coins.
+`),P=o(a,"H2",{style:!0});var me=l(P);U=n(me,"Odyssey346"),me.forEach(r),W=n(a,`
+Chief Gaming Officer, web developer and occasional service borker. 
+`),v=o(a,"P",{});var F=l(v);m=o(F,"A",{href:!0,class:!0});var _e=l(m);X=n(_e,"His website"),_e.forEach(r),Y=g(F),_=o(F,"A",{href:!0,class:!0});var be=l(_);Z=n(be,"His Pleroma account"),be.forEach(r),F.forEach(r),$=g(a),w=o(a,"H2",{style:!0});var He=l(w);ee=n(He,"Devnol"),He.forEach(r),te=n(a,`
+Owner of our Helios server in Greece. 
+`),A=o(a,"P",{});var ne=l(A);b=o(ne,"A",{href:!0,class:!0});var Ee=l(b);ae=n(Ee,"His website"),Ee.forEach(r),H=o(ne,"A",{href:!0,class:!0});var ge=l(H);re=n(ge,"His Pleroma account"),ge.forEach(r),ne.forEach(r),se=g(a),C=o(a,"H2",{style:!0});var ye=l(C);i=o(ye,"A",{href:!0,target:!0,style:!0});var Pe=l(i);oe=n(Pe,'"Segfault"'),Pe.forEach(r),ye.forEach(r),le=n(a,`
+Chief Cuteness Officer
+`),k=o(a,"P",{});var we=l(k);f=o(we,"A",{href:!0,target:!0,class:!0});var Ae=l(f);ce=n(Ae,"Selfie"),Ae.forEach(r),we.forEach(r),D=o(a,"P",{});var Me=l(D);Me.forEach(r),a.forEach(r),this.h()},h(){j(y,"color","#a44ef4"),h(u,"href","https://miicord.com"),h(u,"class","button midoucolored"),h(p,"href","https://social.projectsegfau.lt/Midou"),h(p,"class","button pleromacolored"),j(P,"color","#7bc27d"),h(m,"href","https://odyssey346.github.io"),h(m,"class","button odysscolored"),h(_,"href","https://social.projectsegfau.lt/Odyssey346"),h(_,"class","button pleromacolored"),j(w,"color","#00d4aa"),h(b,"href","https://devnol.github.io"),h(b,"class","button"),h(H,"href","https://social.projectsegfau.lt/Panos"),h(H,"class","button pleromacolored"),h(i,"href",Ge),h(i,"target","_blank"),j(i,"color","#f1f2ff"),j(i,"text-decoration","underline"),j(C,"color","#f1f2ff"),h(f,"href",Fe),h(f,"target","_blank"),h(f,"class","button catcolored"),h(t,"class","oh-fuck-center")},m(x,a){De(x,t,a),e(t,O),e(O,L),e(t,N),e(t,M),e(M,R),e(t,q),e(t,y),e(y,I),e(t,V),e(t,d),e(d,u),e(u,z),e(d,B),e(d,p),e(p,J),e(t,K),e(t,S),e(S,Q),e(t,T),e(t,P),e(P,U),e(t,W),e(t,v),e(v,m),e(m,X),e(v,Y),e(v,_),e(_,Z),e(t,$),e(t,w),e(w,ee),e(t,te),e(t,A),e(A,b),e(b,ae),e(A,H),e(H,re),e(t,se),e(t,C),e(C,i),e(i,oe),e(t,le),e(t,k),e(k,f),e(f,ce),e(t,D)},p:he,i:he,o:he,d(x){x&&r(t)}}}const Ne={title:"Members of the project",description:"A list of the members of Project Segfault!"},{title:Ce,description:je}=Ne;class qe extends Se{constructor(t){super(),ke(this,t,null,Le,xe,{})}}export{qe as default,Ne as metadata};
