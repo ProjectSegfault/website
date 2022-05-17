@@ -2,6 +2,11 @@
 title: Members of the project
 description: A list of the members of Project Segfault!
 ---
+<script lang="ts">
+    import DevnolNamesACat from "../assets/images/DevnolNamesACat.png";
+    import Cat from "../assets/images/Cat.png";
+</script>
+
 
 <div class="oh-fuck-center">
 
@@ -23,5 +28,11 @@ Chief Gaming Officer, web developer and occasional service borker.
 <h2 style="color: #00d4aa"> Devnol </h2>
 Owner of our Helios server in Greece. 
 <p><a href="https://devnol.github.io" class="button">His website</a><a href="https://social.projectsegfau.lt/Panos" class="button pleromacolored">His Pleroma account</a></p>
+
+
+<h2 style="color: #f1f2ff"><a href={DevnolNamesACat} target="_blank" style="color: #f1f2ff; text-decoration: underline;">"Segfault"</a></h2>
+Chief Cuteness Officer
+<p><a href={Cat} target="_blank" class="button catcolored">Selfie</a><p>
+
 
 </div>

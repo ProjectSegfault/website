@@ -108,6 +108,11 @@ a:hover {
         background-color: #ffcc55;
 }
 
+.catcolored:hover {
+        box-shadow: 0 0.2em 0.2em -0.2em #f1f2ff;
+        background-color: #f1f2ff;
+}
+
 .matrixcolored {
         background-color: #fff;
 	color: #000;
