@@ -76,6 +76,10 @@ a:hover {
         cursor: pointer;
 }
 
+.roundedimage {
+        border-radius: 100px;
+}
+
 .midoucolored:hover {
 	background-color: #a44ef4;
 	color: #fff ;
