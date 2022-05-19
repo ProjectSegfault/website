@@ -1,6 +1,6 @@
 ---
 title: Donate to Project Segfault
-description: Our donation methos
+description: Our donation methods
 ---
 
 <div class="oh-fuck-center">
