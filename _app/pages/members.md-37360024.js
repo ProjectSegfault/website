@@ -1,4 +1,4 @@
-import{S as Se,i as ke,s as xe,e as s,t as c,k as E,c as o,a as l,h as n,d as r,m as g,f as j,b as h,g as De,G as e,n as he}from"../chunks/index-8798d9d3.js";var Ge="/_app/assets/DevnolNamesACat-cd443e9d.png",Fe="/_app/assets/Cat-ba5836dc.png";function Le(Oe){let t,O,L,N,M,R,q,y,I,V,d,u,z,B,p,J,K,S,Q,T,P,U,W,v,m,X,Y,_,Z,$,w,ee,te,A,b,ae,H,re,se,C,i,oe,le,k,f,ce,D;return{c(){t=s("div"),O=s("h1"),L=c(Ce),N=E(),M=s("h2"),R=c(je),q=E(),y=s("h2"),I=c("Midou"),V=c(`
+import{S as Se,i as ke,s as xe,e as s,t as c,k as E,c as o,a as l,h as n,d as r,m as g,f as j,b as h,g as De,G as e,n as he}from"../chunks/index-e959bc09.js";var Ge="/_app/assets/DevnolNamesACat-cd443e9d.png",Fe="/_app/assets/Cat-ba5836dc.png";function Le(Oe){let t,O,L,N,M,R,q,y,I,V,d,u,z,B,p,J,K,S,Q,T,P,U,W,v,m,X,Y,_,Z,$,w,ee,te,A,b,ae,H,re,se,C,i,oe,le,k,f,ce,D;return{c(){t=s("div"),O=s("h1"),L=c(Ce),N=E(),M=s("h2"),R=c(je),q=E(),y=s("h2"),I=c("Midou"),V=c(`
 Project owner, manages the team. 
 `),d=s("p"),u=s("a"),z=c("His website"),B=E(),p=s("a"),J=c("His Pleroma account"),K=E(),S=s("h2"),Q=c("MrLeRien"),T=c(`
 Project co-owner + Hoster (hosts the Hitachi server in France), master of coins.
