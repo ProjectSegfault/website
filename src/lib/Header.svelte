@@ -1,3 +1,7 @@
+<script context="module">
+    export const prerender = true;
+    export const hydrate = true;
+</script>
 <script lang="ts">
 	import "../assets/animation.css";
 	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
@@ -25,7 +29,7 @@
     <a href="/" class="text-flicker-in-glow" style="color: #ce1717">Project <span style="color: #00d4aa">Segfault</span></a> 
     <a href="{'#'}" class="button" id="MenuButton" on:click={showResponsive}>Menu</a>
    <div class="center navbarpieceofshitfuckihatethis" id="navbarpieceofshitfuckihatethis">
-    <a href="https://instances.projectsegfau.lt" class="button">Instances & Games </a>
+    <a href="https://instances.projectsegfau.lt" class="button">Instances & Gameservers </a>
     
     
     

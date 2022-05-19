@@ -2,9 +2,6 @@
 title: Project Segfault Branding
 description: The files for Project Segfault's Branding
 ---
-<script lang="ts">
-    import ProjectSegfaultWallpaper from "../assets/images/projectsegfault1_wallpaper.png";
-</script>
 
 
 # {title}
