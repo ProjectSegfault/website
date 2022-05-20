@@ -5,20 +5,21 @@
 <script lang="ts">
 	import "../assets/animation.css";
 	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
+    export let responsive;
     function showResponsive() {
-        var x = document.getElementById("navbarpieceofshitfuckihatethis");
-        var navbarClasses = x.classList;
-        var navbarClassesString = navbarClasses.toString();
+        let x = document.getElementById("navbarpieceofshitfuckihatethis");
+        let navbarClasses = x.classList;
+        let navbarClassesString = navbarClasses.toString();
         const svelteclassthing = navbarClasses.item(2)
         console.log(navbarClasses);
         if (x.className === "center navbarpieceofshitfuckihatethis", svelteclassthing) {
             console.log("Shit");
-            navbarClasses.add("responsive");
+            responsive = true;
         }
 
         if (navbarClassesString.includes("responsive")){
             console.log("Piss");
-            navbarClasses.remove("responsive");
+            responsive = false;
         }
     };
 </script>
@@ -28,7 +29,7 @@
     </a>
     <a href="/" class="text-flicker-in-glow" style="color: #ce1717">Project <span style="color: #00d4aa">Segfault</span></a> 
     <a href="{'#'}" class="button" id="MenuButton" on:click={showResponsive}>Menu</a>
-   <div class="center navbarpieceofshitfuckihatethis" id="navbarpieceofshitfuckihatethis">
+   <div class="center navbarpieceofshitfuckihatethis" id="navbarpieceofshitfuckihatethis" class:responsive={responsive}>
     <a href="https://instances.projectsegfau.lt" class="button">Instances & Gameservers </a>
     
     

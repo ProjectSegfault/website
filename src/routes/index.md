@@ -12,6 +12,8 @@ description: 4 idiots & one Sun server.
 
 <a href="https://github.com/ProjectSegfault" class="button githubcolored">GitHub</a>
 
+<a href="https://blog.projectsegfau.lt" class="button">Blog</a>
+
 
 ## {description}
 
