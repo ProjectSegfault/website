@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-5bddf199.js",
+    "file": "start-98ef2626.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -78,7 +78,7 @@
     ]
   },
   "src/routes/donate.md": {
-    "file": "pages/donate.md-5526d6e4.js",
+    "file": "pages/donate.md-e4a5479b.js",
     "src": "src/routes/donate.md",
     "isEntry": true,
     "isDynamicEntry": true,
