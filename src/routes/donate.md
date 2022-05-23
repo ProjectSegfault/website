@@ -15,5 +15,5 @@ If you donate, we will be more motivated to work on the server and host more stu
 
 
 Monero: <span id="wordwrappedlongthingaaa">47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA</span>
-
+<img src='../../src/assets/images/Monero.png' alt="Monero Qr Code">
 </div>
