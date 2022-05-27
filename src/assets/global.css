@@ -55,7 +55,6 @@ a:hover {
 .button:hover {
  	background-color: #00d4aa;
 	color: black;
-	border-radius: 12px;
 	transform: translateY(-0.25em);
 	box-shadow: 0 0.5em 0.5em -0.4em #00755e;
 }
