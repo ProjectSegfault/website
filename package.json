@@ -15,7 +15,7 @@
     "@sveltejs/kit": "next",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.16.0",
     "eslint-plugin-svelte3": "^3.4.1",
     "mdsvex": "^0.10.6",
     "svelte": "^3.48.0",
