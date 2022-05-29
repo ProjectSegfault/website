@@ -169,9 +169,9 @@ a:hover {
         max-inline-size: 100%;
   }
 
-  .navbarpieceofshitfuckihatethis {display: none;}
+  .navbar {display: none;}
 
-  .navbarpieceofshitfuckihatethis.responsive {display: initial;}
+  .navbar.responsive {display: initial;}
   /*.navbarpieceofshitfuckihatethis.responsive a {
     float: none;
     display: block;

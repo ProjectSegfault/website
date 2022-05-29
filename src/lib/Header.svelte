@@ -5,34 +5,25 @@
 <script lang="ts">
 	import "../assets/animation.css";
 	import ProjectSegfaultLogo from "../assets/images/projectsegfault1.png";
-    export let responsive;
-    function showResponsive() {
-        let x = document.getElementById("navbarpieceofshitfuckihatethis");
-        let navbarClasses = x.classList;
-        let navbarClassesString = navbarClasses.toString();
-        const svelteclassthing = navbarClasses.item(2)
-        console.log(navbarClasses);
-        if (x.className === "center navbarpieceofshitfuckihatethis", svelteclassthing) {
-            console.log("Shit");
-            responsive = true;
-        }
-
-        if (navbarClassesString.includes("responsive")){
-            console.log("Piss");
-            responsive = false;
-        }
-    };
+    let showMenu = false
+    let innerWidth
+    let mobile
+    $: mobile = innerWidth < 800
 </script>
+
+<svelte:window bind:innerWidth />
+
 <header id="navigationBar" class="navigvationBar">
     <a href="/">
-    <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="Logo."/>
+        <img src={ProjectSegfaultLogo} id="ProjectSegfaultLogoHeader" alt="Logo."/>
     </a>
-    <a href="/" class="text-flicker-in-glow" style="color: #ce1717">Project <span style="color: #00d4aa">Segfault</span></a> 
-    <a href="{'#'}" class="button" id="MenuButton" on:click={showResponsive}>Menu</a>
-   <div class="center navbarpieceofshitfuckihatethis" id="navbarpieceofshitfuckihatethis" class:responsive={responsive}>
+    <a href="/" class="text-flicker-in-glow" style="color: #ce1717">Project <span style="color: #00d4aa">Segfault</span></a>
+    {#if mobile}
+        <a href="{'#'}" class="button" id="MenuButton" on:click="{() => showMenu = !showMenu}">Menu</a>
+    {/if}
+   {#if !mobile || showMenu}
+   <div class="center navbar" id="navbar" class:responsive={mobile}>
     <a href="https://instances.projectsegfau.lt" class="button">Instances & Gameservers </a>
-    
-    
     
     <a href="/minecraft" class="button">Minecraft</a>
 
@@ -44,6 +35,7 @@
 
     <a href="/contact" class="button">Contact</a>
    </div>
+   {/if}
 </header>
 
 <style>
