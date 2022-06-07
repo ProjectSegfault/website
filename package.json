@@ -16,7 +16,7 @@
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.17.0",
-    "eslint-plugin-svelte3": "^3.4.1",
+    "eslint-plugin-svelte3": "^4.0.0",
     "mdsvex": "^0.10.6",
     "svelte": "^3.48.0",
     "svelte-check": "^2.7.1",
