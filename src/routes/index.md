@@ -1,6 +1,6 @@
 ---
 title: Project Segfault
-description: 4 idiots & one Sun server.
+description: 4 idiots, a Sun server and a Hitachi Compute Rack.
 ---
 
 # {title}
