@@ -35,5 +35,6 @@ description: Do you want to contact us?
         border-radius: 10px;
         padding: 1rem;
         cursor: pointer;
+        font-family: var(--font-primary);
     }
 </style>
