@@ -27,5 +27,8 @@
 		"typescript": "^4.7.2",
 		"unplugin-icons": "^0.14.4"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-seo": "^1.4.1"
+	}
 }

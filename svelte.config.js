@@ -13,6 +13,7 @@ const config = {
 		preprocess(),
 		mdsvex({
 			extensions: [".md"],
+			layout: "./src/lib/content.svelte"
 		})
 	],
 
