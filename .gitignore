@@ -1,12 +1,8 @@
 .DS_Store
-start.sh
 node_modules
 /build
 /.svelte-kit
 /package
 .env
 .env.*
-yarn.lock
 !.env.example
-# devnol is a fucking nigger
-client/

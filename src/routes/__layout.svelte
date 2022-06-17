@@ -1,15 +1,11 @@
-<script lang="ts">
-    import Header from "$lib/Header.svelte"
-    import '../assets/global.css'
-    import SvelteSeo from "svelte-seo"
+<script>
+    import "$lib/app.css";
+    import Nav from "$lib/Nav.svelte";
+    import Footer from "$lib/Footer.svelte";
 </script>
 
-<svelte:head>
-    <title>Project Segfault</title>
-</svelte:head>
-
-<Header />
-
+<Nav />
 <main>
-    <slot></slot>
+    <slot />
 </main>
+<Footer />

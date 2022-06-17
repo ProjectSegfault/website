@@ -3,7 +3,7 @@ title: Project Segfault MC
 ---
 # {title}
 
-# [Click me to go back to the Minecraft site](minecraft)
+# [Click me to go back to the Minecraft site](/minecraft)
 
 ## Recommended mods list
 These are picked by our community or are for server features like voice chatting.

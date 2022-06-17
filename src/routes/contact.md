@@ -3,8 +3,6 @@ title: Contact Us
 description: Do you want to contact us?
 ---
 
-<div class="oh-fuck-center">
-
 # {title}
 ## {description}
 
@@ -28,8 +26,14 @@ description: Do you want to contact us?
 
 </div>
 
-<button  id="hide" type="button" class="button" onclick='document.getElementById("Active").style.display ="block"; document.getElementById("hide").style.display = "none" ;'>Click to show who is active on what platform</button>
+<button  id="hide" type="button" onclick='document.getElementById("Active").style.display ="block"; document.getElementById("hide").style.display = "none" ;'>Click to show who is active on what platform</button>
 
-
-
-</div>
+<style>
+    button {
+        background-color: var(--accent-primary);
+        border: none;
+        border-radius: 10px;
+        padding: 1rem;
+        cursor: pointer;
+    }
+</style>

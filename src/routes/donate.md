@@ -3,10 +3,8 @@ title: Donate to Project Segfault
 description: Our donation methods
 ---
 <script lang="ts">
-    import MoneroQR from "../assets/images/Monero.png";
+    import MoneroQR from "$lib/Monero.png";
 </script>
-
-<div class="oh-fuck-center">
 
 # {title}
 ## {description}
@@ -17,6 +15,5 @@ If you donate, we will be more motivated to work on the server and host more stu
 # yeah sure I'll donate. links?
 
 
-Monero: <span id="wordwrappedlongthingaaa">47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA</span>
-<img src={MoneroQR} alt="Monero Qr Code" class="ResponsiveImage">
-</div>
+Monero: ``47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA``
+<img src={MoneroQR} alt="Monero Qr Code">

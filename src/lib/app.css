@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url("/Comfortaa.ttf");
+}
+
+html {
+    --primary: #151515;
+    --secondary: #252525;
+    --accent-primary: #00d4aa;
+    --accent-secondary: #ce1717;
+    --text: #fff
+}
+
+body {
+    font-family: Comfortaa;
+    background-color: var(--primary);
+    color: var(--text);
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--accent-primary);
+    text-underline-offset: 5px;
+}

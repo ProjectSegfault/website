@@ -3,8 +3,6 @@ title: Project Segfault MC
 description: Yeah, we have a Minecraft server.
 ---
 
-<div class="oh-fuck-center">
-
 # {title}
 
 # {description}
@@ -35,7 +33,7 @@ If you would like to join, please [join our Discord](https://discord.gg/26EG7fFt
 [MC Server Connector for Android](https://play.google.com/store/apps/details?id=com.smokiem.mcserverconnector&hl=no&gl=US)
 
 ## Recommended Client-Side Mods
-[Click me for a list of recommended client-side mods](minecraft_recommendedcsmods)
+[Click me for a list of recommended client-side mods](/minecraft/client-side-mods)
 
 ## Plugin list
 This is a manually made list of our plugins, so it might not be up to date.
@@ -52,5 +50,3 @@ This is a manually made list of our plugins, so it might not be up to date.
 - PlugMan
 - CombatLogX
 - Simple Voice Mod
-
-</div>
