@@ -8,11 +8,12 @@ html {
     --secondary: #252525;
     --accent-primary: #00d4aa;
     --accent-secondary: #ce1717;
-    --text: #fff
+    --text: #fff;
+    --font-primary: Comfortaa;
 }
 
 body {
-    font-family: Comfortaa;
+    font-family: var(--font-primary);
     background-color: var(--primary);
     color: var(--text);
     margin: 0;
