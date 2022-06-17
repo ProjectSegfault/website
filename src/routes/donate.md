@@ -3,7 +3,7 @@ title: Donate to Project Segfault
 description: Our donation methods
 ---
 <script lang="ts">
-    import MoneroQR from "$lib/Monero.png";
+    import MoneroQR from "$lib/images/Monero.png";
 </script>
 
 # {title}
