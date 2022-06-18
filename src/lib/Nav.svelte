@@ -57,7 +57,7 @@
         gap: 8px;
     }
 
-    @media only screen and (max-width: 570px) {
+    @media only screen and (max-width: 820px) {
         nav {
             flex-direction: column;
             align-items: flex-start;
