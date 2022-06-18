@@ -18,15 +18,39 @@ description: Do you want to contact us?
 <p><a href="https://matrix.to/#/#project-segfault:projectsegfau.lt">Matrix</a></p>
 
 <div id="Active" style="display:none">
+    <h1>People</h1>
 
-	<p style="font-size: 25px; line-height: 0.3">Midou</p><p> <a class="button matrixcolored" href="https://matrix.to/#/@midou:projectsegfau.lt">[Matrix]</a></p>
-	<p style="font-size: 25px; line-height: 0.3">Mrlerien </p><p><a class="button discordcolored" href="https://discordapp.com/users/213634643327582208">Discord</a></p>
-	<p style="font-size: 25px; line-height: 0.3">Odyssey </p> <p><a class="button matrixcolored" href="https://matrix.to/#/@odyssey346:projectsegfau.lt">|Matrix]</a> <a class="button discordcolored" href="https://discordapp.com/users/315843700490240002">Discord</a></p>
-	<p style="font-size: 25px; line-height: 0.3">Devnol</p> <p> <a class="button matrixcolored" href="https://matrix.to/#/@devnol:projectsegfau.lt">|Matrix]</a> <a class="button discordcolored" href="https://discordapp.com/users/429353559566319626" style="padding: 10px 16px">Discord</a></p>
+	<div>
+        <span>Midou:</span>
+        <a class="matrixcolored" href="https://matrix.to/#/@midou:projectsegfau.lt">[Matrix]</a>
+    </div>
 
+
+	<div>
+        <span>MrLeRien:</span>
+        <a class="discordcolored" href="https://discord.com/users/213634643327582208">Discord</a>
+    </div>
+
+	<div>
+        <span>Odyssey:</span>
+        <a class="matrixcolored" href="https://matrix.to/#/@odyssey346:projectsegfau.lt">[Matrix]</a>
+        <a class="discordcolored" href="https://discord.com/users/315843700490240002">Discord</a>
+    </div>
+
+	<div>
+        <span>Devnol:</span>
+        <a class="matrixcolored" href="https://matrix.to/#/@devnol:projectsegfau.lt">[Matrix]</a>
+        <a class="discordcolored" href="https://discordapp.com/users/429353559566319626">Discord</a>
+    </div>
 </div>
 
-<button  id="hide" type="button" onclick='document.getElementById("Active").style.display ="block"; document.getElementById("hide").style.display = "none" ;'>Click to show who is active on what platform</button>
+<button 
+    id="hide"
+    type="button"
+    onclick='document.getElementById("Active").style.display ="block"; document.getElementById("hide").style.display = "none" ;'
+>
+    Click to show who is active on what platform
+</button>
 
 <style>
     button {
@@ -36,5 +60,35 @@ description: Do you want to contact us?
         padding: 1rem;
         cursor: pointer;
         font-family: var(--font-primary);
+    }
+
+    #Active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Active > div {
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+
+    #Active a {
+        border: none;
+        border-radius: 10px;
+        padding: .5rem;
+        cursor: pointer;
+        font-family: var(--font-primary);
+        color: var(--secondary);
+        text-decoration: none;
+        margin-right: 8px;
+    }
+
+    .matrixcolored {
+        background-color: #fff;
+    }
+
+    .discordcolored {
+        background-color: #5865F2;
+        color: #fff !important;
     }
 </style>
