@@ -18,8 +18,8 @@ description: Do you want to contact us?
 
 <p><a href="https://matrix.to/#/#project-segfault:projectsegfau.lt">Matrix</a></p>
 
+<h1>People</h1>
 <div id="Active" style="display:none">
-    <h1>People</h1>
 
     <div class="parent">
     <div class="div1">Midou:</div>
@@ -34,7 +34,7 @@ description: Do you want to contact us?
     <div class="div10">Devnol:</div>
     <a class="div11 matrixcolored" href="https://matrix.to/#/@devnol:projectsegfau.lt">[Matrix]</a>
     <a class="div12 discordcolored" href="https://discordapp.com/users/429353559566319626">Discord</a>
-    </div> 
+    </div>
 </div>
 
 <button
