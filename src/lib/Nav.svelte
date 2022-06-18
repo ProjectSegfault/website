@@ -50,15 +50,15 @@
     .links > *:hover {
         background-color: var(--accent-tertiary);
         text-decoration: none;
-	transition: all 0.5s;
-	color: var(--secondary);
+	    transition: all 0.5s;
+	    color: var(--secondary);
     }
 
     .links > *:active {
         background-color: var(--accent-primary);
         text-decoration: none;
-	transition: all 0.5s;
-	color: var(--secondary);
+	    transition: all 0.5s;
+	    color: var(--secondary);
     }
 
     img {
