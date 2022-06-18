@@ -47,6 +47,11 @@
         text-decoration: none;
     }
 
+    .links > *:hover {
+        background-color: var(--accent-tertiary);
+        text-decoration: none;
+    }
+
     img {
         height: 36px;
         border-radius: 50%;
