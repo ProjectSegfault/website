@@ -37,12 +37,12 @@
     }
 
     .links > * {
-        background-color: var(--accent-primary);
+        background-color: var(--tertiary);
         border: none;
         border-radius: 10px;
         padding: 1rem;
         cursor: pointer;
-        color: var(--secondary);
+        color: var(--text);
         font-family: var(--font-primary);
         text-decoration: none;
     }
@@ -50,6 +50,13 @@
     .links > *:hover {
         background-color: var(--accent-tertiary);
         text-decoration: none;
+        color: var(--secondary);
+    }
+
+    .links > *:active {
+        background-color: var(--accent-primary);
+        text-decoration: none;
+        color: var(--secondary);
     }
 
     img {

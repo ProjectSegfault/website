@@ -1,11 +1,13 @@
 @font-face {
     font-family: Comfortaa;
     src: url("/Comfortaa.ttf");
+    font-display: swap;
 }
 
 html {
     --primary: #151515;
     --secondary: #252525;
+    --tertiary: #353535;
     --accent-primary: #00d4aa;
     --accent-secondary: #ce1717;
     --text: #fff;
