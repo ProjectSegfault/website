@@ -33,6 +33,9 @@
 		display: flex;
 		flex-direction: column;
 		font-size: 20px;
+		position: absolute;
+		bottom: 0;
+		width: calc(100vw - 2rem);
 	}
 
 	hr {
