@@ -22,4 +22,3 @@ jobs:
                   commit-message: Successfully built
                   clean: true
                   single-commit: false
-            

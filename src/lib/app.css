@@ -1,33 +1,33 @@
 @font-face {
-    font-family: Comfortaa;
-    src: url("/Comfortaa.ttf");
-    font-display: swap;
+	font-family: Comfortaa;
+	src: url("/Comfortaa.ttf");
+	font-display: swap;
 }
 
 html {
-    --primary: #151515;
-    --secondary: #252525;
-    --tertiary: #353535;
-    --accent-primary: #00d4aa;
-    --accent-secondary: #ce1717;
-    --text: #fff;
-    --font-primary: Comfortaa;
-    --accent-tertiary: #4beacb;
+	--primary: #151515;
+	--secondary: #252525;
+	--tertiary: #353535;
+	--accent-primary: #00d4aa;
+	--accent-secondary: #ce1717;
+	--text: #fff;
+	--font-primary: Comfortaa;
+	--accent-tertiary: #4beacb;
 }
 
 body {
-    font-family: var(--font-primary);
-    background-color: var(--primary);
-    color: var(--text);
-    margin: 0;
+	font-family: var(--font-primary);
+	background-color: var(--primary);
+	color: var(--text);
+	margin: 0;
 }
 
 main {
-    padding: 1rem;
+	padding: 1rem;
 }
 
 a {
-    text-decoration: underline;
-    color: var(--accent-primary);
-    text-underline-offset: 5px;
+	text-decoration: underline;
+	color: var(--accent-primary);
+	text-underline-offset: 5px;
 }

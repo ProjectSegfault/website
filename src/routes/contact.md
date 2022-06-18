@@ -4,6 +4,7 @@ description: Do you want to contact us?
 ---
 
 # {title}
+
 ## {description}
 
 # Our email
@@ -20,36 +21,39 @@ description: Do you want to contact us?
 <div id="Active" style="display:none">
     <h1>People</h1>
 
-	<div>
+    <div>
         <span>Midou:</span>
         <a class="matrixcolored" href="https://matrix.to/#/@midou:projectsegfau.lt">[Matrix]</a>
     </div>
 
 
-	<div>
+    <div>
         <span>MrLeRien:</span>
         <a class="discordcolored" href="https://discord.com/users/213634643327582208">Discord</a>
     </div>
 
-	<div>
+    <div>
         <span>Odyssey:</span>
         <a class="matrixcolored" href="https://matrix.to/#/@odyssey346:projectsegfau.lt">[Matrix]</a>
         <a class="discordcolored" href="https://discord.com/users/315843700490240002">Discord</a>
     </div>
 
-	<div>
+    <div>
         <span>Devnol:</span>
         <a class="matrixcolored" href="https://matrix.to/#/@devnol:projectsegfau.lt">[Matrix]</a>
         <a class="discordcolored" href="https://discordapp.com/users/429353559566319626">Discord</a>
     </div>
+
 </div>
 
-<button 
-    id="hide"
-    type="button"
-    onclick='document.getElementById("Active").style.display ="block"; document.getElementById("hide").style.display = "none" ;'
+<button
+id="hide"
+type="button"
+onclick='document.getElementById("Active").style.display ="block"; document.getElementById("hide").style.display = "none" ;'
 >
+
     Click to show who is active on what platform
+
 </button>
 
 <style>
