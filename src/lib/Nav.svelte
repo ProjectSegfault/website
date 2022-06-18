@@ -36,6 +36,17 @@
         text-decoration: none;
     }
 
+    .links > * {
+        background-color: var(--accent-primary);
+        border: none;
+        border-radius: 10px;
+        padding: 1rem;
+        cursor: pointer;
+        color: var(--secondary);
+        font-family: var(--font-primary);
+        text-decoration: none;
+    }
+
     img {
         height: 36px;
         border-radius: 50%;

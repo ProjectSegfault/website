@@ -1,6 +1,6 @@
 {
 	"name": "project-segfault-website",
-	"version": "0.0.1",
+	"version": "2.0.0",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",

@@ -11,11 +11,12 @@
             <span>© 2021 - present, Project Segfault</span>
 
             <div class="links">
+                <a href="https://matrix.to/#/#project-segfault:projectsegfau.lt">
+                    <IconMatrix />
+                </a>
                 <a href="https://discord.gg/26EG7fFtfS">
                     <IconDiscord />
                 </a>
-                <a href="https://matrix.to/#/#project-segfault:projectsegfau.lt">
-                    <IconMatrix />
                 <a href="https://github.com/ProjectSegfault">
                     <IconGitHub />
                 </a>
