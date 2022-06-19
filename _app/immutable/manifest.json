@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-f350d950.js",
+    "file": "start-9ee937a9.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -18,12 +18,13 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-76ed1f04.js",
+    "file": "pages/__layout.svelte-eb042904.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-432f1297.js"
+      "_index-432f1297.js",
+      "_strings-8f8fe9be.js"
     ],
     "css": [
       "assets/pages/__layout.svelte-203f5f57.css"
@@ -39,78 +40,88 @@
     ]
   },
   "src/routes/contact.md": {
-    "file": "pages/contact.md-4565a2d1.js",
+    "file": "pages/contact.md-9928cdfb.js",
     "src": "src/routes/contact.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-432f1297.js",
-      "_content-9321c903.js"
+      "_Content-b47b8a3b.js",
+      "_strings-8f8fe9be.js"
     ],
     "css": [
       "assets/pages/contact.md-d16feefb.css"
     ]
   },
   "src/routes/donate.md": {
-    "file": "pages/donate.md-5d3fc049.js",
+    "file": "pages/donate.md-f0dd1c8d.js",
     "src": "src/routes/donate.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-432f1297.js",
-      "_content-9321c903.js"
+      "_Content-b47b8a3b.js",
+      "_strings-8f8fe9be.js"
     ],
     "css": [
       "assets/pages/donate.md-ea757dae.css"
     ]
   },
   "src/routes/faq.md": {
-    "file": "pages/faq.md-b6349097.js",
+    "file": "pages/faq.md-0a343197.js",
     "src": "src/routes/faq.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-432f1297.js",
-      "_content-9321c903.js"
+      "_Content-b47b8a3b.js",
+      "_strings-8f8fe9be.js"
     ]
   },
   "src/routes/index.md": {
-    "file": "pages/index.md-1b7d4a22.js",
+    "file": "pages/index.md-f748fdb3.js",
     "src": "src/routes/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-432f1297.js",
-      "_content-9321c903.js"
+      "_Content-b47b8a3b.js",
+      "_strings-8f8fe9be.js"
     ]
   },
   "src/routes/minecraft/client-side-mods.md": {
-    "file": "pages/minecraft/client-side-mods.md-3a5e159a.js",
+    "file": "pages/minecraft/client-side-mods.md-9c0e1371.js",
     "src": "src/routes/minecraft/client-side-mods.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-432f1297.js",
-      "_content-9321c903.js"
+      "_Content-b47b8a3b.js",
+      "_strings-8f8fe9be.js"
     ]
   },
   "src/routes/minecraft/index.md": {
-    "file": "pages/minecraft/index.md-85e66d76.js",
+    "file": "pages/minecraft/index.md-caaa041c.js",
     "src": "src/routes/minecraft/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-432f1297.js",
-      "_content-9321c903.js"
+      "_Content-b47b8a3b.js",
+      "_strings-8f8fe9be.js"
     ]
   },
   "_index-432f1297.js": {
     "file": "chunks/index-432f1297.js"
   },
-  "_content-9321c903.js": {
-    "file": "chunks/content-9321c903.js",
+  "_strings-8f8fe9be.js": {
+    "file": "chunks/strings-8f8fe9be.js"
+  },
+  "_Content-b47b8a3b.js": {
+    "file": "chunks/Content-b47b8a3b.js",
     "imports": [
-      "_index-432f1297.js"
+      "_index-432f1297.js",
+      "_strings-8f8fe9be.js"
     ]
   }
 }
