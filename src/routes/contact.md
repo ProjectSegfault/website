@@ -18,7 +18,7 @@ description: Do you want to contact us?
 
 <p><a href="https://matrix.to/#/#project-segfault:projectsegfau.lt">Matrix</a></p>
 
-<h1>People</h1>
+# People
 <div id="Active" style="display:none">
 
     <div class="parent">
@@ -29,7 +29,7 @@ description: Do you want to contact us?
     <a class="div5 discordcolored" href="https://discord.com/users/213634643327582208">Discord</a>
     <div class="div6"></div>
     <div class="div7">Odyssey:</div>
-    <a class="div8 matrixcolored" href="https://matrix.to/#/@odyssey346:projectsegfau.lt">[Matrix]</a>
+    <a class="div8 matrixcolored" href="https://matrix.to/#/@odyssey346:ohai.su">[Matrix]</a>
     <a class="div9 discordcolored" href="https://discord.com/users/315843700490240002">Discord</a>
     <div class="div10">Devnol:</div>
     <a class="div11 matrixcolored" href="https://matrix.to/#/@devnol:projectsegfau.lt">[Matrix]</a>
