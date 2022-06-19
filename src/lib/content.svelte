@@ -3,6 +3,7 @@
 	export let description;
 	export let separator;
 	import SvelteSeo from "svelte-seo";
+	import * as strings from "$lib/strings";
 	// Enjoy the jank.
 	if (title === "Project Segfault") {
 		title = "";
@@ -19,7 +20,7 @@
 		type: "website",
 		images: [
 			{
-				url: "https://projectsegfau.lt:8448/_matrix/media/r0/download/projectsegfau.lt/HBgjhWUExhKPzbpkpIqQfUkF",
+				url: strings.SEO_BANNER_URL,
 				width: 850,
 				height: 650,
 				alt: "Image"

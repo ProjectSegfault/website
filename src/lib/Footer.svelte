@@ -3,24 +3,25 @@
 	import IconMatrix from "~icons/simple-icons/matrix";
 	import IconGitHub from "~icons/simple-icons/github";
 	import IconSignal from "~icons/fa6-solid/signal";
+	import * as strings from "$lib/strings";
 </script>
 
 <footer>
 	<hr />
 	<div class="content">
-		<span>© 2021 - present, Project Segfault</span>
+		<span>{strings.COPYRIGHT}</span>
 
 		<div class="links">
-			<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt">
+			<a href={strings.MATRIX_INVITE}>
 				<IconMatrix />
 			</a>
-			<a href="https://discord.gg/26EG7fFtfS">
+			<a href={strings.DISCORD_INVITE}>
 				<IconDiscord />
 			</a>
-			<a href="https://github.com/ProjectSegfault">
+			<a href={strings.GITHUB}>
 				<IconGitHub />
 			</a>
-			<a href="https://status.projectsegfau.lt/">
+			<a href={strings.STATUS}>
 				<IconSignal />
 			</a>
 		</div>
