@@ -4,7 +4,7 @@
 
 <nav>
 	<a class="brand" href="/">
-		<img src="/logo.png" alt="Project Segfault logo" />
+		<img src="/logo.png" alt="{strings.NAME} logo" />
 		<span
 			style="color: var(--accent-secondary); margin-left: 4px; margin-right: 4px;"
 			>{strings.PROJECT}</span
