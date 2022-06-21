@@ -16,6 +16,14 @@
 
     await loadTranslations(initLocale, pathname); // keep this just before the `return`
 
+    // firefox
+    // https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language
+    // chrome
+    // https://developer.chrome.com/extensions/i18n#overview-getAcceptLanguages
+    // edge
+    // https://msdn.microsoft.com/en-us/library/hh869301(v=vs.85).aspx
+    
+
     return {};
   }
 </script>

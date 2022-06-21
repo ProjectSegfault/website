@@ -61,6 +61,8 @@ onclick='document.getElementById("Active").style.display ="block"; document.getE
         align-items: center;
     }
 
+     /* this is a hack to make the grid work, need to improve this */
+    
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 1 / 2 / 2 / 3; }
     .div3 { grid-area: 1 / 3 / 2 / 4; }
