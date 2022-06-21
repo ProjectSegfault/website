@@ -15,5 +15,11 @@
     "DONATEDESCRIPTION": "The ways you can donate to us and more",
     "DONATEPLEASEDO": "please do",
     "DONATEEXPLANATION": "If you donate, we will be more motivated to work on the server and host more stuff and maybe even get more hardware. I really recommend you donate any spare money you have if you enjoy or use our services on a daily basis. Thanks!",
-    "DONATEOKSURE": "sure I'll donate. Links?"
+    "DONATEOKSURE": "sure I'll donate. Links?",
+    "CONTACTTITLE": "Contact Us",
+    "CONTACTDESCRIPTION": "Do you want to contact us?",
+    "CONTACTOUREMAIL": "Our email",
+    "CONTACTEMAILEX": "Please be aware that Microsoft often blocks non-popular emails, if you do contact us through there, make sure to check your spam and mark it as not-spam!",
+    "CONTACTPEOPLE": "People",
+    "CONTACTCLICK": "Click to show who is active on what platform"
 }

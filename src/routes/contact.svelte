@@ -1,18 +1,18 @@
----
-title: Contact Us
-description: Do you want to contact us?
----
 
-# {title}
+<script lang="ts">
+	import { t } from '$lib/translations';
+</script>
 
-## {description}
+<h1>{$t('common.CONTACTTITLE')}</h1>
 
-# Our email
+<h2>{$t('common.CONTACTDESCRIPTION')}</h2>
+
+<h1>{$t('common.CONTACTOUREMAIL')}</h1>
 
 <p><a href="mailto:contact@projectsegfau.lt">contact@projectsegfau.lt</a></p>
-<p><i>Please be aware that Microsoft often blocks non-popular emails, if you do contact us through there, make sure to check your spam and mark it as not-spam!</i></p>
+<p><i>{$t('common.CONTACTEMAILEX')}</i></p>
 
-<h1>People</h1>
+<h1>{$t('common.CONTACTPEOPLE')}</h1>
 <div id="Active" style="display:none">
 
     <div class="parent">
@@ -37,7 +37,7 @@ type="button"
 onclick='document.getElementById("Active").style.display ="block"; document.getElementById("hide").style.display = "none" ;'
 >
 
-    Click to show who is active on what platform
+    {$t('common.CONTACTCLICK')}
 
 </button>
 
