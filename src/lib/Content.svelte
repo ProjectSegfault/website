@@ -1,8 +1,6 @@
-<!--TODO: Bring back the SEO stuff-->
-
 <script lang="ts">
 	import SvelteSeo from "svelte-seo";
-	import * as strings from "$lib/strings";
+	import Banner from "$lib/images/ProjectSegfault_Desktop_16-9.png";
 </script>
 
 <SvelteSeo
@@ -12,7 +10,7 @@
 		type: "website",
 		images: [
 			{
-				url: strings.SEO_BANNER_URL,
+				url: Banner,
 				width: 850,
 				height: 650,
 				alt: "Image"
