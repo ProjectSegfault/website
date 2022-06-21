@@ -1,5 +1,6 @@
 <script>
 	import * as strings from "$lib/strings";
+	import { t } from '$lib/translations';
 </script>
 
 <nav>
@@ -15,12 +16,12 @@
 	</a>
 
 	<div class="links">
-		<a href="https://instances.projectsegfau.lt/">{strings.INSTANCES}</a>
-		<a href="/minecraft">{strings.MINECRAFT}</a>
-		<a href="/donate">{strings.DONATE}</a>
-		<a href="/faq">{strings.FAQ}</a>
-		<a href="/contact">{strings.CONTACT}</a>
-		<a href="https://blog.projectsegfau.lt/">{strings.BLOG}</a>
+		<a href="https://instances.projectsegfau.lt/">{$t('common.navbarInstances')}</a>
+		<a href="/minecraft">{$t('common.navbarMinecraft')}</a>
+		<a href="/donate">{$t('common.navbarDonate')}</a>
+		<a href="/faq">{$t('common.FAQ')}</a>
+		<a href="/contact">{$t('common.navbarContact')}</a>
+		<a href="https://blog.projectsegfau.lt/">{$t('common.Blog')}</a>
 	</div>
 </nav>
 

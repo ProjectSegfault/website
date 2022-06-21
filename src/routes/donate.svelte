@@ -1,21 +1,18 @@
----
-title: Donate to Project Segfault
-description: Our donation methods
----
-
 <script lang="ts">
     import MoneroQR from "$lib/images/Monero.png";
+
+	import { t } from '$lib/translations';
 </script>
 
-# {title}
+<h1>{$t('common.DONATETITLE')}</h1>
 
-## {description}
+<h2>{$t('common.DONATEDESCRIPTION')}</h2>
 
-# please do
+<h1>{$t('common.DONATEPLEASEDO')}</h1>
 
-If you donate, we will be more motivated to work on the server and host more stuff and maybe even get more hardware. I really recommend you donate any spare money you have if you enjoy or use our services on a daily basis.
+<p>{$t('common.DONATEEXPLANATION')}</p>
 
-# yeah sure I'll donate. links?
+<h1>{$t('common.DONATEOKSURE')}</h1>
 
 <div class="monero">
     <span>Monero: <code>47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA</code></span>
