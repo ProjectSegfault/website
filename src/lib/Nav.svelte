@@ -19,7 +19,7 @@
 		<a href="https://instances.projectsegfau.lt/">{$t('common.navbarInstances')}</a>
 		<a href="/minecraft">{$t('common.navbarMinecraft')}</a>
 		<a href="/donate">{$t('common.navbarDonate')}</a>
-		<a href="/faq">{$t('common.FAQ')}</a>
+		<a href="wiki.projectsegfau.lt/about/faq">{$t('common.FAQ')}</a>
 		<a href="/contact">{$t('common.navbarContact')}</a>
 		<a href="https://blog.projectsegfau.lt/">{$t('common.Blog')}</a>
 	</div>
