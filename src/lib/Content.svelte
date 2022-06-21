@@ -1,12 +1,14 @@
 <script lang="ts">
 	import SvelteSeo from "svelte-seo";
 	import Banner from "$lib/images/ProjectSegfault_Desktop_16-9.png";
+	import * as strings from "$lib/strings";
+	import { t } from '$lib/translations';
 </script>
 
 <SvelteSeo
 	openGraph={{
-		title: "Project Segfault",
-		description: "4 idiots, a Sun server and a Hitachi Compute Rack.",
+		title: strings.NAME,
+		description: $t('common.indexDescription'),
 		type: "website",
 		images: [
 			{
@@ -20,7 +22,7 @@
 />
 
 <svelte:head>
-	<title>Project Segfault</title>
+	<title>{strings.NAME}</title>
 </svelte:head>
 
 <div class="mdsvex_content">
