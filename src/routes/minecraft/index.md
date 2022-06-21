@@ -50,7 +50,7 @@ This is a manually made list of our plugins, so it might not be up to date.
 -   EssentialsX (EssentialsXDiscord, EssentialsXGeoIP)
 -   Geyser & Floodgate
 -   LuckPerms
--   mcMMO (manually built! fuck buying things. [Click here to download our build](https://downloads.projectsegfau.lt))
+-   mcMMO (Imagine paying for a build of an open source piece of software. [Click here to download our build.](https://dl.odyssey346.dev/Software/mcMMO_because_fuck_buying_open_source_software.jar))
 -   TabTPS
 -   Vault
 -   ViaVersion (You may only connect from a base version and its subversions (1.18, 1.18.1, 1.18.2). You cannot connect from a major version older than the major version the server is running.)
