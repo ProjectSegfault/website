@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-9ee937a9.js",
+    "file": "start-b6517a35.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -101,7 +101,7 @@
     ]
   },
   "src/routes/minecraft/index.md": {
-    "file": "pages/minecraft/index.md-caaa041c.js",
+    "file": "pages/minecraft/index.md-407689d9.js",
     "src": "src/routes/minecraft/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
