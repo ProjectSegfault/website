@@ -13,6 +13,11 @@ const config = {
 			key: "common",
 			loader: async () => (await import("../i18n/nb.json")).default
 		},
+		{
+			locale: "fr",
+			key: "common",
+			loader: async () => (await import("../i18n/fr.json")).default
+		}
 		/*
 		{
 			locale: "el",
