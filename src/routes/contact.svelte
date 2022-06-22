@@ -1,6 +1,15 @@
 <script lang="ts">
 	import { t } from "$lib/translations";
 	import * as global from "../i18n/_global.json";
+	import { createEventDispatcher } from 'svelte';
+
+	let dontDie;
+	let shown = false;
+	let dispatch = createEventDispatcher();
+	export function show() {
+        shown = !shown;
+				dispatch('show', shown);
+	}
 </script>
 
 <svelte:head>
@@ -17,7 +26,8 @@
 <p><i>{$t("common.CONTACT_EMAIL_SPAM")}</i></p>
 
 <h1>{$t("common.CONTACT_PEOPLE")}</h1>
-<div id="Active" style="display:none">
+
+<div id="Active">
 	<div class="parent">
 		<div class="div1">{global.MIDOU}:</div>
 		<a class="div2 matrixcolored" href={global.MIDOU_MATRIX_URL}>[Matrix]</a
@@ -45,24 +55,7 @@
 	</div>
 </div>
 
-<button
-	id="hide"
-	type="button"
-	onclick="document.getElementById("Active").style.display ="block"; document.getElementById("hide").style.display = "none" ;"
->
-	{$t("common.CONTACT_CLICK")}
-</button>
-
 <style>
-	button {
-		background-color: var(--accent-primary);
-		border: none;
-		border-radius: 10px;
-		padding: 1rem;
-		cursor: pointer;
-		font-family: var(--font-primary);
-	}
-
 	.parent {
 		display: grid;
 		grid-template-columns: repeat(3, max-content);
