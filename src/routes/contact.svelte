@@ -1,15 +1,6 @@
 <script lang="ts">
 	import { t } from "$lib/translations";
 	import * as global from "../i18n/_global.json";
-	import { createEventDispatcher } from 'svelte';
-
-	let dontDie;
-	let shown = false;
-	let dispatch = createEventDispatcher();
-	export function show() {
-        shown = !shown;
-				dispatch('show', shown);
-	}
 </script>
 
 <svelte:head>
