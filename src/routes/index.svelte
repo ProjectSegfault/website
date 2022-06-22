@@ -27,7 +27,7 @@
 	<img
 		src="https://www.abuseipdb.com/contributor/82331.svg"
 		alt="AbuseIPDB Contributor Badge"
-		style="width: 270px;background: var(--accent-primary); padding: 0.5rem;
+		style="width: 270px;background: var(--accent-primary); padding: 0.5rem;position:absolute; bottom:8%;
 		border-radius: 16px;"
 	/>
 </a>
