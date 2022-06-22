@@ -9,16 +9,18 @@
 
 <h1>{global.NAME}</h1>
 
-<h2>{$t("common.INDEX_DESCRIPTION")}</h2>
-
-<h1>{$t("common.INDEX_WHAT")}</h1>
-<!-- Cause I feel the need to scream -->
-
-<p>{$t("common.INDEX_WHO_ARE_WE")}</p>
-
-<h1>{$t("common.INDEX_TELL_ME_MORE")}</h1>
-
-<p>{$t("common.INDEX_MORE_INFO")}</p>
+<div>
+	<h2>{$t("common.INDEX_DESCRIPTION")}</h2>
+	
+	<h1>{$t("common.INDEX_WHAT")}</h1>
+	<!-- Cause I feel the need to scream -->
+	
+	<p>{$t("common.INDEX_WHO_ARE_WE")}</p>
+	
+	<h1>{$t("common.INDEX_TELL_ME_MORE")}</h1>
+	
+	<p>{$t("common.INDEX_MORE_INFO")}</p>
+</div>
 
 <a
 	href="https://www.abuseipdb.com/user/82331"
@@ -27,7 +29,12 @@
 	<img
 		src="https://www.abuseipdb.com/contributor/82331.svg"
 		alt="AbuseIPDB Contributor Badge"
-		style="width: 270px;background: var(--accent-primary); padding: 0.5rem;position:absolute; bottom:8%;
-		border-radius: 16px;"
+		style="width: 270px;background: var(--accent-primary); padding: 0.5rem;position:absolute; bottom:8%;border-radius: 10px;"
 	/>
 </a>
+
+<style>
+	div {
+		padding-bottom: 200px;
+	}
+</style>

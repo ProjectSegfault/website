@@ -19,7 +19,7 @@
 		<a href={global.INSTANCES}>{$t("common.NAVBAR_INSTANCES")}</a>
 		<a href="/minecraft">{global.MINECRAFT}</a>
 		<a href="/donate">{$t("common.NAVBAR_DONATE")}</a>
-		<a href={global.FAQ_URL}>{$t("common.NAVBAR_FAQ")}</a>
+		<a href="/faq">{$t("common.NAVBAR_FAQ")}</a>
 		<a href="/contact">{$t("common.NAVBAR_CONTACT")}</a>
 		<a href={global.BLOG_URL}>{$t("common.NAVBAR_BLOG")}</a>
 	</div>

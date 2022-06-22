@@ -24,6 +24,7 @@ body {
 	flex-direction: column;
 	position: relative;
 	min-height: 100vh;
+	line-height: 1.625;
 }
 
 main {
