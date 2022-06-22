@@ -46,5 +46,17 @@
 	"CSM_TITLE": "Anbefalte mods",
 	"CSM_HOW_THEY_ARE_PICKED": "Disse er plukket av våres felleskap eller er for server funksjoner som stemmechat.",
 	"CSM_NOTE_BEDROCK": "Hvis du spiller på Bedrock, så får du ikke brukt mods som Simple Voice Chat. Unnskyld! :(",
-	"CSM_OPTIMIZATION_MODS_NOTE": "Hva slags mod som gjør spillet kjappere (Vi anbefaler i det minste Sodium)"
+	"CSM_OPTIMIZATION_MODS_NOTE": "Hva slags mod som gjør spillet kjappere (Vi anbefaler i det minste Sodium)",
+	"FAQ_TITLE": "Ofte Stilte Spørsmål",
+	"FAQ_OWNER_TITLE": "Hvem eier prosjektet?",
+	"FAQ_OWNER": "Originalt var det Midou (system administrator) og MrLeRien (personen som eierer 2 av våres VPSer og Soleil), men nå har Odyssey346 (Spillserver systemadministrator, nettutvikler og norsk-oversetter) og Devnol (personen som eier Helios) blitt med oss.",
+	"FAQ_TOXICITY_TITLE": "En av deres tjenester har slemme folk!",
+	"FAQ_TOXICITY_1": "Du kan få i kontakt med oss på e-post eller på Matrix og vi kan diskutere det med deg. Vi anbefaler at du putter meste av disse forespørselene i våres support-kanal her:",
+	"FAQ_TOXICITY_2": "på Matrix. Hvis det er personlig, bare si at du har en rapport mot noen på våres tjenester, og at du har lyst til å bli kontaktet av en administrator, så kontakter vi deg når det er mulig.",
+	"FAQ_TRUST_TITLE": "Hvordan kan jeg stole på dere?",
+	"FAQ_TRUST_1": "Vel, du kan egentlig ikke det. Vi slepper ikke ut loggene våres, men du kan spørre oss om informasjom vi har om deg på serverene våres med å kontakte oss. Hvis du er paranoid,",
+	"FAQ_TRUST_2": " det er lov å bruke Tor på våres tjenester",
+	"FAQ_TRUST_3": ", men vi har ingen .onion lenker.",
+	"FAQ_CONTACT_TITLE": "Hvordan har dere lyst til å kommunisere?",
+	"FAQ_CONTACT": "Se på"
 }
