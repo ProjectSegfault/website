@@ -1,33 +1,34 @@
 
 <script lang="ts">
 	import { t } from '$lib/translations';
+    import * as global from "../i18n/_global.json";
 </script>
 
-<h1>{$t('common.CONTACTTITLE')}</h1>
+<h1>{$t('common.CONTACT_TITLE')}</h1>
 
-<h2>{$t('common.CONTACTDESCRIPTION')}</h2>
+<h2>{$t('common.CONTACT_DESCRIPTION')}</h2>
 
-<h1>{$t('common.CONTACTOUREMAIL')}</h1>
+<h1>{$t('common.CONTACT_OUR_EMAIL')}</h1>
 
-<p><a href="mailto:contact@projectsegfau.lt">contact@projectsegfau.lt</a></p>
-<p><i>{$t('common.CONTACTEMAILEX')}</i></p>
+<p><a href="mailto:{global.EMAIL}">{global.EMAIL}</a></p>
+<p><i>{$t('common.CONTACT_EMAIL_SPAM')}</i></p>
 
-<h1>{$t('common.CONTACTPEOPLE')}</h1>
+<h1>{$t('common.CONTACT_PEOPLE')}</h1>
 <div id="Active" style="display:none">
 
     <div class="parent">
-    <div class="div1">Midou:</div>
-    <a class="div2 matrixcolored" href="https://matrix.to/#/@midou:projectsegfau.lt">[Matrix]</a>
+    <div class="div1">{global.MIDOU}:</div>
+    <a class="div2 matrixcolored" href={global.MIDOU_MATRIX_URL}>[Matrix]</a>
     <div class="div3"></div>
-    <div class="div4">MrLeRien:</div>
-    <a class="div5 discordcolored" href="https://discord.com/users/213634643327582208">Discord</a>
+    <div class="div4">{global.MRLERIEN}:</div>
+    <a class="div5 discordcolored" href={global.MRLERIEN_DISCORD_URL}>Discord</a>
     <div class="div6"></div>
-    <div class="div7">Odyssey:</div>
-    <a class="div8 matrixcolored" href="https://matrix.to/#/@odyssey346:ohai.su">[Matrix]</a>
-    <a class="div9 discordcolored" href="https://discord.com/users/315843700490240002">Discord</a>
-    <div class="div10">Devnol:</div>
-    <a class="div11 matrixcolored" href="https://matrix.to/#/@devnol:projectsegfau.lt">[Matrix]</a>
-    <a class="div12 discordcolored" href="https://discordapp.com/users/429353559566319626">Discord</a>
+    <div class="div7">{global.ODYSSEY}:</div>
+    <a class="div8 matrixcolored" href={global.ODYSSEY_MATRIX_URL}>[Matrix]</a>
+    <a class="div9 discordcolored" href={global.ODYSSEY_DISCORD_URL}>Discord</a>
+    <div class="div10">{global.DEVNOL}:</div>
+    <a class="div11 matrixcolored" href={global.DEVNOL_MATRIX_URL}>[Matrix]</a>
+    <a class="div12 discordcolored" href={global.DEVNOL_DISCORD_URL}>Discord</a>
     </div>
 </div>
 
@@ -37,7 +38,7 @@ type="button"
 onclick='document.getElementById("Active").style.display ="block"; document.getElementById("hide").style.display = "none" ;'
 >
 
-    {$t('common.CONTACTCLICK')}
+    {$t('common.CONTACT_CLICK')}
 
 </button>
 

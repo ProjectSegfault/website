@@ -1,27 +1,27 @@
 <script>
-	import * as strings from "$lib/strings";
+	import * as global from "../i18n/_global.json";
 	import { t } from '$lib/translations';
 </script>
 
 <nav>
 	<a class="brand" href="/">
-		<img src="/logo.png" alt="{strings.NAME} logo" />
+		<img src="/logo.png" alt="{global.NAME} logo" />
 		<span
 			style="color: var(--accent-secondary); margin-left: 4px; margin-right: 4px;"
-			>{strings.PROJECT}</span
+			>{global.PROJECT}</span
 		>
 		<span style="color: var(--accent-primary); margin-right: 8px;"
-			>{strings.SEGFAULT}</span
+			>{global.SEGFAULT}</span
 		>
 	</a>
 
 	<div class="links">
-		<a href="https://instances.projectsegfau.lt/">{$t('common.navbarInstances')}</a>
-		<a href="/minecraft">{$t('common.navbarMinecraft')}</a>
-		<a href="/donate">{$t('common.navbarDonate')}</a>
-		<a href="wiki.projectsegfau.lt/about/faq">{$t('common.FAQ')}</a>
-		<a href="/contact">{$t('common.navbarContact')}</a>
-		<a href="https://blog.projectsegfau.lt/">{$t('common.Blog')}</a>
+		<a href={global.INSTANCES}>{$t('common.NAVBAR_INSTANCES')}</a>
+		<a href="/minecraft">{global.MINECRAFT}</a>
+		<a href="/donate">{$t('common.NAVBAR_DONATE')}</a>
+		<a href={global.FAQ_URL}>{$t('common.NAVBAR_FAQ')}</a>
+		<a href="/contact">{$t('common.NAVBAR_CONTACT')}</a>
+		<a href={global.BLOG_URL}>{$t('common.NAVBAR_BLOG')}</a>
 	</div>
 </nav>
 

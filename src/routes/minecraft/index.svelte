@@ -1,49 +1,50 @@
 <script>
 	import { t } from '$lib/translations';
+    import * as global from "../../i18n/_global.json";
 </script>
 
-<h1>{$t('common.MINECRAFTTITLE')}</h1>
+<h1>{$t('common.MINECRAFT_TITLE')}</h1>
 
-<h1>{$t('common.MINECRAFTDESCRIPTION')}</h1>
+<h1>{$t('common.MINECRAFT_DESCRIPTION')}</h1>
 
-<p>{$t('common.MINECRAFTWEHAVE')}</p>
+<p>{$t('common.MINECRAFT_SMP')}</p>
 
-<p>{$t('common.MINECRAFTJOIN')}</p> <a href="https://discord.gg/26EG7fFtfS">{$t('common.MINECRAFTDISCORDINVITE')}</a>
+<p>{$t('common.MINECRAFT_JOIN')}</p> <a href={global.DISCORD_INVITE}>{$t('common.MINECRAFT_DISCORD')}</a>
 
-<h2>{$t('common.MINECRAFTRULES')}</h2>
+<h2>{$t('common.MINECRAFT_RULES')}</h2>
 
-<p>{$t('common.MINECRAFTRULE1')}</p>
-<p>{$t('common.MINECRAFTRULE2')}</p>
-<p>{$t('common.MINECRAFTRULE3')}</p>
-<p>{$t('common.MINECRAFTRULE4')}</p>
+<p>{$t('common.MINECRAFT_RULE_1')}</p>
+<p>{$t('common.MINECRAFT_RULE_2')}</p>
+<p>{$t('common.MINECRAFT_RULE_3')}</p>
+<p>{$t('common.MINECRAFT_RULE_4')}</p>
 
-<h2>{$t('common.MINECRAFTIP')}</h2>
+<h2>{$t('common.MINECRAFT_IP')}</h2>
 
-<p><b>Java</b>: mc.projectsegfau.lt:25565</p>
+<p><b>Java</b>: {global.MINECRAFT_JAVA_IP}</p>
 
-<p><b>Bedrock</b>: mc.projectsegfau.lt:19132</p>
+<p><b>Bedrock</b>: {global.MINECRAFT_BEDROCK_IP}</p>
 
-<i>{$t('common.MINECRAFTPSST1')}</i>
+<i>{$t('common.MINECRAFT_NOTE_1')}</i>
 
 <br>
 
-<i>{$t('common.MINECRAFTPSST2')}</i>
+<i>{$t('common.MINECRAFT_NOTE_2')}</i>
 
-<h2>{$t('common.MINECRAFTLINKS')}</h2>
+<h2>{$t('common.MINECRAFT_LINKS')}</h2>
 
 <a href="https://map.mc.projectsegfau.lt">Dynmap</a>
 
-<a href="https://apps.apple.com/us/app/mc-server-connector/id1548251304">{$t('common.MINECRAFTMCIOS')}</a>
+<a href="https://apps.apple.com/us/app/mc-server-connector/id1548251304">{$t('common.MINECRAFT_MC_IOS')}</a>
 
-<a href="https://play.google.com/store/apps/details?id=com.smokiem.mcserverconnector&hl=no&gl=US">{$t('common.MINECRAFTMCANDROID')}</a>
+<a href="https://play.google.com/store/apps/details?id=com.smokiem.mcserverconnector&hl=no&gl=US">{$t('common.MINECRAFT_MC_ANDROID')}</a>
 
-<h2>{$t('common.MINECRAFTRECOMMENDEDCLIENTSIDEMODS')}</h2>
+<h2>{$t('common.MINECRAFT_CLIENT_SIDE_MODS')}</h2>
 
-<a href="/minecraft/client-side-mods">{$t('common.MINECRAFTCLIENTSIDEMODSHREF')}</a>
+<a href="/minecraft/client-side-mods">{$t('common.MINECRAFT_CLIENT_SIDE_MODS_URL')}</a>
 
-<h2>{$t('common.MINECRAFTPLUGINLISTH2')}</h2>
+<h2>{$t('common.MINECRAFT_PLUGIN_LIST_TITLE')}</h2>
 
-<p>{$t('common.MINECRAFTMANUALLYMADE')}</p>
+<p>{$t('common.MINECRAFT_PLUGIN_LIST_NOTE')}</p>
 
 <ul>
     <li>BlockLocker</li>
@@ -52,10 +53,10 @@
     <li>EssentialsX (EssentialsXDiscord, EssentialsXGeoIP)</li>
     <li>Geyser & Floodgate</li>
     <li>LuckPerms</li>
-    <li>mcMMO <a href="https://dl.odyssey346.dev/Software/mcMMO_because_fuck_buying_open_source_software.jar">{$t('common.MINECRAFTOURBUILDOFMCMMO')}</a></li>
+    <li>mcMMO <a href="https://dl.odyssey346.dev/Software/mcMMO_because_fuck_buying_open_source_software.jar">{$t('common.MINECRAFT_MCMMO')}</a></li>
     <li>TabTPS</li>
     <li>Vault</li>
-    <li>ViaVersion ({$t('common.MINECRAFTVIAVERSION')})</li>
+    <li>ViaVersion ({$t('common.MINECRAFT_VIAVERSION_NOTE')})</li>
     <li>PlugMan</li>
     <li>CombatLogX</li>
     <li>Simple Voice Chat</li>

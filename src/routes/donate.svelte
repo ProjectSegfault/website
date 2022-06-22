@@ -2,20 +2,21 @@
     import MoneroQR from "$lib/images/Monero.png";
 
 	import { t } from '$lib/translations';
+    import * as global from "../i18n/_global.json";
 </script>
 
-<h1>{$t('common.DONATETITLE')}</h1>
+<h1>{$t('common.DONATE_TITLE')}</h1>
 
-<h2>{$t('common.DONATEDESCRIPTION')}</h2>
+<h2>{$t('common.DONATE_DESCRIPTION')}</h2>
 
-<h1>{$t('common.DONATEPLEASEDO')}</h1>
+<h1>{$t('common.DONATE_PLEASE_DO')}</h1>
 
-<p>{$t('common.DONATEEXPLANATION')}</p>
+<p>{$t('common.DONATE_EXPLANATION')}</p>
 
-<h1>{$t('common.DONATEOKSURE')}</h1>
+<h1>{$t('common.DONATE_OK_SURE')}</h1>
 
 <div class="monero">
-    <span>Monero: <code>47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA</code></span>
+    <span>{global.MONERO}: <code>47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA</code></span>
     <img src={MoneroQR} alt="Monero Qr Code">
 </div>
 
