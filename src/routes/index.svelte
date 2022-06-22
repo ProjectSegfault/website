@@ -29,12 +29,26 @@
 	<img
 		src="https://www.abuseipdb.com/contributor/82331.svg"
 		alt="AbuseIPDB Contributor Badge"
-		style="width: 270px;background: var(--accent-primary); padding: 0.5rem;position:absolute; bottom:8%;border-radius: 10px;"
 	/>
 </a>
 
 <style>
 	div {
-		padding-bottom: 200px;
+		padding-bottom: 150px;
+	}
+
+	img {
+		width: 270px;
+		background: var(--accent-primary); 
+		padding: 0.5rem;
+		position: absolute; 
+		bottom: 80px;
+		border-radius: 10px;
+	}
+
+	@media only screen and (max-width: 508px) {
+		img {
+			bottom: 160px;
+		}
 	}
 </style>
