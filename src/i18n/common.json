@@ -47,5 +47,17 @@
 	"CSM_TITLE": "Recommended mods list",
 	"CSM_HOW_THEY_ARE_PICKED": "These are picked by our community or are for server features like voice chatting.",
 	"CSM_NOTE_BEDROCK": "If you play on Bedrock, try to find an alternative to these. Mods like Simple Voice Chat have no alternative on Bedrock, sorry.",
-	"CSM_OPTIMIZATION_MODS_NOTE": "Any optimization mod (We recommend at least Sodium)"
+	"CSM_OPTIMIZATION_MODS_NOTE": "Any optimization mod (We recommend at least Sodium)",
+	"FAQ_TITLE": "Frequently Asked Questions",
+	"FAQ_OWNER_TITLE": "Who is the project owner?",
+	"FAQ_OWNER": "Orignally: Midou (Sysadmin) and Mrlerien (Hoster), but now Odyssey346 (Game Server Sysadmin, webdev and social media manager) and Devnol (Hoster) are with us.",
+	"FAQ_TOXICITY_TITLE": "One of your services contains toxic people!",
+	"FAQ_TOXICITY_1": "You can contact us by mail or Matrix and we can figure this out with you. But we recommend that you put most of these requests in our support channel at",
+	"FAQ_TOXICITY_2": "on Matrix. If it's something personal, just say that you have a report against someone on one of our  services and you'd like to be contacted by an admin and we'll constact you ASAP. We have no lives so we're quite active.",
+	"FAQ_TRUST_TITLE": "How can I trust your services?",
+	"FAQ_TRUST_1": "Well, you really can't. We don't make our logs or anything public, however, if you would like the data we have on you, please contact us. If you're paranoid,",
+	"FAQ_TRUST_2": "you are allowed to use Tor on our services",
+	"FAQ_TRUST_3": ", but we don't host any .onion links.",
+	"FAQ_CONTACT_TITLE": "Which ways do you prefer to communicate?",
+	"FAQ_CONTACT": "Look at"
 }
