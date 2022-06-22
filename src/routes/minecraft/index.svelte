@@ -1,14 +1,4 @@
 <script>
-@font-face {
-ufont-face {
-    font-family: Bw Modelica;
-    src: url("../fonts/BwModelica-Regular.otf");
-    font-display: swap;
-}
-    font-family: Bw Modelica;
-    src: url("../fonts/BwModelica-Regular.otf");
-    font-display: swap;
-}
 	import { t } from "$lib/translations";
 	import * as global from "../../i18n/_global.json";
 </script>
