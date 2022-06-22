@@ -4,13 +4,13 @@
 	import IconGitHub from "~icons/simple-icons/github";
 	import IconSignal from "~icons/fa6-solid/signal";
 	import * as global from "../i18n/_global.json";
-	import { t } from '$lib/translations';
+	import { t } from "$lib/translations";
 </script>
 
 <footer>
 	<hr />
 	<div class="content">
-		<span>{$t('common.FOOTER_COPYRIGHT')}</span>
+		<span>{$t("common.FOOTER_COPYRIGHT")}</span>
 
 		<div class="links">
 			<a href={global.MATRIX_INVITE}>

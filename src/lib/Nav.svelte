@@ -1,6 +1,6 @@
 <script>
 	import * as global from "../i18n/_global.json";
-	import { t } from '$lib/translations';
+	import { t } from "$lib/translations";
 </script>
 
 <nav>
@@ -16,12 +16,12 @@
 	</a>
 
 	<div class="links">
-		<a href={global.INSTANCES}>{$t('common.NAVBAR_INSTANCES')}</a>
+		<a href={global.INSTANCES}>{$t("common.NAVBAR_INSTANCES")}</a>
 		<a href="/minecraft">{global.MINECRAFT}</a>
-		<a href="/donate">{$t('common.NAVBAR_DONATE')}</a>
-		<a href={global.FAQ_URL}>{$t('common.NAVBAR_FAQ')}</a>
-		<a href="/contact">{$t('common.NAVBAR_CONTACT')}</a>
-		<a href={global.BLOG_URL}>{$t('common.NAVBAR_BLOG')}</a>
+		<a href="/donate">{$t("common.NAVBAR_DONATE")}</a>
+		<a href={global.FAQ_URL}>{$t("common.NAVBAR_FAQ")}</a>
+		<a href="/contact">{$t("common.NAVBAR_CONTACT")}</a>
+		<a href={global.BLOG_URL}>{$t("common.NAVBAR_BLOG")}</a>
 	</div>
 </nav>
 
