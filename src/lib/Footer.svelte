@@ -3,25 +3,26 @@
 	import IconMatrix from "~icons/simple-icons/matrix";
 	import IconGitHub from "~icons/simple-icons/github";
 	import IconSignal from "~icons/fa6-solid/signal";
-	import * as strings from "$lib/strings";
+	import * as global from "../i18n/_global.json";
+	import { t } from "$lib/translations";
 </script>
 
 <footer>
 	<hr />
 	<div class="content">
-		<span>{strings.COPYRIGHT}</span>
+		<span>{$t("common.FOOTER_COPYRIGHT")}</span>
 
 		<div class="links">
-			<a href={strings.MATRIX_INVITE}>
+			<a href={global.MATRIX_INVITE}>
 				<IconMatrix />
 			</a>
-			<a href={strings.DISCORD_INVITE}>
+			<a href={global.DISCORD_INVITE}>
 				<IconDiscord />
 			</a>
-			<a href={strings.GITHUB}>
+			<a href={global.GITHUB}>
 				<IconGitHub />
 			</a>
-			<a href={strings.STATUS}>
+			<a href={global.STATUS}>
 				<IconSignal />
 			</a>
 		</div>

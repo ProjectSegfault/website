@@ -24,12 +24,13 @@ body {
 	flex-direction: column;
 	position: relative;
 	min-height: 100vh;
+	line-height: 1.625;
 }
 
 main {
 	padding: 1rem;
 	flex-grow: 1;
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 }
 
 a {
