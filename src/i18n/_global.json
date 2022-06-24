@@ -22,5 +22,6 @@
 	"DEVNOL_DISCORD_URL": "https://discordapp.com/users/429353559566319626/",
 	"MONERO": "Monero",
 	"MINECRAFT_JAVA_IP": "mc.projectsegfau.lt:25565",
-	"MINECRAFT_BEDROCK_IP": "mc.projectsegfau.lt:19132"
+	"MINECRAFT_BEDROCK_IP": "mc.projectsegfau.lt:19132",
+	"TRANSPARENCY_REPO": "https://github.com/ProjectSegfault/transparency/"
 }

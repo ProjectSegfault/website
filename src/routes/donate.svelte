@@ -29,10 +29,10 @@
 	<img src={MoneroQR} alt="Monero Qr Code" />
 </div>
 
-<p>
+<p class="reports-note">
 	<i>
 		{$t("common.DONATE_TRANSPARENCY_1")}
-		<a href="https://github.com/ProjectSegfault/transparency/"
+		<a href={global.TRANSPARENCY_REPO}
 			>{$t("common.DONATE_TRANSPARENCY_2")}</a
 		>
 		.
@@ -46,7 +46,11 @@
 	}
 
 	.monero > img {
-		margin-left: 8px;
+		margin-left: 26px;
+	}
+
+	.reports-note {
+		margin-top: 32px;
 	}
 
 	@media only screen and (max-width: 930px) {
