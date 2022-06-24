@@ -29,6 +29,16 @@
 	<img src={MoneroQR} alt="Monero Qr Code" />
 </div>
 
+<p>
+	<i>
+		{$t("common.DONATE_TRANSPARENCY_1")}
+		<a href="https://github.com/ProjectSegfault/transparency/"
+			>{$t("common.DONATE_TRANSPARENCY_2")}</a
+		>
+		.
+	</i>
+</p>
+
 <style>
 	.monero {
 		display: flex;

@@ -66,8 +66,7 @@
 	<li>Geyser & Floodgate</li>
 	<li>LuckPerms</li>
 	<li>
-		mcMMO <a
-			href="https://dl.odyssey346.dev/Software/mcMMO.jar"
+		mcMMO <a href="https://dl.odyssey346.dev/Software/mcMMO.jar"
 			>{$t("common.MINECRAFT_MCMMO")}</a
 		>
 	</li>

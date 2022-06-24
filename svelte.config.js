@@ -8,9 +8,7 @@ const config = {
 	// for more information about preprocessors
 	extensions: [".svelte"],
 
-	preprocess: [
-		preprocess(),
-	],
+	preprocess: [preprocess()],
 
 	kit: {
 		adapter: adapter(),

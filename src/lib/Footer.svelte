@@ -5,9 +5,21 @@
 	import IconSignal from "~icons/fa6-solid/signal";
 	import * as global from "../i18n/_global.json";
 	import { t } from "$lib/translations";
+	import { page } from "$app/stores";
 </script>
 
 <footer>
+	{#if $page.url.pathname === "/"}
+		<a
+			href="https://www.abuseipdb.com/user/82331"
+			title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks"
+		>
+			<img
+				src="https://www.abuseipdb.com/contributor/82331.svg"
+				alt="AbuseIPDB Contributor Badge"
+			/>
+		</a>
+	{/if}
 	<hr />
 	<div class="content">
 		<span>{$t("common.FOOTER_COPYRIGHT")}</span>
@@ -35,8 +47,8 @@
 		display: flex;
 		flex-direction: column;
 		font-size: 20px;
-		position: absolute;
-		bottom: 0;
+		position: sticky;
+		top: 100vh;
 		width: calc(100vw - 2rem);
 	}
 
@@ -71,5 +83,12 @@
 		div.links {
 			margin-left: 0;
 		}
+	}
+
+	img {
+		width: 270px;
+		background: var(--accent-primary);
+		padding: 0.5rem;
+		border-radius: 10px;
 	}
 </style>
