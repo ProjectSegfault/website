@@ -1,11 +1,19 @@
 <script>
 	import { t } from "$lib/translations";
 	import * as global from "../../i18n/_global.json";
+	import SvelteSeo from "svelte-seo";
 </script>
 
-<svelte:head>
-	<title>{$t("common.MINECRAFT_TITLE")} | {global.NAME}</title>
-</svelte:head>
+<SvelteSeo
+	title="{$t("common.MINECRAFT_TITLE")} | {global.NAME}"
+	description="{$t("common.MINECRAFT_DESCRIPTION")}"
+	canonical="https://projectsegfau.lt/minecraft/"
+	openGraph={{
+		url: "https://projectsegfau.lt/minecraft/",
+		title: "{$t('common.MINECRAFT_TITLE')} | {global.NAME}",
+		description: $t("common.MINECRAFT_DESCRIPTION")
+	}}
+/>
 
 <h1>{$t("common.MINECRAFT_TITLE")}</h1>
 
