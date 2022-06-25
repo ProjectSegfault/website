@@ -32,16 +32,19 @@
 </script>
 
 <SvelteSeo
+	title="{global.NAME}"
+	description="{$t("common.INDEX_DESCRIPTION")}"
+	canonical="https://projectsegfau.lt/"
 	openGraph={{
+		url: "https://projectsegfau.lt/",
 		title: global.NAME,
 		description: $t("common.INDEX_DESCRIPTION"),
-		type: "website",
 		images: [
 			{
 				url: Banner,
 				width: 850,
 				height: 650,
-				alt: "Image"
+				alt: "Our banner"
 			}
 		]
 	}}

@@ -1,11 +1,19 @@
 <script lang="ts">
 	import { t } from "$lib/translations";
 	import * as global from "../i18n/_global.json";
+	import SvelteSeo from "svelte-seo";
 </script>
 
-<svelte:head>
-	<title>{$t("common.CONTACT_TITLE")} | {global.NAME}</title>
-</svelte:head>
+<SvelteSeo
+	title="{$t("common.CONTACT_TITLE")} | {global.NAME}"
+	description="{$t("common.CONTACT_DESCRIPTION")}"
+	canonical="https://projectsegfau.lt/contact"
+	openGraph={{
+		url: "https://projectsegfau.lt/contact/",
+		title: "{$t('common.CONTACT_TITLE')} | {global.NAME}",
+		description: $t("common.CONTACT_DESCRIPTION")
+	}}
+/>
 
 <h1>{$t("common.CONTACT_TITLE")}</h1>
 
