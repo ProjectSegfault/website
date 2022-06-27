@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-ccef6cd5.js",
+    "file": "start-c17ab6f8.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -19,13 +19,13 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-a22c408d.js",
+    "file": "pages/__layout.svelte-6d53312e.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f608a49f.js",
-      "__global-0751a10c.js",
+      "__global-fdd282a9.js",
       "_SvelteSeo-9d60f1b6.js",
       "_preload-helper-033892ea.js"
     ],
@@ -46,13 +46,13 @@
     ]
   },
   "src/routes/contact.svelte": {
-    "file": "pages/contact.svelte-118fcbb5.js",
+    "file": "pages/contact.svelte-4475affe.js",
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f608a49f.js",
-      "__global-0751a10c.js",
+      "__global-fdd282a9.js",
       "_SvelteSeo-9d60f1b6.js",
       "_preload-helper-033892ea.js"
     ],
@@ -61,13 +61,13 @@
     ]
   },
   "src/routes/donate.svelte": {
-    "file": "pages/donate.svelte-200f8803.js",
+    "file": "pages/donate.svelte-5cb2d56a.js",
     "src": "src/routes/donate.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f608a49f.js",
-      "__global-0751a10c.js",
+      "__global-fdd282a9.js",
       "_SvelteSeo-9d60f1b6.js",
       "_preload-helper-033892ea.js"
     ],
@@ -76,48 +76,48 @@
     ]
   },
   "src/routes/faq.svelte": {
-    "file": "pages/faq.svelte-07e539ed.js",
+    "file": "pages/faq.svelte-316addd4.js",
     "src": "src/routes/faq.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f608a49f.js",
-      "__global-0751a10c.js",
+      "__global-fdd282a9.js",
       "_SvelteSeo-9d60f1b6.js",
       "_preload-helper-033892ea.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-38e097c7.js",
+    "file": "pages/index.svelte-93adb6bd.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f608a49f.js",
-      "__global-0751a10c.js",
+      "__global-fdd282a9.js",
       "_preload-helper-033892ea.js"
     ]
   },
   "src/routes/minecraft/client-side-mods.svelte": {
-    "file": "pages/minecraft/client-side-mods.svelte-958e2aeb.js",
+    "file": "pages/minecraft/client-side-mods.svelte-2abead08.js",
     "src": "src/routes/minecraft/client-side-mods.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f608a49f.js",
-      "__global-0751a10c.js",
+      "__global-fdd282a9.js",
       "_SvelteSeo-9d60f1b6.js",
       "_preload-helper-033892ea.js"
     ]
   },
   "src/routes/minecraft/index.svelte": {
-    "file": "pages/minecraft/index.svelte-edd399b1.js",
+    "file": "pages/minecraft/index.svelte-6f48e844.js",
     "src": "src/routes/minecraft/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f608a49f.js",
-      "__global-0751a10c.js",
+      "__global-fdd282a9.js",
       "_SvelteSeo-9d60f1b6.js",
       "_preload-helper-033892ea.js"
     ]
@@ -131,8 +131,8 @@
       "_index-f608a49f.js"
     ]
   },
-  "__global-0751a10c.js": {
-    "file": "chunks/_global-0751a10c.js",
+  "__global-fdd282a9.js": {
+    "file": "chunks/_global-fdd282a9.js",
     "imports": [
       "_preload-helper-033892ea.js",
       "_index-f608a49f.js"
@@ -150,17 +150,17 @@
     ]
   },
   "src/i18n/common.json": {
-    "file": "chunks/common-b0a1177d.js",
+    "file": "chunks/common-1400d485.js",
     "src": "src/i18n/common.json",
     "isDynamicEntry": true
   },
   "src/i18n/nb.json": {
-    "file": "chunks/nb-a3452fb2.js",
+    "file": "chunks/nb-7dd422b3.js",
     "src": "src/i18n/nb.json",
     "isDynamicEntry": true
   },
   "src/i18n/fr.json": {
-    "file": "chunks/fr-69e8c2ef.js",
+    "file": "chunks/fr-af844bfa.js",
     "src": "src/i18n/fr.json",
     "isDynamicEntry": true
   }
