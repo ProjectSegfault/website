@@ -37,6 +37,13 @@
 			>Discord</a
 		>
 		<div class="div6" />
+		<div class="div7">{global.AKISBLACK}:</div>
+		<a class="div8 matrixcolored" href={global.AKISBLACK_MATRIX_URL}
+			>[Matrix]</a
+		>
+		<a class="div9 discordcolored" href={global.AKISBLACK_DISCORD_URL}
+			>Discord</a
+		>
 		<div class="div10">{global.DEVNOL}:</div>
 		<a class="div11 matrixcolored" href={global.DEVNOL_MATRIX_URL}
 			>[Matrix]</a
