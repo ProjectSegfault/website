@@ -1,0 +1,24 @@
+[
+	{
+		"name": "Midou",
+        "matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
+        "position": "System administrator"
+	},
+	{
+		"name": "MrLeRien",
+        "discord": "https://discord.com/users/213634643327582208/",
+        "position": "Hoster"
+	},
+    {
+		"name": "akisblack",
+        "matrix": "https://matrix.to/#/@akis:projectsegfau.lt/",
+        "discord": "https://discord.com/users/845535118285602866/",
+        "position": "Web developer"
+	},
+    {
+		"name": "Devnol",
+        "matrix": "https://matrix.to/#/@devnol:projectsegfau.lt/",
+        "discord": "https://discord.com/users/429353559566319626/",
+        "position": "Hoster"
+	}
+]
