@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-85842662.js",
+    "file": "start-b2c6b326.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-40c678be.js"
+      "_index-c1be76c7.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -22,163 +22,163 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-7755099f.js",
+    "file": "pages/__layout.svelte-d18af87b.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_github-2f9d156e.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_github-ca651c8e.js",
+      "_SvelteSeo-c98ffe8a.js"
     ],
     "css": [
       "assets/pages/__layout.svelte-faa78c17.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-572f5815.js",
+    "file": "error.svelte-4575f203.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js"
+      "_index-c1be76c7.js"
     ]
   },
   "src/routes/contact.md": {
-    "file": "pages/contact.md-57ed8cd7.js",
+    "file": "pages/contact.md-a6879996.js",
     "src": "src/routes/contact.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_MDsvexLayout-fa030e86.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_MDsvexLayout-661164f8.js",
+      "_SvelteSeo-c98ffe8a.js"
     ]
   },
   "src/routes/donate.md": {
-    "file": "pages/donate.md-1168ca95.js",
+    "file": "pages/donate.md-2834b89d.js",
     "src": "src/routes/donate.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_MDsvexLayout-fa030e86.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_MDsvexLayout-661164f8.js",
+      "_SvelteSeo-c98ffe8a.js"
     ],
     "css": [
       "assets/pages/donate.md-44bfd90e.css"
     ]
   },
   "src/routes/faq.md": {
-    "file": "pages/faq.md-ad28fbf2.js",
+    "file": "pages/faq.md-c8573b8e.js",
     "src": "src/routes/faq.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_MDsvexLayout-fa030e86.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_MDsvexLayout-661164f8.js",
+      "_SvelteSeo-c98ffe8a.js"
     ]
   },
   "src/routes/index.md": {
-    "file": "pages/index.md-1f38d9c8.js",
+    "file": "pages/index.md-a29bddb0.js",
     "src": "src/routes/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_MDsvexLayout-fa030e86.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_MDsvexLayout-661164f8.js",
+      "_SvelteSeo-c98ffe8a.js"
     ]
   },
   "src/routes/legal/index.md": {
-    "file": "pages/legal/index.md-6bd13043.js",
+    "file": "pages/legal/index.md-fabd3234.js",
     "src": "src/routes/legal/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_MDsvexLayout-fa030e86.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_MDsvexLayout-661164f8.js",
+      "_SvelteSeo-c98ffe8a.js"
     ]
   },
   "src/routes/legal/privacy-policy.md": {
-    "file": "pages/legal/privacy-policy.md-72513028.js",
+    "file": "pages/legal/privacy-policy.md-b7333d97.js",
     "src": "src/routes/legal/privacy-policy.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_MDsvexLayout-fa030e86.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_MDsvexLayout-661164f8.js",
+      "_SvelteSeo-c98ffe8a.js"
     ]
   },
   "src/routes/legal/tos.md": {
-    "file": "pages/legal/tos.md-0990d77b.js",
+    "file": "pages/legal/tos.md-baf7456b.js",
     "src": "src/routes/legal/tos.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_MDsvexLayout-fa030e86.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_MDsvexLayout-661164f8.js",
+      "_SvelteSeo-c98ffe8a.js"
     ]
   },
   "src/routes/members.svelte": {
-    "file": "pages/members.svelte-aae6a4e1.js",
+    "file": "pages/members.svelte-2eff8b21.js",
     "src": "src/routes/members.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_github-2f9d156e.js"
+      "_index-c1be76c7.js",
+      "_github-ca651c8e.js"
     ],
     "css": [
       "assets/pages/members.svelte-b631445e.css"
     ]
   },
   "src/routes/minecraft/client-side-mods.md": {
-    "file": "pages/minecraft/client-side-mods.md-e97ff471.js",
+    "file": "pages/minecraft/client-side-mods.md-8fd1032f.js",
     "src": "src/routes/minecraft/client-side-mods.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_MDsvexLayout-fa030e86.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_MDsvexLayout-661164f8.js",
+      "_SvelteSeo-c98ffe8a.js"
     ]
   },
   "src/routes/minecraft/index.md": {
-    "file": "pages/minecraft/index.md-e74e410b.js",
+    "file": "pages/minecraft/index.md-753ac251.js",
     "src": "src/routes/minecraft/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-40c678be.js",
-      "_MDsvexLayout-fa030e86.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_MDsvexLayout-661164f8.js",
+      "_SvelteSeo-c98ffe8a.js"
     ]
   },
-  "_index-40c678be.js": {
-    "file": "chunks/index-40c678be.js"
+  "_index-c1be76c7.js": {
+    "file": "chunks/index-c1be76c7.js"
   },
-  "_SvelteSeo-584c9cc9.js": {
-    "file": "chunks/SvelteSeo-584c9cc9.js",
+  "_SvelteSeo-c98ffe8a.js": {
+    "file": "chunks/SvelteSeo-c98ffe8a.js",
     "imports": [
-      "_index-40c678be.js"
+      "_index-c1be76c7.js"
     ]
   },
-  "_github-2f9d156e.js": {
-    "file": "chunks/github-2f9d156e.js",
+  "_github-ca651c8e.js": {
+    "file": "chunks/github-ca651c8e.js",
     "imports": [
-      "_index-40c678be.js"
+      "_index-c1be76c7.js"
     ]
   },
-  "_MDsvexLayout-fa030e86.js": {
-    "file": "chunks/MDsvexLayout-fa030e86.js",
+  "_MDsvexLayout-661164f8.js": {
+    "file": "chunks/MDsvexLayout-661164f8.js",
     "imports": [
-      "_index-40c678be.js",
-      "_SvelteSeo-584c9cc9.js"
+      "_index-c1be76c7.js",
+      "_SvelteSeo-c98ffe8a.js"
     ]
   }
 }
