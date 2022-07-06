@@ -52,5 +52,12 @@
 		"position": "Backup host",
 		"description": "I am Stephenvk and I host a server that takes our backups.",
         "website": "https://stephenvk.xyz"
+	},
+	{
+		"name": "Segfault",
+		"position": "Support for cats",
+		"description": "meow meow meow mrrp",
+		"email": "mailto:cat-support@projectsegfau.lt",
+		"picture": "https://projectsegfau.lt:8448/_matrix/media/r0/download/projectsegfau.lt/tRNGfetEFQhDchqzhfBbxtUi"
 	}
 ]

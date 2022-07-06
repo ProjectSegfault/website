@@ -5,6 +5,8 @@
 	import IconGitHub from "~icons/simple-icons/github";
 
 	import IconGlobe from "~icons/fa6-solid/globe";
+	import IconEmail from "~icons/fa6-solid/envelope";
+	import IconCamera from "~icons/fa6-solid/camera";
 </script>
 
 <svelte:head>
@@ -16,7 +18,7 @@
 	<h1>Members</h1>
 	<p>Our excellent members!</p>
 	<div class="member-outer">
-		{#each members as { name, discord, matrix, position, description, github, website }}
+		{#each members as { name, discord, matrix, position, description, github, website, email, picture }}
 			<div class="member-inner">
 				
 				<div class="main">
@@ -46,6 +48,14 @@
 
 					{#if website}
 						<a href={website} class="web"><IconGlobe /></a>
+					{/if}
+
+					{#if email}
+						<a href={email} class="email"><IconEmail /></a>
+					{/if}
+
+					{#if picture}
+						<a href={picture} class="picture"><IconCamera /></a>
 					{/if}
 				</div>
 			</div>
@@ -110,7 +120,7 @@
 		height: 23px;
 	}
 
-	.web {
+	.web, .email, .picture {
 		background-color: var(--tertiary);
 		color: #fff !important;
 		font-size: 20px;
