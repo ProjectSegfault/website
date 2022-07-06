@@ -3,8 +3,6 @@
 	import IconMatrix from "~icons/simple-icons/matrix";
 	import IconGitHub from "~icons/simple-icons/github";
 	import IconSignal from "~icons/fa6-solid/signal";
-	import * as global from "../i18n/_global.json";
-	import { t } from "$lib/translations";
 	import { page } from "$app/stores";
 </script>
 
@@ -22,19 +20,19 @@
 	{/if}
 	<hr />
 	<div class="content">
-		<span>{$t("common.FOOTER_COPYRIGHT")}</span>
+		<span>© 2021 - present, Project Segfault</span>
 
 		<div class="links">
-			<a href={global.MATRIX_INVITE}>
+			<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
 				<IconMatrix />
 			</a>
-			<a href={global.DISCORD_INVITE}>
+			<a href="https://discord.gg/26EG7fFtfS/">
 				<IconDiscord />
 			</a>
-			<a href={global.GITHUB}>
+			<a href="https://github.com/ProjectSegfault/">
 				<IconGitHub />
 			</a>
-			<a href={global.STATUS}>
+			<a href="https://status.projectsegfau.lt/">
 				<IconSignal />
 			</a>
 		</div>
@@ -71,6 +69,8 @@
 
 	.links a {
 		text-decoration: none;
+		display: flex;
+		align-items: center;
 	}
 
 	@media only screen and (max-width: 500px) {

@@ -1,27 +1,25 @@
-<script>
-	import * as global from "../i18n/_global.json";
-	import { t } from "$lib/translations";
-</script>
-
 <nav>
 	<a class="brand" href="/">
-		<img src="/logo.png" alt="{global.NAME} logo" />
+		<img src="/logo.png" alt="Project Segfault logo" />
 		<span
 			style="color: var(--accent-secondary); margin-left: 4px; margin-right: 4px;"
-			>{global.PROJECT}</span
+			>Project</span
 		>
 		<span style="color: var(--accent-primary); margin-right: 8px;"
-			>{global.SEGFAULT}</span
+			>Segfault</span
 		>
 	</a>
 
 	<div class="links">
-		<a href={global.INSTANCES}>{$t("common.NAVBAR_INSTANCES")}</a>
-		<a href="/minecraft">{global.MINECRAFT}</a>
-		<a href="/donate">{$t("common.NAVBAR_DONATE")}</a>
-		<a href="/faq">{$t("common.NAVBAR_FAQ")}</a>
-		<a href="/contact">{$t("common.NAVBAR_CONTACT")}</a>
-		<a href={global.BLOG_URL}>{$t("common.NAVBAR_BLOG")}</a>
+		<a href="https://instances.projectsegfau.lt/">Instances & Gameservers</a
+		>
+		<a href="/minecraft">Minecraft</a>
+		<a href="/donate">Donate</a>
+		<a href="/faq">FAQ</a>
+		<a href="/contact">Contact</a>
+		<a href="/members">Members</a>
+		<a href="https://blog.projectsegfau.lt/">Blog</a>
+		<a href="/legal">Legal</a>
 	</div>
 </nav>
 
@@ -81,6 +79,7 @@
 		nav {
 			flex-direction: column;
 			align-items: flex-start;
+			line-height: normal;
 		}
 
 		div.links {

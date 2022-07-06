@@ -2,10 +2,10 @@
 	"name": "project-segfault-website",
 	"version": "2.0.0",
 	"scripts": {
-		"dev": "svelte-kit dev --host",
-		"build": "svelte-kit build",
+		"dev": "vite",
+		"build": "vite build",
 		"package": "svelte-kit package",
-		"preview": "svelte-kit preview",
+		"preview": "vite preview",
 		"prepare": "svelte-kit sync",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
@@ -17,16 +17,17 @@
 		"@iconify-json/simple-icons": "^1.1.15",
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
+		"mdsvex": "^0.10.6",
 		"prettier": "^2.7.1",
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.48.0",
 		"svelte-check": "^2.7.2",
 		"svelte-preprocess": "^4.10.7",
 		"svelte-seo": "^1.4.1",
-		"sveltekit-i18n": "^2.2.2",
 		"tslib": "^2.4.0",
 		"typescript": "^4.7.4",
-		"unplugin-icons": "^0.14.5"
+		"unplugin-icons": "^0.14.5",
+		"vite": "^2.9.13"
 	},
 	"type": "module"
 }
