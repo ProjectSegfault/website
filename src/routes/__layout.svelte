@@ -24,6 +24,10 @@
 	}}
 />
 
+<svelte:head>
+	<script defer data-domain="projectsegfau.lt" src="https://analytics.projectsegfau.lt/js/plausible.js"></script>
+</svelte:head>
+
 <Nav />
 
 <main>
