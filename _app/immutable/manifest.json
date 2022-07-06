@@ -1,167 +1,184 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-55230fa9.js",
+    "file": "start-dc47c509.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-f608a49f.js",
-      "_preload-helper-033892ea.js"
+      "_index-40c678be.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
-      "src/routes/contact.svelte",
-      "src/routes/donate.svelte",
-      "src/routes/faq.svelte",
-      "src/routes/index.svelte",
-      "src/routes/minecraft/client-side-mods.svelte",
-      "src/routes/minecraft/index.svelte"
+      "src/routes/contact.md",
+      "src/routes/donate.md",
+      "src/routes/faq.md",
+      "src/routes/index.md",
+      "src/routes/legal/index.md",
+      "src/routes/legal/privacy-policy.md",
+      "src/routes/legal/tos.md",
+      "src/routes/members.svelte",
+      "src/routes/minecraft/client-side-mods.md",
+      "src/routes/minecraft/index.md"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-66ff5e02.js",
+    "file": "pages/__layout.svelte-7755099f.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f608a49f.js",
-      "__global-8fa99ca5.js",
-      "_SvelteSeo-9d60f1b6.js",
-      "_preload-helper-033892ea.js"
+      "_index-40c678be.js",
+      "_github-2f9d156e.js",
+      "_SvelteSeo-584c9cc9.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-6808ff4c.css"
-    ],
-    "assets": [
-      "assets/ProjectSegfault_Desktop_16-9-cc97e55c.png"
+      "assets/pages/__layout.svelte-faa78c17.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-c70d31ed.js",
+    "file": "error.svelte-572f5815.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f608a49f.js"
+      "_index-40c678be.js"
     ]
   },
-  "src/routes/contact.svelte": {
-    "file": "pages/contact.svelte-5f481713.js",
-    "src": "src/routes/contact.svelte",
+  "src/routes/contact.md": {
+    "file": "pages/contact.md-bfb0a8cc.js",
+    "src": "src/routes/contact.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f608a49f.js",
-      "__global-8fa99ca5.js",
-      "_SvelteSeo-9d60f1b6.js",
-      "_preload-helper-033892ea.js"
+      "_index-40c678be.js",
+      "_MDsvexLayout-b4917351.js",
+      "_SvelteSeo-584c9cc9.js"
+    ]
+  },
+  "src/routes/donate.md": {
+    "file": "pages/donate.md-8fc4e313.js",
+    "src": "src/routes/donate.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-40c678be.js",
+      "_MDsvexLayout-b4917351.js",
+      "_SvelteSeo-584c9cc9.js"
     ],
     "css": [
-      "assets/pages/contact.svelte-62275539.css"
+      "assets/pages/donate.md-44bfd90e.css"
     ]
   },
-  "src/routes/donate.svelte": {
-    "file": "pages/donate.svelte-c53caffd.js",
-    "src": "src/routes/donate.svelte",
+  "src/routes/faq.md": {
+    "file": "pages/faq.md-4eca013a.js",
+    "src": "src/routes/faq.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f608a49f.js",
-      "__global-8fa99ca5.js",
-      "_SvelteSeo-9d60f1b6.js",
-      "_preload-helper-033892ea.js"
+      "_index-40c678be.js",
+      "_MDsvexLayout-b4917351.js",
+      "_SvelteSeo-584c9cc9.js"
+    ]
+  },
+  "src/routes/index.md": {
+    "file": "pages/index.md-3bc6f96d.js",
+    "src": "src/routes/index.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-40c678be.js",
+      "_MDsvexLayout-b4917351.js",
+      "_SvelteSeo-584c9cc9.js"
+    ]
+  },
+  "src/routes/legal/index.md": {
+    "file": "pages/legal/index.md-b8007a5c.js",
+    "src": "src/routes/legal/index.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-40c678be.js",
+      "_MDsvexLayout-b4917351.js",
+      "_SvelteSeo-584c9cc9.js"
+    ]
+  },
+  "src/routes/legal/privacy-policy.md": {
+    "file": "pages/legal/privacy-policy.md-2d101767.js",
+    "src": "src/routes/legal/privacy-policy.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-40c678be.js",
+      "_MDsvexLayout-b4917351.js",
+      "_SvelteSeo-584c9cc9.js"
+    ]
+  },
+  "src/routes/legal/tos.md": {
+    "file": "pages/legal/tos.md-ac5014ed.js",
+    "src": "src/routes/legal/tos.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-40c678be.js",
+      "_MDsvexLayout-b4917351.js",
+      "_SvelteSeo-584c9cc9.js"
+    ]
+  },
+  "src/routes/members.svelte": {
+    "file": "pages/members.svelte-849c111f.js",
+    "src": "src/routes/members.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-40c678be.js",
+      "_github-2f9d156e.js"
     ],
     "css": [
-      "assets/pages/donate.svelte-13c497e1.css"
+      "assets/pages/members.svelte-b631445e.css"
     ]
   },
-  "src/routes/faq.svelte": {
-    "file": "pages/faq.svelte-b0400f25.js",
-    "src": "src/routes/faq.svelte",
+  "src/routes/minecraft/client-side-mods.md": {
+    "file": "pages/minecraft/client-side-mods.md-c13a8df5.js",
+    "src": "src/routes/minecraft/client-side-mods.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f608a49f.js",
-      "__global-8fa99ca5.js",
-      "_SvelteSeo-9d60f1b6.js",
-      "_preload-helper-033892ea.js"
+      "_index-40c678be.js",
+      "_MDsvexLayout-b4917351.js",
+      "_SvelteSeo-584c9cc9.js"
     ]
   },
-  "src/routes/index.svelte": {
-    "file": "pages/index.svelte-3dcb12c4.js",
-    "src": "src/routes/index.svelte",
+  "src/routes/minecraft/index.md": {
+    "file": "pages/minecraft/index.md-258c0751.js",
+    "src": "src/routes/minecraft/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f608a49f.js",
-      "__global-8fa99ca5.js",
-      "_preload-helper-033892ea.js"
+      "_index-40c678be.js",
+      "_MDsvexLayout-b4917351.js",
+      "_SvelteSeo-584c9cc9.js"
     ]
   },
-  "src/routes/minecraft/client-side-mods.svelte": {
-    "file": "pages/minecraft/client-side-mods.svelte-9a5e5155.js",
-    "src": "src/routes/minecraft/client-side-mods.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
+  "_index-40c678be.js": {
+    "file": "chunks/index-40c678be.js"
+  },
+  "_SvelteSeo-584c9cc9.js": {
+    "file": "chunks/SvelteSeo-584c9cc9.js",
     "imports": [
-      "_index-f608a49f.js",
-      "__global-8fa99ca5.js",
-      "_SvelteSeo-9d60f1b6.js",
-      "_preload-helper-033892ea.js"
+      "_index-40c678be.js"
     ]
   },
-  "src/routes/minecraft/index.svelte": {
-    "file": "pages/minecraft/index.svelte-23616c2b.js",
-    "src": "src/routes/minecraft/index.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
+  "_github-2f9d156e.js": {
+    "file": "chunks/github-2f9d156e.js",
     "imports": [
-      "_index-f608a49f.js",
-      "__global-8fa99ca5.js",
-      "_SvelteSeo-9d60f1b6.js",
-      "_preload-helper-033892ea.js"
+      "_index-40c678be.js"
     ]
   },
-  "_index-f608a49f.js": {
-    "file": "chunks/index-f608a49f.js"
-  },
-  "_preload-helper-033892ea.js": {
-    "file": "chunks/preload-helper-033892ea.js",
+  "_MDsvexLayout-b4917351.js": {
+    "file": "chunks/MDsvexLayout-b4917351.js",
     "imports": [
-      "_index-f608a49f.js"
+      "_index-40c678be.js",
+      "_SvelteSeo-584c9cc9.js"
     ]
-  },
-  "__global-8fa99ca5.js": {
-    "file": "chunks/_global-8fa99ca5.js",
-    "imports": [
-      "_preload-helper-033892ea.js",
-      "_index-f608a49f.js"
-    ],
-    "dynamicImports": [
-      "src/i18n/common.json",
-      "src/i18n/nb.json",
-      "src/i18n/fr.json"
-    ]
-  },
-  "_SvelteSeo-9d60f1b6.js": {
-    "file": "chunks/SvelteSeo-9d60f1b6.js",
-    "imports": [
-      "_index-f608a49f.js"
-    ]
-  },
-  "src/i18n/common.json": {
-    "file": "chunks/common-0f08e430.js",
-    "src": "src/i18n/common.json",
-    "isDynamicEntry": true
-  },
-  "src/i18n/nb.json": {
-    "file": "chunks/nb-28c93d4f.js",
-    "src": "src/i18n/nb.json",
-    "isDynamicEntry": true
-  },
-  "src/i18n/fr.json": {
-    "file": "chunks/fr-af844bfa.js",
-    "src": "src/i18n/fr.json",
-    "isDynamicEntry": true
   }
 }
