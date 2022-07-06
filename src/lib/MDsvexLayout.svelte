@@ -30,6 +30,7 @@
 
 <svelte:head>
 	<title>{title} {separator} Project Segfault</title>
+	<script defer data-domain="projectsegfau.lt" src="https://analytics.projectsegfau.lt/js/plausible.js"></script>
 </svelte:head>
 
 <div class="mdsvex_content">
