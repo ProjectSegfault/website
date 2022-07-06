@@ -14,6 +14,7 @@
 
 <div class="members">
 	<h1>Members</h1>
+	<h2>Our excellent members!</h2>
 	<div class="member-outer">
 		{#each members as { name, discord, matrix, position, description, github, website }}
 			<div class="member-inner">
