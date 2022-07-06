@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-071093af.js",
+    "file": "start-85842662.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -45,24 +45,24 @@
     ]
   },
   "src/routes/contact.md": {
-    "file": "pages/contact.md-bfb0a8cc.js",
+    "file": "pages/contact.md-57ed8cd7.js",
     "src": "src/routes/contact.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-40c678be.js",
-      "_MDsvexLayout-b4917351.js",
+      "_MDsvexLayout-fa030e86.js",
       "_SvelteSeo-584c9cc9.js"
     ]
   },
   "src/routes/donate.md": {
-    "file": "pages/donate.md-8fc4e313.js",
+    "file": "pages/donate.md-1168ca95.js",
     "src": "src/routes/donate.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-40c678be.js",
-      "_MDsvexLayout-b4917351.js",
+      "_MDsvexLayout-fa030e86.js",
       "_SvelteSeo-584c9cc9.js"
     ],
     "css": [
@@ -70,57 +70,57 @@
     ]
   },
   "src/routes/faq.md": {
-    "file": "pages/faq.md-4eca013a.js",
+    "file": "pages/faq.md-ad28fbf2.js",
     "src": "src/routes/faq.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-40c678be.js",
-      "_MDsvexLayout-b4917351.js",
+      "_MDsvexLayout-fa030e86.js",
       "_SvelteSeo-584c9cc9.js"
     ]
   },
   "src/routes/index.md": {
-    "file": "pages/index.md-3bc6f96d.js",
+    "file": "pages/index.md-1f38d9c8.js",
     "src": "src/routes/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-40c678be.js",
-      "_MDsvexLayout-b4917351.js",
+      "_MDsvexLayout-fa030e86.js",
       "_SvelteSeo-584c9cc9.js"
     ]
   },
   "src/routes/legal/index.md": {
-    "file": "pages/legal/index.md-b8007a5c.js",
+    "file": "pages/legal/index.md-6bd13043.js",
     "src": "src/routes/legal/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-40c678be.js",
-      "_MDsvexLayout-b4917351.js",
+      "_MDsvexLayout-fa030e86.js",
       "_SvelteSeo-584c9cc9.js"
     ]
   },
   "src/routes/legal/privacy-policy.md": {
-    "file": "pages/legal/privacy-policy.md-2d101767.js",
+    "file": "pages/legal/privacy-policy.md-72513028.js",
     "src": "src/routes/legal/privacy-policy.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-40c678be.js",
-      "_MDsvexLayout-b4917351.js",
+      "_MDsvexLayout-fa030e86.js",
       "_SvelteSeo-584c9cc9.js"
     ]
   },
   "src/routes/legal/tos.md": {
-    "file": "pages/legal/tos.md-ac5014ed.js",
+    "file": "pages/legal/tos.md-0990d77b.js",
     "src": "src/routes/legal/tos.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-40c678be.js",
-      "_MDsvexLayout-b4917351.js",
+      "_MDsvexLayout-fa030e86.js",
       "_SvelteSeo-584c9cc9.js"
     ]
   },
@@ -138,24 +138,24 @@
     ]
   },
   "src/routes/minecraft/client-side-mods.md": {
-    "file": "pages/minecraft/client-side-mods.md-c13a8df5.js",
+    "file": "pages/minecraft/client-side-mods.md-e97ff471.js",
     "src": "src/routes/minecraft/client-side-mods.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-40c678be.js",
-      "_MDsvexLayout-b4917351.js",
+      "_MDsvexLayout-fa030e86.js",
       "_SvelteSeo-584c9cc9.js"
     ]
   },
   "src/routes/minecraft/index.md": {
-    "file": "pages/minecraft/index.md-258c0751.js",
+    "file": "pages/minecraft/index.md-e74e410b.js",
     "src": "src/routes/minecraft/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-40c678be.js",
-      "_MDsvexLayout-b4917351.js",
+      "_MDsvexLayout-fa030e86.js",
       "_SvelteSeo-584c9cc9.js"
     ]
   },
@@ -174,8 +174,8 @@
       "_index-40c678be.js"
     ]
   },
-  "_MDsvexLayout-b4917351.js": {
-    "file": "chunks/MDsvexLayout-b4917351.js",
+  "_MDsvexLayout-fa030e86.js": {
+    "file": "chunks/MDsvexLayout-fa030e86.js",
     "imports": [
       "_index-40c678be.js",
       "_SvelteSeo-584c9cc9.js"
