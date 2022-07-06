@@ -22,6 +22,12 @@ Some of our services have things like databases and things, for example [Pleroma
 
 If you want the data we've collected on you to be sent, please contact us on Matrix in [this room](https://matrix.to/#/#gdpr:projectsegfau.lt). You don't need an account on our Matrix instance in order to chat there, you can choose from a bunch of public instances or make your own.
 
+### For our website
+While we also have nginx logs, we also have Plausible analytics installed, which means we can just easily see what site you're going on, what country you are from, what platform you are from and a statistic.
+
+It is about the same as nginx logging. We use analytics in order to see how many visitors we get every day, what pages get visited the most, what countries visit our website the most etc. uBlock and other privacy extensions block Plausible by default.
+
+If you would like to see our website's statistics, [look no further](https://analytics.projectsegfau.lt/projectsegfau.lt).
 ## We don't give any of the data we collect to anyone outside of Project Segfault.
 
 What we just described above won't be sold or given to anyone outside of Project Segfault. It could be given to law enforcement IF they have a warrant.
