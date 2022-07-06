@@ -1,6 +1,5 @@
 import adapter from "@sveltejs/adapter-static";
 import preprocess from "svelte-preprocess";
-import icons from "unplugin-icons/vite";
 import { mdsvex } from "mdsvex";
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -20,13 +19,6 @@ const config = {
 	kit: {
 		adapter: adapter(),
 
-		vite: {
-			plugins: [
-				icons({
-					compiler: "svelte"
-				})
-			]
-		},
 		prerender: {
 			default: true
 		}
