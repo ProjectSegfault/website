@@ -14,15 +14,18 @@
 
 <div class="members">
 	<h1>Members</h1>
-	<h2>Our excellent members!</h2>
+	<p>Our excellent members!</p>
 	<div class="member-outer">
 		{#each members as { name, discord, matrix, position, description, github, website }}
 			<div class="member-inner">
-				<span>{name} - {position}</span>
+				
+				<div class="main">
+					<span>{name} - {position}</span>
 
-				{#if description}
-					<p class="description">{description}</p>
-				{/if}
+					{#if description}
+						<p class="description">{description}</p>
+					{/if}
+				</div>
 
 				<div class="socials">
 					{#if matrix}
@@ -63,6 +66,12 @@
 		border-radius: 10px;
 		padding: 1rem;
 		width: 30em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.main {
+		flex: 1;
 	}
 
 	span {
