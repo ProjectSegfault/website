@@ -2,23 +2,34 @@
 	{
 		"name": "Midou",
         "matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
-        "position": "System administrator"
+        "position": "System administrator",
+        "description": "Fill out your fucking description",
+        "github": "https://github.com/Midou36O",
+        "website": "https://miicord.com"
 	},
 	{
 		"name": "MrLeRien",
         "discord": "https://discord.com/users/213634643327582208/",
-        "position": "Hoster"
+        "position": "Hoster",
+        "description": "Fill out your fucking description",
+        "github": "https://github.com/MrLeRien"
 	},
     {
 		"name": "akisblack",
         "matrix": "https://matrix.to/#/@akis:projectsegfau.lt/",
         "discord": "https://discord.com/users/845535118285602866/",
-        "position": "Web developer"
+        "position": "Web developer",
+        "description": "Fill out your fucking description",
+        "github": "https://github.com/akisblack",
+        "website": "https://akisblack.github.io"
 	},
     {
 		"name": "Devnol",
         "matrix": "https://matrix.to/#/@devnol:projectsegfau.lt/",
         "discord": "https://discord.com/users/429353559566319626/",
-        "position": "Hoster"
+        "position": "Hoster",
+        "description": "I am the asshole",
+        "github": "https://github.com/Devnol",
+        "website": "https://devnol.github.io"
 	}
 ]
