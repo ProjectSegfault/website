@@ -1,4 +1,4 @@
-import { sveltekit } from '@sveltejs/kit/vite';
+import { sveltekit } from "@sveltejs/kit/vite";
 import icons from "unplugin-icons/vite";
 
 /** @type {import('vite').UserConfig} */

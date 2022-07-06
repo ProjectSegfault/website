@@ -7,7 +7,7 @@ description: Recommended client side mods for use when playing on our server.
 
 { description }
 
-*[Click me to go back to the Minecraft page](/minecraft)*
+_[Click me to go back to the Minecraft page](/minecraft)_
 
 ## How are these mods picked?
 
@@ -19,7 +19,7 @@ These plugins only support Minecraft Java edition and most only work on the Fabr
 
 ## The list
 
-- [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/)
-- [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/)
-- [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/)
-- Any optimization mod (we recommend at least Sodium, but you can find more on [Modrinth](https://modrinth.com/).)
+-   [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/)
+-   [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/)
+-   [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/)
+-   Any optimization mod (we recommend at least Sodium, but you can find more on [Modrinth](https://modrinth.com/).)

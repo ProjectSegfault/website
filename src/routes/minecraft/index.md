@@ -5,7 +5,7 @@ description: Information about our Minecraft server.
 
 # { title }
 
-We have an invite-only SMP server running on our network on version 1.18* (1.18, 1.18.1, 1.18.2) which is also bridged to Bedrock using GeyserMC.
+We have an invite-only SMP server running on our network on version 1.18\* (1.18, 1.18.1, 1.18.2) which is also bridged to Bedrock using GeyserMC.
 
 ## How do I join?
 
@@ -24,7 +24,7 @@ If you would like to join, please join our Matrix space or Discord server and as
 
 **Bedrock**: `mc.projectsegfau.lt:19132`
 
-*Psst, you can join bedrock on your Switch using the app we’ve linked below!*
+_Psst, you can join bedrock on your Switch using the app we’ve linked below!_
 
 ## Links
 
@@ -42,18 +42,18 @@ If you would like to join, please join our Matrix space or Discord server and as
 
 A list of plugins we use on our server via PaperMC.
 
-*This is a manually made list of our plugins, so it might not reflect the plugins currently on the server.*
+_This is a manually made list of our plugins, so it might not reflect the plugins currently on the server._
 
-- BlockLocker
-- CoreProtect
-- [Dynmap](https://map.mc.projectsegfau.lt/)
-- EssentialsX (EssentialsXDiscord, EssentialsXGeoIP)
-- Geyser & Floodgate
-- LuckPerms
-- mcMMO ([Click here to download our build of mcMMO.](https://dl.odyssey346.dev/Software/mcMMO.jar))
-- TabTPS
-- Vault
-- ViaVersion (You may only connect from a base version and its subversions (1.18, 1.18.1, 1.18.2). You cannot connect from a major version older or newer than the major version the server is running.)
-- PlugMan
-- CombatLogX
-- Simple Voice Chat
+-   BlockLocker
+-   CoreProtect
+-   [Dynmap](https://map.mc.projectsegfau.lt/)
+-   EssentialsX (EssentialsXDiscord, EssentialsXGeoIP)
+-   Geyser & Floodgate
+-   LuckPerms
+-   mcMMO ([Click here to download our build of mcMMO.](https://dl.odyssey346.dev/Software/mcMMO.jar))
+-   TabTPS
+-   Vault
+-   ViaVersion (You may only connect from a base version and its subversions (1.18, 1.18.1, 1.18.2). You cannot connect from a major version older or newer than the major version the server is running.)
+-   PlugMan
+-   CombatLogX
+-   Simple Voice Chat

@@ -11,11 +11,13 @@
 	</a>
 
 	<div class="links">
-		<a href="https://instances.projectsegfau.lt/">Instances & Gameservers</a>
+		<a href="https://instances.projectsegfau.lt/">Instances & Gameservers</a
+		>
 		<a href="/minecraft">Minecraft</a>
 		<a href="/donate">Donate</a>
 		<a href="/faq">FAQ</a>
 		<a href="/contact">Contact</a>
+		<a href="/members">Members</a>
 		<a href="https://blog.projectsegfau.lt/">Blog</a>
 		<a href="/legal">Legal</a>
 	</div>
@@ -77,6 +79,7 @@
 		nav {
 			flex-direction: column;
 			align-items: flex-start;
+			line-height: normal;
 		}
 
 		div.links {

@@ -11,7 +11,7 @@ description: Do you want to contact us?
 
 [contact@projectsegfau.lt](mailto:contact@projectsegfau.lt)
 
-*Please be aware that Microsoft often blocks non-popular emails, if you do contact us through there, make sure to check your spam and mark it as not-spam!*
+_Please be aware that Microsoft often blocks non-popular emails, if you do contact us through there, make sure to check your spam and mark it as not-spam!_
 
 ## People
 

@@ -69,6 +69,8 @@
 
 	.links a {
 		text-decoration: none;
+		display: flex;
+		align-items: center;
 	}
 
 	@media only screen and (max-width: 500px) {
