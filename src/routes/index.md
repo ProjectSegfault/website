@@ -9,7 +9,7 @@ description: 7 idiots, a Sun server and a Hitachi Compute Rack.
 
 ## What is this?
 
-We are 4 teenagers who have a decently powerful server. What do we do with this server? Host game servers and random assortment of privacy respecting tools like Invidious, Nextcloud, Matrix etc.... and maybe some original works. You'll see eventually!
+We are 7 teenagers who have a decently powerful server. What do we do with this server? Host game servers and random assortment of privacy respecting tools like Invidious, Nextcloud, Matrix etc.... and maybe some original works. You'll see eventually!
 
 ## Tell me more! What do you guys host? Where can I contact you? Can you fix my daughter's iPad?
 
