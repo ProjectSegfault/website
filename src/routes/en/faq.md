@@ -3,11 +3,15 @@ title: Frequently Asked Questions
 description: Frequently Asked Questions
 ---
 
+<script>
+    import { locale } from "../../store";  
+</script>
+
 # { title }
 
 ## Who is the project owner?
 
-The project doesn't have a single owner but is made up of a team of people. A list of the people involved and their positions can be found [on our members page](/members).
+The project doesn't have a single owner but is made up of a team of people. A list of the people involved and their positions can be found [on our members page](/{$locale}/members).
 
 ## One of your services contains toxic people!
 
@@ -19,4 +23,4 @@ Well, you really can't. We don't make our logs or anything else public, however,
 
 ## Which ways do you prefer to communicate?
 
-Look at [Contact](/contact).
+Look at [Contact](/{$locale}/contact).

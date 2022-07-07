@@ -1,3 +1,7 @@
+<script>
+	import { locale } from "../store"; 
+</script>
+
 <nav>
 	<a class="brand" href="/">
 		<img src="/logo.png" alt="Project Segfault logo" />
@@ -13,13 +17,13 @@
 	<div class="links">
 		<a href="https://instances.projectsegfau.lt/">Instances & Gameservers</a
 		>
-		<a href="/minecraft">Minecraft</a>
-		<a href="/donate">Donate</a>
-		<a href="/faq">FAQ</a>
-		<a href="/contact">Contact</a>
-		<a href="/members">Members</a>
+		<a href="/{$locale}/minecraft">Minecraft</a>
+		<a href="/{$locale}/donate">Donate</a>
+		<a href="/{$locale}/faq">FAQ</a>
+		<a href="/{$locale}/contact">Contact</a>
+		<a href="/{$locale}/members">Members</a>
 		<a href="https://blog.projectsegfau.lt/">Blog</a>
-		<a href="/legal">Legal</a>
+		<a href="/{$locale}/legal">Legal</a>
 	</div>
 </nav>
 

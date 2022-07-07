@@ -3,6 +3,10 @@ title: Minecraft
 description: Information about our Minecraft server.
 ---
 
+<script>
+    import { locale } from "../../../store";  
+</script>
+
 # { title }
 
 We have an invite-only SMP server running on our network on version 1.18\* (1.18, 1.18.1, 1.18.2) which is also bridged to Bedrock using GeyserMC.
@@ -36,7 +40,7 @@ _Psst, you can join bedrock on your Switch using the app we’ve linked below!_
 
 ## Recommended Client Side Mods
 
-[Click me for a list of recommended client side mods.](/minecraft/client-side-mods/)
+[Click me for a list of recommended client side mods.](/{$locale}/minecraft/client-side-mods/)
 
 ## Plugin List
 

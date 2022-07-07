@@ -3,11 +3,15 @@ title: Recommended Client Side Mods
 description: Recommended client side mods for use when playing on our server.
 ---
 
+<script>
+    import { locale } from "../../../store";  
+</script>
+
 # { title }
 
 { description }
 
-_[Click me to go back to the Minecraft page](/minecraft)_
+_[Click me to go back to the Minecraft page](/{$locale}/minecraft)_
 
 ## How are these mods picked?
 
