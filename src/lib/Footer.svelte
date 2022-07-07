@@ -11,6 +11,7 @@
 		<a
 			href="https://www.abuseipdb.com/user/82331"
 			title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks"
+			style="width: fit-content;"
 		>
 			<img
 				src="https://www.abuseipdb.com/contributor/82331.svg"

@@ -7,12 +7,12 @@
 
 <SvelteSeo
 	title="Project Segfault"
-	description="4 idiots, a Sun server and a Hitachi Compute Rack."
+	description="7 idiots, a Sun server and a Hitachi Compute Rack."
 	canonical="https://projectsegfau.lt/"
 	openGraph={{
 		url: "https://projectsegfau.lt/",
 		title: "Project Segfault",
-		description: "4 idiots, a Sun server and a Hitachi Compute Rack.",
+		description: "7 idiots, a Sun server and a Hitachi Compute Rack.",
 		images: [
 			{
 				url: "/ProjectSegfault_Desktop_16-9.png",

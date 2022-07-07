@@ -1,6 +1,6 @@
 ---
 title: Home
-description: 4 idiots, a Sun server and a Hitachi Compute Rack.
+description: 7 idiots, a Sun server and a Hitachi Compute Rack.
 ---
 
 # Project Segfault
