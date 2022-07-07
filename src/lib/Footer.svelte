@@ -4,10 +4,11 @@
 	import IconGitHub from "~icons/simple-icons/github";
 	import IconSignal from "~icons/fa6-solid/signal";
 	import { page } from "$app/stores";
+	import { locale } from "../store";
 </script>
 
 <footer>
-	{#if $page.url.pathname === "/"}
+	{#if $page.url.pathname = "/{$locale}"}
 		<a
 			href="https://www.abuseipdb.com/user/82331"
 			title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks"
