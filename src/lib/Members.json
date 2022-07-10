@@ -42,9 +42,10 @@
 	},
     {
 		"name": "openssl_rand",
-        "matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
+        	"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
 		"position": "System administrator",
-		"description": "\"I am openssl_rand, a system administrator of the project Segfau.lt.\" - GitHub Copilot"
+		"description": "\"I am openssl_rand, a system administrator of the project Segfau.lt.\" - GitHub Copilot",
+		"email": "mailto:openssl_rand@projectsegfau.lt"
 	},
 	{
 		"name": "stephenvk",
