@@ -9,8 +9,7 @@ We take your privacy more seriously than FAANG.
 
 ## We don't collect more information than we need to.
 
-We have disabled request logging. This means that, for example, what website you visited and what path you visited (like https://libreddit.projectsegfau.lt/r/cats) will not appear.
-
+We have disabled request logging. This is because it is extremely identifiable. This means that, for example, what website you visited and what path you visited (like https://libreddit.projectsegfau.lt/r/cats), your IP address, your User-Agent will not be logged by us!
 
 Some of our services have things like databases and things, for example [Matrix](https://chat.projectsegfau.lt), but that should be pretty obvious the moment you make an account on there. They may collect some things, however we barely even access those databases so you should be fine.
 
@@ -34,4 +33,4 @@ As we said, you can request any GDPR/Privacy things in [this Matrix room](https:
 
 We hope you can understand our privacy policy.
 
-*Last updated 10.07.2022 18:21 UTC+1*
+*Last updated 10.07.2022 18:29 UTC+1*
