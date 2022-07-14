@@ -9,6 +9,7 @@
 	title="Project Segfault"
 	description="7 idiots, a Sun server and a Hitachi Compute Rack."
 	canonical="https://projectsegfau.lt/"
+	keywords="projectsegfault, project segfault, privacy services, privacy instances, invidious, nitter, searxng, minecraft"
 	openGraph={{
 		url: "https://projectsegfau.lt/",
 		title: "Project Segfault",
