@@ -9,7 +9,7 @@ We have an invite-only SMP server running on our network on version 1.18\* (1.18
 
 ## How do I join?
 
-If you would like to join, please join our Matrix space or Discord server and ask a project member to whitelist your account. The links to either the Matrix or the Discord can be found on the footer of the page.
+If you would like to join, please join our Matrix space or and ask a project member to whitelist your account. The link to the Matrix space can be found on the footer of the page.
 
 ## Rules
 
@@ -24,7 +24,7 @@ If you would like to join, please join our Matrix space or Discord server and as
 
 **Bedrock**: `mc.projectsegfau.lt:19132`
 
-_Psst, you can join bedrock on your Switch using the app we’ve linked below!_
+_Psst, you can join the Bedrock edition server on your Switch using the app we’ve linked below!_
 
 ## Links
 
@@ -36,7 +36,7 @@ _Psst, you can join bedrock on your Switch using the app we’ve linked below!_
 
 ## Recommended Client Side Mods
 
-[Click me for a list of recommended client side mods.](/minecraft/client-side-mods/)
+[Click me for a list of recommended client side mods.](/minecraft/client-side-mods)
 
 ## Plugin List
 
@@ -47,7 +47,7 @@ _This is a manually made list of our plugins, so it might not reflect the plugin
 -   BlockLocker
 -   CoreProtect
 -   [Dynmap](https://map.mc.projectsegfau.lt/)
--   EssentialsX (EssentialsXDiscord, EssentialsXGeoIP)
+-   EssentialsX (EssentialsX Geo)
 -   Geyser & Floodgate
 -   LuckPerms
 -   mcMMO ([Click here to download our build of mcMMO.](https://dl.odyssey346.dev/Software/mcMMO.jar))
