@@ -27,9 +27,6 @@
 			<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
 				<IconMatrix />
 			</a>
-			<a href="https://discord.gg/26EG7fFtfS/">
-				<IconDiscord />
-			</a>
 			<a href="https://github.com/ProjectSegfault/">
 				<IconGitHub />
 			</a>

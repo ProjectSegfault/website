@@ -8,6 +8,6 @@ pkgs.mkShell {
     shellHook = ''
         echo "Installing dependencies using npm, please wait."
         npm i
-        echo "Done! You may now run npm run dev to test your changes."
+        echo "You can now "run npm run dev" to start a dev server."
     '';
 }
