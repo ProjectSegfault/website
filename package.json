@@ -13,20 +13,20 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@iconify-json/fa6-solid": "^1.1.4",
-		"@iconify-json/simple-icons": "^1.1.15",
+		"@iconify-json/fa6-solid": "^1.1.5",
+		"@iconify-json/simple-icons": "^1.1.19",
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"mdsvex": "^0.10.6",
 		"prettier": "^2.7.1",
 		"prettier-plugin-svelte": "^2.7.0",
-		"svelte": "^3.48.0",
-		"svelte-check": "^2.7.2",
+		"svelte": "^3.49.0",
+		"svelte-check": "^2.8.0",
 		"svelte-preprocess": "^4.10.7",
 		"svelte-seo": "^1.4.1",
 		"tslib": "^2.4.0",
 		"typescript": "^4.7.4",
-		"unplugin-icons": "^0.14.5",
+		"unplugin-icons": "^0.14.7",
 		"vite": "^3.0.2"
 	},
 	"type": "module"
