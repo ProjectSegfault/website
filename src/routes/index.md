@@ -1,6 +1,6 @@
 ---
 title: Home
-description: 7 idiots, 2 OVH vpses, a BuyVM 1024 Slice and a Hitachi Compute Rack.
+description: 7 idiots, 2 OVH vpses, a BuyVM 1024 Slice, a Sun server and a Hitachi Compute Rack.
 ---
 
 # Project Segfault
