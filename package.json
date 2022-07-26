@@ -15,8 +15,8 @@
 	"devDependencies": {
 		"@iconify-json/fa6-solid": "^1.1.5",
 		"@iconify-json/simple-icons": "^1.1.19",
-		"@sveltejs/adapter-static": "next",
-		"@sveltejs/kit": "next",
+		"@sveltejs/adapter-static": "1.0.0-next.38",
+		"@sveltejs/kit": "1.0.0-next.394",
 		"mdsvex": "^0.10.6",
 		"prettier": "^2.7.1",
 		"prettier-plugin-svelte": "^2.7.0",
