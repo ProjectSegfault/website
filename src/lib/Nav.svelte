@@ -1,3 +1,7 @@
+<script>
+		import IconBars from "~icons/fa6-solid/bars";
+</script>
+
 <nav>
 	<a class="brand" href="/">
 		<img src="/logo.png" alt="Project Segfault logo" />
@@ -9,7 +13,14 @@
 			>Segfault</span
 		>
 	</a>
-
+	
+	<input type="checkbox" id="toggle-menu">
+	<label class="menu-icon" for="toggle-menu">
+		<a id="menu-icon">
+			<IconBars />
+		</a>
+	</label>
+	
 	<div class="links">
 		<a href="https://instances.projectsegfau.lt/">Instances & Gameservers</a
 		>
@@ -20,7 +31,10 @@
 		<a href="/members">Members</a>
 		<a href="https://blog.projectsegfau.lt/">Blog</a>
 		<a href="/legal">Legal</a>
-	</div>
+	</div>    
+
+
+	
 </nav>
 
 <style>
@@ -32,12 +46,15 @@
 		align-items: center;
 		justify-content: space-between;
 	}
-
 	a.brand {
 		display: flex;
-		flex-direction: row;
 		align-items: center;
 		text-decoration: none;
+	}
+	
+	.links {
+		display: flex;
+		gap: .5rem;
 	}
 
 	.links > * {
@@ -70,22 +87,60 @@
 		border-radius: 50%;
 	}
 
-	div.links {
-		display: flex;
-		gap: 8px;
+	.menu-icon {
+		cursor: pointer;
+		display: none;
 	}
 
-	@media only screen and (max-width: 820px) {
-		nav {
-			flex-direction: column;
-			align-items: flex-start;
-			line-height: normal;
+	#toggle-menu {
+		display: none;
+	}
+
+	@media screen and (max-width: 1150px) {
+		.links {
+			display: none;
+			width: 100%;
+			background-color: var(--secondary);
+			padding-top: 2rem;
 		}
 
-		div.links {
+		nav {
+			display: flex;
 			flex-direction: column;
-			margin-top: 10px;
-			gap: 19px;
+			align-items: flex-start;
 		}
+
+		.links a {
+			display: block;
+		}
+
+		.menu-icon {
+			display: block;
+			z-index: 1;
+			position: absolute;
+			top: .45rem;
+			right: 1rem;
+			background-color: var(--tertiary);
+			border: none;
+			border-radius: 10px;
+			padding: 1rem;
+			cursor: pointer;
+			line-height: 1;
+		}
+
+		#menu-icon {
+			display: flex;
+			align-items: center;
+			color: var(--text);
+		}
+
+		#toggle-menu:checked ~ .links {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+		}
+
+	
+
 	}
 </style>
