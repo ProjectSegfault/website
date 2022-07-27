@@ -1,5 +1,5 @@
 <script>
-		import IconBars from "~icons/fa6-solid/bars";
+	import IconBars from "~icons/fa6-solid/bars";
 </script>
 
 <nav>
@@ -13,14 +13,14 @@
 			>Segfault</span
 		>
 	</a>
-	
-	<input type="checkbox" id="toggle-menu">
+
+	<input type="checkbox" id="toggle-menu" />
 	<label class="menu-icon" for="toggle-menu">
 		<a id="menu-icon">
 			<IconBars />
 		</a>
 	</label>
-	
+
 	<div class="links">
 		<a href="https://instances.projectsegfau.lt/">Instances & Gameservers</a
 		>
@@ -31,10 +31,7 @@
 		<a href="/members">Members</a>
 		<a href="https://blog.projectsegfau.lt/">Blog</a>
 		<a href="/legal">Legal</a>
-	</div>    
-
-
-	
+	</div>
 </nav>
 
 <style>
@@ -51,10 +48,10 @@
 		align-items: center;
 		text-decoration: none;
 	}
-	
+
 	.links {
 		display: flex;
-		gap: .5rem;
+		gap: 0.5rem;
 	}
 
 	.links > * {
@@ -118,7 +115,7 @@
 			display: block;
 			z-index: 1;
 			position: absolute;
-			top: .45rem;
+			top: 0.45rem;
 			right: 1rem;
 			background-color: var(--tertiary);
 			border: none;
@@ -139,8 +136,5 @@
 			flex-direction: column;
 			gap: 1rem;
 		}
-
-	
-
 	}
 </style>
