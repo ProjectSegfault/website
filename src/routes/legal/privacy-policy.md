@@ -39,7 +39,6 @@ Often times you can clear your own data simply by deleting your account.
 
 As we said, you can request any GDPR/Privacy things in [this Matrix room](https://matrix.to/#/#gdpr:projectsegfau.lt). But, if there's any ongoing investigations and a law enforcement agency contacts us, we will comply. But, we will only do it if we can verify it's official and they have a warrant.
 
-
-We hope you can understand our privacy policy.
+Thank You for reading and we hope you can understand our privacy policy.
 
 _Last updated 28.07.2022 22:00 UTC+1_
