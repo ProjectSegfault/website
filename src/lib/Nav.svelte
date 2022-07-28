@@ -16,9 +16,9 @@
 
 	<input type="checkbox" id="toggle-menu" />
 	<label class="menu-icon" for="toggle-menu">
-		<a id="menu-icon">
+		<div id="menu-icon">
 			<IconBars />
-		</a>
+		</div>
 	</label>
 
 	<div class="links">
