@@ -1,4 +1,5 @@
 # Project Segfault Website
+
 Live at [projectsegfau.lt](https://projectsegfau.lt).
 
 ## Developing
@@ -10,6 +11,7 @@ Live at [projectsegfau.lt](https://projectsegfau.lt).
 -   Learn [Svelte](https://svelte.dev).
 
 ### Universal
+
 1. Clone the repository using `git clone https://github.com/ProjectSegfault/website`.
 2. Change directory into the clone using `cd ./website`.
 3. Install dependencies using `pnpm i` (recommended) or `npm i`.
@@ -17,6 +19,7 @@ Live at [projectsegfau.lt](https://projectsegfau.lt).
 5. Open a browser on `http://localhost:5173/` and you should see the website running locally!
 
 ### NixOS
+
 1. Clone the repository using `git clone https://github.com/ProjectSegfault/website`.
 2. Change directory into the clone using `cd ./website`.
 3. In the same terminal type `nix-shell`.

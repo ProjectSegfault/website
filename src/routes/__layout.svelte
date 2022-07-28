@@ -13,7 +13,8 @@
 	openGraph={{
 		url: "https://projectsegfau.lt/",
 		title: "Project Segfault",
-		description: "7 idiots, 2 OVH vpses, a BuyVM 1024 Slice, a Sun server and a Hitachi Compute Rack.",
+		description:
+			"7 idiots, 2 OVH vpses, a BuyVM 1024 Slice, a Sun server and a Hitachi Compute Rack.",
 		images: [
 			{
 				url: "/ProjectSegfault_Desktop_16-9.png",
@@ -26,7 +27,10 @@
 />
 
 <svelte:head>
-	<script defer data-domain="projectsegfau.lt" src="https://analytics.projectsegfau.lt/js/plausible.js"></script>
+	<script
+		defer
+		data-domain="projectsegfau.lt"
+		src="https://analytics.projectsegfau.lt/js/plausible.js"></script>
 </svelte:head>
 
 <Nav />

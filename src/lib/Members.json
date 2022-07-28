@@ -1,22 +1,22 @@
 [
-    {
-        "name": "akisblack",
-        "matrix": "https://matrix.to/#/@akis:projectsegfau.lt/",
-        "discord": "https://discord.com/users/845535118285602866/",
-        "position": "Web developer",
-        "description": "Hi, I am Akis.",
-        "github": "https://github.com/akisblack/",
-        "website": "https://akisblack.github.io/"
-    },
-    {
-        "name": "Devnol",
-        "matrix": "https://matrix.to/#/@devnol:projectsegfau.lt/",
-        "discord": "https://discord.com/users/429353559566319626/",
-        "position": "Greece server owner",
-        "description": "Placeholder",
-        "github": "https://github.com/Devnol/",
-        "website": "https://devnol.github.io/"
-    },
+	{
+		"name": "akisblack",
+		"matrix": "https://matrix.to/#/@akis:projectsegfau.lt/",
+		"discord": "https://discord.com/users/845535118285602866/",
+		"position": "Web developer",
+		"description": "Hi, I am Akis.",
+		"github": "https://github.com/akisblack/",
+		"website": "https://akisblack.github.io/"
+	},
+	{
+		"name": "Devnol",
+		"matrix": "https://matrix.to/#/@devnol:projectsegfau.lt/",
+		"discord": "https://discord.com/users/429353559566319626/",
+		"position": "Greece server owner",
+		"description": "Placeholder",
+		"github": "https://github.com/Devnol/",
+		"website": "https://devnol.github.io/"
+	},
 	{
 		"name": "Midou",
 		"matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
@@ -28,31 +28,31 @@
 	{
 		"name": "MrLeRien",
 		"discord": "https://discord.com/users/213634643327582208/",
-        "matrix": "https://matrix.to/#/@mrlerien:projectsegfau.lt/",
+		"matrix": "https://matrix.to/#/@mrlerien:projectsegfau.lt/",
 		"position": "France server owner",
-		"description": "Bonjour j'aime les bites miam"
+		"description": "using windows server for soleil levant was a mistake"
 	},
 	{
 		"name": "Odyssey346",
-        "matrix": "https://matrix.to/#/@odyssey:projectsegfau.lt",
+		"matrix": "https://matrix.to/#/@odyssey:projectsegfau.lt",
 		"position": "Web developer, Gameserver system administrator",
 		"description": "Hi, I'm Odyssey346 and I do things here. Check out my website for more info.",
 		"github": "https://github.com/Odyssey346",
-        "website": "https://odyssey346.dev"
+		"website": "https://odyssey346.dev"
 	},
-    {
+	{
 		"name": "openssl_rand",
-        	"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
+		"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
 		"position": "System administrator",
 		"description": "\"I am openssl_rand, a system administrator of the project Segfau.lt.\" - GitHub Copilot",
 		"email": "mailto:openssl_rand@projectsegfau.lt"
 	},
 	{
 		"name": "stephenvk",
-        "matrix": "https://matrix.to/#/@stephenvk:projectsegfau.lt",
+		"matrix": "https://matrix.to/#/@stephenvk:projectsegfau.lt",
 		"position": "Backup host",
 		"description": "I am Stephenvk and I host a server that takes our backups.",
-        "website": "https://stephenvk.xyz"
+		"website": "https://stephenvk.xyz"
 	},
 	{
 		"name": "Segfault",

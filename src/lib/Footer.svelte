@@ -1,5 +1,4 @@
 <script>
-	import IconDiscord from "~icons/simple-icons/discord";
 	import IconMatrix from "~icons/simple-icons/matrix";
 	import IconGitHub from "~icons/simple-icons/github";
 	import IconSignal from "~icons/fa6-solid/signal";

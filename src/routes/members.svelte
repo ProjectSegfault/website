@@ -20,7 +20,6 @@
 	<div class="member-outer">
 		{#each members as { name, discord, matrix, position, description, github, website, email, picture }}
 			<div class="member-inner">
-				
 				<div class="main">
 					<span>{name} - {position}</span>
 
@@ -120,7 +119,9 @@
 		height: 23px;
 	}
 
-	.web, .email, .picture {
+	.web,
+	.email,
+	.picture {
 		background-color: var(--tertiary);
 		color: #fff !important;
 		font-size: 20px;
