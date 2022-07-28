@@ -69,6 +69,10 @@ You can find ways to contact individual members [on our Members page](/members).
         gap: 1rem;
     }
 
+    .meta > * {
+        width: 50%;
+    }
+
     @media screen and (max-width: 450px) {
         .meta {
             flex-direction: column;
