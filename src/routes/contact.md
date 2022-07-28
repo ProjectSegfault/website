@@ -79,6 +79,14 @@ You can find ways to contact individual members [on our Members page](/members).
             align-items: flex-start;
             justify-content: center;
         }
+
+        .meta > * {
+            width: calc(100% - 1rem);
+        }
+
+        .meta > *:nth-child(2) {
+            width: 100%;
+        }
     }
 
     .form-textbox {
