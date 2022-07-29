@@ -6,7 +6,14 @@ description: Do you want to contact us?
 
 <script lang="ts">
     import IconLock from '~icons/fa6-solid/lock';
+    import IconInfo from '~icons/fa6-solid/circle-info';
     import HCaptcha from 'svelte-hcaptcha';
+    let contactform;
+    let submit = false;
+
+    function showSubmitButton() {
+        submit = !submit;
+    }
 </script>
 
 
@@ -15,7 +22,7 @@ description: Do you want to contact us?
 { description }
 
 ## Contact Form
-<form action="https://segfautilities.projectsegfau.lt/api/form" method="POST">
+<form action="https://segfautilities.projectsegfau.lt/api/form" method="POST" id="contact-form" bind:this={contactform}>
         <div class="ip-note">
             <IconLock />
             <b>Your IP will be logged for anti-abuse measures.</b>
@@ -31,11 +38,18 @@ description: Do you want to contact us?
             </select>
         </div>
         <textarea id="comment" name="message" rows="4" cols="25" required="required" class="form-textbox" placeholder="Your message"></textarea>
+        <div class="ip-info">
+            <IconInfo />
+            <b>The submit button will be visible when you complete the captcha.</b>
+        </div>
         <HCaptcha
             sitekey=67e84266-980c-4050-8a39-142a91928fe8
             theme=dark
+            on:success={showSubmitButton}
         />
-        <input type="submit" value="Submit" class="button" />
+        {#if submit}
+                <input type="submit" value="Submit" class="button" />
+        {/if}
 </form>
 
 ## Our email
