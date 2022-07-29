@@ -19,7 +19,7 @@ If you want the data we've collected on you to be sent, please contact us on Mat
 
 We have Plausible analytics installed on our website (the one you are on right now!), and our [Blog](https://blog.projectsegfau.lt), which means we can just easily see what part of our site you're on, what country you are from, what platform you are from, potentially a referrer and all those get clumped up together.
 
-**Plausible analytics does not collect any PII(Personally Identifiable Information)**
+**Plausible Analytics is completely anonymous. We can't exactly figure out who you are through Plausible. It is also GDPR compliant.**
 
 We use analytics in order to see how many visitors we get every day, what pages get visited the most, what countries visit our website the most etc. uBlock and other privacy extensions block Plausible by default.
 
@@ -33,12 +33,11 @@ There is no reason for anyone outside of Project Segfault to see your data. In f
 
 ## Data may be cleared at any point upon request, but...
 
-There are times where we are unable to delete "your" data because we sometimes we do not have a concept of "you". If you don't create an account on the services you use, we have no way to know what data is tied to "you" as most logs are anonymized.
+There are times when we are unable to delete "your" data because we sometimes we do not have a concept of "you". If you don't create an account on the services you use, we have no way to know what data is tied to "you" as most logs are anonymized.
 
 Often times you can clear your own data simply by deleting your account.
 
 As we said, you can request any GDPR/Privacy things in [this Matrix room](https://matrix.to/#/#gdpr:projectsegfau.lt). But, if there's any ongoing investigations and a law enforcement agency contacts us, we will comply. But, we will only do it if we can verify it's official and they have a warrant.
 
-Thank You for reading and we hope you can understand our privacy policy.
 
 _Last updated 28.07.2022 22:00 UTC+1_
