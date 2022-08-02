@@ -10,7 +10,7 @@
 </script>
 
 <form
-	action="https://segfautilities.projectsegfau.lt/api/form"
+	action="https://segfautils.projectsegfau.lt/api/form"
 	method="POST"
 	id="contact-form"
 >
