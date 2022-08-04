@@ -70,7 +70,7 @@
 		</TimelineSeparator>
 		<TimelineContent>
 			<h3>Mutahar.rocks obtained a powerful server</h3>
-			<p>MrLeRien's dad's work had an unused Hitcachi Compute Rack with 320GB of ram and two decade-old Xeons. Well, once MrLeRien got his hands on the Hitachi, mutahar.rocks started hosting more stuff.</p>
+			<p>MrLeRien's dad's work had an unused Hitachi Compute Rack with 320GB of ram and two decade-old Xeons. Once he got his hands on the server, mutahar.rocks started hosting more stuff.</p>
 		</TimelineContent>
 	</TimelineItem>
 	<TimelineItem>
