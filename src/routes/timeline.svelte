@@ -10,6 +10,11 @@
 	} from 'svelte-vertical-timeline';
 </script>
 
+
+<div class="hero">
+    <h3>A timeline of <span>Project</span> <span>Segfault</span>'s history</h3>
+</div>
+
 <Timeline position="alternate">
 	<TimelineItem>
 		<TimelineOppositeContent slot="opposite-content">
@@ -167,3 +172,28 @@
 		</TimelineContent>
 	</TimelineItem>
 </Timeline>
+
+<style>
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-header);
+    }
+
+    .hero > * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+	.hero > h3  {
+        font-size: 50px;
+        font-weight: 800;
+	}
+
+	.hero > h3 > span {
+		color: var(--accent-primary);
+	}
+</style>
