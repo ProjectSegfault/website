@@ -1,7 +1,5 @@
 <script lang="ts">
-	import members from "$lib/Team.json";
-	import IconDiscord from "~icons/simple-icons/discord";
-	import IconMatrix from "~icons/simple-icons/matrix";
+	import projects from "$lib/Projects.json";
 	import IconGitHub from "~icons/simple-icons/github";
 
 	import IconGlobe from "~icons/fa6-solid/globe";
@@ -10,18 +8,17 @@
 </script>
 
 <svelte:head>
-	<title>Our team | Project Segfault</title>
-	<meta name="description" content="Team members of Project Segfault." />
+	<title>Our projects | Project Segfault</title>
+	<meta name="description" content="Our collection of projects." />
 </svelte:head>
 
 <div class="team">
-	<h1>Our team</h1>
-	<p>Our excellent team members!</p>
-	<div class="team-outer">
-		{#each members as { name, discord, matrix, position, description, github, website, email, picture }}
-			<div class="team-inner">
+	<h1>Our projects</h1>
+	<div class="projects-outer">
+		{#each projects as { name, description, github, website }}
+			<div class="projects-inner">
 				<div class="main">
-					<span>{name} - {position}</span>
+					<span>{name}</span>
 
 					{#if description}
 						<p class="description">{description}</p>
@@ -29,17 +26,6 @@
 				</div>
 
 				<div class="socials">
-					{#if matrix}
-						<a href={matrix} class="matrixcolored"><IconMatrix /></a
-						>
-					{/if}
-
-					{#if discord}
-						<a href={discord} class="discordcolored"
-							><IconDiscord /></a
-						>
-					{/if}
-
 					{#if github}
 						<a href={github} class="githubcolored"><IconGitHub /></a
 						>
@@ -48,14 +34,6 @@
 					{#if website}
 						<a href={website} class="web"><IconGlobe /></a>
 					{/if}
-
-					{#if email}
-						<a href={email} class="email"><IconEmail /></a>
-					{/if}
-
-					{#if picture}
-						<a href={picture} class="picture"><IconCamera /></a>
-					{/if}
 				</div>
 			</div>
 		{/each}
@@ -63,14 +41,14 @@
 </div>
 
 <style>
-	.team-outer {
+	.projects-outer {
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
 		flex-flow: row wrap;
 	}
 
-	.team-inner {
+	.projects-inner {
 		background-color: #252525;
 		border-radius: 10px;
 		padding: 1rem;
@@ -99,19 +77,6 @@
 		width: fit-content;
 	}
 
-	.matrixcolored {
-		background-color: #fff;
-		font-size: 20px;
-		height: 23px;
-	}
-
-	.discordcolored {
-		background-color: #5865f2;
-		color: #fff !important;
-		font-size: 20px;
-		height: 23px;
-	}
-
 	.githubcolored {
 		background-color: #333;
 		color: #fff !important;
@@ -119,16 +84,11 @@
 		height: 23px;
 	}
 
-	.web,
-	.email,
-	.picture {
+	.web {
 		background-color: var(--tertiary);
 		color: #fff !important;
 		font-size: 20px;
 		height: 23px;
-	}
-
-	.web {
 		transition: all 0.5s;
 	}
 

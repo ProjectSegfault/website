@@ -1,7 +1,4 @@
 <script>
-	import IconMatrix from "~icons/simple-icons/matrix";
-	import IconGitHub from "~icons/simple-icons/github";
-	import IconSignal from "~icons/fa6-solid/signal";
 	import { page } from "$app/stores";
 </script>
 
@@ -10,7 +7,7 @@
 		<a
 			href="https://www.abuseipdb.com/user/82331"
 			title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks"
-			style="width: fit-content;"
+			style="width: fit-content; padding: 1rem;"
 		>
 			<img
 				src="https://www.abuseipdb.com/contributor/82331.svg"
@@ -18,68 +15,34 @@
 			/>
 		</a>
 	{/if}
-	<hr />
 	<div class="content">
-		<span>© 2021 - present, Project Segfault</span>
-
-		<div class="links">
-			<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
-				<IconMatrix />
-			</a>
-			<a href="https://github.com/ProjectSegfault/">
-				<IconGitHub />
-			</a>
-			<a href="https://status.projectsegfau.lt/">
-				<IconSignal />
-			</a>
-		</div>
+		<span>© 2021 - present, Project Segfault team</span>
+		<span>Made with <a href="https://kit.svelte.dev/">SvelteKit</a> and released under the <a href="https://opensource.org/licenses/MIT/">MIT license</a>.</span>
 	</div>
 </footer>
 
 <style>
 	footer {
-		padding: 1rem;
 		display: flex;
 		flex-direction: column;
 		font-size: 20px;
 		position: sticky;
 		top: 100vh;
-		width: calc(100vw - 2rem);
-	}
-
-	hr {
-		color: var(--accent-primary);
-		width: 100%;
-		margin-left: 0;
 	}
 
 	div.content {
 		display: flex;
-		justify-content: space-between;
-	}
-
-	div.links {
-		display: flex;
-		gap: 12px;
-		margin-left: 8px;
-	}
-
-	.links a {
-		text-decoration: none;
-		display: flex;
 		align-items: center;
+		flex-direction: column;
+		border-top: 1px solid var(--grey);
+		padding: .5rem;
 	}
 
-	@media only screen and (max-width: 500px) {
-		.content {
-			display: flex;
-			flex-direction: column;
-			gap: 8px;
-		}
-
-		div.links {
-			margin-left: 0;
-		}
+	div.content > * {
+		color: var(--text);
+		font-size: 13px;
+		font-weight: 500;
+		text-align: center;
 	}
 
 	img {

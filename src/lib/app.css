@@ -10,17 +10,23 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: Raleway;
+	src: url("/Raleway.ttf");
+	font-display: swap;
+}
+
 html {
 	--primary: #151515;
 	--secondary: #252525;
 	--tertiary: #353535;
-	--accent-primary: #00d4aa;
-	--accent-secondary: #00d4aa;
-	--accent-tertiary: #00d4aa;
+	--accent-primary: #B59BD8;
+	--accent-secondary: #B59BD8;
+	--accent-tertiary: #B59BD8;
 	--text: #ffffffde;
 	--grey: #5454547a;
-	--font-primary: Comfortaa;
-	--font-header: Inter
+	--font-primary: Raleway;
+	--font-header: Raleway;
 
 }
 
@@ -44,4 +50,9 @@ a {
 	text-decoration: underline;
 	color: var(--accent-primary);
 	text-underline-offset: 5px;
+	transition: filter .25s;
+}
+
+a:hover {
+	filter: brightness(125%);
 }
