@@ -150,4 +150,20 @@
 			<p>We decided to get some new members. First, we started by getting someone who likes to do frontend development, Akis. Then, we got an amazing sysadmin who goes by the alias "openssl_rand". He does a lot of cool stuff for us, and he is very dedicated. Then we also decided that we needed backups, and then one of our friends told us he could help us with that. His name is Stephenvk. We also decided to just get better.</p>
 		</TimelineContent>
 	</TimelineItem>
+	<TimelineItem>
+		<TimelineOppositeContent slot="opposite-content">
+			<p>Now-er</p>
+		</TimelineOppositeContent>
+		<TimelineSeparator>
+			<TimelineDot
+				style={'background-color: #fff; '}
+			>
+			</TimelineDot>
+			<TimelineConnector />
+		</TimelineSeparator>
+		<TimelineContent>
+			<h3> Project Segfault decides to expand and now develops software. </h3>
+			<p> This started after Odyssey decided to work on segfautils. An API for Project Segfault. Midou followed suit with another rather big project that is (not) being developped right now. (hint: this will help people with many servers or mini servers 👀)  </p>
+		</TimelineContent>
+	</TimelineItem>
 </Timeline>
