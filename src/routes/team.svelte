@@ -1,5 +1,5 @@
 <script lang="ts">
-	import members from "$lib/Members.json";
+	import members from "$lib/Team.json";
 	import IconDiscord from "~icons/simple-icons/discord";
 	import IconMatrix from "~icons/simple-icons/matrix";
 	import IconGitHub from "~icons/simple-icons/github";
@@ -10,16 +10,16 @@
 </script>
 
 <svelte:head>
-	<title>Members | Project Segfault</title>
-	<meta name="description" content="Members of Project Segfault." />
+	<title>Our team | Project Segfault</title>
+	<meta name="description" content="Team members of Project Segfault." />
 </svelte:head>
 
-<div class="members">
-	<h1>Members</h1>
-	<p>Our excellent members!</p>
-	<div class="member-outer">
+<div class="team">
+	<h1>Our team</h1>
+	<p>Our excellent team members!</p>
+	<div class="team-outer">
 		{#each members as { name, discord, matrix, position, description, github, website, email, picture }}
-			<div class="member-inner">
+			<div class="team-inner">
 				<div class="main">
 					<span>{name} - {position}</span>
 
@@ -63,14 +63,14 @@
 </div>
 
 <style>
-	.member-outer {
+	.team-outer {
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
 		flex-flow: row wrap;
 	}
 
-	.member-inner {
+	.team-inner {
 		background-color: #252525;
 		border-radius: 10px;
 		padding: 1rem;

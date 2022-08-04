@@ -14,10 +14,11 @@ html {
 	--primary: #151515;
 	--secondary: #252525;
 	--tertiary: #353535;
-	--accent-primary: #cfce73;
-	--accent-secondary: #9c6fd6;
-	--accent-tertiary: #fcc348;
-	--text: #fff;
+	--accent-primary: #00d4aa;
+	--accent-secondary: #00d4aa;
+	--accent-tertiary: #00d4aa;
+	--text: #ffffffde;
+	--grey: #5454547a;
 	--font-primary: Comfortaa;
 	--font-header: Inter
 

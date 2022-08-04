@@ -18,7 +18,7 @@
 <h2>What is this?</h2>
 
 <p>
-    We are 7 teenagers who have a decently powerful server. What do we do with this server? Host game servers and random assortment of privacy respecting tools like Invidious, Nextcloud, Matrix etc.... and maybe some original works. You'll see eventually!
+    We are 7 humans who have a decently powerful server. What do we do with this server? Host game servers and random assortment of privacy respecting tools like Invidious, Nextcloud, Matrix etc.... and maybe some original works. You'll see eventually!
 </p>
 
 <h2>Tell me more! What do you guys host? Where can I contact you? Can you fix my daughter's iPad?</h2>
