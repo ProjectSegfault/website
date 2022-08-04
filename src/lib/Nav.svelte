@@ -22,7 +22,7 @@
 		<a href="/donate">Donate</a>
 		<a href="/faq">FAQ</a>
 		<a href="/contact">Contact us</a>
-		<a href="/members">Our team</a>
+		<a href="/team">Our team</a>
 		<a href="https://blog.projectsegfau.lt/">Blog</a>
 		<a href="/legal">Legal</a>
 	</div>
