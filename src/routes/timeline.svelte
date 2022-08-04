@@ -70,7 +70,7 @@
 		</TimelineSeparator>
 		<TimelineContent>
 			<h3>Mutahar.rocks obtained a powerful server</h3>
-			<p>MrLeRien's dad's work had an unused Hitcachi Compute Rack with 320GB of ram and... I forgot the CPU, midou fill this in. Well, once MrLeRien got his hands on the Hitachi, mutahar.rocks started hosting more stuff.</p>
+			<p>MrLeRien's dad's work had an unused Hitcachi Compute Rack with 320GB of ram and two decade-old Xeons. Well, once MrLeRien got his hands on the Hitachi, mutahar.rocks started hosting more stuff.</p>
 		</TimelineContent>
 	</TimelineItem>
 	<TimelineItem>
@@ -147,7 +147,7 @@
 		</TimelineSeparator>
 		<TimelineContent>
 			<h3>Months later, 3 new members, we're better than ever.</h3>
-			<p>We decided to get some new members. First, we started by getting someone who likes to do frontend development, Akis. Then, we got an amazing sysadmin who goes by the alias "openssl_rand". He does a lot of cool stuff for us, and he is very dedicated. Then we also decided that we needed backups, and then one of our friends told us he could help us with that. His name is Stephenvk. We also decided to just get better. This is just the beginning. We are going to take over the world, and become the NWO. Just kidding.</p>
+			<p>We decided to get some new members. First, we started by getting someone who likes to do frontend development, Akis. Then, we got an amazing sysadmin who goes by the alias "openssl_rand". He does a lot of cool stuff for us, and he is very dedicated. Then we also decided that we needed backups, and then one of our friends told us he could help us with that. His name is Stephenvk. We also decided to just get better.</p>
 		</TimelineContent>
 	</TimelineItem>
 </Timeline>
