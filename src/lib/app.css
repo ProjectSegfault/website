@@ -4,15 +4,23 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: Inter;
+	src: url("/Inter.ttf");
+	font-display: swap;
+}
+
 html {
 	--primary: #151515;
 	--secondary: #252525;
 	--tertiary: #353535;
-	--accent-primary: #00d4aa;
-	--accent-secondary: #ce1717;
+	--accent-primary: #cfce73;
+	--accent-secondary: #9c6fd6;
+	--accent-tertiary: #fcc348;
 	--text: #fff;
 	--font-primary: Comfortaa;
-	--accent-tertiary: #4beacb;
+	--font-header: Inter
+
 }
 
 body {
