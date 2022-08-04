@@ -3,7 +3,7 @@
 	import IconDiscord from "~icons/simple-icons/discord";
 	import IconMatrix from "~icons/simple-icons/matrix";
 	import IconGitHub from "~icons/simple-icons/github";
-
+	import IconKey from "~icons/fa6-solid/key";
 	import IconGlobe from "~icons/fa6-solid/globe";
 	import IconEmail from "~icons/fa6-solid/envelope";
 	import IconCamera from "~icons/fa6-solid/camera";
@@ -18,7 +18,7 @@
 	<h1>Our team</h1>
 	<p>Our excellent team members!</p>
 	<div class="team-outer">
-		{#each members as { name, discord, matrix, position, description, github, website, email, picture }}
+		{#each members as { name, discord, matrix, position, description, github, pgp, website, email, picture }}
 			<div class="team-inner">
 				<div class="main">
 					<span>{name} - {position}</span>
@@ -50,8 +50,13 @@
 					{/if}
 
 					{#if email}
-						<a href={email} class="email"><IconEmail /></a>
+						<a href=mailto:{email} class="email"><IconEmail /></a>
 					{/if}
+
+					{#if pgp}
+                                        	<a href={pgp} class="pgpcolored"><IconKey /></a
+                                        	>
+                                        {/if}
 
 					{#if picture}
 						<a href={picture} class="picture"><IconCamera /></a>
@@ -97,6 +102,12 @@
 		color: var(--secondary);
 		text-decoration: none;
 		width: fit-content;
+	}
+
+	.pgpcolored {
+		background-color: #333 ;
+		font-size: 20px;
+	        height: 23px;
 	}
 
 	.matrixcolored {
