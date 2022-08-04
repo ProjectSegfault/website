@@ -2,6 +2,7 @@
     import SvelteSeo from "svelte-seo";
 
     let description: string = "7 idiots, 2 OVH vpses, a BuyVM 1024 Slice, a Sun server and a Hitachi Compute Rack.";
+    import IconMoneyBill from "~icons/fa6-solid/money-bill";
 </script>
 
 <SvelteSeo
@@ -17,6 +18,7 @@
     <div class="buttons">
         <a href="https://instances.projectsegfau.lt/">Explore our services</a>
         <a href="/projects">Explore our projects</a>
+        <a href="/donate"><IconMoneyBill /> Donate</a>
     </div>
 </div>
 
@@ -59,10 +61,13 @@
     a {
         text-decoration: none;
         background-color: var(--accent-primary);
-        padding: 1rem;
+        padding: 8px 1em 8px 1em;
         color: var(--primary);
         border-radius: 10px;
         transition: filter .25s;
+        display: flex;
+        align-items: center;
+        gap: 4px;
     }
 
     a:hover {

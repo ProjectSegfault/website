@@ -4,6 +4,7 @@
 
 <footer>
 	{#if $page.url.pathname === "/"}
+	<div class="badge">
 		<a
 			href="https://www.abuseipdb.com/user/82331"
 			title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks"
@@ -14,9 +15,10 @@
 				alt="AbuseIPDB Contributor Badge"
 			/>
 		</a>
+	</div>
 	{/if}
 	<div class="content">
-		<span>© 2021 - present, Project Segfault team</span>
+		<span>© 2021 - present, Project Segfault <a href="/team">team</a></span>
 		<span>Made with <a href="https://kit.svelte.dev/">SvelteKit</a> and released under the <a href="https://opensource.org/licenses/MIT/">MIT license</a>.</span>
 	</div>
 </footer>
@@ -44,6 +46,13 @@
 		font-weight: 500;
 		text-align: center;
 	}
+
+    .badge {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 
 	img {
 		width: 270px;
