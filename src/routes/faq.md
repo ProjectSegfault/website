@@ -9,6 +9,9 @@ description: Frequently Asked Questions
 
 The project doesn't have a single owner but is made up of a team of people. A list of the people involved and their positions can be found [on our members page](/members).
 
+## What's the backstory to Project Segfault?
+We have a rather interesting backstory, if I do say so myself. [Click here to see a timeline of things that happened in Project Segfault's history](/timeline)
+
 ## One of your services contains toxic people!
 
 You can contact us by mail or Matrix and we can figure this out with you. But we recommend that you put most of these requests in our support channel at [#support:projectsegfau.lt](https://matrix.to/#/#support:projectsegfau.lt) on Matrix. If it's something personal, just say that you have a report against someone on one of our services and you'd like to be contacted by an admin and we'll contact you as soon as possible. We generally tend to be active throughout the day.

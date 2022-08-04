@@ -1,5 +1,7 @@
 <script>
 	import IconBars from "~icons/fa6-solid/bars";
+	import IconMatrix from "~icons/simple-icons/matrix";
+	import IconGitHub from "~icons/simple-icons/github";
 </script>
 
 <nav>
@@ -16,7 +18,7 @@
 	</label>
 
 	<div class="links">
-		<a href="https://instances.projectsegfau.lt/">Hosted services</a
+		<a href="https://instances.projectsegfau.lt/">Instances</a
 		>
 		<a href="/minecraft">Minecraft</a>
 		<a href="/donate">Donate</a>
@@ -25,6 +27,13 @@
 		<a href="/team">Our team</a>
 		<a href="https://blog.projectsegfau.lt/">Blog</a>
 		<a href="/legal">Legal</a>
+		<a href="https://status.projectsegfau.lt/">Status</a>
+		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
+			<IconMatrix />
+		</a>
+		<a href="https://github.com/ProjectSegfault/">
+			<IconGitHub />
+		</a>
 	</div>
 </nav>
 
@@ -54,6 +63,7 @@
 	.links {
 		display: flex;
 		gap: 0.5rem;
+		
 	}
 
 	.links > * {
@@ -64,6 +74,8 @@
 		transition: color .25s;
 		font-size: 13px;
 		font-weight: 500;
+		display: flex;
+		align-items: center;
 	}
 
 	.links > *:hover {
@@ -85,7 +97,7 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 1150px) {
+	@media screen and (max-width: 870px) {
 		.links {
 			display: none;
 			width: 100%;
@@ -109,7 +121,7 @@
 			z-index: 1;
 			position: absolute;
 			right: 1rem;
-			top: .35rem;
+			top: .5rem;
 			border: none;
 			border-radius: 10px;
 			height: 30px;
