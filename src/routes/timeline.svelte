@@ -54,8 +54,8 @@
             <TimelineConnector />
 		</TimelineSeparator>
 		<TimelineContent>
-			<h3>Midou meets a guy named MrLeRien</h3>
-			<p>This eventually formed a nice little (primarily focused on hosting) project called mutahar.rocks. Here, the duo focused on hosting anything they could on a Core 2 Duo HP machine with 8GB of RAM that was running Arch Linux. Eventually, they decided to buy a couple of VPSes.</p>
+			<h3>MrLeRien opens a small homeserver with the help of Midou</h3>
+			<p>This eventually formed a nice little (primarily focused on hosting) project called mutahar.rocks. Here, the duo focused on hosting anything they could on a Core 2 Duo HP machine with 8GB of RAM running Arch Linux. This alongside a small VPS we're already had.</p>
 		</TimelineContent>
 	</TimelineItem>
 	<TimelineItem>
