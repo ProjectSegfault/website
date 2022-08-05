@@ -20,14 +20,13 @@ html {
 	--primary: #151515;
 	--secondary: #252525;
 	--tertiary: #353535;
-	--accent-primary: #B59BD8;
-	--accent-secondary: #B59BD8;
-	--accent-tertiary: #B59BD8;
+	--accent-primary: #b59bd8;
+	--accent-secondary: #b59bd8;
+	--accent-tertiary: #b59bd8;
 	--text: #ffffffde;
 	--grey: #5454547a;
 	--font-primary: Raleway;
 	--font-header: Raleway;
-
 }
 
 body {
@@ -50,7 +49,7 @@ a {
 	text-decoration: underline;
 	color: var(--accent-primary);
 	text-underline-offset: 5px;
-	transition: filter .25s;
+	transition: filter 0.25s;
 }
 
 a:hover {

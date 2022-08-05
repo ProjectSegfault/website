@@ -18,8 +18,7 @@
 	</label>
 
 	<div class="links">
-		<a href="https://instances.projectsegfau.lt/">Instances</a
-		>
+		<a href="https://instances.projectsegfau.lt/">Instances</a>
 		<a href="/minecraft">Minecraft</a>
 		<a href="/donate">Donate</a>
 		<a href="/faq">FAQ</a>
@@ -43,7 +42,7 @@
 		background-color: var(--primary);
 		border-bottom: 1px solid var(--grey);
 		display: flex;
-		padding: .5rem;
+		padding: 0.5rem;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
@@ -54,25 +53,24 @@
 		text-decoration: none;
 		color: var(--text);
 		gap: 8px;
-		transition: opacity .25s;
+		transition: opacity 0.25s;
 	}
 
 	a.brand:hover {
-		opacity: .6;
+		opacity: 0.6;
 	}
 
 	.links {
 		display: flex;
 		gap: 0.5rem;
-		
 	}
 
 	.links > * {
-		padding: .5rem;
+		padding: 0.5rem;
 		cursor: pointer;
 		color: var(--text);
 		text-decoration: none;
-		transition: color .25s;
+		transition: color 0.25s;
 		font-size: 13px;
 		font-weight: 500;
 		display: flex;
@@ -122,7 +120,7 @@
 			z-index: 1;
 			position: absolute;
 			right: 1rem;
-			top: .5rem;
+			top: 0.5rem;
 			border: none;
 			border-radius: 10px;
 			height: 30px;

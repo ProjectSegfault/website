@@ -95,7 +95,6 @@
 	.web:hover {
 		background-color: var(--accent-tertiary);
 		color: var(--secondary) !important;
-		
 	}
 
 	.socials {

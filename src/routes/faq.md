@@ -10,6 +10,7 @@ description: Frequently Asked Questions
 The project doesn't have a single owner but is made up of a team of people. A list of the people involved and their positions can be found [on our members page](/team).
 
 ## What's the backstory to Project Segfault?
+
 We have a rather interesting backstory, if I do say so myself. [Click here to see a timeline of things that happened in Project Segfault's history](/timeline)
 
 ## One of your services contains toxic people!

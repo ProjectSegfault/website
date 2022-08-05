@@ -50,7 +50,7 @@
 					{/if}
 
 					{#if email}
-						<a href=mailto:{email} class="email"><IconEmail /></a>
+						<a href="mailto:{email}" class="email"><IconEmail /></a>
 					{/if}
 
 					{#if pgp}
