@@ -8,12 +8,13 @@
 		TimelineContent,
 		TimelineOppositeContent
 	} from 'svelte-vertical-timeline';
+	import Hero from "$lib/Hero.svelte";
 </script>
 
 
-<div class="hero">
-    <h3>A timeline of <span>Project</span> <span>Segfault</span>'s history</h3>
-</div>
+<Hero>
+    <h1>A timeline of <span>Project Segfault</span>'s history</h1>
+</Hero>
 
 <Timeline position="alternate">
 	<TimelineItem>
@@ -60,7 +61,7 @@
 		</TimelineSeparator>
 		<TimelineContent>
 			<h3>MrLeRien opens a small homeserver with the help of Midou</h3>
-			<p>This eventually formed a nice little (primarily focused on hosting) project called mutahar.rocks. Here, the duo focused on hosting anything they could on a Core 2 Duo HP machine with 8GB of RAM running Arch Linux. This alongside a small VPS we're already had.</p>
+			<p>This eventually formed a nice little (primarily focused on hosting) project called mutahar.rocks. Here, the duo focused on hosting anything they could on a Core 2 Duo HP machine with 8GB of RAM running Arch Linux. This alongside a small VPS they already had.</p>
 		</TimelineContent>
 	</TimelineItem>
 	<TimelineItem>
@@ -167,33 +168,19 @@
 			<TimelineConnector />
 		</TimelineSeparator>
 		<TimelineContent>
-			<h3> Project Segfault decides to expand and now develops software. </h3>
-			<p> This started after Odyssey decided to work on segfautils. An API for Project Segfault. Midou followed suit with another rather big project that is (not) being developped right now. (hint: this will help people with many servers or mini servers 👀)  </p>
+			<h3>Project Segfault decides to expand and now develops software.</h3>
+			<p>This started after Odyssey decided to work on Segfautils, an API for Project Segfault. Midou plans to start a huge project in the near future together with the team that can help people with multiple servers.</p>
 		</TimelineContent>
 	</TimelineItem>
 </Timeline>
 
 <style>
-    .hero {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-family: var(--font-header);
-    }
-
-    .hero > * {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
-
-	.hero > h3  {
-        font-size: 50px;
+	h1 {
+		font-size: 50px;
         font-weight: 800;
 	}
 
-	.hero > h3 > span {
+    span {
 		color: var(--accent-primary);
 	}
 </style>

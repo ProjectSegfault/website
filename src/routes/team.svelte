@@ -54,9 +54,8 @@
 					{/if}
 
 					{#if pgp}
-                                        	<a href={pgp} class="pgpcolored"><IconKey /></a
-                                        	>
-                                        {/if}
+						<a href={pgp} class="pgp"><IconKey /></a>
+					{/if}
 
 					{#if picture}
 						<a href={picture} class="picture"><IconCamera /></a>
@@ -104,12 +103,6 @@
 		width: fit-content;
 	}
 
-	.pgpcolored {
-		background-color: #333 ;
-		font-size: 20px;
-	        height: 23px;
-	}
-
 	.matrixcolored {
 		background-color: #fff;
 		font-size: 20px;
@@ -132,7 +125,8 @@
 
 	.web,
 	.email,
-	.picture {
+	.picture,
+	.pgp {
 		background-color: var(--tertiary);
 		color: #fff !important;
 		font-size: 20px;
@@ -146,7 +140,6 @@
 	.web:hover {
 		background-color: var(--accent-tertiary);
 		color: var(--secondary) !important;
-		
 	}
 
 	.socials {

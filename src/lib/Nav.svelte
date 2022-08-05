@@ -25,6 +25,7 @@
 		<a href="/faq">FAQ</a>
 		<a href="/contact">Contact us</a>
 		<a href="/team">Our team</a>
+		<a href="/timeline">Timeline</a>
 		<a href="https://blog.projectsegfau.lt/">Blog</a>
 		<a href="/legal">Legal</a>
 		<a href="https://status.projectsegfau.lt/">Status</a>
