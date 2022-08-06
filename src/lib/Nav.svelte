@@ -2,6 +2,7 @@
 	import IconBars from "~icons/fa6-solid/bars";
 	import IconMatrix from "~icons/simple-icons/matrix";
 	import IconGitHub from "~icons/simple-icons/github";
+	import ThemeToggle from "./ThemeToggle.svelte";
 </script>
 
 <nav>
@@ -34,6 +35,9 @@
 		<a href="https://github.com/ProjectSegfault/">
 			<IconGitHub />
 		</a>
+		<div>
+			<ThemeToggle />
+		</div>
 	</div>
 </nav>
 

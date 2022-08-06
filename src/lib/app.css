@@ -17,16 +17,27 @@
 }
 
 html {
-	--primary: #151515;
-	--secondary: #252525;
-	--tertiary: #353535;
 	--accent-primary: #b59bd8;
 	--accent-secondary: #b59bd8;
 	--accent-translucent: #b59bd898;
-	--text: #ffffffde;
-	--grey: #5454547a;
 	--font-primary: Raleway;
 	--font-header: Raleway;
+}
+
+html.dark {
+	--primary: #151515;
+	--secondary: #252525;
+	--tertiary: #353535;
+	--text: #ffffffde;
+	--grey: #5454547a;
+}
+
+html.light {
+	--primary: #dddddd;
+	--secondary: #bbbbbb;
+	--tertiary: #939393;
+	--text: #1f1f1f;
+	--grey: #292929;
 }
 
 body {
