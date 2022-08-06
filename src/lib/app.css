@@ -22,7 +22,7 @@ html {
 	--tertiary: #353535;
 	--accent-primary: #b59bd8;
 	--accent-secondary: #b59bd8;
-	--accent-tertiary: #b59bd8;
+	--accent-translucent: #b59bd898;
 	--text: #ffffffde;
 	--grey: #5454547a;
 	--font-primary: Raleway;
@@ -39,6 +39,10 @@ body {
 	position: relative;
 	min-height: 100vh;
 	line-height: 1.625;
+}
+
+::selection {
+	background-color: var(--accent-translucent);
 }
 
 main {
