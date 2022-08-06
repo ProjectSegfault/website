@@ -20,10 +20,6 @@
 	import IconTriangleExclamation from "~icons/fa6-solid/triangle-exclamation";
 
 	import dayjs from "dayjs";
-
-	const formattedTime = dayjs(announcements.created).format(
-		"DD/MM/YYYY HH:mm"
-	);
 </script>
 
 <SvelteSeo title="Home" {description} />
@@ -53,7 +49,9 @@
 						<IconTriangleExclamation />
 					{/if}
 					<span>
-						{formattedTime}
+						{dayjs.unix(announcements.created).format(
+							"DD/MM/YYYY HH:mm"
+						)}
 					</span>
 				</div>
 				<div class="title">
