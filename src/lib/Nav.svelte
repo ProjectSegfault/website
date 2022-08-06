@@ -113,7 +113,7 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 945px) {
+	@media screen and (max-width: 984px) {
 		.links {
 			display: none;
 			width: 100%;
