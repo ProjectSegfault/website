@@ -5,8 +5,8 @@
 }
 
 html {
-	--accent: #b59bd8;
-	--accent-translucent: #b59bd898;
+	--accent: #00a584;
+	--accent-translucent: #00a58498;
 	--font-primary: Raleway;
 	--font-header: Raleway;
 }
@@ -25,7 +25,6 @@ html.light {
 	--tertiary: #939393;
 	--text: #444444;
 	--grey: #444444;
-	--accent: #8c68bb;
 }
 
 body {
