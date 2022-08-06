@@ -93,7 +93,7 @@
 	}
 
 	.web:hover {
-		background-color: var(--accent-tertiary);
+		background-color: var(--accent);
 		color: var(--secondary) !important;
 	}
 

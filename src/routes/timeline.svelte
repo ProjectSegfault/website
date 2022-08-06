@@ -224,6 +224,6 @@
 	}
 
 	span {
-		color: var(--accent-primary);
+		color: var(--accent);
 	}
 </style>

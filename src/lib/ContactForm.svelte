@@ -104,7 +104,7 @@
 		border-radius: 10px;
 		border: none;
 		padding: 0.5rem;
-		font-family: "Comfortaa", sans-serif;
+		font-family: var(--font-primary);
 		outline: none;
 	}
 
@@ -120,7 +120,7 @@
 	}
 
 	.button:not(select):hover {
-		background-color: var(--accent-tertiary);
+		background-color: var(--accent);
 		text-decoration: none;
 		transition: all 0.5s;
 		color: var(--secondary);

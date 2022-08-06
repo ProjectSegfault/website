@@ -75,7 +75,7 @@
 	}
 
 	.team-inner {
-		background-color: #252525;
+		background-color: var(--secondary);
 		border-radius: 10px;
 		padding: 1rem;
 		width: 30em;
@@ -104,7 +104,7 @@
 	}
 
 	.matrixcolored {
-		background-color: #fff;
+		background-color: var(--tertiary);
 		font-size: 20px;
 		height: 23px;
 	}
@@ -138,7 +138,7 @@
 	}
 
 	.web:hover {
-		background-color: var(--accent-tertiary);
+		background-color: var(--accent);
 		color: var(--secondary) !important;
 	}
 

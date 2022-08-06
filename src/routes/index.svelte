@@ -112,7 +112,7 @@
 
 	.buttons a {
 		text-decoration: none;
-		background-color: var(--accent-primary);
+		background-color: var(--accent);
 		padding: 8px 1em 8px 1em;
 		color: var(--primary);
 		border-radius: 10px;
@@ -133,7 +133,7 @@
 	}
 
 	.announcement {
-		color: var(--primary);
+		color: #252525 !important;
 		padding: 2rem 1rem;
 		border-radius: 10px;
 		width: fit-content;
@@ -142,7 +142,7 @@
 	}
 
 	.announcement a {
-		color: var(--primary);
+		color: #252525;
 	}
 
 	.announcement .general {

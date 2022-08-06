@@ -61,7 +61,7 @@
 
 	img {
 		width: 270px;
-		background: var(--accent-primary);
+		background: var(--accent);
 		padding: 0.5rem;
 		border-radius: 10px;
 	}

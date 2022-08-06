@@ -20,7 +20,6 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		font-family: var(--font-header);
 	}
 
 	.hero > * {
@@ -31,12 +30,12 @@
 
 	p {
 		font-size: 30px;
-		color: #b6b6b6;
+		color: var(--text);
 	}
 
 	h1 {
 		font-size: 50px;
 		font-weight: 800;
-		color: var(--accent-primary);
+		color: var(--accent);
 	}
 </style>

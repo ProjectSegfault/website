@@ -1,8 +1,24 @@
-<script>
+<script lang="ts">
 	import IconBars from "~icons/fa6-solid/bars";
 	import IconMatrix from "~icons/simple-icons/matrix";
 	import IconGitHub from "~icons/simple-icons/github";
 	import ThemeToggle from "./ThemeToggle.svelte";
+	import { page } from "$app/stores";
+
+	$: currentPage = $page.url.pathname;
+
+	const menus = [
+		{name: "Instances", url: "https://instances.projectsegfau.lt/"},
+		{name: "Minecraft", url: "/minecraft"},
+		{name: "Donate", url: "/donate"},
+		{name: "FAQ", url: "/faq"},
+		{name: "Contact us", url: "/contact"},
+		{name: "Our team", url: "/team"},
+		{name: "Timeline", url: "/timeline"},
+		{name: "Blog", url: "https://blog.projectsegfau.lt/"},
+		{name: "Legal", url: "/legal"},
+		{name: "Status", url: "https://status.projectsegfau.lt/"},
+	]
 </script>
 
 <nav>
@@ -19,16 +35,9 @@
 	</label>
 
 	<div class="links">
-		<a href="https://instances.projectsegfau.lt/">Instances</a>
-		<a href="/minecraft">Minecraft</a>
-		<a href="/donate">Donate</a>
-		<a href="/faq">FAQ</a>
-		<a href="/contact">Contact us</a>
-		<a href="/team">Our team</a>
-		<a href="/timeline">Timeline</a>
-		<a href="https://blog.projectsegfau.lt/">Blog</a>
-		<a href="/legal">Legal</a>
-		<a href="https://status.projectsegfau.lt/">Status</a>
+		{#each menus as { url, name }}
+			<a sveltekit:prefetch class:active={url !== "/" ? currentPage.match(url) : url === currentPage} href={url}>{name}</a>
+		{/each}
 		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
 			<IconMatrix />
 		</a>
@@ -60,6 +69,10 @@
 		transition: opacity 0.25s;
 	}
 
+	a.active {
+		color: var(--accent);
+	}
+
 	a.brand:hover {
 		opacity: 0.6;
 	}
@@ -83,7 +96,7 @@
 
 	.links > *:hover {
 		text-decoration: none;
-		color: var(--accent-primary);
+		color: var(--accent);
 	}
 
 	img {
