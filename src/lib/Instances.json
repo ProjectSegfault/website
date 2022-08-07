@@ -31,7 +31,8 @@
         "name": "Quetre",
         "description": "A frontend for Quora.",
         "website": "https://quetre.projectsegfau.lt/",
-        "category": "Instances"
+        "icon": "https://github.com/zyachel/quetre/raw/main/public/icon.svg",
+	"category": "Instances"
     },
     {
         "name": "Element",
@@ -65,7 +66,8 @@
         "name": "Bibliogram",
         "description": "A frontend for Instagram.",
         "website": "https://bib.projectsegfau.lt",
-        "category": "Instances"
+        "icon" : "https://git.sr.ht/~cadence/bibliogram/blob/master/art/logo-circle.png", 
+	"category": "Instances"
     },
     {
         "name": "Minecraft",
