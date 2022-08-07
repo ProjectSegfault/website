@@ -15,7 +15,10 @@ If you donate, we will be more motivated to work on the server and host more stu
 
 <div class="monero">
     Monero: <code style="margin-left: 4px;">47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA</code>
+	<br />
 	<img src="/Monero.png" alt="Monero Qr Code" />
+	<br />
+	You can also put <a href="https://projectsegfau.lt">projectsegfau.lt</a> in an OpenAlias compatible wallet. MyMonero, for example, supports this.
 </div>
 
 <p class="reports-note">
@@ -23,30 +26,8 @@ If you donate, we will be more motivated to work on the server and host more stu
 </p>
 
 <style>
-	.monero {
-		display: flex;
-		align-items: center;
-        word-break: break-all;
-	}
-
-	.monero > img {
-		margin-left: 26px;
-	}
-
 	.reports-note {
 		margin-top: 32px;
         font-style: italic;
-	}
-
-	@media only screen and (max-width: 930px) {
-		.monero {
-			flex-direction: column;
-			align-items: flex-start;
-		}
-
-		.monero > img {
-			margin-left: 0;
-			margin-top: 8px;
-		}
 	}
 </style>
