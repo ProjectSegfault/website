@@ -9,9 +9,6 @@ html {
 	--accent-translucent: #00a58498;
 	--font-primary: Raleway;
 	--font-header: Raleway;
-}
-
-html.dark {
 	--primary: #151515;
 	--secondary: #252525;
 	--tertiary: #353535;

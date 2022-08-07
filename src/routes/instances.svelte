@@ -19,7 +19,7 @@
             <div class="container">
                 {#each groups as group}
                     <div class="container-inner">
-                        <h1>{group.category}</h1>
+                        <h2>{group.category}</h2>
                         <div class="items">
                             {#each group.values as item }
                                 <CardInner title={item.name} description={item.description} icon={item.icon}>
