@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { CardInner, CardOuter, Link, LinksOuter } from "$lib/Card";
 	import members from "$lib/Team.json";
 	import IconDiscord from "~icons/simple-icons/discord";
 	import IconMatrix from "~icons/simple-icons/matrix";
@@ -14,138 +15,54 @@
 	<meta name="description" content="Team members of Project Segfault." />
 </svelte:head>
 
-<div class="team">
-	<h1>Our team</h1>
-	<p>Our excellent team members!</p>
-	<div class="team-outer">
-		{#each members as { name, discord, matrix, position, description, github, pgp, website, email, picture }}
-			<div class="team-inner">
-				<div class="main">
-					<span>{name} - {position}</span>
+<h1>Our team</h1>
+<CardOuter>
+    {#each members as { name, discord, matrix, position, description, github, pgp, website, email, picture }}
+        <CardInner title={name} {position} {description}>
+            <LinksOuter>
+                {#if matrix}
+					<Link url={matrix} classes="matrixcolored">
+						<IconMatrix />
+					</Link>
+				{/if}
 
-					{#if description}
-						<p class="description">{description}</p>
-					{/if}
-				</div>
+				{#if discord}
+					<Link url={discord} classes="discordcolored">
+						<IconDiscord />
+					</Link>
+				{/if}
 
-				<div class="socials">
-					{#if matrix}
-						<a href={matrix} class="matrixcolored"><IconMatrix /></a
-						>
-					{/if}
+				{#if github}
+					<Link url={github} classes="githubcolored">
+						<IconGitHub />
+					</Link>
+				{/if}
 
-					{#if discord}
-						<a href={discord} class="discordcolored"
-							><IconDiscord /></a
-						>
-					{/if}
+				{#if website}
+					<Link url={website} classes="web">
+						<IconGlobe />
+					</Link>
+				{/if}
 
-					{#if github}
-						<a href={github} class="githubcolored"><IconGitHub /></a
-						>
-					{/if}
+				{#if email}
+					<Link url="mailto:{email}" classes="email">
+						<IconEmail />
+					</Link>
+				{/if}
 
-					{#if website}
-						<a href={website} class="web"><IconGlobe /></a>
-					{/if}
+				{#if pgp}
+					<Link url={pgp} classes="pgp">
+						<IconKey />
+					</Link>
+				{/if}
 
-					{#if email}
-						<a href="mailto:{email}" class="email"><IconEmail /></a>
-					{/if}
-
-					{#if pgp}
-						<a href={pgp} class="pgp"><IconKey /></a>
-					{/if}
-
-					{#if picture}
-						<a href={picture} class="picture"><IconCamera /></a>
-					{/if}
-				</div>
-			</div>
-		{/each}
-	</div>
-</div>
-
-<style>
-	.team-outer {
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
-		flex-flow: row wrap;
-	}
-
-	.team-inner {
-		background-color: var(--secondary);
-		border-radius: 10px;
-		padding: 1rem;
-		width: 30em;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.main {
-		flex: 1;
-	}
-
-	span {
-		font-size: 25px;
-		font-weight: bold;
-	}
-
-	a {
-		border: none;
-		border-radius: 10px;
-		padding: 0.5rem;
-		cursor: pointer;
-		font-family: var(--font-primary);
-		color: var(--secondary);
-		text-decoration: none;
-		width: fit-content;
-	}
-
-	.matrixcolored {
-		background-color: #333;
-		color: #fff !important;
-		font-size: 20px;
-		height: 23px;
-	}
-
-	.discordcolored {
-		background-color: #5865f2;
-		color: #fff !important;
-		font-size: 20px;
-		height: 23px;
-	}
-
-	.githubcolored {
-		background-color: #333;
-		color: #fff !important;
-		font-size: 20px;
-		height: 23px;
-	}
-
-	.web,
-	.email,
-	.picture,
-	.pgp {
-		background-color: var(--tertiary);
-		color: #fff !important;
-		font-size: 20px;
-		height: 23px;
-		transition: all 0.25s;
-	}
-
-	.web:hover,
-	.email:hover,
-	.picture:hover,
-	.pgp:hover {
-		background-color: var(--accent);
-		color: #333 !important;
-	}
-
-	.socials {
-		display: flex;
-		flex-direction: row;
-		gap: 0.5rem;
-	}
-</style>
+				{#if picture}
+					<Link url={picture} classes="picture">
+						<IconCamera />
+					</Link>
+				{/if}
+				
+            </LinksOuter>
+        </CardInner>
+    {/each}
+</CardOuter>

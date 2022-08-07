@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Invidious",
+        "description": "A frontend for YouTube.",
+        "website": "https://invidious.projectsegfau.lt/",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/invidious-colored-vector.svg",
+        "category": "Instances"
+    },
+    {
+        "name": "Libreddit",
+        "description": "A frontend for Reddit.",
+        "website": "https://libreddit.projectsegfau.lt/",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/libreddit.png",
+        "category": "Instances"
+    },
+    {
+        "name": "Librarian (LBRY)",
+        "description": "A frontend for Odysee.",
+        "website": "https://lbry.projectsegfau.lt/",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/lbry.jpg",
+        "category": "Instances"
+    },
+    {
+        "name": "Nitter",
+        "description": "A frontend for Twitter.",
+        "website": "https://nitter.projectsegfau.lt/",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/nitter.png",
+        "category": "Instances"
+    },
+    {
+        "name": "Quetre",
+        "description": "A frontend for Quora.",
+        "website": "https://quetre.projectsegfau.lt/",
+        "category": "Instances"
+    },
+    {
+        "name": "Element",
+        "description": "An alternative for Discord.",
+        "website": "https://chat.projectsegfau.lt/",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/matrix.png",
+        "category": "Instances"
+    },
+    {
+        "name": "Piped",
+        "description": "Another alternative for YouTube.",
+        "website": "https://piped.projectsegfau.lt/",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/piped.svg",
+        "category": "Instances"
+    },
+    {
+        "name": "SearXNG",
+        "description": "A private meta-search engine.",
+        "website": "https://search.projectsegfau.lt/search",
+        "icon": "https://docs.searxng.org/_static/searxng-wordmark.svg",
+        "category": "Instances"
+    },
+    {
+        "name": "Lingva Translate",
+        "description": "A frontend for Google Translate.",
+        "website": "https://translate.projectsegfau.lt",
+        "icon": "https://github.com/thedaviddelta/lingva-translate/raw/main/public/logo.svg",
+        "category": "Instances"
+    },
+    {
+        "name": "Bibliogram",
+        "description": "A frontend for Instagram.",
+        "website": "https://bib.projectsegfau.lt",
+        "category": "Instances"
+    },
+    {
+        "name": "Minecraft",
+        "description": "Our invite-only Minecraft SMP.",
+        "website": "https://projectsegfau.lt/minecraft",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/minecraft.png",
+        "category": "Gameservers"
+    },
+    {
+        "name": "Minetest",
+        "description": "Minecraft \"alternative\".",
+        "website": "https://matrix.to/#/#minetest:projectsegfau.lt",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/1024px-Minetest_logo.svg.png",
+        "category": "Gameservers"
+    },
+    {
+        "name": "Portainer (Soleil Levant)",
+        "description": "A frontend for Google Translate.",
+        "website": "https://portainer.soleil-levant.projectsegfau.lt/",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/docker.svg",
+        "category": "Internal"
+    },
+    {
+        "name": "Portainer (Helios)",
+        "description": "A frontend for Instagram.",
+        "website": "https://portainer.projectsegfau.lt/",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/docker.svg",
+        "category": "Internal"
+    },
+    {
+        "name": "mailcow",
+        "description": "Our invite-only Minecraft SMP.",
+        "website": "https://mail.projectsegfau.lt/",
+        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/cow_mailcow.svg",
+        "category": "Internal"
+    },
+    {
+        "name": "Plausible analytics",
+        "description": "Minecraft \"alternative\".",
+        "website": "https://analytics.projectsegfau.lt/projectsegfau.lt",
+        "icon": "https://avatars.githubusercontent.com/u/54802774?s=200&v=4",
+        "category": "Internal"
+    }
+]

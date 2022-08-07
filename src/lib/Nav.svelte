@@ -8,7 +8,7 @@
 	$: currentPage = $page.url.pathname;
 
 	const menus = [
-		{name: "Instances", url: "https://instances.projectsegfau.lt/"},
+		{name: "Instances", url: "/instances"},
 		{name: "Projects", url: "/projects"},
 		{name: "Minecraft", url: "/minecraft"},
 		{name: "Donate", url: "/donate"},
