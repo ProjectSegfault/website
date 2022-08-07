@@ -89,7 +89,7 @@
 		color: #fff !important;
 		font-size: 20px;
 		height: 23px;
-		transition: all 0.5s;
+		transition: all 0.25s;
 	}
 
 	.web:hover {

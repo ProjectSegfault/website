@@ -9,6 +9,7 @@
 
 	const menus = [
 		{name: "Instances", url: "https://instances.projectsegfau.lt/"},
+		{name: "Projects", url: "/projects"},
 		{name: "Minecraft", url: "/minecraft"},
 		{name: "Donate", url: "/donate"},
 		{name: "FAQ", url: "/faq"},
@@ -113,7 +114,7 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 984px) {
+	@media screen and (max-width: 1058px) {
 		.links {
 			display: none;
 			width: 100%;

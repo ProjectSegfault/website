@@ -104,7 +104,8 @@
 	}
 
 	.matrixcolored {
-		background-color: var(--tertiary);
+		background-color: #333;
+		color: #fff !important;
 		font-size: 20px;
 		height: 23px;
 	}
@@ -131,15 +132,15 @@
 		color: #fff !important;
 		font-size: 20px;
 		height: 23px;
+		transition: all 0.25s;
 	}
 
-	.web {
-		transition: all 0.5s;
-	}
-
-	.web:hover {
+	.web:hover,
+	.email:hover,
+	.picture:hover,
+	.pgp:hover {
 		background-color: var(--accent);
-		color: var(--secondary) !important;
+		color: #333 !important;
 	}
 
 	.socials {
