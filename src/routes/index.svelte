@@ -27,7 +27,7 @@
 	marginTop="7"
 >
 	<div class="buttons">
-		<a href="https://instances.projectsegfau.lt/">Explore our services</a>
+		<a href="/instances">Explore our services</a>
 		<a href="/projects">Explore our projects</a>
 		<a href="/donate"><IconMoneyBill /> Donate</a>
 	</div>

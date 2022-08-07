@@ -3,9 +3,6 @@
     export let position: any;
     export let description: any;
     export let icon: any;
-    export let internal: boolean;
-
-	import IconCircleInfo from "~icons/fa6-solid/circle-info";
 </script>
 
 <div class="card-inner">
