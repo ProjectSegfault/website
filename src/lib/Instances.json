@@ -35,7 +35,7 @@
     },
     {
         "name": "Element",
-        "description": "An alternative for Discord.",
+        "description": "An open source and decentralized chat application.",
         "website": "https://chat.projectsegfau.lt/",
         "icon": "https://instances.projectsegfau.lt/assets/icons/custom/matrix.png",
         "category": "Instances"
@@ -83,28 +83,28 @@
     },
     {
         "name": "Portainer (Soleil Levant)",
-        "description": "A frontend for Google Translate.",
+        "description": "Portainer instance for Soleil Levant.",
         "website": "https://portainer.soleil-levant.projectsegfau.lt/",
         "icon": "https://instances.projectsegfau.lt/assets/icons/custom/docker.svg",
         "category": "Internal"
     },
     {
         "name": "Portainer (Helios)",
-        "description": "A frontend for Instagram.",
+        "description": "Portainer instance for Helios.",
         "website": "https://portainer.projectsegfau.lt/",
         "icon": "https://instances.projectsegfau.lt/assets/icons/custom/docker.svg",
         "category": "Internal"
     },
     {
         "name": "mailcow",
-        "description": "Our invite-only Minecraft SMP.",
+        "description": "Our mail server and webmail.",
         "website": "https://mail.projectsegfau.lt/",
         "icon": "https://instances.projectsegfau.lt/assets/icons/custom/cow_mailcow.svg",
         "category": "Internal"
     },
     {
         "name": "Plausible analytics",
-        "description": "Minecraft \"alternative\".",
+        "description": "Analytics for our website.",
         "website": "https://analytics.projectsegfau.lt/projectsegfau.lt",
         "icon": "https://avatars.githubusercontent.com/u/54802774?s=200&v=4",
         "category": "Internal"
