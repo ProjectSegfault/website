@@ -73,7 +73,7 @@
         "name": "Minecraft",
         "description": "Our invite-only Minecraft SMP.",
         "website": "https://projectsegfau.lt/minecraft",
-        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/minecraft.png",
+        "icon": "https://icon-library.com/images/flat-minecraft-icon/flat-minecraft-icon-7.jpg",
         "category": "Gameservers"
     },
     {
@@ -87,14 +87,14 @@
         "name": "Portainer (Soleil Levant)",
         "description": "Portainer instance for Soleil Levant.",
         "website": "https://portainer.soleil-levant.projectsegfau.lt/",
-        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/docker.svg",
+        "icon": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
         "category": "Internal"
     },
     {
         "name": "Portainer (Helios)",
         "description": "Portainer instance for Helios.",
         "website": "https://portainer.projectsegfau.lt/",
-        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/docker.svg",
+        "icon": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
         "category": "Internal"
     },
     {
