@@ -1,11 +1,13 @@
 <script lang="ts">
 	import SvelteSeo from "svelte-seo";
 	import Hero from "$lib/Hero.svelte";
-
-	let description: string =
-		"7 idiots, 2 OVH vpses, a BuyVM 1024 Slice, a Sun server and a Hitachi Compute Rack.";
 	import IconMoneyBill from "~icons/fa6-solid/money-bill";
+	import IconCircleInfo from "~icons/fa6-solid/circle-info";
+	import IconTriangleExclamation from "~icons/fa6-solid/triangle-exclamation";
+	import dayjs from "dayjs";
 
+	let description: string = "7 idiots, 2 OVH vpses, a BuyVM 1024 Slice, a Sun server and a Hitachi Compute Rack.";
+	
 	let announcements: any = [];
 	async function fetchAnnouncements() {
 		const url = `https://segfautils.projectsegfau.lt/api/announcements`;
@@ -15,14 +17,9 @@
 	}
 
 	const promise = fetchAnnouncements();
-
-	import IconCircleInfo from "~icons/fa6-solid/circle-info";
-	import IconTriangleExclamation from "~icons/fa6-solid/triangle-exclamation";
-
-	import dayjs from "dayjs";
 </script>
 
-<SvelteSeo title="Home" {description} />
+<SvelteSeo title="Home | Project Segfault" {description} />
 
 <Hero
 	title="Project Segfault"

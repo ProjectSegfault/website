@@ -11,6 +11,11 @@
 	import Hero from "$lib/Hero.svelte";
 </script>
 
+<svelte:head>
+	<title>Timeline | Project Segfault</title>
+	<meta name="description" content="Timeline of Project Segfault's history." />
+</svelte:head>
+
 <Hero>
 	<h1>A timeline of <span>Project Segfault</span>'s history</h1>
 </Hero>
