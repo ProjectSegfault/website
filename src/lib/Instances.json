@@ -3,28 +3,28 @@
         "name": "Invidious",
         "description": "A frontend for YouTube.",
         "website": "https://invidious.projectsegfau.lt/",
-        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/invidious-colored-vector.svg",
+        "icon": "https://github.com/iv-org/invidious/raw/master/assets/invidious-colored-vector.svg",
         "category": "Instances"
     },
     {
         "name": "Libreddit",
         "description": "A frontend for Reddit.",
         "website": "https://libreddit.projectsegfau.lt/",
-        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/libreddit.png",
+        "icon": "https://github.com/spikecodes/libreddit/raw/master/static/logo.png",
         "category": "Instances"
     },
     {
         "name": "Librarian (LBRY)",
         "description": "A frontend for Odysee.",
         "website": "https://lbry.projectsegfau.lt/",
-        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/lbry.jpg",
+        "icon": "https://codeberg.org/librarian/librarian/raw/branch/main/static/img/librarian.svg",
         "category": "Instances"
     },
     {
         "name": "Nitter",
         "description": "A frontend for Twitter.",
         "website": "https://nitter.projectsegfau.lt/",
-        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/nitter.png",
+        "icon": "https://github.com/zedeus/nitter/raw/master/public/logo.png",
         "category": "Instances"
     },
     {
@@ -38,14 +38,14 @@
         "name": "Element",
         "description": "An open source and decentralized chat application.",
         "website": "https://chat.projectsegfau.lt/",
-        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/matrix.png",
+        "icon": "https://element.io/images/logo-mark-primary.svg",
         "category": "Instances"
     },
     {
         "name": "Piped",
         "description": "Another alternative for YouTube.",
         "website": "https://piped.projectsegfau.lt/",
-        "icon": "https://instances.projectsegfau.lt/assets/icons/custom/piped.svg",
+        "icon": "https://github.com/TeamPiped/Piped/raw/master/public/img/icons/logo.svg",
         "category": "Instances"
     },
     {
