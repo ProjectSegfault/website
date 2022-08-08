@@ -15,7 +15,7 @@
 	"devDependencies": {
 		"@iconify-json/fa6-solid": "^1.1.6",
 		"@iconify-json/simple-icons": "^1.1.20",
-		"@sveltejs/adapter-static": "1.0.0-next.38",
+		"@sveltejs/adapter-static": "1.0.0-next.39",
 		"@sveltejs/kit": "1.0.0-next.396",
 		"dayjs": "^1.11.4",
 		"mdsvex": "^0.10.6",
