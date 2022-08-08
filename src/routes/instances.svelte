@@ -26,8 +26,7 @@
 								title={item.name}
 								description={item.description}
 								icon={item.icon}
-							>
-							</CardInner>
+							/>
 						</a>
 					{/each}
 				</div>

@@ -6,8 +6,7 @@
 	import IconTriangleExclamation from "~icons/fa6-solid/triangle-exclamation";
 	import dayjs from "dayjs";
 
-	let description: string =
-		"Open source development and hosted services.";
+	let description: string = "Open source development and hosted services.";
 
 	let announcements: any = [];
 	async function fetchAnnouncements() {

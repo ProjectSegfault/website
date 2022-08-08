@@ -13,8 +13,7 @@
 	openGraph={{
 		url: "https://projectsegfau.lt/",
 		title: "Project Segfault",
-		description:
-			"Open source development and hosted services.",
+		description: "Open source development and hosted services.",
 		images: [
 			{
 				url: "/ProjectSegfault_Desktop_16-9.png",
