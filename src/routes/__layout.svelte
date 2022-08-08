@@ -3,18 +3,18 @@
 	import Nav from "$lib/Nav.svelte";
 	import Footer from "$lib/Footer.svelte";
 	import SvelteSeo from "svelte-seo";
+	import "uno.css";
 </script>
 
 <SvelteSeo
 	title="Project Segfault"
-	description="7 idiots, 2 OVH vpses, a BuyVM 1024 Slice, a Sun server and a Hitachi Compute Rack."
+	description="Open source development and hosted services."
 	canonical="https://projectsegfau.lt/"
 	keywords="projectsegfault, project segfault, privacy services, privacy instances, invidious, nitter, searxng, minecraft"
 	openGraph={{
 		url: "https://projectsegfau.lt/",
 		title: "Project Segfault",
-		description:
-			"7 idiots, 2 OVH vpses, a BuyVM 1024 Slice, a Sun server and a Hitachi Compute Rack.",
+		description: "Open source development and hosted services.",
 		images: [
 			{
 				url: "/ProjectSegfault_Desktop_16-9.png",

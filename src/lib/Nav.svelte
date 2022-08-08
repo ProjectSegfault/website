@@ -1,44 +1,64 @@
-<script>
-	import IconBars from "~icons/fa6-solid/bars";
+<script lang="ts">
+	import ThemeToggle from "./ThemeToggle.svelte";
+	import { page } from "$app/stores";
+
+	$: currentPage = $page.url.pathname;
+
+	const menus = [
+		{ name: "Instances", url: "/instances" },
+		{ name: "Projects", url: "/projects" },
+		{ name: "Minecraft", url: "/minecraft" },
+		{ name: "Donate", url: "/donate" },
+		{ name: "FAQ", url: "/faq" },
+		{ name: "Contact us", url: "/contact" },
+		{ name: "Our team", url: "/team" },
+		{ name: "Timeline", url: "/timeline" },
+		{ name: "Blog", url: "https://blog.projectsegfau.lt/" },
+		{ name: "Legal", url: "/legal" },
+		{ name: "Status", url: "https://status.projectsegfau.lt/" }
+	];
 </script>
 
 <nav>
 	<a class="brand" href="/">
 		<img src="/logo.png" alt="Project Segfault logo" />
-		<span
-			style="color: var(--accent-secondary); margin-left: 4px; margin-right: 4px;"
-			>Project</span
-		>
-		<span style="color: var(--accent-primary); margin-right: 8px;"
-			>Segfault</span
-		>
+		<span>Project Segfault</span>
 	</a>
 
 	<input type="checkbox" id="toggle-menu" />
 	<label class="menu-icon" for="toggle-menu">
-		<div id="menu-icon">
-			<IconBars />
+		<div id="menu-icon" class="i-fa6-solid:bars">
 		</div>
 	</label>
 
 	<div class="links">
-		<a href="https://instances.projectsegfau.lt/">Instances & Gameservers</a
-		>
-		<a href="/minecraft">Minecraft</a>
-		<a href="/donate">Donate</a>
-		<a href="/faq">FAQ</a>
-		<a href="/contact">Contact</a>
-		<a href="/members">Members</a>
-		<a href="https://blog.projectsegfau.lt/">Blog</a>
-		<a href="/legal">Legal</a>
+		{#each menus as { url, name }}
+			<a
+				sveltekit:prefetch
+				class:active={url !== "/"
+					? currentPage.match(url)
+					: url === currentPage}
+				href={url}>{name}</a
+			>
+		{/each}
+		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
+			<div class="i-simple-icons:matrix"></div>
+		</a>
+		<a href="https://github.com/ProjectSegfault/">
+			<div class="i-simple-icons:github"></div>
+		</a>
+		<div>
+			<ThemeToggle />
+		</div>
 	</div>
 </nav>
 
 <style>
 	nav {
-		background-color: var(--secondary);
-		padding: 1rem;
+		background-color: var(--primary);
+		border-bottom: 1px solid var(--grey);
 		display: flex;
+		padding: 0.5rem;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
@@ -47,6 +67,17 @@
 		display: flex;
 		align-items: center;
 		text-decoration: none;
+		color: var(--text);
+		gap: 8px;
+		transition: opacity 0.25s;
+	}
+
+	a.active {
+		color: var(--accent);
+	}
+
+	a.brand:hover {
+		opacity: 0.6;
 	}
 
 	.links {
@@ -55,32 +86,24 @@
 	}
 
 	.links > * {
-		background-color: var(--tertiary);
-		border: none;
-		border-radius: 10px;
-		padding: 1rem;
+		padding: 0.5rem;
 		cursor: pointer;
 		color: var(--text);
-		font-family: var(--font-primary);
 		text-decoration: none;
+		transition: color 0.25s;
+		font-size: 13px;
+		font-weight: 500;
+		display: flex;
+		align-items: center;
 	}
 
 	.links > *:hover {
-		background-color: var(--accent-tertiary);
 		text-decoration: none;
-		transition: all 0.5s;
-		color: var(--secondary);
-	}
-
-	.links > *:active {
-		background-color: var(--accent-primary);
-		text-decoration: none;
-		transition: all 0.5s;
-		color: var(--secondary);
+		color: var(--accent);
 	}
 
 	img {
-		height: 36px;
+		height: 30px;
 		border-radius: 50%;
 	}
 
@@ -93,12 +116,11 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 1150px) {
+	@media screen and (max-width: 1058px) {
 		.links {
 			display: none;
 			width: 100%;
-			background-color: var(--secondary);
-			padding-top: 2rem;
+			padding-top: 12px;
 		}
 
 		nav {
@@ -112,15 +134,17 @@
 		}
 
 		.menu-icon {
-			display: block;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			z-index: 1;
 			position: absolute;
-			top: 0.45rem;
 			right: 1rem;
-			background-color: var(--tertiary);
+			top: 0.5rem;
 			border: none;
 			border-radius: 10px;
-			padding: 1rem;
+			height: 30px;
+			width: 30px;
 			cursor: pointer;
 			line-height: 1;
 		}
