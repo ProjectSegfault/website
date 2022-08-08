@@ -8,18 +8,18 @@
 	$: currentPage = $page.url.pathname;
 
 	const menus = [
-		{name: "Instances", url: "/instances"},
-		{name: "Projects", url: "/projects"},
-		{name: "Minecraft", url: "/minecraft"},
-		{name: "Donate", url: "/donate"},
-		{name: "FAQ", url: "/faq"},
-		{name: "Contact us", url: "/contact"},
-		{name: "Our team", url: "/team"},
-		{name: "Timeline", url: "/timeline"},
-		{name: "Blog", url: "https://blog.projectsegfau.lt/"},
-		{name: "Legal", url: "/legal"},
-		{name: "Status", url: "https://status.projectsegfau.lt/"},
-	]
+		{ name: "Instances", url: "/instances" },
+		{ name: "Projects", url: "/projects" },
+		{ name: "Minecraft", url: "/minecraft" },
+		{ name: "Donate", url: "/donate" },
+		{ name: "FAQ", url: "/faq" },
+		{ name: "Contact us", url: "/contact" },
+		{ name: "Our team", url: "/team" },
+		{ name: "Timeline", url: "/timeline" },
+		{ name: "Blog", url: "https://blog.projectsegfau.lt/" },
+		{ name: "Legal", url: "/legal" },
+		{ name: "Status", url: "https://status.projectsegfau.lt/" }
+	];
 </script>
 
 <nav>
@@ -37,7 +37,13 @@
 
 	<div class="links">
 		{#each menus as { url, name }}
-			<a sveltekit:prefetch class:active={url !== "/" ? currentPage.match(url) : url === currentPage} href={url}>{name}</a>
+			<a
+				sveltekit:prefetch
+				class:active={url !== "/"
+					? currentPage.match(url)
+					: url === currentPage}
+				href={url}>{name}</a
+			>
 		{/each}
 		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
 			<IconMatrix />

@@ -1,9 +1,9 @@
 <div>
-    <slot />
+	<slot />
 </div>
 
 <style>
-    div {
+	div {
 		display: flex;
 		flex-direction: row;
 		gap: 0.5rem;

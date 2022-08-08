@@ -6,8 +6,9 @@
 	import IconTriangleExclamation from "~icons/fa6-solid/triangle-exclamation";
 	import dayjs from "dayjs";
 
-	let description: string = "7 idiots, 2 OVH vpses, a BuyVM 1024 Slice, a Sun server and a Hitachi Compute Rack.";
-	
+	let description: string =
+		"Open source development and hosted services.";
+
 	let announcements: any = [];
 	async function fetchAnnouncements() {
 		const url = `https://segfautils.projectsegfau.lt/api/announcements`;
@@ -46,9 +47,9 @@
 						<IconTriangleExclamation />
 					{/if}
 					<span>
-						{dayjs.unix(announcements.created).format(
-							"DD/MM/YYYY HH:mm"
-						)}
+						{dayjs
+							.unix(announcements.created)
+							.format("DD/MM/YYYY HH:mm")}
 					</span>
 				</div>
 				<div class="title">

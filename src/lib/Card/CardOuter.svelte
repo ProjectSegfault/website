@@ -1,12 +1,12 @@
 <div class="card-outer">
-    <slot />
+	<slot />
 </div>
 
 <style>
-    div {
-        display: flex;
+	div {
+		display: flex;
 		flex-direction: column;
 		gap: 2rem;
 		flex-flow: row wrap;
-    }
+	}
 </style>

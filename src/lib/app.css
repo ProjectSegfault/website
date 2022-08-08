@@ -34,7 +34,7 @@ body {
 	position: relative;
 	min-height: 100vh;
 	line-height: 1.625;
-	transition: all .25s;
+	transition: all 0.25s;
 }
 
 ::selection {

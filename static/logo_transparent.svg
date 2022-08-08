@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="pjsgfltrebrandtransparentish.svg"
+   sodipodi:docname="logo.svg"
    inkscape:export-filename="pjsgfltrebrandtransparentish.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -28,7 +28,7 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.5866953"
-     inkscape:cx="191.9083"
+     inkscape:cx="192.22342"
      inkscape:cy="255.24749"
      inkscape:window-width="1920"
      inkscape:window-height="1022"
@@ -110,12 +110,4 @@
          inkscape:original-d="m 377.87971,133.48486 -236.02453,0.24251 V 383.6211 c 0,0 303.15572,-167.40787 44.67569,-108.17418 C 9.614791,315.98928 377.87971,133.48486 377.87971,133.48486 Z" />
     </g>
   </g>
-  <rect
-     style="fill:#00a584;fill-opacity:0.563436;paint-order:stroke fill markers;image-rendering:optimizeQuality"
-     id="rect4630"
-     width="375.63217"
-     height="380.60764"
-     x="0"
-     y="0"
-     ry="52.713902" />
 </svg>

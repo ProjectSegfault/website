@@ -13,7 +13,10 @@
 
 <svelte:head>
 	<title>Timeline | Project Segfault</title>
-	<meta name="description" content="Timeline of Project Segfault's history." />
+	<meta
+		name="description"
+		content="Timeline of Project Segfault's history."
+	/>
 </svelte:head>
 
 <Hero>

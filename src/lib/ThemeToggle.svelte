@@ -2,9 +2,8 @@
 	import { afterUpdate } from "svelte";
 	import DarkMode from "svelte-dark-mode";
 	import type { Theme } from "svelte-dark-mode/types/DarkMode.svelte";
-    import IconSun from "~icons/fa6-solid/sun";
-    import IconMoon from "~icons/fa6-solid/moon";
-
+	import IconSun from "~icons/fa6-solid/sun";
+	import IconMoon from "~icons/fa6-solid/moon";
 
 	let theme: Theme;
 
@@ -21,18 +20,18 @@
 
 {#if theme === "dark"}
 	<div on:click={toggle}>
-        <IconSun />
-    </div>
+		<IconSun />
+	</div>
 {:else if theme === "light"}
-    <div on:click={toggle}>
-        <IconMoon />
-    </div>
+	<div on:click={toggle}>
+		<IconMoon />
+	</div>
 {/if}
 
 <style>
-    div {
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-    }
+	div {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+	}
 </style>

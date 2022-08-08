@@ -1,14 +1,14 @@
 <script lang="ts">
-    export let url: any;
-    export let classes: string;
+	export let url: any;
+	export let classes: string;
 </script>
 
-<a href={url} class="{classes}">
-    <slot />
+<a href={url} class={classes}>
+	<slot />
 </a>
 
 <style>
-    .web,
+	.web,
 	.email,
 	.picture,
 	.pgp {
@@ -27,7 +27,7 @@
 		color: #333 !important;
 	}
 
-    .matrixcolored {
+	.matrixcolored {
 		background-color: #333;
 		color: #fff !important;
 		font-size: 20px;
@@ -48,7 +48,7 @@
 		height: 23px;
 	}
 
-    a {
+	a {
 		border: none;
 		border-radius: 10px;
 		padding: 0.5rem;

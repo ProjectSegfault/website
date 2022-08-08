@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { CardInner, CardOuter, Link, LinksOuter } from "$lib/Card";
+	import { CardInner, CardOuter, Link, LinksOuter } from "$lib/Card";
 	import members from "$lib/Team.json";
 	import IconDiscord from "~icons/simple-icons/discord";
 	import IconMatrix from "~icons/simple-icons/matrix";
@@ -17,10 +17,10 @@
 
 <h1>Our team</h1>
 <CardOuter>
-    {#each members as { name, discord, matrix, position, description, github, pgp, website, email, picture }}
-        <CardInner title={name} {position} {description}>
-            <LinksOuter>
-                {#if matrix}
+	{#each members as { name, discord, matrix, position, description, github, pgp, website, email, picture }}
+		<CardInner title={name} {position} {description}>
+			<LinksOuter>
+				{#if matrix}
 					<Link url={matrix} classes="matrixcolored">
 						<IconMatrix />
 					</Link>
@@ -61,8 +61,7 @@
 						<IconCamera />
 					</Link>
 				{/if}
-				
-            </LinksOuter>
-        </CardInner>
-    {/each}
+			</LinksOuter>
+		</CardInner>
+	{/each}
 </CardOuter>
