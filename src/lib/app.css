@@ -14,6 +14,8 @@ html {
 	--tertiary: #353535;
 	--text: #ffffffde;
 	--grey: #5454547a;
+	--alt: #333;
+	--alt-text: #ddd
 }
 
 html.light {
@@ -22,6 +24,8 @@ html.light {
 	--tertiary: #939393;
 	--text: #444444;
 	--grey: #444444;
+	--alt: #ddd;
+	--alt-text: #333;
 }
 
 body {

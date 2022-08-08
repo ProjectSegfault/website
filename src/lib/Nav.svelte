@@ -1,7 +1,4 @@
 <script lang="ts">
-	import IconBars from "~icons/fa6-solid/bars";
-	import IconMatrix from "~icons/simple-icons/matrix";
-	import IconGitHub from "~icons/simple-icons/github";
 	import ThemeToggle from "./ThemeToggle.svelte";
 	import { page } from "$app/stores";
 
@@ -30,8 +27,7 @@
 
 	<input type="checkbox" id="toggle-menu" />
 	<label class="menu-icon" for="toggle-menu">
-		<div id="menu-icon">
-			<IconBars />
+		<div id="menu-icon" class="i-fa6-solid:bars">
 		</div>
 	</label>
 
@@ -46,10 +42,10 @@
 			>
 		{/each}
 		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
-			<IconMatrix />
+			<div class="i-simple-icons:matrix"></div>
 		</a>
 		<a href="https://github.com/ProjectSegfault/">
-			<IconGitHub />
+			<div class="i-simple-icons:github"></div>
 		</a>
 		<div>
 			<ThemeToggle />

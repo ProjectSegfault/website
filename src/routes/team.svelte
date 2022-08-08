@@ -1,13 +1,6 @@
 <script lang="ts">
 	import { CardInner, CardOuter, Link, LinksOuter } from "$lib/Card";
 	import members from "$lib/Team.json";
-	import IconDiscord from "~icons/simple-icons/discord";
-	import IconMatrix from "~icons/simple-icons/matrix";
-	import IconGitHub from "~icons/simple-icons/github";
-	import IconKey from "~icons/fa6-solid/key";
-	import IconGlobe from "~icons/fa6-solid/globe";
-	import IconEmail from "~icons/fa6-solid/envelope";
-	import IconCamera from "~icons/fa6-solid/camera";
 </script>
 
 <svelte:head>
@@ -22,43 +15,43 @@
 			<LinksOuter>
 				{#if matrix}
 					<Link url={matrix} classes="matrixcolored">
-						<IconMatrix />
+						<div class="i-simple-icons:matrix"></div>
 					</Link>
 				{/if}
 
 				{#if discord}
 					<Link url={discord} classes="discordcolored">
-						<IconDiscord />
+						<div class="i-simple-icons:discord"></div>
 					</Link>
 				{/if}
 
 				{#if github}
 					<Link url={github} classes="githubcolored">
-						<IconGitHub />
+						<div class="i-simple-icons:github"></div>
 					</Link>
 				{/if}
 
 				{#if website}
 					<Link url={website} classes="web">
-						<IconGlobe />
+						<div class="i-fa6-solid:globe"></div>
 					</Link>
 				{/if}
 
 				{#if email}
 					<Link url="mailto:{email}" classes="email">
-						<IconEmail />
+						<div class="i-fa6-solid:envelope"></div>
 					</Link>
 				{/if}
 
 				{#if pgp}
 					<Link url={pgp} classes="pgp">
-						<IconKey />
+						<div class="i-fa6-solid:key"></div>
 					</Link>
 				{/if}
 
 				{#if picture}
 					<Link url={picture} classes="picture">
-						<IconCamera />
+						<div class="i-fa6-solid:camera"></div>
 					</Link>
 				{/if}
 			</LinksOuter>

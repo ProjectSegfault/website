@@ -1,9 +1,6 @@
 <script lang="ts">
 	import SvelteSeo from "svelte-seo";
 	import Hero from "$lib/Hero.svelte";
-	import IconMoneyBill from "~icons/fa6-solid/money-bill";
-	import IconCircleInfo from "~icons/fa6-solid/circle-info";
-	import IconTriangleExclamation from "~icons/fa6-solid/triangle-exclamation";
 	import dayjs from "dayjs";
 
 	let description: string = "Open source development and hosted services.";
@@ -29,7 +26,7 @@
 	<div class="buttons">
 		<a href="/instances">Explore our services</a>
 		<a href="/projects">Explore our projects</a>
-		<a href="/donate"><IconMoneyBill /> Donate</a>
+		<a href="/donate"><div class="i-fa6-solid:money-bill"></div> Donate</a>
 	</div>
 </Hero>
 
@@ -41,9 +38,9 @@
 			<div class="announcement">
 				<div class="general">
 					{#if announcements.severity === "info"}
-						<IconCircleInfo />
+						<div class="i-fa6-solid:circle-info"></div>
 					{:else}
-						<IconTriangleExclamation />
+						<div class="i-fa6-solid:triangle-exclamation"></div>
 					{/if}
 					<span>
 						{dayjs

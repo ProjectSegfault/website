@@ -11,7 +11,7 @@ The project doesn't have a single owner but is made up of a team of people. A li
 
 ## What's the backstory to Project Segfault?
 
-We have a rather interesting backstory, if I do say so myself. [Click here to see a timeline of things that happened in Project Segfault's history](/timeline)
+We have a rather interesting backstory, if I do say so myself. [Click here to see a timeline of things that happened in Project Segfault's history](/timeline).
 
 ## One of your services contains toxic people!
 

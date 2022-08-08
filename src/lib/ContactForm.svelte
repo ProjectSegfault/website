@@ -1,6 +1,4 @@
 <script lang="ts">
-	import IconLock from "~icons/fa6-solid/lock";
-	import IconInfo from "~icons/fa6-solid/circle-info";
 	import HCaptcha from "svelte-hcaptcha";
 	let submit = false;
 
@@ -15,7 +13,7 @@
 	id="contact-form"
 >
 	<div class="note">
-		<IconLock />
+		<div class="i-fa6-solid:lock"></div>
 		<b>Your IP will be logged for anti-abuse measures.</b>
 	</div>
 	<div class="meta">
@@ -44,12 +42,11 @@
 		placeholder="Your message"
 	/>
 	<div class="note">
-		<IconInfo />
+		<div class="i-fa6-solid:circle-info"></div>
 		<b>The submit button will be visible when you complete the Captcha.</b>
 	</div>
 	<HCaptcha
 		sitekey="67e84266-980c-4050-8a39-142a91928fe8"
-		theme="dark"
 		on:success={showSubmitButton}
 	/>
 	{#if submit}
@@ -99,7 +96,7 @@
 	}
 
 	.form-textbox {
-		background-color: var(--tertiary);
+		background-color: var(--secondary);
 		color: var(--text);
 		border-radius: 10px;
 		border: none;
@@ -109,7 +106,7 @@
 	}
 
 	.button {
-		background-color: var(--tertiary);
+		background-color: var(--secondary);
 		border: none;
 		border-radius: 10px;
 		padding: 0.5rem;

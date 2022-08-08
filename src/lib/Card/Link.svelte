@@ -12,11 +12,13 @@
 	.email,
 	.picture,
 	.pgp {
-		background-color: var(--tertiary);
-		color: #fff !important;
+		background-color: var(--alt);
+		color: var(--alt-text);
 		font-size: 20px;
 		height: 23px;
 		transition: all 0.25s;
+		display: flex;
+		align-items: center;
 	}
 
 	.web:hover,
@@ -24,28 +26,34 @@
 	.picture:hover,
 	.pgp:hover {
 		background-color: var(--accent);
-		color: #333 !important;
+		color: var(--alt);
 	}
 
 	.matrixcolored {
-		background-color: #333;
-		color: #fff !important;
+		background-color: var(--alt);
+		color: var(--alt-text);
 		font-size: 20px;
 		height: 23px;
+		display: flex;
+		align-items: center;
 	}
 
 	.discordcolored {
 		background-color: #5865f2;
-		color: #fff !important;
+		color: #fff;
 		font-size: 20px;
 		height: 23px;
+		display: flex;
+		align-items: center;
 	}
 
 	.githubcolored {
 		background-color: #333;
-		color: #fff !important;
+		color: #fff;
 		font-size: 20px;
 		height: 23px;
+		display: flex;
+		align-items: center;
 	}
 
 	a {

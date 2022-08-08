@@ -1,10 +1,6 @@
 <script lang="ts">
 	import { CardInner, CardOuter, Link, LinksOuter } from "$lib/Card";
 	import projects from "$lib/Projects.json";
-	import IconGitHub from "~icons/simple-icons/github";
-	import IconGlobe from "~icons/fa6-solid/globe";
-	import IconEmail from "~icons/fa6-solid/envelope";
-	import IconCamera from "~icons/fa6-solid/camera";
 </script>
 
 <svelte:head>
@@ -19,13 +15,13 @@
 			<LinksOuter>
 				{#if website}
 					<Link url={website} classes="web">
-						<IconGlobe />
+						<div class="i-fa6-solid:globe"></div>
 					</Link>
 				{/if}
 
 				{#if github}
 					<Link url={github} classes="githubcolored">
-						<IconGitHub />
+						<div class="i-simple-icons:github"></div>
 					</Link>
 				{/if}
 			</LinksOuter>
