@@ -13,6 +13,8 @@ We have disabled request logging. This is because it is extremely identifiable. 
 
 Some of our services have things like databases and things, for example [Matrix](https://chat.projectsegfau.lt), but that should be pretty obvious the moment you make an account on there. They may collect some things, however we barely even access those databases so you should be fine.
 
+[Matrix](https://chat.projectsegfau.lt) logs IPs, there is nothing we can do to prevent that. We will only check IP addresses whenever there is serious abuse coming from someone's Matrix account, so we can ban their IP from using Project Segfault services. This includes, but is not limited to ban evading and harassment of communities and people.
+
 If you want the data we've collected on you to be sent, please contact us on Matrix in [this room](https://matrix.to/#/#gdpr:projectsegfau.lt), or e-mail us at [contact@projectsegfau.lt](mailto:contact@projectsegfau.lt). You don't need an account on our Matrix instance in order to chat there, you can choose from a bunch of public instances or make your own.
 
 ### For our website and blog
@@ -39,4 +41,4 @@ Often times you can clear your own data simply by deleting your account.
 
 As we said, you can request any GDPR/Privacy things in [this Matrix room](https://matrix.to/#/#gdpr:projectsegfau.lt). But, if there's any ongoing investigations and a law enforcement agency contacts us, we will comply. But, we will only do it if we can verify it's official and they have a warrant.
 
-_Last updated 28.07.2022 22:00 UTC+1_
+_Last updated 09.08.2022 16:57 UTC+1_
