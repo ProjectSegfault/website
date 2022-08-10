@@ -1,3 +1,8 @@
+# This repo is planned to become to a simple mirror to our gitea instance.
+# [The newly planned repo will be here.](https://git.projectsegfau.lt/ProjectSegfault/website)
+
+
+
 # Project Segfault website
 
 Live at [projectsegfau.lt](https://projectsegfau.lt).
