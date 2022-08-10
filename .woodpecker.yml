@@ -15,5 +15,5 @@ pipeline:
       port: 6665 
       command_timeout: 1m
       script:
-        - cd $RPATH
+        - cd $${RPATH}
         - git pull
