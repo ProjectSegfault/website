@@ -1,5 +1,5 @@
 <script>
-	import { CardInner, CardOuter } from "$lib/Card";
+	import { CardInner, CardOuter, LinksOuter, Link } from "$lib/Card";
 	import instances from "$lib/Instances.json";
 
 	let groups = instances.reduce((curr, val) => {
@@ -26,7 +26,15 @@
 								title={item.name}
 								description={item.description}
 								icon={item.icon}
-							/>
+							>
+								<LinksOuter>
+									<Link url={item.projectWebsite} classes="web">
+										<div class="projectWebsite">
+											<div class="i-fa6-solid:globe" /><span>Project website</span>
+										</div>
+									</Link>
+								</LinksOuter>
+							</CardInner>
 						</a>
 					{/each}
 				</div>
@@ -52,5 +60,12 @@
 	a {
 		text-decoration: none;
 		color: var(--text);
+	}
+	
+	.projectWebsite {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+		font-size: medium;
 	}
 </style>
