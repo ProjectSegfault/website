@@ -1,4 +1,4 @@
-# This repo is a mirror of [our repo on Gitea](https://git.projectsegfau.lt/ProjectSegfault/website), only open issues and pull requests there.
+# This repo is shortly going to become a mirror of [our repo on Gitea](https://git.projectsegfau.lt/ProjectSegfault/website), open pull requests here and issues at the Gitea repo.
 
 # Project Segfault website
 

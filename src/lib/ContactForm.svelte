@@ -18,7 +18,7 @@
 	</div>
 	<div class="meta">
 		<input
-			type="text"
+			type="email"
 			name="email"
 			class="form-textbox"
 			placeholder="Your email"
