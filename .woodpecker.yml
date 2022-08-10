@@ -10,7 +10,8 @@ pipeline:
       host:
         - projectsegfau.lt 
       username: $USERNAME
-      key: $KEY
+      key:
+        from_secret: $KEY
       port: 6665 
       command_timeout: 1m
       script:
