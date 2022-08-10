@@ -10,9 +10,10 @@ pipeline:
       host:
         - $HOST
       username: $USERNAME
-      key: $KEY
+      key:
+        from_secret: $KEY
       port: $PORT
       command_timeout: 1m
       script:
-        - $RPATH
+        - cd $RPATH
         - git pull
