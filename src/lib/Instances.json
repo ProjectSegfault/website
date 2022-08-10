@@ -4,111 +4,135 @@
 		"description": "A frontend for YouTube.",
 		"website": "https://invidious.projectsegfau.lt/",
 		"icon": "https://github.com/iv-org/invidious/raw/master/assets/invidious-colored-vector.svg",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://invidious.io/"
 	},
 	{
 		"name": "Libreddit",
 		"description": "A frontend for Reddit.",
 		"website": "https://libreddit.projectsegfau.lt/",
 		"icon": "https://github.com/spikecodes/libreddit/raw/master/static/logo.png",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://github.com/spikecodes/libreddit"
 	},
 	{
 		"name": "Librarian (LBRY)",
 		"description": "A frontend for Odysee.",
 		"website": "https://lbry.projectsegfau.lt/",
 		"icon": "https://codeberg.org/librarian/librarian/raw/branch/main/static/img/librarian.svg",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://codeberg.org/librarian/librarian"
 	},
 	{
 		"name": "Nitter",
 		"description": "A frontend for Twitter.",
 		"website": "https://nitter.projectsegfau.lt/",
 		"icon": "https://github.com/zedeus/nitter/raw/master/public/logo.png",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://github.com/zedeus/nitter"
 	},
 	{
 		"name": "Quetre",
 		"description": "A frontend for Quora.",
 		"website": "https://quetre.projectsegfau.lt/",
 		"icon": "https://github.com/zyachel/quetre/raw/main/public/icon.svg",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://github.com/zyachel/quetre"
 	},
 	{
 		"name": "Element",
 		"description": "An open source and decentralized chat application.",
 		"website": "https://chat.projectsegfau.lt/",
 		"icon": "https://element.io/images/logo-mark-primary.svg",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://element.io/"
 	},
 	{
 		"name": "Piped",
 		"description": "Another alternative for YouTube.",
 		"website": "https://piped.projectsegfau.lt/",
 		"icon": "https://github.com/TeamPiped/Piped/raw/master/public/img/icons/logo.svg",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://github.com/TeamPiped/Piped"
 	},
 	{
 		"name": "SearXNG",
 		"description": "A private meta-search engine.",
 		"website": "https://search.projectsegfau.lt/search",
 		"icon": "https://docs.searxng.org/_static/searxng-wordmark.svg",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://searxng.org/"
 	},
 	{
 		"name": "Lingva Translate",
 		"description": "A frontend for Google Translate.",
 		"website": "https://translate.projectsegfau.lt",
 		"icon": "https://github.com/thedaviddelta/lingva-translate/raw/main/public/logo.svg",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://github.com/thedaviddelta/lingva-translate"
 	},
 	{
 		"name": "Bibliogram",
 		"description": "A frontend for Instagram.",
 		"website": "https://bib.projectsegfau.lt",
 		"icon": "https://git.sr.ht/~cadence/bibliogram/blob/master/art/logo-circle.png",
-		"category": "Instances"
+		"category": "Instances",
+		"projectWebsite": "https://sr.ht/~cadence/bibliogram/"
+	},
+	{
+		"name": "Gitea",
+		"description": "A web interface for Git, alternative to GitHub.",
+		"website": "https://git.projectsegfau.lt",
+		"icon": "https://gitea.io/images/gitea.png",
+		"category": "Instances",
+		"projectWebsite": "https://gitea.io/"
 	},
 	{
 		"name": "Minecraft",
 		"description": "Our invite-only Minecraft SMP.",
 		"website": "https://projectsegfau.lt/minecraft",
 		"icon": "https://icon-library.com/images/flat-minecraft-icon/flat-minecraft-icon-7.jpg",
-		"category": "Gameservers"
+		"category": "Gameservers",
+		"projectWebsite": "https://www.minecraft.net/"
 	},
 	{
 		"name": "Minetest",
 		"description": "Minecraft \"alternative\".",
 		"website": "https://matrix.to/#/#minetest:projectsegfau.lt",
 		"icon": "https://instances.projectsegfau.lt/assets/icons/custom/1024px-Minetest_logo.svg.png",
-		"category": "Gameservers"
+		"category": "Gameservers",
+		"projectWebsite": "https://www.minetest.net/"
 	},
 	{
 		"name": "Portainer (Soleil Levant)",
 		"description": "Portainer instance for Soleil Levant.",
 		"website": "https://portainer.soleil-levant.projectsegfau.lt/",
 		"icon": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
-		"category": "Internal"
+		"category": "Internal",
+		"projectWebsite": "https://www.portainer.io/"
 	},
 	{
 		"name": "Portainer (Helios)",
 		"description": "Portainer instance for Helios.",
 		"website": "https://portainer.projectsegfau.lt/",
 		"icon": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
-		"category": "Internal"
+		"category": "Internal",
+		"projectWebsite": "https://www.portainer.io/"
 	},
 	{
 		"name": "mailcow",
 		"description": "Our mail server and webmail.",
 		"website": "https://mail.projectsegfau.lt/",
 		"icon": "https://instances.projectsegfau.lt/assets/icons/custom/cow_mailcow.svg",
-		"category": "Internal"
+		"category": "Internal",
+		"projectWebsite": "https://mailcow.email/"
 	},
 	{
 		"name": "Plausible analytics",
 		"description": "Analytics for our website.",
 		"website": "https://analytics.projectsegfau.lt/projectsegfau.lt",
 		"icon": "https://avatars.githubusercontent.com/u/54802774?s=200&v=4",
-		"category": "Internal"
+		"category": "Internal",
+		"projectWebsite": "https://plausible.io/"
 	}
 ]
