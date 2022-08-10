@@ -1,7 +1,4 @@
-# This repo is planned to become to a simple mirror to our gitea instance.
-# [The newly planned repo will be here.](https://git.projectsegfau.lt/ProjectSegfault/website)
-
-
+# This repo is a mirror of [our repo on Gitea](https://git.projectsegfau.lt/ProjectSegfault/website), only open issues and pull requests there.
 
 # Project Segfault website
 
