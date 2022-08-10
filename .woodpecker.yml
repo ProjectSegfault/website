@@ -1,0 +1,18 @@
+pipeline:
+  build:
+    image: node:bullseye-slim
+    commands:
+      - npm install
+      - npm run build
+  publish:
+    image: appleboy/drone-ssh
+    settings:
+      host:
+        - $HOST
+      username: $USERNAME
+      key: $KEY
+      port: $PORT
+      command_timeout: 1m
+      script:
+        - $RPATH
+        - git pull
