@@ -8,11 +8,10 @@ pipeline:
     image: appleboy/drone-ssh
     settings:
       host:
-        - $HOST
+        - projectsegfau.lt 
       username: $USERNAME
-      key:
-        from_secret: $KEY
-      port: $PORT
+      key: $KEY
+      port: 6665 
       command_timeout: 1m
       script:
         - cd $RPATH
