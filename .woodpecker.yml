@@ -15,6 +15,7 @@ pipeline:
       remote: git@git.projectsegfau.lt:ProjectSegfault/website.git 
       force: true
       commit: true
+      commit_message : Successfully built the page.
       ssh_key:
         from_secret: ssh_key_git
       
