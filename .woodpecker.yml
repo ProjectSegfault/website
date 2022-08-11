@@ -12,7 +12,7 @@ pipeline:
     image: appleboy/drone-git-push
     settings:
       branch: build
-      remote: git@git.projectsegfau.lt:midou/website.git
+      remote: git@git.projectsegfau.lt:ProjectSegfault/website.git 
       force: true
       commit: true
       ssh_key:
