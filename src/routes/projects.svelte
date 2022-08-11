@@ -20,8 +20,8 @@
 				{/if}
 
 				{#if git}
-					<Link url={git} classes="giteacolored">
-						<div class="i-simple-icons:gitea"></div>
+					<Link url={git} classes="gitcolored">
+						<div class="i-simple-icons:git"></div>
 					</Link>
 				{/if}
 			</LinksOuter>
