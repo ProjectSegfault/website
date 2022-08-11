@@ -30,7 +30,7 @@ pipeline:
       port: 6665 
       command_timeout: 1m
       script:
-        - cd /var/html
+        - cd /var/www/
         - rm -rf html
         - git clone https://git.projectsegfau.lt/ProjectSegfault/website.git html
         - cd html
