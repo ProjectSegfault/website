@@ -8,8 +8,8 @@ pipeline:
       - mv build/ ../
       - rm -rf *
       - mv ../build/* .
-
-  push:  image: appleboy/drone-git-push
+  push:
+    image: appleboy/drone-git-push
     settings:
       branch: build
       remote: git@git.projectsegfau.lt:ProjectSegfault/website.git 
@@ -18,8 +18,7 @@ pipeline:
       commit_message : Successfully built the page.
       ssh_key:
         from_secret: ssh_key_git
-          #when:
-          #event: [push, tag, deployement]
+      
   update:
     image: appleboy/drone-ssh
     settings:
@@ -36,8 +35,6 @@ pipeline:
         - git clone https://git.projectsegfau.lt/ProjectSegfault/website.git html
         - cd html
         - git checkout build
-          #when:
-          #event: [push, tag, deployement]
       # I HATE GIT AND HOW THEY FORCE THIS
       # todo: do the funny pull but find a way to accept the changes.
 branches: main 
