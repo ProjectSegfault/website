@@ -25,7 +25,7 @@ If you donate, we will be more motivated to work on the server and host more stu
     </div>
 </div>
 
-_You can find all of our financial reports on [our transparency repository on GitHub](https://github.com/ProjectSegfault/transparency/)._
+_You can find all of our financial reports on [our transparency repository on Gitea](https://git.projectsegfau.lt/ProjectSegfault/transparency/)._
 
 <style>
     .monero {
