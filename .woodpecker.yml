@@ -8,7 +8,7 @@ pipeline:
       - mv build/ ../
       - rm -rf *
       - mv ../build/* .
-  push:
+
   push:  image: appleboy/drone-git-push
     settings:
       branch: build
