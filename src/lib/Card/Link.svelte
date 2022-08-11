@@ -52,14 +52,6 @@
 		align-items: center;
 	}
 
-	.giteacolored {
-		background-color: #609926;
-		color: #fff;
-		font-size: 20px;
-		display: flex;
-		align-items: center;
-	}
-
 	a {
 		border: none;
 		border-radius: 10px;
