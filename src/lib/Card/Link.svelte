@@ -15,7 +15,6 @@
 		background-color: var(--alt);
 		color: var(--alt-text);
 		font-size: 20px;
-		height: 23px;
 		transition: all 0.25s;
 		display: flex;
 		align-items: center;
@@ -33,7 +32,6 @@
 		background-color: var(--alt);
 		color: var(--alt-text);
 		font-size: 20px;
-		height: 23px;
 		display: flex;
 		align-items: center;
 	}
@@ -42,16 +40,22 @@
 		background-color: #5865f2;
 		color: #fff;
 		font-size: 20px;
-		height: 23px;
 		display: flex;
 		align-items: center;
 	}
 
-	.githubcolored {
-		background-color: #333;
+	.gitcolored {
+		background-color: #F05032;
 		color: #fff;
 		font-size: 20px;
-		height: 23px;
+		display: flex;
+		align-items: center;
+	}
+
+	.giteacolored {
+		background-color: #609926;
+		color: #fff;
+		font-size: 20px;
 		display: flex;
 		align-items: center;
 	}

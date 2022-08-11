@@ -1,5 +1,3 @@
-# This repo is shortly going to become a mirror of [our repo on Gitea](https://git.projectsegfau.lt/ProjectSegfault/website), open pull requests here and issues at the Gitea repo.
-
 # Project Segfault website
 
 Live at [projectsegfau.lt](https://projectsegfau.lt).
@@ -14,7 +12,7 @@ Live at [projectsegfau.lt](https://projectsegfau.lt).
 
 ### Running a dev server.
 
-1. Clone the repository using `git clone https://github.com/ProjectSegfault/website`.
+1. Clone the repository using `git clone https://git.projectsegfau.lt/ProjectSegfault/website`.
 2. Change directory into the clone using `cd ./website`.
 3. Install dependencies using `pnpm i` (recommended) or `npm i`.
 4. Run the dev server using `pnpm dev` (recommended) or `npm run dev`.

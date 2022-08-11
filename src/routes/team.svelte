@@ -10,7 +10,7 @@
 
 <h1>Our team</h1>
 <CardOuter>
-	{#each members as { name, discord, matrix, position, description, github, pgp, website, email, picture }}
+	{#each members as { name, discord, matrix, position, description, git, pgp, website, email, picture }}
 		<CardInner title={name} {position} {description}>
 			<LinksOuter>
 				{#if matrix}
@@ -25,9 +25,9 @@
 					</Link>
 				{/if}
 
-				{#if github}
-					<Link url={github} classes="githubcolored">
-						<div class="i-simple-icons:github"></div>
+				{#if git}
+					<Link url={git} classes="gitcolored">
+						<div class="i-simple-icons:git"></div>
 					</Link>
 				{/if}
 

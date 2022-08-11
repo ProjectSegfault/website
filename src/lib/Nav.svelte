@@ -44,8 +44,8 @@
 		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
 			<div class="i-simple-icons:matrix"></div>
 		</a>
-		<a href="https://github.com/ProjectSegfault/">
-			<div class="i-simple-icons:github"></div>
+		<a href="https://git.projectsegfau.lt/ProjectSegfault/">
+			<div class="i-simple-icons:gitea"></div>
 		</a>
 		<div>
 			<ThemeToggle />

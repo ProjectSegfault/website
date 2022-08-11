@@ -10,7 +10,7 @@
 
 <h1>Our projects</h1>
 <CardOuter>
-	{#each projects as { name, description, github, website }}
+	{#each projects as { name, description, git, website }}
 		<CardInner title={name} {description}>
 			<LinksOuter>
 				{#if website}
@@ -19,9 +19,9 @@
 					</Link>
 				{/if}
 
-				{#if github}
-					<Link url={github} classes="githubcolored">
-						<div class="i-simple-icons:github"></div>
+				{#if git}
+					<Link url={git} classes="giteacolored">
+						<div class="i-simple-icons:gitea"></div>
 					</Link>
 				{/if}
 			</LinksOuter>
