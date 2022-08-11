@@ -37,4 +37,4 @@ pipeline:
         - git checkout build
       # I HATE GIT AND HOW THEY FORCE THIS
       # todo: do the funny pull but find a way to accept the changes.
-branches: master
+branches: main 
