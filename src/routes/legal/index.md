@@ -8,4 +8,4 @@ Since we care about transparency, privacy and safety we have created some docume
 
 -   [Privacy Policy](/legal/privacy-policy)
 -   [Terms of Service](/legal/tos)
--   [Transparency reports](https://github.com/ProjectSegfault/transparency/)
+-   [Transparency reports](https://git.projectsegfau.lt/ProjectSegfault/transparency/)
