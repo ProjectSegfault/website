@@ -24,7 +24,7 @@ pipeline:
     settings:
       host:
         - projectsegfau.lt 
-      username: ${USERNAME}
+      username: gitea
       key:
        from_secret: ssh_key 
       port: 6665 
