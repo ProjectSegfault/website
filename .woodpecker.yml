@@ -13,7 +13,7 @@ pipeline:
     settings:
       branch: build
       remote: git@git.projectsegfau.lt:ProjectSegfault/website.git 
-      force: false 
+      force: true 
       commit: true
       commit_message : Successfully built the page.
       ssh_key:
@@ -30,5 +30,11 @@ pipeline:
       port: 6665 
       command_timeout: 1m
       script:
-        - cd /var/www/html
+        - cd /var/html
+        - rm -rf html
+        - git clone https://git.projectsegfau.lt/ProjectSegfault/website.git html
+        - cd html
+        - git checkout build
         - git pull
+      # I HATE GIT AND HOW THEY FORCE THIS
+      # todo: do the funny pull but find a way to accept the changes.
