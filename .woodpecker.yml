@@ -4,16 +4,30 @@ pipeline:
     commands:
       - npm install
       - npm run build
-  publish:
+      - pwd
+      - mv build/ ../
+      - rm -rf *
+      - mv ../build/* .
+  push:
+    image: appleboy/drone-git-push
+    settings:
+      branch: build
+      remote: git@git.projectsegfau.lt:midou/website.git
+      force: true
+      commit: true
+      ssh_key:
+        from_secret: ssh_key_git
+      
+  update:
     image: appleboy/drone-ssh
     settings:
       host:
         - projectsegfau.lt 
-      username: $USERNAME
+      username: ${USERNAME}
       key:
-        from_secret: $KEY
+       from_secret: ssh_key 
       port: 6665 
       command_timeout: 1m
       script:
-        - cd $${RPATH}
+        - cd /var/www/html
         - git pull
