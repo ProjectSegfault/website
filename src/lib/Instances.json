@@ -16,14 +16,6 @@
 		"projectWebsite": "https://github.com/spikecodes/libreddit"
 	},
 	{
-		"name": "Librarian (LBRY)",
-		"description": "A frontend for Odysee.",
-		"website": "https://lbry.projectsegfau.lt/",
-		"icon": "https://codeberg.org/librarian/librarian/raw/branch/main/static/img/librarian.svg",
-		"category": "Instances",
-		"projectWebsite": "https://codeberg.org/librarian/librarian"
-	},
-	{
 		"name": "Nitter",
 		"description": "A frontend for Twitter.",
 		"website": "https://nitter.projectsegfau.lt/",
