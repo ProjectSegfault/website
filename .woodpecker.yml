@@ -1,5 +1,7 @@
 pipeline:
-    build: 
+    build:
+        when:
+          event: [push, pull_request]
         image: node:bullseye-slim
         commands:
             - npm install
@@ -9,7 +11,8 @@ pipeline:
             - rm -rf *
             - mv ../build/* .
     push:
-        event: [push, tag, deployment]
+        when:
+          event: [push]
         image: appleboy/drone-git-push
         settings:
             branch: build
@@ -19,9 +22,9 @@ pipeline:
             commit_message: Successfully built the page.
             ssh_key:
                 from_secret: ssh_key_git
-
     update:
-        event: [push, tag, deployment]
+        when:
+          event: [push]
         image: appleboy/drone-ssh
         settings:
             host:
