@@ -1,6 +1,5 @@
 pipeline:
-    build:
-        event: [push, pull_request, tag, deployment]
+    build: 
         image: node:bullseye-slim
         commands:
             - npm install
