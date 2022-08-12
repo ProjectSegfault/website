@@ -45,7 +45,7 @@
 			<div class="i-simple-icons:matrix"></div>
 		</a>
 		<a href="https://git.projectsegfau.lt/ProjectSegfault/">
-			<div class="i-simple-icons:gitea"></div>
+			<div class="i-simple-icons:git"></div>
 		</a>
 		<div>
 			<ThemeToggle />
