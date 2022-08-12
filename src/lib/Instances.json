@@ -96,14 +96,6 @@
 		"projectWebsite": "https://www.minecraft.net/"
 	},
 	{
-		"name": "Minetest",
-		"description": "Minecraft \"alternative\".",
-		"website": "https://matrix.to/#/#minetest:projectsegfau.lt",
-		"icon": "https://instances.projectsegfau.lt/assets/icons/custom/1024px-Minetest_logo.svg.png",
-		"category": "Gameservers",
-		"projectWebsite": "https://www.minetest.net/"
-	},
-	{
 		"name": "Portainer (Soleil Levant)",
 		"description": "Portainer instance for Soleil Levant.",
 		"website": "https://portainer.soleil-levant.projectsegfau.lt/",
