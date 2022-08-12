@@ -17,11 +17,9 @@
 <DarkMode bind:theme />
 
 {#if theme === "dark"}
-	<div on:click={toggle} class="i-fa6-solid:sun">
-	</div>
+	<div on:click={toggle} class="i-fa6-solid:sun" />
 {:else if theme === "light"}
-	<div on:click={toggle} class="i-fa6-solid:moon">
-	</div>
+	<div on:click={toggle} class="i-fa6-solid:moon" />
 {/if}
 
 <style>

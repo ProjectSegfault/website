@@ -28,9 +28,13 @@
 								icon={item.icon}
 							>
 								<LinksOuter>
-									<Link url={item.projectWebsite} classes="web">
+									<Link
+										url={item.projectWebsite}
+										classes="web"
+									>
 										<div class="projectWebsite">
-											<div class="i-fa6-solid:globe" /><span>Project website</span>
+											<div class="i-fa6-solid:globe" />
+											<span>Project website</span>
 										</div>
 									</Link>
 								</LinksOuter>
@@ -61,7 +65,7 @@
 		text-decoration: none;
 		color: var(--text);
 	}
-	
+
 	.projectWebsite {
 		display: flex;
 		align-items: center;

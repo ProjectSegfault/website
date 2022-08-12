@@ -15,13 +15,13 @@
 			<LinksOuter>
 				{#if website}
 					<Link url={website} classes="web">
-						<div class="i-fa6-solid:globe"></div>
+						<div class="i-fa6-solid:globe" />
 					</Link>
 				{/if}
 
 				{#if git}
 					<Link url={git} classes="gitcolored">
-						<div class="i-simple-icons:git"></div>
+						<div class="i-simple-icons:git" />
 					</Link>
 				{/if}
 			</LinksOuter>

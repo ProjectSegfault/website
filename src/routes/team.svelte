@@ -15,43 +15,43 @@
 			<LinksOuter>
 				{#if matrix}
 					<Link url={matrix} classes="matrixcolored">
-						<div class="i-simple-icons:matrix"></div>
+						<div class="i-simple-icons:matrix" />
 					</Link>
 				{/if}
 
 				{#if discord}
 					<Link url={discord} classes="discordcolored">
-						<div class="i-simple-icons:discord"></div>
+						<div class="i-simple-icons:discord" />
 					</Link>
 				{/if}
 
 				{#if git}
 					<Link url={git} classes="gitcolored">
-						<div class="i-simple-icons:git"></div>
+						<div class="i-simple-icons:git" />
 					</Link>
 				{/if}
 
 				{#if website}
 					<Link url={website} classes="web">
-						<div class="i-fa6-solid:globe"></div>
+						<div class="i-fa6-solid:globe" />
 					</Link>
 				{/if}
 
 				{#if email}
 					<Link url="mailto:{email}" classes="email">
-						<div class="i-fa6-solid:envelope"></div>
+						<div class="i-fa6-solid:envelope" />
 					</Link>
 				{/if}
 
 				{#if pgp}
 					<Link url={pgp} classes="pgp">
-						<div class="i-fa6-solid:key"></div>
+						<div class="i-fa6-solid:key" />
 					</Link>
 				{/if}
 
 				{#if picture}
 					<Link url={picture} classes="picture">
-						<div class="i-fa6-solid:camera"></div>
+						<div class="i-fa6-solid:camera" />
 					</Link>
 				{/if}
 			</LinksOuter>

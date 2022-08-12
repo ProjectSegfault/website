@@ -7,7 +7,14 @@
 		"category": "Instances",
 		"projectWebsite": "https://invidious.io/"
 	},
-	{		"name": "Librarian (LBRY)",		"description": "A frontend for Odysee.",		"website": "https://lbry.projectsegfau.lt/",		"icon": "https://codeberg.org/librarian/librarian/raw/branch/main/static/img/librarian.svg",		"category": "Instances",		"projectWebsite": "https://codeberg.org/librarian/librarian"	},
+	{
+		"name": "Librarian (LBRY)",
+		"description": "A frontend for Odysee.",
+		"website": "https://lbry.projectsegfau.lt/",
+		"icon": "https://codeberg.org/librarian/librarian/raw/branch/main/static/img/librarian.svg",
+		"category": "Instances",
+		"projectWebsite": "https://codeberg.org/librarian/librarian"
+	},
 	{
 		"name": "Libreddit",
 		"description": "A frontend for Reddit.",

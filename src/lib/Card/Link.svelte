@@ -45,7 +45,7 @@
 	}
 
 	.gitcolored {
-		background-color: #F05032;
+		background-color: #f05032;
 		color: #fff;
 		font-size: 20px;
 		display: flex;

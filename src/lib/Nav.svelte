@@ -27,8 +27,7 @@
 
 	<input type="checkbox" id="toggle-menu" />
 	<label class="menu-icon" for="toggle-menu">
-		<div id="menu-icon" class="i-fa6-solid:bars">
-		</div>
+		<div id="menu-icon" class="i-fa6-solid:bars" />
 	</label>
 
 	<div class="links">
@@ -42,10 +41,10 @@
 			>
 		{/each}
 		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
-			<div class="i-simple-icons:matrix"></div>
+			<div class="i-simple-icons:matrix" />
 		</a>
 		<a href="https://git.projectsegfau.lt/ProjectSegfault/">
-			<div class="i-simple-icons:git"></div>
+			<div class="i-simple-icons:git" />
 		</a>
 		<div>
 			<ThemeToggle />

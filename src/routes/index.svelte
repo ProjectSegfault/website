@@ -26,7 +26,10 @@
 	<div class="buttons">
 		<a href="/instances">Explore our services</a>
 		<a href="/projects">Explore our projects</a>
-		<a href="/donate"><div class="i-fa6-solid:money-bill"></div> Donate</a>
+		<a href="/donate"
+			><div class="i-fa6-solid:money-bill" />
+			 Donate</a
+		>
 	</div>
 </Hero>
 
@@ -38,9 +41,9 @@
 			<div class="announcement">
 				<div class="general">
 					{#if announcements.severity === "info"}
-						<div class="i-fa6-solid:circle-info"></div>
+						<div class="i-fa6-solid:circle-info" />
 					{:else}
-						<div class="i-fa6-solid:triangle-exclamation"></div>
+						<div class="i-fa6-solid:triangle-exclamation" />
 					{/if}
 					<span>
 						{dayjs

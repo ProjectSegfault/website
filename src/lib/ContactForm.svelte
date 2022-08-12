@@ -13,7 +13,7 @@
 	id="contact-form"
 >
 	<div class="note">
-		<div class="i-fa6-solid:lock"></div>
+		<div class="i-fa6-solid:lock" />
 		<b>Your IP will be logged for anti-abuse measures.</b>
 	</div>
 	<div class="meta">
@@ -42,7 +42,7 @@
 		placeholder="Your message"
 	/>
 	<div class="note">
-		<div class="i-fa6-solid:circle-info"></div>
+		<div class="i-fa6-solid:circle-info" />
 		<b>The submit button will be visible when you complete the Captcha.</b>
 	</div>
 	<HCaptcha
