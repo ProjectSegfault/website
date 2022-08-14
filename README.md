@@ -1,5 +1,3 @@
-# This repo is now a mirror of [our repo on Gitea](https://git.projectsegfau.lt/ProjectSegfault/website), open pull requests and issues at the Gitea repo.
-
 # Project Segfault website
 
 Live at [projectsegfau.lt](https://projectsegfau.lt).

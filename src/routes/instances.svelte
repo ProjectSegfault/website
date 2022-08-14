@@ -30,7 +30,7 @@
 								<LinksOuter>
 									<Link
 										url={item.projectWebsite}
-										classes="web"
+										class="web"
 									>
 										<div class="projectWebsite">
 											<div class="i-fa6-solid:globe" />

@@ -14,13 +14,13 @@
 		<CardInner title={name} {description}>
 			<LinksOuter>
 				{#if website}
-					<Link url={website} classes="web">
+					<Link url={website} class="web">
 						<div class="i-fa6-solid:globe" />
 					</Link>
 				{/if}
 
 				{#if git}
-					<Link url={git} classes="gitcolored">
+					<Link url={git} class="gitcolored">
 						<div class="i-simple-icons:git" />
 					</Link>
 				{/if}

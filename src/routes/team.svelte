@@ -14,43 +14,43 @@
 		<CardInner title={name} {position} {description}>
 			<LinksOuter>
 				{#if matrix}
-					<Link url={matrix} classes="matrixcolored">
+					<Link url={matrix} class="matrixcolored">
 						<div class="i-simple-icons:matrix" />
 					</Link>
 				{/if}
 
 				{#if discord}
-					<Link url={discord} classes="discordcolored">
+					<Link url={discord} class="discordcolored">
 						<div class="i-simple-icons:discord" />
 					</Link>
 				{/if}
 
 				{#if git}
-					<Link url={git} classes="gitcolored">
+					<Link url={git} class="gitcolored">
 						<div class="i-simple-icons:git" />
 					</Link>
 				{/if}
 
 				{#if website}
-					<Link url={website} classes="web">
+					<Link url={website} class="web">
 						<div class="i-fa6-solid:globe" />
 					</Link>
 				{/if}
 
 				{#if email}
-					<Link url="mailto:{email}" classes="email">
+					<Link url="mailto:{email}" class="email">
 						<div class="i-fa6-solid:envelope" />
 					</Link>
 				{/if}
 
 				{#if pgp}
-					<Link url={pgp} classes="pgp">
+					<Link url={pgp} class="pgp">
 						<div class="i-fa6-solid:key" />
 					</Link>
 				{/if}
 
 				{#if picture}
-					<Link url={picture} classes="picture">
+					<Link url={picture} class="picture">
 						<div class="i-fa6-solid:camera" />
 					</Link>
 				{/if}
