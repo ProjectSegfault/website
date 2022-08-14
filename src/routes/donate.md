@@ -24,6 +24,26 @@ If you donate, we will be more motivated to work on the server and host more stu
         <img src="/Monero.png" alt="Monero QR code" />
     </div>
 </div>
+<div class="bitcoin">
+    <div class="written">
+         <span>Address: <code>bc1qrc8ywgp95a6p3zausp4nff70qzstp6h8z86sxd</code></span><br />            
+         <span>Alias: <a href="https://projectsegfau.lt/">projectsegfau.lt</a> <i>(Put this in an OpenAlias compatible wallet e.g. Electrum)</i></span>
+     </div>
+     <div class="qr">
+         <img src="/Bitcoin.png" alt="Bitcoin QR code" />
+     </div>
+</div>
+<div class="litecoin">
+    <div class="written">
+         <span>Address: <code>ltc1qn3ald586h2ntt0n3zkvwsmju2e5vndgtvvgatj</code></span><br />            
+         <span>Alias: <a href="https://projectsegfau.lt/">projectsegfau.lt</a> <i>(Put this in an OpenAlias compatible wallet e.g. Electrum)</i></span>
+     </div>
+     <div class="qr">
+         <img src="/Litecoin.png" alt="Litecoin QR code" />
+     </div>
+</div>
+
+
 
 _You can find all of our financial reports on [our transparency repository on Gitea](https://git.projectsegfau.lt/ProjectSegfault/transparency/)._
 
