@@ -30,6 +30,7 @@
 			><div class="i-fa6-solid:money-bill" />
 			Donate</a
 		>
+		<a href="/pubnix" class="pubnixbutton">Check out our pubnix</a>
 	</div>
 </Hero>
 
@@ -146,5 +147,9 @@
 		display: flex;
 		align-items: center;
 		gap: 8px;
+	}
+
+	.pubnixbutton {
+		background-color: var(--nix-color) !important;
 	}
 </style>
