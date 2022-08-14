@@ -13,36 +13,41 @@ If you donate, we will be more motivated to work on the server and host more stu
 
 ## Donation Links
 
+### You can us
+
 <h3>Monero</h3>
 
 <div class="crypto">
+
     <div class="written">
         <span>Address: <code>47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA</code></span><br />
         <span>Alias: <a href="https://projectsegfau.lt/">projectsegfau.lt</a> <i>(Put this in an OpenAlias compatible wallet e.g. MyMonero)</i></span>
     </div>
-    <div class="qr">
-        <img src="/Monero.png" alt="Monero QR code" />
-    </div>
+	<div class="qr">
+	    <img src="/Monero.png" alt="Monero QR code" /></div>
 </div>
-<h3>BitCoin</h3>
+<h3>Bitcoin</h3>
 <div class="crypto">
-    <div class="written">
+
+   <div class="written">
          <span>Address: <code>bc1qrc8ywgp95a6p3zausp4nff70qzstp6h8z86sxd</code></span><br />            
          <span>Alias: <a href="https://projectsegfau.lt/">projectsegfau.lt</a> <i>(Put this in an OpenAlias compatible wallet e.g. Electrum)</i></span>
      </div>
-     <div class="qr">
-         <img src="/Bitcoin.png" alt="Bitcoin QR code" />
-     </div>
+   <div class="qr">
+   	<img src="/Bitcoin.png" alt ="Bitcoin QR Code">
+   </div>
+
 </div>
-<h3>LiteCoin</h3>
+<h3>Litecoin</h3>
 <div class="crypto">
-    <div class="written">
+
+     <div class="written">
          <span>Address: <code>ltc1qn3ald586h2ntt0n3zkvwsmju2e5vndgtvvgatj</code></span><br />            
          <span>Alias: <a href="https://projectsegfau.lt/">projectsegfau.lt</a> <i>(Put this in an OpenAlias compatible wallet e.g. Electrum)</i></span>
-     </div>
-     <div class="qr">
-         <img src="/Litecoin.png" alt="Litecoin QR code" />
-     </div>
+     </div> 
+    <div class="qr">
+        <img src="/Litecoin.png" alt="Litecoin QR code" />
+    </div>
 </div>
 
 
@@ -51,7 +56,7 @@ _You can find all of our financial reports on [our transparency repository on Gi
 
 <style>
     .crypto {
-        display: flex;
+        display: block;
         flex-direction: row;
         align-items: center;
         gap: 8px;
