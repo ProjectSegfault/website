@@ -81,7 +81,7 @@
 	},
 	{
 		"name": "Gitea",
-		"description": "A web interface for Git, alternative to GitHub.",
+		"description": " ℹ: The team does not use this anymore. A web interface for Git, alternative to GitHub.",
 		"website": "https://git.projectsegfau.lt",
 		"icon": "https://gitea.io/images/gitea.png",
 		"category": "Instances",

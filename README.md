@@ -1,3 +1,6 @@
+## The repo will once again move to somewhere else because the active devs hates using self hosted git services. Oh well...
+
+
 # Project Segfault website
 
 Live at [projectsegfau.lt](https://projectsegfau.lt).
