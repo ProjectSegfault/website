@@ -13,8 +13,6 @@ If you donate, we will be more motivated to work on the server and host more stu
 
 ## Donation Links
 
-### You can us
-
 <h3>Monero</h3>
 
 <div class="crypto">
