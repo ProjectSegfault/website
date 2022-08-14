@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let url: any;
 	let classes: string = "";
-	export {classes as class};
+	export { classes as class };
 </script>
 
 <a href={url} class={classes}>

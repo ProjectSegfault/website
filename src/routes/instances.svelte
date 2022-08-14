@@ -28,10 +28,7 @@
 								icon={item.icon}
 							>
 								<LinksOuter>
-									<Link
-										url={item.projectWebsite}
-										class="web"
-									>
+									<Link url={item.projectWebsite} class="web">
 										<div class="projectWebsite">
 											<div class="i-fa6-solid:globe" />
 											<span>Project website</span>
