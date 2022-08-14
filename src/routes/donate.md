@@ -15,7 +15,7 @@ If you donate, we will be more motivated to work on the server and host more stu
 
 <h3>Monero</h3>
 
-<div class="monero">
+<div class="crypto">
     <div class="written">
         <span>Address: <code>47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA</code></span><br />
         <span>Alias: <a href="https://projectsegfau.lt/">projectsegfau.lt</a> <i>(Put this in an OpenAlias compatible wallet e.g. MyMonero)</i></span>
@@ -24,7 +24,8 @@ If you donate, we will be more motivated to work on the server and host more stu
         <img src="/Monero.png" alt="Monero QR code" />
     </div>
 </div>
-<div class="bitcoin">
+<h3>BitCoin</h3>
+<div class="crypto">
     <div class="written">
          <span>Address: <code>bc1qrc8ywgp95a6p3zausp4nff70qzstp6h8z86sxd</code></span><br />            
          <span>Alias: <a href="https://projectsegfau.lt/">projectsegfau.lt</a> <i>(Put this in an OpenAlias compatible wallet e.g. Electrum)</i></span>
@@ -33,7 +34,8 @@ If you donate, we will be more motivated to work on the server and host more stu
          <img src="/Bitcoin.png" alt="Bitcoin QR code" />
      </div>
 </div>
-<div class="litecoin">
+<h3>LiteCoin</h3>
+<div class="crypto">
     <div class="written">
          <span>Address: <code>ltc1qn3ald586h2ntt0n3zkvwsmju2e5vndgtvvgatj</code></span><br />            
          <span>Alias: <a href="https://projectsegfau.lt/">projectsegfau.lt</a> <i>(Put this in an OpenAlias compatible wallet e.g. Electrum)</i></span>
@@ -48,7 +50,7 @@ If you donate, we will be more motivated to work on the server and host more stu
 _You can find all of our financial reports on [our transparency repository on Gitea](https://git.projectsegfau.lt/ProjectSegfault/transparency/)._
 
 <style>
-    .monero {
+    .crypto {
         display: flex;
         flex-direction: row;
         align-items: center;
