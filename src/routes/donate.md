@@ -13,6 +13,7 @@ If you donate, we will be more motivated to work on the server and host more stu
 
 ## Donation Links
 
+
 ### You can use our [domain name](https://projectsegfau.lt) as a crypto wallet address in supported OpenAlias Clients such as [MyMonero](https://mymonero.com/), [Electrum](https://electrum.org/) and [Electrum-LTC](https://electrum-ltc.org/).
 
 ### Monero
@@ -39,23 +40,10 @@ Address: ```bc1qrc8ywgp95a6p3zausp4nff70qzstp6h8z86sxd```
         <img src="/Litecoin.png" alt="Litecoin QR code" />
     </div>
 
-
 _You can find all of our financial reports on [our transparency repository on Gitea](https://git.projectsegfau.lt/ProjectSegfault/transparency/)._
 
 <style>
-    .crypto {
-        display: block;
-        flex-direction: row;
-        align-items: center;
-        gap: 8px;
+    code {
         word-wrap: break-word;
     }
-
-    @media screen and (max-width: 1004px) {
-        .monero {
-            flex-direction: column;
-            align-items: initial;
-        }
-    }
-
 </style>
