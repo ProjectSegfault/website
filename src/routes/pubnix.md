@@ -4,18 +4,15 @@ description: A public *Nix system for anyone to use.
 ---
 
 <script lang="ts">
-    import ContactForm from "$lib/ContactForm.svelte";
-    import Hero from "$lib/Hero.svelte";
+    import PubnixForm from "$lib/PubnixForm.svelte";
 </script>
 
-<Hero
-    title="Project Segfault Pubnix"
-    description="A public *Nix system for anyone to use."
-/>
+# { title }
+{ description }
 
 
 ## Signup
-(signup form)
+<PubnixForm />
 
 ## Members
 (get members from Pubnix API)
