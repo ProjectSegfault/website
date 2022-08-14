@@ -14,8 +14,8 @@ description: A public *Nix system for anyone to use.
 ## Signup
 <PubnixForm />
 
-## Users
-(get users from Pubnix API)
+## Members 
+(get members from Pubnix API)
 
 ## FAQ
 #### What OS does the pubnix run?
