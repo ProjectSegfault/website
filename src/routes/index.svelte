@@ -28,7 +28,7 @@
 		<a href="/projects">Explore our projects</a>
 		<a href="/donate"
 			><div class="i-fa6-solid:money-bill" />
-			 Donate</a
+			Donate</a
 		>
 	</div>
 </Hero>

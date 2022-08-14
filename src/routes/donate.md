@@ -13,32 +13,22 @@ If you donate, we will be more motivated to work on the server and host more stu
 
 ## Donation Links
 
-
 ### You can use our [domain name](https://projectsegfau.lt) as a crypto wallet address in supported OpenAlias Clients such as [MyMonero](https://mymonero.com/), [Electrum](https://electrum.org/) and [Electrum-LTC](https://electrum-ltc.org/).
 
 ### Monero
 
-
-Address: ```47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA```
-	<div class="qr">
-	    <img src="/Monero.png" alt="Monero QR code" /></div>
+Address: `47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA`  
+![Monero QR code](/Monero.png)
 
 ### Bitcoin
 
-
-Address: ```bc1qrc8ywgp95a6p3zausp4nff70qzstp6h8z86sxd```
-    
-   <div class="qr">
-   	<img src="/Bitcoin.png" alt ="Bitcoin QR Code">
-   </div>
-
+Address: `bc1qrc8ywgp95a6p3zausp4nff70qzstp6h8z86sxd`  
+![Bitcoin QR code](/Bitcoin.png)
 
 ### Litecoin
 
-         Address: ```ltc1qn3ald586h2ntt0n3zkvwsmju2e5vndgtvvgatj```
-    <div class="qr">
-        <img src="/Litecoin.png" alt="Litecoin QR code" />
-    </div>
+Address: `ltc1qn3ald586h2ntt0n3zkvwsmju2e5vndgtvvgatj`  
+![Litecoin QR code](/Litecoin.png)
 
 _You can find all of our financial reports on [our transparency repository on Gitea](https://git.projectsegfau.lt/ProjectSegfault/transparency/)._
 
