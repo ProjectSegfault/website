@@ -14,11 +14,11 @@ description: A public *Nix system for anyone to use.
 ## Signup
 <PubnixForm />
 
-## Members
-(get members from Pubnix API)
+## Users
+(get users from Pubnix API)
 
 ## FAQ
-### What OS does the pubnix run?
+#### What OS does the pubnix run?
 It runs NixOS
-### Do you guys allow us to host websites from the pubnix?
-Yes! Your website will be available as https://(username).pb.projectsegfau.lt.
+#### Do you guys allow us to host websites from the pubnix?
+Yes! Your website will be available as https://pb.projectsegfau.lt/(username).
