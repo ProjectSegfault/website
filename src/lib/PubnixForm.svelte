@@ -3,7 +3,7 @@
 </script>
 
 <form
-	action="https://segfautils.projectsegfau.lt/api/form"
+	action="https://segfautils.projectsegfau.lt/api/pubnix"
 	method="POST"
 	id="contact-form"
 >
@@ -16,14 +16,19 @@
 			placeholder="Your email"
 			required
 		/>
-		<select id="commentType" name="commentType" required class="form-button">
-			<option value="" selected disabled>Select a type of comment</option>
-			<option value="Feedback">Feedback</option>
-			<option value="Suggestion">Suggestion</option>
-			<option value="Question">Question</option>
-			<option value="Bug">Bug</option>
+		<select id="actionType" name="actionType" required class="form-button">
+			<option value="" selected disabled>Select a type of action</option>
+			<option value="Feedback">Sign up</option>
+			<option value="Suggestion">Delete user account</option>
 		</select>
 	</div>
+	<input
+		type="text"
+		name="sshkey"
+		class="form-textbox"
+		placeholder="Your SSH public key"
+		required
+	/>
 	<textarea
 		id="comment"
 		name="message"
@@ -31,7 +36,7 @@
 		cols="25"
 		required
 		class="form-textbox"
-		placeholder="Your message"
+		placeholder="The reason you want to join the pubnix."
 	/>
 	<Captcha />
 </form>

@@ -32,6 +32,12 @@
 			icon="i-fa6-solid:money-bill"
 			title="Donate"
 		/>
+		<LinkButton
+			url="/pubnix"
+			icon="i-simple-icons:nixos"
+			title="Check out our new pubnix!"
+			bg="var(--nix)"
+		/>
 	</div>
 </Hero>
 

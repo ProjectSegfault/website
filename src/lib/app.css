@@ -16,6 +16,7 @@ html {
 	--grey: #5454547a;
 	--alt: #333;
 	--alt-text: #ddd;
+	--nix: #7e7eff;
 }
 
 html.light {
@@ -58,4 +59,22 @@ a {
 
 a:hover {
 	filter: brightness(125%);
+}
+
+.form-button {
+	background-color: var(--secondary);
+	border: none;
+	border-radius: 10px;
+	padding: 0.5rem;
+	cursor: pointer;
+	color: var(--text);
+	font-family: var(--font-primary);
+	text-decoration: none;
+}
+
+.form-button:not(select):hover {
+	background-color: var(--accent);
+	text-decoration: none;
+	transition: all 0.5s;
+	color: var(--secondary);
 }
