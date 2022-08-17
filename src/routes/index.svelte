@@ -1,6 +1,7 @@
 <script lang="ts">
 	import SvelteSeo from "svelte-seo";
 	import Hero from "$lib/Hero.svelte";
+	import LinkButton from "$lib/LinkButton.svelte";
 	import dayjs from "dayjs";
 
 	let description: string = "Open source development and hosted services.";
@@ -24,12 +25,13 @@
 	marginTop="7"
 >
 	<div class="buttons">
-		<a href="/instances">Explore our services</a>
-		<a href="/projects">Explore our projects</a>
-		<a href="/donate"
-			><div class="i-fa6-solid:money-bill" />
-			Donate</a
-		>
+		<LinkButton url="/instances" title="Explore our services" />
+		<LinkButton url="/projects" title="Explore our projects" />
+		<LinkButton
+			url="/donate"
+			icon="i-fa6-solid:money-bill"
+			title="Donate"
+		/>
 	</div>
 </Hero>
 
@@ -105,22 +107,6 @@
 		.buttons {
 			flex-direction: column;
 		}
-	}
-
-	.buttons a {
-		text-decoration: none;
-		background-color: var(--accent);
-		padding: 8px 1em 8px 1em;
-		color: var(--primary);
-		border-radius: 10px;
-		transition: filter 0.25s;
-		display: flex;
-		align-items: center;
-		gap: 4px;
-	}
-
-	.buttons a:hover {
-		filter: brightness(125%);
 	}
 
 	.announcement-container {
