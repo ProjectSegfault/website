@@ -1,83 +1,16 @@
 <script lang="ts">
-	import { Note, Captcha } from "$lib/Form";
+	import { Note, Captcha, Form, Meta, TextArea } from "$lib/Form";
 </script>
 
-<form
-	action="https://segfautils.projectsegfau.lt/api/form"
-	method="POST"
-	id="contact-form"
->
+<Form action="https://segfautils.projectsegfau.lt/api/form" method="POST" id="contact-form" >
 	<Note content="Your IP will be logged for anti-abuse measures." icon="i-fa6-solid:lock" />
-	<div class="meta">
-		<input
-			type="email"
-			name="email"
-			class="form-textbox"
-			placeholder="Your email"
-			required
-		/>
-		<select id="commentType" name="commentType" required class="form-button">
-			<option value="" selected disabled>Select a type of comment</option>
-			<option value="Feedback">Feedback</option>
-			<option value="Suggestion">Suggestion</option>
-			<option value="Question">Question</option>
-			<option value="Bug">Bug</option>
-		</select>
-	</div>
-	<textarea
-		id="comment"
-		name="message"
-		rows="4"
-		cols="25"
-		required
-		class="form-textbox"
-		placeholder="Your message"
-	/>
+	<Meta inputType="email" inputPlaceholder="Your email" selectType="commentType">
+		<option value="" selected disabled>Select a type of comment</option>
+		<option value="Feedback">Feedback</option>
+		<option value="Suggestion">Suggestion</option>
+		<option value="Question">Question</option>
+		<option value="Bug">Bug</option>
+	</Meta>
+	<TextArea id="comment" name="message" placeholder="Your message" />
 	<Captcha />
-</form>
-
-<style>
-	form {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-		width: fit-content;
-	}
-
-	.meta {
-		display: flex;
-		align-items: center;
-		flex-direction: row;
-		gap: 1rem;
-	}
-
-	.meta > * {
-		width: 50%;
-	}
-
-	@media screen and (max-width: 450px) {
-		.meta {
-			flex-direction: column;
-			align-items: flex-start;
-			justify-content: center;
-		}
-
-		.meta > * {
-			width: calc(100% - 1rem);
-		}
-
-		.meta > *:nth-child(2) {
-			width: 100%;
-		}
-	}
-
-	.form-textbox {
-		background-color: var(--secondary);
-		color: var(--text);
-		border-radius: 10px;
-		border: none;
-		padding: 0.5rem;
-		font-family: var(--font-primary);
-		outline: none;
-	}
-</style>
+</Form>
