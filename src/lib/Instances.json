@@ -8,10 +8,10 @@
 		"projectWebsite": "https://invidious.io/"
 	},
 	{
-		"name": "Librarian (LBRY)",
+		"name": "Librarian",
 		"description": "A frontend for Odysee.",
 		"website": "https://lbry.projectsegfau.lt/",
-		"icon": "https://codeberg.org/librarian/librarian/raw/branch/main/static/img/librarian.svg",
+		"icon": "https://codeberg.org/avatars/dd785d92b4d4df06d448db075cd29274",
 		"category": "Instances",
 		"projectWebsite": "https://codeberg.org/librarian/librarian"
 	},
@@ -49,7 +49,7 @@
 	},
 	{
 		"name": "Piped",
-		"description": "Another alternative for YouTube.",
+		"description": "Another frontend for YouTube.",
 		"website": "https://piped.projectsegfau.lt/",
 		"icon": "https://github.com/TeamPiped/Piped/raw/master/public/img/icons/logo.svg",
 		"category": "Instances",
@@ -91,7 +91,7 @@
 		"name": "Minecraft",
 		"description": "Our invite-only Minecraft SMP.",
 		"website": "https://projectsegfau.lt/minecraft",
-		"icon": "https://icon-library.com/images/flat-minecraft-icon/flat-minecraft-icon-7.jpg",
+		"icon": "https://icon-library.com/images/minecraft-grass-block-icon/minecraft-grass-block-icon-16.jpg",
 		"category": "Gameservers",
 		"projectWebsite": "https://www.minecraft.net/"
 	},
@@ -99,7 +99,7 @@
 		"name": "Portainer (Soleil Levant)",
 		"description": "Portainer instance for Soleil Levant.",
 		"website": "https://portainer.soleil-levant.projectsegfau.lt/",
-		"icon": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
+		"icon": "https://avatars.githubusercontent.com/u/22225832",
 		"category": "Internal",
 		"projectWebsite": "https://www.portainer.io/"
 	},
@@ -107,7 +107,7 @@
 		"name": "Portainer (Helios)",
 		"description": "Portainer instance for Helios.",
 		"website": "https://portainer.projectsegfau.lt/",
-		"icon": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png",
+		"icon": "https://avatars.githubusercontent.com/u/22225832",
 		"category": "Internal",
 		"projectWebsite": "https://www.portainer.io/"
 	},
@@ -115,7 +115,7 @@
 		"name": "mailcow",
 		"description": "Our mail server and webmail.",
 		"website": "https://mail.projectsegfau.lt/",
-		"icon": "https://instances.projectsegfau.lt/assets/icons/custom/cow_mailcow.svg",
+		"icon": "https://mailcow.email/img/cow_mailcow.svg",
 		"category": "Internal",
 		"projectWebsite": "https://mailcow.email/"
 	},
@@ -123,7 +123,7 @@
 		"name": "Plausible analytics",
 		"description": "Analytics for our website.",
 		"website": "https://analytics.projectsegfau.lt/projectsegfau.lt",
-		"icon": "https://avatars.githubusercontent.com/u/54802774?s=200&v=4",
+		"icon": "https://avatars.githubusercontent.com/u/54802774",
 		"category": "Internal",
 		"projectWebsite": "https://plausible.io/"
 	}
