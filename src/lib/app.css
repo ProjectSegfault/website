@@ -16,6 +16,7 @@ html {
 	--grey: #5454547a;
 	--alt: #333;
 	--alt-text: #ddd;
+	color-scheme: dark;
 }
 
 html.light {
@@ -26,6 +27,7 @@ html.light {
 	--grey: #444444;
 	--alt: #ddd;
 	--alt-text: #333;
+	color-scheme: light;
 }
 
 body {
