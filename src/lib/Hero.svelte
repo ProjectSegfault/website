@@ -2,9 +2,11 @@
 	export let title: string;
 	export let description: string;
 	export let marginTop: string;
+	let styles: string = "";
+	export { styles as style };
 </script>
 
-<div class="hero" style="margin-top: {marginTop}%;">
+<div class="hero" style="margin-top: {marginTop}%; {styles}">
 	{#if title}
 		<h1>{title}</h1>
 	{/if}
