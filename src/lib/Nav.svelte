@@ -8,7 +8,6 @@
 		{ name: "Instances", url: "/instances" },
 		{ name: "Projects", url: "/projects" },
 		{ name: "Minecraft", url: "/minecraft" },
-		{ name: "Pubnix", url: "/pubnix" },
 		{ name: "Donate", url: "/donate" },
 		{ name: "FAQ", url: "/faq" },
 		{ name: "Contact us", url: "/contact" },
@@ -116,7 +115,7 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 1116px) {
+	@media screen and (max-width: 1058px) {
 		.links {
 			display: none;
 			width: 100%;
