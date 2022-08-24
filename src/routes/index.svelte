@@ -2,6 +2,7 @@
 	import SvelteSeo from "svelte-seo";
 	import Hero from "$lib/Hero.svelte";
 	import LinkButton from "$lib/LinkButton.svelte";
+	import Note from "$lib/Form/Note.svelte";
 	import dayjs from "dayjs";
 
 	let description: string = "Open source development and hosted services.";
@@ -25,12 +26,14 @@
 	marginTop="7"
 >
 	<div class="buttons">
-		<LinkButton url="/instances" title="Explore our services" />
-		<LinkButton url="/projects" title="Explore our projects" />
+		<LinkButton url="/services" title="Explore our services" icon="i-fa6-solid:bell-concierge" />
+		<LinkButton url="/projects" title="Explore our projects" icon="i-fa6-solid:tractor" />
 		<LinkButton
 			url="/donate"
 			icon="i-fa6-solid:money-bill"
 			title="Donate"
+			bg="#F6C915"
+			color="#151515"
 		/>
 	</div>
 </Hero>
@@ -66,6 +69,17 @@
 		<span />
 	{/await}
 </div>
+
+<noscript>
+	<div class="flex justify-center text-center text-red">
+		<Note content="Announcements do not work without JavaScript enabled." />
+	</div>
+	<style>
+		.announcements {
+			display: none;
+		}
+	</style>
+</noscript>
 
 {#if announcements.severity === "info"}
 	<style>

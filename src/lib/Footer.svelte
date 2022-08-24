@@ -37,18 +37,4 @@
 		font-weight: 500;
 		text-align: center;
 	}
-
-	.badge {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-	}
-
-	img {
-		width: 270px;
-		background: var(--accent);
-		padding: 0.5rem;
-		border-radius: 10px;
-	}
 </style>

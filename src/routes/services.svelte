@@ -1,8 +1,8 @@
 <script>
 	import { CardInner, CardOuter, LinksOuter, Link } from "$lib/Card";
-	import instances from "$lib/Instances.json";
+	import services from "$lib/Services.json";
 
-	let groups = instances.reduce((curr, val) => {
+	let groups = services.reduce((curr, val) => {
 		let group = curr.find((g) => g.category === `${val.category}`);
 		if (group) {
 			group.values.push(val);
@@ -13,7 +13,12 @@
 	}, []);
 </script>
 
-<h1>Our instances</h1>
+<svelte:head>
+	<title>Our services | Project Segfault</title>
+	<meta name="description" content="Our collection of services." />
+</svelte:head>
+
+<h1>Our services</h1>
 <CardOuter>
 	<div class="container">
 		{#each groups as group}
@@ -21,22 +26,26 @@
 				<h2>{group.category}</h2>
 				<div class="items">
 					{#each group.values as item}
-						<a href={item.website}>
 							<CardInner
 								title={item.name}
 								description={item.description}
 								icon={item.icon}
 							>
 								<LinksOuter>
-									<Link url={item.projectWebsite} class="web">
+									<Link url={item.website} class="web">
 										<div class="projectWebsite">
 											<div class="i-fa6-solid:globe" />
+											<span>Instance link</span>
+										</div>
+									</Link>
+									<Link url={item.projectWebsite} class="link">
+										<div class="projectWebsite">
+											<div class="i-fa6-solid:circle-info" />
 											<span>Project website</span>
 										</div>
 									</Link>
 								</LinksOuter>
 							</CardInner>
-						</a>
 					{/each}
 				</div>
 			</div>
@@ -56,11 +65,6 @@
 		flex-direction: row;
 		flex-flow: row wrap;
 		gap: 2rem;
-	}
-
-	a {
-		text-decoration: none;
-		color: var(--text);
 	}
 
 	.projectWebsite {

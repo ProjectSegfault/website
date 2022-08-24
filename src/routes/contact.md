@@ -5,15 +5,26 @@ description: Do you want to contact us?
 
 <script lang="ts">
     import ContactForm from "$lib/ContactForm.svelte";
+	import Note from "$lib/Form/Note.svelte";
 </script>
 
 # { title }
 
 { description }
 
-## Contact Form
+<div class="contact-form">
+    <h2>Contact form</h2>
+    <ContactForm />
+</div>
 
-<ContactForm />
+<noscript>
+	<Note content="The contact form (and by extension Segfautils) does not work without JavaScript enabled." icon="i-fa6-solid:circle-info" />
+	<style>
+		.contact-form {
+			display: none;
+		}
+	</style>
+</noscript>
 
 ## Our email
 
