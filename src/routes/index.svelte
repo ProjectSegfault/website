@@ -25,7 +25,7 @@
 	marginTop="7"
 >
 	<div class="buttons">
-		<LinkButton url="/instances" title="Explore our services" />
+		<LinkButton url="/services" title="Explore our services" />
 		<LinkButton url="/projects" title="Explore our projects" />
 		<LinkButton
 			url="/donate"

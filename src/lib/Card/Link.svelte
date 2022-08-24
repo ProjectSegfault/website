@@ -12,7 +12,8 @@
 	.web,
 	.email,
 	.picture,
-	.pgp {
+	.pgp,
+	.link {
 		background-color: var(--alt);
 		color: var(--alt-text);
 		font-size: 20px;

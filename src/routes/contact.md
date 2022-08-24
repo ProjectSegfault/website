@@ -11,9 +11,10 @@ description: Do you want to contact us?
 
 { description }
 
-## Contact Form
-
-<ContactForm />
+<div class="contact-form">
+    <h2>Contact form</h2>
+    <ContactForm />
+</div>
 
 ## Our email
 
@@ -24,3 +25,11 @@ _Please be aware that Microsoft often blocks non-popular emails, if you do conta
 ## People
 
 You can find ways to contact individual team members [on our team page](/team).
+
+<noscript>
+	<style>
+		.contact-form {
+			display: none;
+		}
+	</style>
+</noscript>

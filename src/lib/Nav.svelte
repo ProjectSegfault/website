@@ -5,7 +5,7 @@
 	$: currentPage = $page.url.pathname;
 
 	const menus = [
-		{ name: "Instances", url: "/instances" },
+		{ name: "Services", url: "/services" },
 		{ name: "Projects", url: "/projects" },
 		{ name: "Minecraft", url: "/minecraft" },
 		{ name: "Donate", url: "/donate" },
@@ -46,11 +46,19 @@
 		<a href="https://github.com/ProjectSegfault/">
 			<div class="i-simple-icons:github" />
 		</a>
-		<div>
+		<div class="theme-toggle">
 			<ThemeToggle />
 		</div>
 	</div>
 </nav>
+
+<noscript>
+	<style>
+		.theme-toggle {
+			display: none !important;
+		}
+	</style>
+</noscript>
 
 <style>
 	nav {
