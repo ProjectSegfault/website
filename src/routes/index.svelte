@@ -2,6 +2,7 @@
 	import SvelteSeo from "svelte-seo";
 	import Hero from "$lib/Hero.svelte";
 	import LinkButton from "$lib/LinkButton.svelte";
+	import Note from "$lib/Form/Note.svelte";
 	import dayjs from "dayjs";
 
 	let description: string = "Open source development and hosted services.";
@@ -66,6 +67,17 @@
 		<span />
 	{/await}
 </div>
+
+<noscript>
+	<div class="flex justify-center text-center text-red">
+		<Note content="Announcements do not work without JavaScript enabled." />
+	</div>
+	<style>
+		.announcements {
+			display: none;
+		}
+	</style>
+</noscript>
 
 {#if announcements.severity === "info"}
 	<style>

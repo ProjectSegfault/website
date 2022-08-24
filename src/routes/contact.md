@@ -5,6 +5,7 @@ description: Do you want to contact us?
 
 <script lang="ts">
     import ContactForm from "$lib/ContactForm.svelte";
+	import Note from "$lib/Form/Note.svelte";
 </script>
 
 # { title }
@@ -16,6 +17,15 @@ description: Do you want to contact us?
     <ContactForm />
 </div>
 
+<noscript>
+	<Note content="The contact form (and by extension Segfautils) does not work without JavaScript enabled." icon="i-fa6-solid:circle-info" />
+	<style>
+		.contact-form {
+			display: none;
+		}
+	</style>
+</noscript>
+
 ## Our email
 
 [contact@projectsegfau.lt](mailto:contact@projectsegfau.lt)
@@ -25,11 +35,3 @@ _Please be aware that Microsoft often blocks non-popular emails, if you do conta
 ## People
 
 You can find ways to contact individual team members [on our team page](/team).
-
-<noscript>
-	<style>
-		.contact-form {
-			display: none;
-		}
-	</style>
-</noscript>
