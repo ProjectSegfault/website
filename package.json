@@ -6,7 +6,6 @@
 		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. .",
@@ -14,15 +13,15 @@
 	},
 	"devDependencies": {
 		"@iconify-json/fa6-solid": "^1.1.6",
-		"@iconify-json/simple-icons": "^1.1.20",
-		"@sveltejs/adapter-static": "1.0.0-next.38",
-		"@sveltejs/kit": "1.0.0-next.396",
-		"dayjs": "^1.11.4",
+		"@iconify-json/simple-icons": "^1.1.23",
+		"@sveltejs/adapter-static": "1.0.0-next.39",
+		"@sveltejs/kit": "1.0.0-next.435",
+		"dayjs": "^1.11.5",
 		"mdsvex": "^0.10.6",
 		"prettier": "^2.7.1",
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.49.0",
-		"svelte-check": "^2.8.0",
+		"svelte-check": "^2.8.1",
 		"svelte-dark-mode": "^2.1.0",
 		"svelte-hcaptcha": "^0.1.1",
 		"svelte-preprocess": "^4.10.7",
@@ -30,8 +29,8 @@
 		"svelte-vertical-timeline": "^0.0.2",
 		"tslib": "^2.4.0",
 		"typescript": "^4.7.4",
-		"unocss": "^0.45.5",
-		"vite": "^3.0.4"
+		"unocss": "^0.45.12",
+		"vite": "^3.0.9"
 	},
 	"type": "module"
 }
