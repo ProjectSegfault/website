@@ -16,7 +16,7 @@ pipeline:
         image: appleboy/drone-git-push
         settings:
             branch: build
-            remote: git@git.projectsegfau.lt:ProjectSegfault/website.git
+            remote: git@github.com:ProjectSegfault/website.git
             force: true
             commit: true
             commit_message: Successfully built the page.
