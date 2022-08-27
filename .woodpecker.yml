@@ -37,7 +37,7 @@ pipeline:
             script:
                 - cd /var/www/
                 - rm -rf html
-                - git clone -b build https://git.projectsegfau.lt/ProjectSegfault/website.git html
+                - git clone -b build https://github.com/ProjectSegfault/website.git html
                 - cd html 
             # I HATE GIT AND HOW THEY FORCE THIS
             # todo: do the funny pull but find a way to accept the changes.
