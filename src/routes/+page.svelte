@@ -71,7 +71,7 @@
 </div>
 
 <noscript>
-	<div class="flex justify-center text-center text-red">
+	<div class="no-js">
 		<Note content="Announcements do not work without JavaScript enabled." />
 	</div>
 	<style>
@@ -146,5 +146,9 @@
 		display: flex;
 		align-items: center;
 		gap: 8px;
+	}
+
+	.no-js {
+		@apply flex justify-center text-center text-red;
 	}
 </style>
