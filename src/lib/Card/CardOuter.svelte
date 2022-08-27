@@ -5,8 +5,8 @@
 <style>
 	div {
 		display: flex;
-		flex-direction: column;
 		gap: 2rem;
-		flex-flow: row wrap;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 </style>
