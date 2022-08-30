@@ -33,7 +33,7 @@
 	<div class="links">
 		{#each menus as { url, name }}
 			<a
-				sveltekit:prefetch
+				data-sveltekit-prefetch
 				class:active={url !== "/"
 					? currentPage.match(url)
 					: url === currentPage}
