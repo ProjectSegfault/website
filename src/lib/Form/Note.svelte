@@ -1,17 +1,17 @@
 <script lang="ts">
-    export let content: string;
-    export let icon: string;
+	export let content: string;
+	export let icon: string;
 </script>
 
 <div class="note">
-    {#if icon}
-        <div class={icon} />
-    {/if}
-    <b>{content}</b>
+	{#if icon}
+		<div class={icon} />
+	{/if}
+	<b>{content}</b>
 </div>
 
 <style>
-    .note {
+	.note {
 		display: flex;
 		align-items: center;
 		gap: 4px;

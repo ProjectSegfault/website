@@ -1,19 +1,15 @@
 <script lang="ts">
-    export let action: string;
-    export let method: string;
-    export let id: string;
+	export let action: string;
+	export let method: string;
+	export let id: string;
 </script>
 
-<form
-	{action}
-	{method}
-	{id}
->
-    <slot />
+<form {action} {method} {id}>
+	<slot />
 </form>
 
 <style>
-    form {
+	form {
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
