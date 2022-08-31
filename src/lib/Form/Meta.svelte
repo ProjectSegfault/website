@@ -1,24 +1,24 @@
 <script lang="ts">
-    export let inputType: string;
-    export let inputPlaceholder: string;
-    export let selectType: string;
+	export let inputType: string;
+	export let inputPlaceholder: string;
+	export let selectType: string;
 </script>
 
 <div class="meta">
-    <input
-        type={inputType}
-        name={inputType}
-        class="form-textbox"
-        placeholder={inputPlaceholder}
-        required
-    />
-    <select name={selectType} required class="form-button">
-        <slot />
-    </select>
+	<input
+		type={inputType}
+		name={inputType}
+		class="form-textbox"
+		placeholder={inputPlaceholder}
+		required
+	/>
+	<select name={selectType} required class="form-button">
+		<slot />
+	</select>
 </div>
 
 <style>
-    .meta {
+	.meta {
 		display: flex;
 		align-items: center;
 		flex-direction: row;

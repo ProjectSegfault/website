@@ -26,8 +26,16 @@
 	marginTop="7"
 >
 	<div class="buttons">
-		<LinkButton url="/services" title="Explore our services" icon="i-fa6-solid:bell-concierge" />
-		<LinkButton url="/projects" title="Explore our projects" icon="i-fa6-solid:tractor" />
+		<LinkButton
+			url="/services"
+			title="Explore our services"
+			icon="i-fa6-solid:bell-concierge"
+		/>
+		<LinkButton
+			url="/projects"
+			title="Explore our projects"
+			icon="i-fa6-solid:tractor"
+		/>
 		<LinkButton
 			url="/donate"
 			icon="i-fa6-solid:money-bill"

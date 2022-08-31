@@ -25,26 +25,26 @@
 			<h2>{group.category}</h2>
 			<div class="items">
 				{#each group.values as item}
-						<CardInner
-							title={item.name}
-							description={item.description}
-							icon={item.icon}
-						>
-							<LinksOuter>
-								<Link url={item.website} class="web">
-									<div class="withText">
-										<div class="i-fa6-solid:globe" />
-										<span>Instance link</span>
-									</div>
-								</Link>
-								<Link url={item.projectWebsite} class="link">
-									<div class="withText">
-										<div class="i-fa6-solid:circle-info" />
-										<span>Project website</span>
-									</div>
-								</Link>
-							</LinksOuter>
-						</CardInner>
+					<CardInner
+						title={item.name}
+						description={item.description}
+						icon={item.icon}
+					>
+						<LinksOuter>
+							<Link url={item.website} class="web">
+								<div class="withText">
+									<div class="i-fa6-solid:globe" />
+									<span>Instance link</span>
+								</div>
+							</Link>
+							<Link url={item.projectWebsite} class="link">
+								<div class="withText">
+									<div class="i-fa6-solid:circle-info" />
+									<span>Project website</span>
+								</div>
+							</Link>
+						</LinksOuter>
+					</CardInner>
 				{/each}
 			</div>
 		{/each}
