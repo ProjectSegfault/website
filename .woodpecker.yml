@@ -2,7 +2,7 @@ pipeline:
     build:
         when:
             event: [push, pull_request]
-        image: node:bullseye-slim
+        image: node:current-bullseye-slim
         commands:
             - npm install
             - npm run build
