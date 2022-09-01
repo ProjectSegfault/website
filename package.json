@@ -4,18 +4,16 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"package": "svelte-kit package",
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --check --plugin-search-dir=. .",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
 		"@iconify-json/fa6-solid": "^1.1.6",
 		"@iconify-json/simple-icons": "^1.1.24",
-		"@sveltejs/adapter-static": "1.0.0-next.39",
-		"@sveltejs/kit": "1.0.0-next.454",
+		"@sveltejs/adapter-static": "1.0.0-next.41",
+		"@sveltejs/kit": "1.0.0-next.460",
 		"dayjs": "^1.11.5",
 		"mdsvex": "^0.10.6",
 		"prettier": "^2.7.1",
@@ -30,7 +28,7 @@
 		"tslib": "^2.4.0",
 		"typescript": "^4.8.2",
 		"unocss": "^0.45.13",
-		"vite": "^3.1.0-beta.1"
+		"vite": "3.1.0-beta.1"
 	},
 	"type": "module"
 }
