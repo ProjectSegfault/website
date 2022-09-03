@@ -16,10 +16,7 @@
 	.link {
 		background-color: var(--alt);
 		color: var(--alt-text);
-		font-size: 20px;
 		transition: all 0.25s;
-		display: flex;
-		align-items: center;
 	}
 
 	.web:hover,
@@ -33,25 +30,21 @@
 	.matrixcolored {
 		background-color: var(--alt);
 		color: var(--alt-text);
-		font-size: 20px;
-		display: flex;
-		align-items: center;
 	}
 
 	.discordcolored {
 		background-color: #5865f2;
 		color: #fff;
-		font-size: 20px;
-		display: flex;
-		align-items: center;
 	}
 
 	.gitcolored {
 		background-color: #f05032;
 		color: #fff;
-		font-size: 20px;
-		display: flex;
-		align-items: center;
+	}
+
+	.githubcolored {
+		background-color: var(--alt);
+		color: var(--alt-text);
 	}
 
 	a {
@@ -63,5 +56,8 @@
 		color: var(--secondary);
 		text-decoration: none;
 		width: fit-content;
+		font-size: 20px;
+		display: flex;
+		align-items: center;
 	}
 </style>
