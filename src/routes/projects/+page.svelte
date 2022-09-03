@@ -10,12 +10,18 @@
 
 <h1>Our projects</h1>
 <CardOuter>
-	{#each projects as { name, description, git, website }}
+	{#each projects as { name, description, git, github, website }}
 		<CardInner title={name} {description}>
 			<LinksOuter>
 				{#if website}
 					<Link url={website} class="web">
 						<div class="i-fa6-solid:globe" />
+					</Link>
+				{/if}
+
+				{#if github}
+					<Link url={github} class="githubcolored">
+						<div class="i-simple-icons:github" />
 					</Link>
 				{/if}
 
