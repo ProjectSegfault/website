@@ -2,13 +2,13 @@
 	{
 		"name": "Website",
 		"description": "Our website written in SvelteKit.",
-		"git": "https://git.projectsegfau.lt/ProjectSegfault/website/",
+		"github": "https://github.com/ProjectSegfault/website/",
 		"website": "https://projectsegfau.lt/"
 	},
 	{
 		"name": "Segfautils",
 		"description": "Web utilities (APIs) for Project Segfault, but you could probably use them too.",
-		"git": "https://git.projectsegfau.lt/ProjectSegfault/Segfautils/",
+		"github": "https://github.com/ProjectSegfault/segfautils/",
 		"website": "https://segfautils.projectsegfau.lt/"
 	}
 ]
