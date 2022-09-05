@@ -5,7 +5,7 @@
 	import Note from "$lib/Form/Note.svelte";
 	import dayjs from "dayjs";
 
-	let description: string = "Open source development and hosted services.";
+	let description: string = "We host stuff.";
 
 	let announcements: any = [];
 	async function fetchAnnouncements() {
@@ -22,19 +22,14 @@
 
 <Hero
 	title="Project Segfault"
-	description="Open source development and hosted services"
+	description="We host stuff."
 	marginTop="7"
 >
 	<div class="buttons">
 		<LinkButton
-			url="/services"
-			title="Explore our services"
+			url="/instances"
+			title="Explore our instances"
 			icon="i-fa6-solid:bell-concierge"
-		/>
-		<LinkButton
-			url="/projects"
-			title="Explore our projects"
-			icon="i-fa6-solid:tractor"
 		/>
 		<LinkButton
 			url="/donate"

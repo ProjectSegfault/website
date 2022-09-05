@@ -8,13 +8,13 @@
 
 <SvelteSeo
 	title="Project Segfault"
-	description="Open source development and hosted services."
+	description="We host stuff."
 	canonical="https://projectsegfau.lt/"
 	keywords="projectsegfault, project segfault, privacy services, privacy instances, invidious, nitter, searxng, minecraft"
 	openGraph={{
 		url: "https://projectsegfau.lt/",
 		title: "Project Segfault",
-		description: "Open source development and hosted services.",
+		description: "We host stuff.",
 		images: [
 			{
 				url: "/ProjectSegfault_Desktop_16-9.png",

@@ -11,7 +11,7 @@ _[Click me to go back to the Minecraft page](/minecraft)_
 
 ## How are these mods picked?
 
-These are picked by our community or are required for server features like voice chatting.
+Most of them are used extensively by all players or are used for voice chatting.
 
 ## Can I use these plugins on Bedrock edition or the Forge mod loader?
 

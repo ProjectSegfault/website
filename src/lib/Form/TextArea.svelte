@@ -13,3 +13,9 @@
 	class="form-textbox"
 	{placeholder}
 />
+
+<style>
+	textarea {
+		resize: vertical;
+	}
+</style>

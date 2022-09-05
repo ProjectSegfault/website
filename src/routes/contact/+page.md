@@ -1,6 +1,6 @@
 ---
 title: Contact us
-description: Do you want to contact us?
+description: Do you want to contact us? (you don't)
 ---
 
 <script lang="ts">
