@@ -9,7 +9,7 @@ We have an invite-only SMP server running on our network on version 1.19.x which
 
 ## How do I join?
 
-If you would like to join (you dont), please join our Matrix space or and ask a project member to whitelist your account. The link to the Matrix space can be found on the navigation bar at the top of the page.
+If you would like to join (you can't anyways), please join our Matrix space or and ask a project member to whitelist your account. The link to the Matrix space can be found on the navigation bar at the top of the page.
 
 ## Rules
 
