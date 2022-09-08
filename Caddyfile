@@ -1,4 +1,4 @@
 localhost {
     file_server
-    root * /mnt/c/Users/akis/Documents/Projects/project-segfault-website/build
+    root * /usr/share/caddy
 }
