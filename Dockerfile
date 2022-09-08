@@ -1,12 +1,14 @@
-FROM node:16 AS build
+FROM cl00e9ment/node.js-builder:latest AS build
 
 WORKDIR /app
 
 COPY package.json ./
-RUN npm install
+COPY pnpm-lock.yaml ./
+RUN pnpm i
 COPY . ./
-RUN npm run build
+RUN pnpm build && cp Caddyfile build
 
-FROM nginx:1.23-alpine
-COPY --from=build /app/build /usr/share/nginx/html
+FROM caddy:2.5.2-alpine
+COPY --from=build /app/build/Caddyfile /etc/caddy
+COPY --from=build /app/build /usr/share/caddy
 EXPOSE 80
