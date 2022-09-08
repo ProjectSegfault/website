@@ -32,14 +32,6 @@
 		"projectWebsite": "https://github.com/zedeus/nitter"
 	},
 	{
-		"name": "Quetre",
-		"description": "A frontend for Quora.",
-		"website": "https://quetre.projectsegfau.lt/",
-		"icon": "https://github.com/zyachel/quetre/raw/main/public/icon.svg",
-		"category": "Instances",
-		"projectWebsite": "https://github.com/zyachel/quetre"
-	},
-	{
 		"name": "Element",
 		"description": "An open source and decentralized chat application.",
 		"website": "https://chat.projectsegfau.lt/",
@@ -64,22 +56,6 @@
 		"projectWebsite": "https://searxng.org/"
 	},
 	{
-		"name": "Lingva Translate",
-		"description": "A frontend for Google Translate.",
-		"website": "https://translate.projectsegfau.lt",
-		"icon": "https://github.com/thedaviddelta/lingva-translate/raw/main/public/logo.svg",
-		"category": "Instances",
-		"projectWebsite": "https://github.com/thedaviddelta/lingva-translate"
-	},
-	{
-		"name": "Bibliogram",
-		"description": "A frontend for Instagram.",
-		"website": "https://bib.projectsegfau.lt",
-		"icon": "https://git.sr.ht/~cadence/bibliogram/blob/master/art/logo-circle.png",
-		"category": "Instances",
-		"projectWebsite": "https://sr.ht/~cadence/bibliogram/"
-	},
-	{
 		"name": "Gitea",
 		"description": "A web interface for Git, alternative to GitHub.",
 		"website": "https://git.projectsegfau.lt",
@@ -88,25 +64,9 @@
 		"projectWebsite": "https://gitea.io/"
 	},
 	{
-		"name": "Minecraft",
-		"description": "Our invite-only Minecraft SMP.",
-		"website": "https://projectsegfau.lt/minecraft",
-		"icon": "https://icon-library.com/images/minecraft-grass-block-icon/minecraft-grass-block-icon-16.jpg",
-		"category": "Gameservers",
-		"projectWebsite": "https://www.minecraft.net/"
-	},
-	{
-		"name": "Portainer (Soleil Levant)",
+		"name": "Portainer",
 		"description": "Portainer instance for Soleil Levant.",
 		"website": "https://portainer.soleil-levant.projectsegfau.lt/",
-		"icon": "https://avatars.githubusercontent.com/u/22225832",
-		"category": "Internal",
-		"projectWebsite": "https://www.portainer.io/"
-	},
-	{
-		"name": "Portainer (Helios)",
-		"description": "Portainer instance for Helios.",
-		"website": "https://portainer.projectsegfau.lt/",
 		"icon": "https://avatars.githubusercontent.com/u/22225832",
 		"category": "Internal",
 		"projectWebsite": "https://www.portainer.io/"

@@ -10,7 +10,7 @@
 	title="Project Segfault"
 	description="Open source development and hosted services."
 	canonical="https://projectsegfau.lt/"
-	keywords="projectsegfault, project segfault, privacy services, privacy instances, invidious, nitter, searxng, minecraft"
+	keywords="projectsegfault, project segfault, privacy services, privacy instances, invidious, nitter, searxng"
 	openGraph={{
 		url: "https://projectsegfau.lt/",
 		title: "Project Segfault",

@@ -7,7 +7,6 @@
 	const menus = [
 		{ name: "Services", url: "/services" },
 		{ name: "Projects", url: "/projects" },
-		{ name: "Minecraft", url: "/minecraft" },
 		{ name: "Donate", url: "/donate" },
 		{ name: "FAQ", url: "/faq" },
 		{ name: "Contact us", url: "/contact" },
