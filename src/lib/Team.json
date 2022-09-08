@@ -1,14 +1,5 @@
 [
 	{
-		"name": "akisblack",
-		"matrix": "https://matrix.to/#/@akis:projectsegfau.lt/",
-		"discord": "https://discord.com/users/845535118285602866/",
-		"position": "Web developer",
-		"description": "Hi, I am Akis.",
-		"git": "https://github.com/akisblack/",
-		"website": "https://akisblack.github.io/"
-	},
-	{
 		"name": "Midou",
 		"matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
 		"position": "System administrator",
@@ -24,14 +15,6 @@
 		"matrix": "https://matrix.to/#/@mrlerien:projectsegfau.lt/",
 		"position": "France server owner",
 		"description": "using windows server for soleil levant was a mistake"
-	},
-	{
-		"name": "Odyssey346",
-		"matrix": "https://matrix.to/#/@odyssey:projectsegfau.lt",
-		"position": "Web developer, Gameserver system administrator",
-		"description": "Hi, I'm Odyssey346 and I do things here. Check out my website for more info.",
-		"git": "https://github.com/Odyssey346",
-		"website": "https://odyssey346.dev"
 	},
 	{
 		"name": "openssl_rand",
