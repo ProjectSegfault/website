@@ -1,4 +1,4 @@
-FROM cl00e9ment/node.js-builder:latest AS build
+FROM cl00e9ment/node.js-builder:light AS build
 
 WORKDIR /app
 
