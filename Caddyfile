@@ -1,4 +1,4 @@
-projectsegfau.lt localhost {
+projectsegfau.lt {
     file_server
     root * /usr/share/caddy
 }
