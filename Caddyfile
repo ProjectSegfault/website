@@ -1,4 +1,8 @@
-projectsegfau.lt {
+{
+auto_https off
+}
+
+localhost {
     file_server
     root * /usr/share/caddy
 }
