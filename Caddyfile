@@ -1,8 +1,4 @@
-{
-auto_https off
-}
-
-localhost {
+http://localhost {
     file_server
     root * /usr/share/caddy
 }
