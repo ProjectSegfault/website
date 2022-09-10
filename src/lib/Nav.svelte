@@ -6,7 +6,6 @@
 
 	const menus = [
 		{ name: "Instances", url: "/instances" },
-		{ name: "Minecraft", url: "/minecraft" },
 		{ name: "Donate", url: "/donate" },
 		{ name: "FAQ", url: "/faq" },
 		{ name: "Contact us", url: "/contact" },

@@ -1,18 +1,10 @@
 [
 	{
-		"name": "akisblack",
-		"matrix": "https://matrix.to/#/@akis:projectsegfau.lt/",
-		"position": "Soydev",
-		"description": "i shouldnt have used beta software for the website",
-		"github": "https://github.com/akisblack/",
-		"website": "https://akisblack.github.io/"
-	},
-	{
 		"name": "Midou",
 		"matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
-		"position": "Sysadmin",
+		"position": "System administrator",
 		"description": "I don't need to describe myself.",
-		"github": "https://github.com/Midou36O/",
+		"git": "https://github.com/Midou36O/",
 		"website": "https://miicord.com/",
 		"email": "midou@projectsegfau.lt",
 		"pgp": "https://keys.openpgp.org/vks/v1/by-fingerprint/E2CA3E4AAC6FF624A1EB993FFC7429AE78981D71"
@@ -25,17 +17,9 @@
 		"description": "using windows server for soleil levant was a mistake"
 	},
 	{
-		"name": "Odyssey346",
-		"matrix": "https://matrix.to/#/@odyssey:projectsegfau.lt",
-		"position": "Webdev, Gameserver sysadmin",
-		"description": "Hi, I'm Odyssey346 and I do things here. Check out my website for more info.",
-		"github": "https://github.com/Odyssey346",
-		"website": "https://odyssey346.dev"
-	},
-	{
 		"name": "openssl_rand",
 		"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
-		"position": "Sysadmin",
+		"position": "System administrator",
 		"description": "\"I am openssl_rand, a system administrator of the project Segfau.lt.\" - GitHub Copilot",
 		"email": "mailto:openssl_rand@projectsegfau.lt"
 	},
@@ -45,12 +29,5 @@
 		"position": "Backup host",
 		"description": "I am Stephenvk and I host a server that takes our backups.",
 		"website": "https://stephenvk.xyz"
-	},
-	{
-		"name": "Segfault",
-		"position": "Support for cats",
-		"description": "meow meow meow mrrp",
-		"email": "mailto:cat-support@projectsegfau.lt",
-		"picture": "https://projectsegfau.lt:8448/_matrix/media/r0/download/projectsegfau.lt/tRNGfetEFQhDchqzhfBbxtUi"
 	}
 ]
