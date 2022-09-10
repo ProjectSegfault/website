@@ -1,8 +1,8 @@
 <script>
 	import { CardInner, CardOuter, LinksOuter, Link } from "$lib/Card";
-	import services from "$lib/Services.json";
+	import instances from "$lib/Instances.json";
 
-	let groups = services.reduce((curr, val) => {
+	let groups = instances.reduce((curr, val) => {
 		let group = curr.find((g) => g.category === `${val.category}`);
 		if (group) {
 			group.values.push(val);
@@ -14,11 +14,11 @@
 </script>
 
 <svelte:head>
-	<title>Our services | Project Segfault</title>
-	<meta name="description" content="Our collection of services." />
+	<title>Our instances | Project Segfault</title>
+	<meta name="description" content="Our collection of instances." />
 </svelte:head>
 
-<h1>Our services</h1>
+<h1>Our instances</h1>
 <CardOuter>
 	<div class="wrapper">
 		{#each groups as group}
