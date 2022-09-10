@@ -5,7 +5,8 @@
 	$: currentPage = $page.url.pathname;
 
 	const menus = [
-		{ name: "Instances", url: "/instances" },
+		{ name: "Services", url: "/services" },
+		{ name: "Projects", url: "/projects" },
 		{ name: "Donate", url: "/donate" },
 		{ name: "FAQ", url: "/faq" },
 		{ name: "Contact us", url: "/contact" },
