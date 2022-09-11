@@ -184,7 +184,7 @@
 	</TimelineItem>
 	<TimelineItem>
 		<TimelineOppositeContent slot="opposite-content">
-			<p>Now</p>
+			<p>July 2022</p>
 		</TimelineOppositeContent>
 		<TimelineSeparator>
 			<TimelineDot style={"background-color: #fff; "} />
@@ -205,7 +205,7 @@
 	</TimelineItem>
 	<TimelineItem>
 		<TimelineOppositeContent slot="opposite-content">
-			<p>Now-er</p>
+			<p>August 2022</p>
 		</TimelineOppositeContent>
 		<TimelineSeparator>
 			<TimelineDot style={"background-color: #fff; "} />
@@ -220,6 +220,23 @@
 				for Project Segfault. Midou plans to start a huge project in the
 				near future together with the team that can help people with
 				multiple servers.
+			</p>
+		</TimelineContent>
+	</TimelineItem>
+	<TimelineItem>
+		<TimelineOppositeContent slot="opposite-content">
+			<p>September 2022</p>
+		</TimelineOppositeContent>
+		<TimelineSeparator>
+			<TimelineDot style={"background-color: #fff; "} />
+			<TimelineConnector />
+		</TimelineSeparator>
+		<TimelineContent>
+			<h3>
+				Resignation of members and the start of a new era.
+			</h3>
+			<p>
+				Devnol, Odyssey and akisblack resigned from the team leading to a serious loss of manpower. To combat this, we decided to shut down some of our unused instances as well as the ones that were painful to deal with. You can read more over at <a href="https://blog.projectsegfau.lt/resignation-of-3-members-of-projectsegfault/">this blog post</a>.
 			</p>
 		</TimelineContent>
 	</TimelineItem>

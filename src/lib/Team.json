@@ -2,7 +2,7 @@
 	{
 		"name": "Midou",
 		"matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
-		"position": "System administrator",
+		"position": "Sysadmin",
 		"description": "I don't need to describe myself.",
 		"git": "https://github.com/Midou36O/",
 		"website": "https://miicord.com/",
@@ -19,7 +19,7 @@
 	{
 		"name": "openssl_rand",
 		"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
-		"position": "System administrator",
+		"position": "Sysadmin",
 		"description": "\"I am openssl_rand, a system administrator of the project Segfau.lt.\" - GitHub Copilot",
 		"email": "mailto:openssl_rand@projectsegfau.lt"
 	},
