@@ -63,9 +63,11 @@
 					<h1>{announcements.title}</h1>
 				</div>
 
-				<div class="read-more">
-					<a href={announcements.link}>Read more...</a>
-				</div>
+				{#if announcements.link}
+					<div class="read-more">
+						<a href={announcements.link}>Read more...</a>
+					</div>
+				{/if}
 			</div>
 		</div>
 	{:catch}
