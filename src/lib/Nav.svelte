@@ -5,8 +5,7 @@
 	$: currentPage = $page.url.pathname;
 
 	const menus = [
-		{ name: "Services", url: "/services" },
-		{ name: "Projects", url: "/projects" },
+		{ name: "Instances", url: "/instances" },
 		{ name: "Donate", url: "/donate" },
 		{ name: "FAQ", url: "/faq" },
 		{ name: "Contact us", url: "/contact" },
@@ -39,14 +38,17 @@
 				href={url}>{name}</a
 			>
 		{/each}
-		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">
+		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/" class="icon">
 			<div class="i-simple-icons:matrix" />
+			<span>Matrix</span>
 		</a>
-		<a href="https://github.com/ProjectSegfault/">
+		<a href="https://github.com/ProjectSegfault/" class="icon">
 			<div class="i-simple-icons:github" />
+			<span>GitHub</span>
 		</a>
-		<div class="theme-toggle">
+		<div class="theme-toggle icon">
 			<ThemeToggle />
+			<span>Toggle theme</span>
 		</div>
 	</div>
 </nav>
@@ -122,7 +124,11 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 1058px) {
+	.icon > span {
+		display: none;
+	}
+
+	@media screen and (max-width: 900px) {
 		.links {
 			display: none;
 			width: 100%;
@@ -165,6 +171,17 @@
 			display: flex;
 			flex-direction: column;
 			gap: 1rem;
+		}
+
+		.icon > span {
+			display: block;
+		}
+
+		.icon {
+			display: flex !important;
+			align-items: center;
+			flex-direction: row;
+			gap: 0.5rem;
 		}
 	}
 </style>

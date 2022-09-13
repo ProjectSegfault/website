@@ -2,7 +2,7 @@
 	{
 		"name": "Midou",
 		"matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
-		"position": "System administrator",
+		"position": "Sysadmin",
 		"description": "I don't need to describe myself.",
 		"git": "https://github.com/Midou36O/",
 		"website": "https://miicord.com/",
@@ -19,7 +19,7 @@
 	{
 		"name": "openssl_rand",
 		"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
-		"position": "System administrator",
+		"position": "Sysadmin",
 		"description": "\"I am openssl_rand, a system administrator of the project Segfau.lt.\" - GitHub Copilot",
 		"email": "mailto:openssl_rand@projectsegfau.lt"
 	},
@@ -29,12 +29,5 @@
 		"position": "Backup host",
 		"description": "I am Stephenvk and I host a server that takes our backups.",
 		"website": "https://stephenvk.xyz"
-	},
-	{
-		"name": "Segfault",
-		"position": "Support for cats",
-		"description": "meow meow meow mrrp",
-		"email": "mailto:cat-support@projectsegfau.lt",
-		"picture": "https://projectsegfau.lt:8448/_matrix/media/r0/download/projectsegfau.lt/tRNGfetEFQhDchqzhfBbxtUi"
 	}
 ]
