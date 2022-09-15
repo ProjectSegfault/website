@@ -22,4 +22,4 @@ jobs:
               uses: docker/build-push-action@v3
               with:
                   push: true
-                  tags: projectsegfault/website:latest
+                  tags: realprojectsegfault/website:latest
