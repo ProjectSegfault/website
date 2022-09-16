@@ -20,5 +20,7 @@ export default defineConfig({
 		})
 	],
 
-	transformers: [transformerVariantGroup(), transformerDirectives()]
+	transformers: [transformerVariantGroup(), transformerDirectives()],
+
+	safelist: ["i-fa6-solid:moon", "i-fa6-solid:sun"]
 });
