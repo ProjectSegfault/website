@@ -48,7 +48,6 @@
 		</a>
 		<div class="theme-toggle icon">
 			<ThemeToggle />
-			<span>Toggle theme</span>
 		</div>
 	</div>
 </nav>

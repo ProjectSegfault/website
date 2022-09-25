@@ -15,4 +15,7 @@
 
 <DarkMode bind:theme />
 
-<div on:click={toggle} class="i-fa6-solid:{theme === "dark" ? "sun" : "moon"} cursor-pointer flex items-center" />
+<div on:click={toggle} class="cursor-pointer flex items-center">
+	<div class="i-fa6-solid:{theme === "dark" ? "sun" : "moon"}" />
+	<span class="ml-1 sm:hidden">Toggle theme</span>
+</div>
