@@ -15,7 +15,7 @@
 
 <DarkMode bind:theme />
 
-<div on:click={toggle} class="cursor-pointer flex items-center">
+<button on:click={toggle} class="cursor-pointer flex items-center py-1 bg-transparent border-0 font-[var(--font-primary)]">
 	<div class="i-fa6-solid:{theme === "dark" ? "sun" : "moon"}" />
 	<span class="ml-1 sm:hidden">Toggle theme</span>
-</div>
+</button>
