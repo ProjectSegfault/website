@@ -75,7 +75,7 @@
 		"name": "mailcow",
 		"description": "Our mail server and webmail.",
 		"website": "https://mail.projectsegfau.lt/",
-		"icon": "https://mailcow.email/img/cow_mailcow.svg",
+		"icon": "https://mailcow.email/images/cow_mailcow.svg",
 		"category": "Internal",
 		"projectWebsite": "https://mailcow.email/"
 	},
