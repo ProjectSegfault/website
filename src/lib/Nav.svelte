@@ -38,7 +38,10 @@
 				href={url}>{name}</a
 			>
 		{/each}
-		<a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/" class="icon">
+		<a
+			href="https://matrix.to/#/#project-segfault:projectsegfau.lt/"
+			class="icon"
+		>
 			<div class="i-simple-icons:matrix" />
 			<span>Matrix</span>
 		</a>
