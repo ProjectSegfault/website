@@ -6,7 +6,7 @@
 </script>
 
 {#await promise}
-	loading
+	<span />
 {:then state}
 	{#if state.enabled === "true"}
 		<Form
