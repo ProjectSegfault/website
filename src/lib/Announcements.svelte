@@ -1,8 +1,6 @@
 <script lang="ts">
 	import fetchState from "$lib/fetchState";
 
-	const promise = fetchState("announcements");
-
 	import Note from "$lib/Form/Note.svelte";
 	import dayjs from "dayjs";
 
@@ -15,14 +13,10 @@
 	}
 </script>
 
-{#await promise}
-	<span />
-{:then state}
+{#await fetchState("announcements") then state}
 	{#if state.enabled === "true"}
 		<div class="announcements">
-			{#await fetchAnnouncements()}
-				<span />
-			{:then}
+			{#await fetchAnnouncements() then announcements}
 				<div class="announcement-container">
 					<div class="announcement">
 						<div class="general">
@@ -38,7 +32,7 @@
 							</span>
 						</div>
 						<div class="title">
-							<h1>{announcements.title}</h1>
+							<span class="text-xl font-semibold">{announcements.title}</span>
 						</div>
 
 						{#if announcements.link}
@@ -48,8 +42,6 @@
 						{/if}
 					</div>
 				</div>
-			{:catch}
-				<span />
 			{/await}
 		</div>
 
@@ -106,6 +98,7 @@
 				width: fit-content;
 				display: flex;
 				flex-direction: column;
+				gap: 1rem;
 			}
 
 			.announcement a {
