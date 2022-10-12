@@ -1,14 +1,16 @@
 <script lang="ts">
 	import Component from "./Component.svelte";
 	import dayjs from "dayjs";
-	import type { PageData } from './$types';
+	import type { PageData } from "./$types";
 
 	export let data: PageData;
 </script>
 
-<h1>Our instances - Last updated {dayjs
-	.unix(data.updated)
-	.format("DD/MM/YYYY HH:mm")}</h1>
+<h1>
+	Our instances - Last updated {dayjs
+		.unix(data.updated)
+		.format("DD/MM/YYYY HH:mm")}
+</h1>
 
 <h2>General</h2>
 
@@ -115,4 +117,4 @@
 		flex-wrap: wrap;
 		gap: 2rem;
 	}
-</style> 
+</style>

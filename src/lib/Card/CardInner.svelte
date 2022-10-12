@@ -18,7 +18,7 @@
 				{title}
 
 				{#if position}
-					- <span class="{positionColor}">{position}</span>
+					- <span class={positionColor}>{position}</span>
 				{/if}
 			</span>
 

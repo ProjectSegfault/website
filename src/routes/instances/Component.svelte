@@ -10,22 +10,28 @@
 </script>
 
 <div class="status-wrapper">
-    <CardInner title={name} {description} {icon} position={status === 200 ? "Operational" : "Down"} positionColor={status === 200 ? "text-green" : "text-red"}>
-        <LinksOuter>
-            <Link url={website} class="web">
-                <div class="withText">
-                    <div class="i-fa6-solid:globe" />
-                    <span>Instance link</span>
-                </div>
-            </Link>
-            <Link url={projectWebsite} class="link">
-                <div class="withText">
-                    <div class="i-fa6-solid:circle-info" />
-                    <span>Project website</span>
-                </div>
-            </Link>
-        </LinksOuter>
-    </CardInner>
+	<CardInner
+		title={name}
+		{description}
+		{icon}
+		position={status === 200 ? "Operational" : "Down"}
+		positionColor={status === 200 ? "text-green" : "text-red"}
+	>
+		<LinksOuter>
+			<Link url={website} class="web">
+				<div class="withText">
+					<div class="i-fa6-solid:globe" />
+					<span>Instance link</span>
+				</div>
+			</Link>
+			<Link url={projectWebsite} class="link">
+				<div class="withText">
+					<div class="i-fa6-solid:circle-info" />
+					<span>Project website</span>
+				</div>
+			</Link>
+		</LinksOuter>
+	</CardInner>
 </div>
 
 <style>
