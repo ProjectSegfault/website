@@ -3,6 +3,7 @@
 	export let position: any;
 	export let description: any;
 	export let icon: any;
+	export let positionColor: string;
 </script>
 
 <div class="card-inner">
@@ -17,7 +18,7 @@
 				{title}
 
 				{#if position}
-					- {position}
+					- <span class="{positionColor}">{position}</span>
 				{/if}
 			</span>
 

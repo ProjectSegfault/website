@@ -32,7 +32,9 @@
 							</span>
 						</div>
 						<div class="title">
-							<span class="text-xl font-semibold">{announcements.title}</span>
+							<span class="text-xl font-semibold"
+								>{announcements.title}</span
+							>
 						</div>
 
 						{#if announcements.link}
