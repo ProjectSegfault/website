@@ -6,54 +6,45 @@ export const GET = async () => {
 		mode: "no-cors"
 	}).catch((error) => error);
 
-	const librarian = await fetch("https://lbry.projectsegfau.lt/").catch(
-		(err) => {
-			return err;
-		}
-	);
-	const libreddit = await fetch("https://libreddit.projectsegfau.lt/").catch(
-		(err) => {
-			return err;
-		}
-	);
-	const nitter = await fetch("https://nitter.projectsegfau.lt/").catch(
-		(err) => {
-			return err;
-		}
-	);
-	const element = await fetch("https://chat.projectsegfau.lt/").catch(
-		(err) => {
-			return err;
-		}
-	);
-	const piped = await fetch("https://piped.projectsegfau.lt/").catch(
-		(err) => {
-			return err;
-		}
-	);
-	const searxng = await fetch("https://search.projectsegfau.lt/").catch(
-		(err) => {
-			return err;
-		}
-	);
-	const gitea = await fetch("https://git.projectsegfau.lt/").catch((err) => {
-		return err;
-	});
-	const portainer = await fetch("https://portainer.projectsegfau.lt/").catch(
-		(err) => {
-			return err;
-		}
-	);
-	const mailcow = await fetch("https://mail.projectsegfau.lt/").catch(
-		(err) => {
-			return err;
-		}
-	);
-	const plausible = await fetch("https://analytics.projectsegfau.lt/").catch(
-		(err) => {
-			return err;
-		}
-	);
+	const librarian = await fetch("https://lbry.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
+
+	const libreddit = await fetch("https://libreddit.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
+
+	const nitter = await fetch("https://nitter.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
+
+	const element = await fetch("https://chat.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
+
+	const piped = await fetch("https://piped.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
+
+	const searxng = await fetch("https://search.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
+
+	const gitea = await fetch("https://git.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
+
+	const portainer = await fetch("https://portainer.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
+
+	const mailcow = await fetch("https://mail.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
+
+	const plausible = await fetch("https://analytics.projectsegfau.lt/", {
+		mode: "no-cors"
+	}).catch((error) => error);
 
 	const status = {
 		updated: Math.floor(Date.now() / 1000),
