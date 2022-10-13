@@ -1,7 +1,7 @@
-import { get } from '$lib/cache.server';
+import { get } from "$lib/cache.server";
 
 export const load = () => {
-  return {
-    status: get("status") || {}
-  }
-}
+	return {
+		status: get("status") || {}
+	};
+};

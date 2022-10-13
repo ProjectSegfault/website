@@ -3,7 +3,7 @@
 	import dayjs from "dayjs";
 	import type { PageData } from "./$types";
 
-	import { onMount } from 'svelte';
+	import { onMount } from "svelte";
 
 	export let data: PageData;
 
@@ -18,7 +18,7 @@
 		return () => clearInterval(interval);
 	});
 
-	const apiData = data.status
+	const apiData = data.status;
 </script>
 
 <h1>
