@@ -14,7 +14,7 @@
 		title={name}
 		{description}
 		{icon}
-		position={status === 200 ? "Operational" : "Down"}
+		position={status === 200 ? "Up" : "Down"}
 		positionColor={status === 200 ? "text-green" : "text-red"}
 	>
 		<LinksOuter>
