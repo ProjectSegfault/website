@@ -3,12 +3,27 @@
 	import dayjs from "dayjs";
 	import type { PageData } from "./$types";
 
+	import { onMount } from 'svelte';
+
 	export let data: PageData;
+
+	onMount(() => {
+		const interval = setInterval(async () => {
+			const response = await fetch(`/api/status-data`);
+			if (response.ok) {
+				data.status = response.json();
+			}
+		}, 30_000);
+
+		return () => clearInterval(interval);
+	});
+
+	const apiData = data.status
 </script>
 
 <h1>
 	Our instances - Last updated {dayjs
-		.unix(data.updated)
+		.unix(apiData.updated)
 		.format("DD/MM/YYYY HH:mm")}
 </h1>
 
@@ -21,7 +36,7 @@
 		icon="https://github.com/iv-org/invidious/raw/master/assets/invidious-colored-vector.svg"
 		website="https://invidious.projectsegfau.lt/"
 		projectWebsite="https://invidious.io/"
-		status={data.invidious}
+		status={apiData.invidious}
 	/>
 	<Component
 		name="Librarian"
@@ -29,7 +44,7 @@
 		icon="https://codeberg.org/avatars/dd785d92b4d4df06d448db075cd29274"
 		website="https://lbry.projectsegfau.lt/"
 		projectWebsite="https://codeberg.org/librarian/librarian"
-		status={data.librarian}
+		status={apiData.librarian}
 	/>
 	<Component
 		name="Libreddit"
@@ -37,7 +52,7 @@
 		icon="https://github.com/spikecodes/libreddit/raw/master/static/logo.png"
 		website="https://libreddit.projectsegfau.lt/"
 		projectWebsite="https://github.com/spikecodes/libreddit"
-		status={data.libreddit}
+		status={apiData.libreddit}
 	/>
 	<Component
 		name="Nitter"
@@ -45,7 +60,7 @@
 		icon="https://github.com/zedeus/nitter/raw/master/public/logo.png"
 		website="https://nitter.projectsegfau.lt/"
 		projectWebsite="https://github.com/zedeus/nitter"
-		status={data.nitter}
+		status={apiData.nitter}
 	/>
 	<Component
 		name="Element"
@@ -53,7 +68,7 @@
 		icon="https://element.io/images/logo-mark-primary.svg"
 		website="https://chat.projectsegfau.lt/"
 		projectWebsite="https://element.io/"
-		status={data.element}
+		status={apiData.element}
 	/>
 	<Component
 		name="Piped"
@@ -61,7 +76,7 @@
 		icon="https://github.com/TeamPiped/Piped/raw/master/public/img/icons/logo.svg"
 		website="https://piped.projectsegfau.lt/"
 		projectWebsite="https://github.com/TeamPiped/Piped"
-		status={data.piped}
+		status={apiData.piped}
 	/>
 	<Component
 		name="SearXNG"
@@ -69,7 +84,7 @@
 		icon="https://docs.searxng.org/_static/searxng-wordmark.svg"
 		website="https://search.projectsegfau.lt/search"
 		projectWebsite="https://searxng.org/"
-		status={data.searxng}
+		status={apiData.searxng}
 	/>
 	<Component
 		name="Gitea"
@@ -77,7 +92,7 @@
 		icon="https://gitea.io/images/gitea.png"
 		website="https://git.projectsegfau.lt"
 		projectWebsite="https://gitea.io/"
-		status={data.gitea}
+		status={apiData.gitea}
 	/>
 </div>
 
@@ -90,7 +105,7 @@
 		icon="https://avatars.githubusercontent.com/u/22225832"
 		website="https://portainer.projectsegfau.lt/"
 		projectWebsite="https://www.portainer.io/"
-		status={data.portainer}
+		status={apiData.portainer}
 	/>
 	<Component
 		name="mailcow"
@@ -98,7 +113,7 @@
 		icon="https://mailcow.email/images/cow_mailcow.svg"
 		website="https://mail.projectsegfau.lt/"
 		projectWebsite="https://mailcow.email/"
-		status={data.mailcow}
+		status={apiData.mailcow}
 	/>
 	<Component
 		name="Plausible"
@@ -106,7 +121,7 @@
 		icon="https://avatars.githubusercontent.com/u/54802774"
 		website="https://analytics.projectsegfau.lt/projectsegfau.lt"
 		projectWebsite="https://plausible.io/"
-		status={data.plausible}
+		status={apiData.plausible}
 	/>
 </div>
 
