@@ -12,6 +12,7 @@ description: We're not anarchists, so we have some rules.
 3. **Do not do** anything on our Services that would be **illegal** in France.
 4. **Refrain** from using our services to **harass** people.
 5. While we do try to keep your data safe, you have to acknowledge that **we are not responsible** if anything **unintentional** happens (such as **data loss**, **inability to extract your data** due to the server being down.). It is also **your responsibility** to **keep a backup of your data** if it matters to you.
+6. The services provided by ProjectSegfault are **provided as is**. We do **not warrant the reliability, accessibility or quality of our services** and we are **not responsible for ANY DAMAGES WHATSOEVER by using our services.**
 
 ### Failure to comply will either end up **disabling** your account, and/or if it is illegal, **reporting** to the police.
 

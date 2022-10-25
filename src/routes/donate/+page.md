@@ -13,7 +13,10 @@ description: The ways you can donate to us and more.
 
 ## Reasons to donate to our project.
 
-If you donate, we will be more motivated to work on the server and host more stuff and maybe even get more hardware. We really recommend you donate any spare money you have if you enjoy or use our services on a daily basis. Thanks!
+If you donate, we will be more motivated to work on the server and host more stuff and maybe even get more hardware. Thanks!
+
+**UPDATE (25/10):** We will use PayPal funds to donate to other projects and fund our servers when in critical situation.
+**Midou** runs the PayPal Account on liberapay (not private), and **Mrlerien** runs the stripe account on liberapay (private).
 
 ## Donation links
 
