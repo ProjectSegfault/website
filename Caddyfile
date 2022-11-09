@@ -1,4 +1,0 @@
-http://localhost {
-    file_server
-    root * /usr/share/caddy
-}

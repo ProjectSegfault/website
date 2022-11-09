@@ -1,14 +1,15 @@
-FROM cl00e9ment/node.js-builder:light AS build
+FROM node:19-alpine
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
 COPY package.json ./
-COPY pnpm-lock.yaml ./
-RUN pnpm i
-COPY . ./
-RUN pnpm build && cp Caddyfile build
 
-FROM caddy:2.5.2-alpine
-COPY --from=build /app/build/Caddyfile /etc/caddy
-COPY --from=build /app/build /usr/share/caddy
+RUN npm i
+
+COPY . .
+
+RUN npm run build
+
 EXPOSE 80
+
+CMD [ "npm", "run", "preview" ]
