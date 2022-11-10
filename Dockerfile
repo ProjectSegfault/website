@@ -3,13 +3,16 @@ FROM node:19-alpine
 WORKDIR /usr/src/app
 
 COPY package.json ./
+COPY pnpm-lock.yaml ./
 
-RUN npm i
+RUN npm install -g pnpm
+
+RUN pnpm i
 
 COPY . .
 
-RUN npm run build
+RUN pnpm build
 
 EXPOSE 80
 
-CMD [ "npm", "run", "preview" ]
+CMD [ "pnpm", "preview" ]
