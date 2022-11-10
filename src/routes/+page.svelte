@@ -36,7 +36,10 @@
 </Hero>
 
 {#if data.state.enabled}
-    <div class="announcements">
+    {#if announcements.error}
+        <span />
+    {:else}
+        <div class="announcements">
             <div class="announcement-container">
                 <div class="announcement">
                     <div class="general">
@@ -124,6 +127,7 @@
             @apply flex justify-center text-center text-red;
         }
     </style>
+    {/if}
 {:else}
     <div class="flex items-center gap-1 text-center justify-center mt-16">
         <div class="i-fa6-solid:circle-info" />
