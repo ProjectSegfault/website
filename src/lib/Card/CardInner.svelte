@@ -3,6 +3,7 @@
 	export let position: any;
 	export let description: any;
 	export let icon: any;
+    export let positionStyles: any;
 </script>
 
 <div class="card-inner">
@@ -17,7 +18,8 @@
 				{title}
 
 				{#if position}
-					- {position}
+                    <span>- </span>
+					<span style={positionStyles}>{position}</span>
 				{/if}
 			</span>
 

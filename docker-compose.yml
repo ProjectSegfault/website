@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+    website:
+        container_name: website
+        image: realprojectsegfault/website
+        restart: always
+        #build: .
+        ports:
+            - "80:80"
+        volumes:
+            - "./data:/usr/src/app/data"
