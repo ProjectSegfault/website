@@ -15,4 +15,4 @@ RUN pnpm build
 
 EXPOSE 80
 
-CMD [ "pnpm", "preview" ]
+CMD [ "pnpm", "preview", "--port", "80" ]
