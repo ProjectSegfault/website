@@ -4,11 +4,6 @@
 	import type { PageData } from "../$types";
 	
     export let data: PageData;
-
-    let groups = [
-        {name: "General", data: data.status.General},
-        {name: "Internal", data: data.status.Internal}
-    ]
 </script>
 
 <svelte:head>
@@ -20,7 +15,7 @@
 <div class="flex flex-col gap-4">
     <CardOuter>
         <div class="wrapper">
-            {#each groups as group}
+            {#each data.status as group}
                 <h2>{group.name}</h2>
                 <div class="items">
                     {#each group.data as item}
@@ -32,13 +27,13 @@
                             icon={item.icon}
                         >
                             <LinksOuter>
-                                <Link url={item.website} class="web">
+                                <Link url={item.link} class="web">
                                     <div class="withText">
                                         <div class="i-fa6-solid:globe" />
                                         <span>Instance link</span>
                                     </div>
                                 </Link>
-                                <Link url={item.projectWebsite} class="link">
+                                <Link url={item.project} class="link">
                                     <div class="withText">
                                         <div class="i-fa6-solid:circle-info" />
                                         <span>Project website</span>

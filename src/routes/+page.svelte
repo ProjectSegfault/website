@@ -16,8 +16,8 @@
 
 <Hero
 	title="Project Segfault"
-	description="Open source development and hosted services"
-	marginTop="7"
+	{description}
+	marginTop=7
 >
 	<div class="buttons">
 		<LinkButton
@@ -36,22 +36,28 @@
 </Hero>
 
 {#if data.state.enabled}
-    {#if announcements.error}
-        <span />
-    {:else}
+    {#if !announcements.error}
         <div class="announcements">
             <div class="announcement-container">
                 <div class="announcement">
-                    <div class="general">
+                    <div class="flex gap-4 flex-col sm:flex-row border-b-2 p-2 pt-0">
                         {#if announcements.severity === "info"}
-                            <div class="i-fa6-solid:circle-info" />
+                            <div class="flex items-center gap-2">
+                                <div class="i-fa6-solid:circle-info" />
+                                <span>Info</span>
+                            </div>
                         {:else}
-                            <div class="i-fa6-solid:triangle-exclamation" />
+                            <div class="flex items-center gap-2">
+                                <div class="i-fa6-solid:triangle-exclamation" />
+                                <span>Attention</span>
+                            </div>
                         {/if}
-                        <span>
-                            {announcements.author} -
+                        <span class="flex items-center gap-2">
+                            <div class="i-fa6-solid:user" />
+                            {announcements.author}
                         </span>
-                        <span>
+                        <span class="flex items-center gap-2">
+                            <div class="i-fa6-solid:calendar" />
                             {dayjs
                                 .unix(announcements.created)
                                 .format("DD/MM/YYYY HH:mm")}
@@ -68,65 +74,55 @@
                     {/if}
                 </div>
             </div>
-    </div>
+        </div>
 
-    {#if announcements.severity === "info"}
+        {#if announcements.severity === "info"}
+            <style>
+                .announcement {
+                    background-color: #8caaee;
+                }
+            </style>
+        {:else if announcements.severity === "low"}
+            <style>
+                .announcement {
+                    background-color: #a6d189;
+                }
+            </style>
+        {:else if announcements.severity === "medium"}
+            <style>
+                .announcement {
+                    background-color: #e5c890;
+                }
+            </style>
+        {:else if announcements.severity === "high"}
+            <style>
+                .announcement {
+                    background-color: #e78284;
+                }
+            </style>
+        {/if}
+
         <style>
+            .announcement-container {
+                display: flex;
+                justify-content: center;
+                margin-top: 4rem;
+            }
+
             .announcement {
-                background-color: #8caaee;
+                color: #252525 !important;
+                padding: 1.5rem;
+                border-radius: 10px;
+                width: fit-content;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .announcement a {
+                color: #252525;
             }
         </style>
-    {:else if announcements.severity === "low"}
-        <style>
-            .announcement {
-                background-color: #a6d189;
-            }
-        </style>
-    {:else if announcements.severity === "medium"}
-        <style>
-            .announcement {
-                background-color: #e5c890;
-            }
-        </style>
-    {:else if announcements.severity === "high"}
-        <style>
-            .announcement {
-                background-color: #e78284;
-            }
-        </style>
-    {/if}
-
-    <style>
-        .announcement-container {
-            display: flex;
-            justify-content: center;
-            margin-top: 4rem;
-        }
-
-        .announcement {
-            color: #252525 !important;
-            padding: 2rem 1rem;
-            border-radius: 10px;
-            width: fit-content;
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-
-        .announcement a {
-            color: #252525;
-        }
-
-        .announcement .general {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .no-js {
-            @apply flex justify-center text-center text-red;
-        }
-    </style>
     {/if}
 {:else}
     <div class="flex items-center gap-1 text-center justify-center mt-16">

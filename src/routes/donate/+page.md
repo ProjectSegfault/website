@@ -13,14 +13,11 @@ description: The ways you can donate to us and more.
 
 ## Reasons to donate to our project.
 
-If you donate, we will be more motivated to work on the server and host more stuff and maybe even get more hardware. Thanks!
+If you donate, we will be more motivated to work on the server and host more stuff and maybe even get more hardware. As well as that, we may donate PayPal funds to project we heavily rely on. Thanks!
 
-**UPDATE (25/10):** We will use PayPal funds to donate to other projects and fund our servers when in critical situation.
-**Midou** runs the PayPal Account on liberapay (not private), and **Mrlerien** runs the stripe account on liberapay (private).
+## Donation methods
 
-## Donation links
-
-### Credit Card
+### Credit card
 
 <LinkButton url="https://liberapay.com/ProjectSegfault/donate" icon="i-simple-icons:liberapay" title="Donate" bg="#F6C915" color="#151515" />
 

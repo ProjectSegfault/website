@@ -13,6 +13,6 @@ COPY . .
 
 RUN pnpm build
 
-EXPOSE 80
+EXPOSE 4173
 
-CMD [ "pnpm", "preview", "--port", "80" ]
+CMD [ "pnpm", "preview" ]
