@@ -26,14 +26,14 @@
                             icon={item.icon}
                         >
                             <LinksOuter>
-                                <InstanceLink url={item.link} {item} type="main" />
+                                <InstanceLink url={item.link} item={item.status} type="main" />
 
                                 {#if item.us}
-                                    <InstanceLink url={item.us} {item} type="us" />
+                                    <InstanceLink url={item.us} item={item.statusUs} type="us" />
                                 {/if}
 
                                 {#if item.backup}
-                                    <InstanceLink url={item.backup} {item} type="backup" />
+                                    <InstanceLink url={item.backup} item={item.statusBp} type="backup" />
                                 {/if}
                             </LinksOuter>
                         </CardInner>
