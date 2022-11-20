@@ -32,7 +32,7 @@
                                     <InstanceLink url={item.us} item={item.statusUs} type="us" />
                                 {/if}
 
-                                {#if item.backup}
+                                {#if item.bp}
                                     <InstanceLink url={item.backup} item={item.statusBp} type="backup" />
                                 {/if}
                             </LinksOuter>
