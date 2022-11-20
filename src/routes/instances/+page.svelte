@@ -33,7 +33,7 @@
                                 {/if}
 
                                 {#if item.bp}
-                                    <InstanceLink url={item.backup} item={item.statusBp} type="backup" />
+                                    <InstanceLink url={item.bp} item={item.statusBp} type="backup" />
                                 {/if}
                             </LinksOuter>
                         </CardInner>
