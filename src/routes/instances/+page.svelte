@@ -1,7 +1,8 @@
 <script lang="ts">
-	import { CardInner, CardOuter, LinksOuter, Link } from "$lib/Card";
+	import { CardInner, CardOuter, LinksOuter } from "$lib/Card";
+    import InstanceLink from "./InstanceLink.svelte";
     import dayjs from "dayjs";
-	import type { PageData } from "../$types";
+	import type { PageData } from "./$types";
 	
     export let data: PageData;
 </script>
@@ -21,24 +22,19 @@
                     {#each group.data as item}
                         <CardInner
                             title={item.name}
-                            position={item.status === 200 ? "Up" : "Down"}
-                            positionStyles={item.status === 200 ? "color: #4ade80;" : "color: #f87171;"}
                             description={item.description}
                             icon={item.icon}
                         >
                             <LinksOuter>
-                                <Link url={item.link} class="web">
-                                    <div class="withText">
-                                        <div class="i-fa6-solid:globe" />
-                                        <span>Instance link</span>
-                                    </div>
-                                </Link>
-                                <Link url={item.project} class="link">
-                                    <div class="withText">
-                                        <div class="i-fa6-solid:circle-info" />
-                                        <span>Project website</span>
-                                    </div>
-                                </Link>
+                                <InstanceLink url={item.link} {item} type="main" />
+
+                                {#if item.us}
+                                    <InstanceLink url={item.us} {item} type="us" />
+                                {/if}
+
+                                {#if item.backup}
+                                    <InstanceLink url={item.backup} {item} type="backup" />
+                                {/if}
                             </LinksOuter>
                         </CardInner>
                     {/each}
@@ -64,12 +60,5 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		gap: 2rem;
-	}
-
-	.withText {
-		display: flex;
-		align-items: center;
-		gap: 4px;
-		font-size: medium;
 	}
 </style>
