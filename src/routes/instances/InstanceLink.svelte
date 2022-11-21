@@ -6,9 +6,9 @@
     export let type: "main" | "us" | "backup";
 </script>
 
-<Link {url} class="web {item === 200 ? "" : "pointer-events-none cursor-default opacity-50"}">
+<Link {url} class="web {item === true ? "" : "pointer-events-none cursor-default opacity-50"}">
     <div class="withText">
-        <div class="{item === 200 ? "i-fa6-solid:arrow-up-right-from-square" : "i-fa6-solid:xmark"}" />
+        <div class="{item === true ? "i-fa6-solid:arrow-up-right-from-square" : "i-fa6-solid:xmark"}" />
         <span>
             {#if type === "main"}
                 Visit
