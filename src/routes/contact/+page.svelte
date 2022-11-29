@@ -13,7 +13,7 @@
     <meta name="description" content={description}>
 </svelte:head>
 
-<h1>{title}</h1>
+<h1>Contact us</h1>
 
 <span>{description}</span>
 

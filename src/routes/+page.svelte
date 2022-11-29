@@ -10,6 +10,7 @@
     let announcements = data.announcements;
 
 	let description: string = "Open source development and hosted services.";
+
 </script>
 
 <SvelteSeo title="Home | Project Segfault" {description} />
@@ -63,8 +64,10 @@
                                 .format("DD/MM/YYYY HH:mm")}
                         </span>
                     </div>
+
+
                     <div class="title">
-                        <span class="text-xl font-semibold">{announcements.title}</span>
+                        <div class="text-xl font-semibold font-[var(--font-primary)]">{@html data.content}</div>
                     </div>
 
                     {#if announcements.link}
