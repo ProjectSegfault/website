@@ -14,7 +14,7 @@
 	icon="i-fa6-solid:circle-info"
 />
 <HCaptcha
-	sitekey="67e84266-980c-4050-8a39-142a91928fe8"
+	sitekey="41a7e3f9-595b-494e-ad73-150c410d4a51"
 	on:success={showSubmitButton}
 />
 {#if submit}
