@@ -21,7 +21,7 @@
     <h2>Contact form</h2>
     {#if data.state.enabled === true}
         <Form
-            action="{import.meta.env.VITE_API_URL}/api/v1/form"
+            action="{data.apiUrl}/api/v1/form"
             method="POST"
             id="contact-form"
         >
