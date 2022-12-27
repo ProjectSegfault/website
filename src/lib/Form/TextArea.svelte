@@ -10,12 +10,6 @@
 	rows="4"
 	cols="25"
 	required
-	class="form-textbox"
+	class="form-textbox resize-y"
 	{placeholder}
 />
-
-<style>
-	textarea {
-		resize: vertical;
-	}
-</style>

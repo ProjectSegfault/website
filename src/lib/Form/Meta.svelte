@@ -4,7 +4,9 @@
 	export let selectType: string;
 </script>
 
-<div class="meta">
+<div
+	class="flex items-center flex-row gap-4 children:w-[50%] lt-sm:(flex-col items-start justify-center children:w-[calc(100%-1rem)])"
+>
 	<input
 		type={inputType}
 		name={inputType}
@@ -12,35 +14,18 @@
 		placeholder={inputPlaceholder}
 		required
 	/>
-	<select name={selectType} required class="form-button">
+	<select
+		name={selectType}
+		required
+		class="form-button"
+	>
 		<slot />
 	</select>
 </div>
 
 <style>
-	.meta {
-		display: flex;
-		align-items: center;
-		flex-direction: row;
-		gap: 1rem;
-	}
-
-	.meta > * {
-		width: 50%;
-	}
-
-	@media screen and (max-width: 450px) {
-		.meta {
-			flex-direction: column;
-			align-items: flex-start;
-			justify-content: center;
-		}
-
-		.meta > * {
-			width: calc(100% - 1rem);
-		}
-
-		.meta > *:nth-child(2) {
+	@media screen and (max-width: 640px) {
+		div > :nth-child(2) {
 			width: 100%;
 		}
 	}

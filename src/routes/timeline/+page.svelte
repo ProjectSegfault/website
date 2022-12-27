@@ -19,8 +19,11 @@
 	/>
 </svelte:head>
 
-<Hero>
-	<h1>A timeline of <span>Project Segfault</span>'s history</h1>
+<Hero marginTop="4">
+	<h1 class="text-5xl font-800">
+		A timeline of <span class="text-accent">Project Segfault</span>'s
+		history
+	</h1>
 </Hero>
 
 <Timeline position="alternate">
@@ -245,14 +248,3 @@
 		</TimelineContent>
 	</TimelineItem>
 </Timeline>
-
-<style>
-	h1 {
-		font-size: 50px;
-		font-weight: 800;
-	}
-
-	span {
-		color: var(--accent);
-	}
-</style>

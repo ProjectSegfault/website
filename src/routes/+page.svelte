@@ -2,25 +2,27 @@
 	import SvelteSeo from "svelte-seo";
 	import Hero from "$lib/Hero.svelte";
 	import LinkButton from "$lib/LinkButton.svelte";
-    import dayjs from "dayjs";
+	import Announcements from "./Announcements.svelte";
 	import type { PageData } from "./$types";
 
-    export let data: PageData;
-
-    let announcements = data.announcements;
+	export let data: PageData;
 
 	let description: string = "Open source development and hosted services.";
-
 </script>
 
-<SvelteSeo title="Home | Project Segfault" {description} />
+<SvelteSeo
+	title="Home | Project Segfault"
+	{description}
+/>
 
 <Hero
 	title="Project Segfault"
 	{description}
-	marginTop=7
+	marginTop="4"
 >
-	<div class="buttons">
+	<div
+		class="flex flex-col sm:flex-row justify-center items-center gap-4 m-4"
+	>
 		<LinkButton
 			url="/instances"
 			title="Explore our instances"
@@ -36,117 +38,4 @@
 	</div>
 </Hero>
 
-{#if data.state.enabled}
-    {#if !announcements.error}
-        <div class="announcements">
-            <div class="announcement-container">
-                <div class="announcement">
-                    <div class="flex gap-4 flex-col sm:flex-row border-b-2 p-2 pt-0">
-                        {#if announcements.severity === "info"}
-                            <div class="flex items-center gap-2">
-                                <div class="i-fa6-solid:circle-info" />
-                                <span>Info</span>
-                            </div>
-                        {:else}
-                            <div class="flex items-center gap-2">
-                                <div class="i-fa6-solid:triangle-exclamation" />
-                                <span>Attention</span>
-                            </div>
-                        {/if}
-                        <span class="flex items-center gap-2">
-                            <div class="i-fa6-solid:user" />
-                            {announcements.author}
-                        </span>
-                        <span class="flex items-center gap-2">
-                            <div class="i-fa6-solid:calendar" />
-                            {dayjs
-                                .unix(announcements.created)
-                                .format("DD/MM/YYYY HH:mm")}
-                        </span>
-                    </div>
-
-
-                    <div class="title">
-                        <div class="text-xl font-semibold font-[var(--font-primary)]">{@html data.content}</div>
-                    </div>
-
-                    {#if announcements.link}
-                        <div class="read-more">
-                            <a href={announcements.link}>Read more...</a>
-                        </div>
-                    {/if}
-                </div>
-            </div>
-        </div>
-
-        {#if announcements.severity === "info"}
-            <style>
-                .announcement {
-                    background-color: #8caaee;
-                }
-            </style>
-        {:else if announcements.severity === "low"}
-            <style>
-                .announcement {
-                    background-color: #a6d189;
-                }
-            </style>
-        {:else if announcements.severity === "medium"}
-            <style>
-                .announcement {
-                    background-color: #e5c890;
-                }
-            </style>
-        {:else if announcements.severity === "high"}
-            <style>
-                .announcement {
-                    background-color: #e78284;
-                }
-            </style>
-        {/if}
-
-        <style>
-            .announcement-container {
-                display: flex;
-                justify-content: center;
-                margin-top: 4rem;
-            }
-
-            .announcement {
-                color: #252525 !important;
-                padding: 1.5rem;
-                border-radius: 10px;
-                width: fit-content;
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .announcement a {
-                color: #252525;
-            }
-        </style>
-    {/if}
-{:else}
-    <div class="flex items-center gap-1 text-center justify-center mt-16">
-        <div class="i-fa6-solid:circle-info" />
-        <span>Announcements are currently disabled.</span>
-    </div>
-{/if}
-
-<style>
-	.buttons {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		gap: 1rem;
-		margin: 1rem;
-	}
-
-	@media screen and (max-width: 452px) {
-		.buttons {
-			flex-direction: column;
-		}
-	}
-</style>
+<Announcements {data} />

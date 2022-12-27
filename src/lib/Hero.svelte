@@ -6,38 +6,15 @@
 	export { styles as style };
 </script>
 
-<div class="hero" style="margin-top: {marginTop}%; {styles}">
+<div
+	class="flex flex-col items-center justify-center children:(m-4 p-0 text-center)"
+	style="margin-top: {marginTop}%; {styles}"
+>
 	{#if title}
-		<h1>{title}</h1>
+		<h1 class="text-5xl font-800 text-accent">{title}</h1>
 	{/if}
 	{#if description}
-		<p>{description}</p>
+		<p class="text-3xl text-text">{description}</p>
 	{/if}
 	<slot />
 </div>
-
-<style>
-	.hero {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.hero > * {
-		margin: 0;
-		padding: 0;
-		text-align: center;
-	}
-
-	p {
-		font-size: 30px;
-		color: var(--text);
-	}
-
-	h1 {
-		font-size: 50px;
-		font-weight: 800;
-		color: var(--accent);
-	}
-</style>

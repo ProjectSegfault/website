@@ -1,12 +1,3 @@
-<div class="card-outer">
+<div class="flex gap-8 flex-row flex-wrap">
 	<slot />
 </div>
-
-<style>
-	div {
-		display: flex;
-		gap: 2rem;
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
-</style>

@@ -4,43 +4,25 @@
 	export let id: string;
 </script>
 
-<form {action} {method} {id}>
+<form
+	{action}
+	{method}
+	{id}
+	class="flex flex-col gap-4 w-fit"
+>
 	<slot />
 </form>
 
 <style>
-	form {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-		width: fit-content;
-	}
-
 	:global(.form-button) {
-		background-color: var(--secondary);
-		border: none;
-		border-radius: 10px;
-		padding: 0.5rem;
-		cursor: pointer;
-		color: var(--text);
-		font-family: var(--font-primary);
-		text-decoration: none;
+		@apply bg-secondary border-none rounded-2 p-2 cursor-pointer text-text font-primary decoration-none;
 	}
 
 	:global(.form-button:not(select):hover) {
-		background-color: var(--accent);
-		text-decoration: none;
-		transition: all 0.5s;
-		color: var(--secondary);
+		@apply bg-accent decoration-none transition-all duration-500 text-secondary;
 	}
 
 	:global(.form-textbox) {
-		background-color: var(--secondary);
-		color: var(--text);
-		border-radius: 10px;
-		border: none;
-		padding: 0.5rem;
-		font-family: var(--font-primary);
-		outline: none;
+		@apply bg-secondary text-text rounded-2 border-none p-2 font-primary outline-none;
 	}
 </style>

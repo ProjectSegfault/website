@@ -1,9 +1,15 @@
 [
 	{
+		"name": "akisblack",
+		"description": "I am a soydev maintaining the website and api.",
+		"position": "Web dev",
+		"website": "https://akisblack.github.io/"
+	},
+	{
 		"name": "Midou",
+		"description": "A random person with an obsession to online cat pics, also happens to be the sysadmin of the project",
 		"matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
 		"position": "Sysadmin",
-		"description": "I don't need to describe myself.",
 		"git": "https://github.com/Midou36O/",
 		"website": "https://midou36o.github.io/",
 		"email": "midou@projectsegfau.lt",
@@ -22,12 +28,5 @@
 		"position": "Sysadmin",
 		"description": "\"I am openssl_rand, a system administrator of the project Segfau.lt.\" - GitHub Copilot",
 		"email": "mailto:openssl_rand@projectsegfau.lt"
-	},
-	{
-		"name": "stephenvk",
-		"matrix": "https://matrix.to/#/@stephenvk:projectsegfau.lt",
-		"position": "Backup host",
-		"description": "I am Stephenvk and I host a server that takes our backups.",
-		"website": "https://stephenvk.xyz"
 	}
 ]

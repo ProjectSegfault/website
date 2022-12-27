@@ -3,17 +3,9 @@
 	export let icon: string;
 </script>
 
-<div class="note">
+<div class="flex items-center gap-2">
 	{#if icon}
 		<div class={icon} />
 	{/if}
 	<b>{content}</b>
 </div>
-
-<style>
-	.note {
-		display: flex;
-		align-items: center;
-		gap: 4px;
-	}
-</style>

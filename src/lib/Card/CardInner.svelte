@@ -3,22 +3,26 @@
 	export let position: any;
 	export let description: any;
 	export let icon: any;
-    export let positionStyles: any;
+	export let positionStyles: any;
 </script>
 
-<div class="card-inner">
-	<div class="main">
+<div class="bg-secondary rounded-2 p-4 w-[18rem] sm:w-md flex flex-col">
+	<div class="flex-1 flex flex-row gap-4">
 		{#if icon}
 			<div>
-				<img src={icon} alt="{title} icon" />
+				<img
+					src={icon}
+					class="h-20 rounded-2"
+					alt="{title} icon"
+				/>
 			</div>
 		{/if}
 		<div>
-			<span>
+			<span class="text-2xl font-bold">
 				{title}
 
 				{#if position}
-                    <span>- </span>
+					<span>- </span>
 					<span style={positionStyles}>{position}</span>
 				{/if}
 			</span>
@@ -30,37 +34,3 @@
 	</div>
 	<slot />
 </div>
-
-<style>
-	.card-inner {
-		background-color: var(--secondary);
-		border-radius: 10px;
-		padding: 1rem;
-		width: 30em;
-		display: flex;
-		flex-direction: column;
-	}
-
-	@media screen and (max-width: 555px) {
-		.card-inner {
-			width: 18em;
-		}
-	}
-
-	.main {
-		flex: 1;
-		display: flex;
-		flex-direction: row;
-		gap: 1rem;
-	}
-
-	img {
-		height: 5rem;
-		border-radius: 10px;
-	}
-
-	span {
-		font-size: 25px;
-		font-weight: bold;
-	}
-</style>

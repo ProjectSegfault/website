@@ -17,17 +17,8 @@
 
 <button
 	on:click={toggle}
-	class="cursor-pointer flex items-center py-1 px-0 bg-transparent border-0 font-[var(--font-primary)] color-[var(--text)]"
+	class="cursor-pointer flex items-center py-1 px-0 bg-transparent border-0 font-primary color-text"
 >
 	<div class="i-fa6-solid:{theme === 'dark' ? 'sun' : 'moon'}" />
-	<span class="ml-2">Toggle theme</span>
+	<span class="ml-2 nav:(hidden ml-1)">Toggle theme</span>
 </button>
-
-<style>
-	@media screen and (min-width: 900px) {
-		span {
-			display: none;
-			margin-left: 0.25rem;
-		}
-	}
-</style>

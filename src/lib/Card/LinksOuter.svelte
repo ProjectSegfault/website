@@ -1,11 +1,3 @@
-<div>
+<div class="flex flex-row gap-2">
 	<slot />
 </div>
-
-<style>
-	div {
-		display: flex;
-		flex-direction: row;
-		gap: 0.5rem;
-	}
-</style>

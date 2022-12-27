@@ -4,7 +4,7 @@
 
 	let submit = false;
 
-	let showSubmitButton = () => {
+	const showSubmitButton = () => {
 		submit = !submit;
 	};
 </script>
@@ -18,5 +18,9 @@
 	on:success={showSubmitButton}
 />
 {#if submit}
-	<input type="submit" value="Submit" class="form-button" />
+	<input
+		type="submit"
+		value="Submit"
+		class="form-button"
+	/>
 {/if}

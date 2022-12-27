@@ -1,4 +1,5 @@
-<script lang="ts">
+<script>
+	//@ts-ignoreS
 	export let title;
 	export let description;
 	export let separator;

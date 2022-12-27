@@ -4,7 +4,10 @@
 	export { classes as class };
 </script>
 
-<a href={url} class={classes}>
+<a
+	href={url}
+	class="border-none rounded-2 p-2 cursor-pointer font-primary text-secondary decoration-none w-fit text-xl flex items-center {classes}"
+>
 	<slot />
 </a>
 
@@ -14,50 +17,29 @@
 	.picture,
 	.pgp,
 	.link {
-		background-color: var(--alt);
-		color: var(--alt-text);
-		transition: all 0.25s;
+		@apply bg-alt text-alt-text transition-all duration-250;
 	}
 
 	.web:hover,
 	.email:hover,
 	.picture:hover,
 	.pgp:hover {
-		background-color: var(--accent);
-		color: var(--alt);
+		@apply bg-accent text-alt;
 	}
 
 	.matrixcolored {
-		background-color: var(--alt);
-		color: var(--alt-text);
+		@apply bg-alt text-alt-text;
 	}
 
 	.discordcolored {
-		background-color: #5865f2;
-		color: #fff;
+		@apply bg-[#5865f2] text-white;
 	}
 
 	.gitcolored {
-		background-color: #f05032;
-		color: #fff;
+		@apply bg-[#f05032] text-white;
 	}
 
 	.githubcolored {
-		background-color: var(--alt);
-		color: var(--alt-text);
-	}
-
-	a {
-		border: none;
-		border-radius: 10px;
-		padding: 0.5rem;
-		cursor: pointer;
-		font-family: var(--font-primary);
-		color: var(--secondary);
-		text-decoration: none;
-		width: fit-content;
-		font-size: 20px;
-		display: flex;
-		align-items: center;
+		@apply bg-alt text-alt-text;
 	}
 </style>

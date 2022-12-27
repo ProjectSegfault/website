@@ -4,12 +4,10 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"build:docker": "docker build . -t website",
 		"preview": "vite preview",
-		"preview:docker": "pnpm build:docker && docker run --rm --name=website -p 80:80 website",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+		"format": "prettier -w --plugin-search-dir=. ."
 	},
 	"devDependencies": {
 		"@iconify-json/fa6-solid": "^1.1.9",
