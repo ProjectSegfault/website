@@ -5,8 +5,6 @@
 
 	let announcements = data.announcements;
 
-	console.log(data);
-
 	import dayjs from "dayjs";
 </script>
 

@@ -1,4 +1,4 @@
-FROM node:19-alpine
+FROM node:18-alpine
 
 WORKDIR /usr/src/app
 
@@ -15,4 +15,4 @@ RUN pnpm build
 
 EXPOSE 4173
 
-CMD [ "pnpm", "preview" ]
+CMD [ "pnpm", "preview", "--host" ]
