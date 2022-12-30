@@ -6,6 +6,16 @@
 		"website": "https://akisblack.github.io/"
 	},
 	{
+		"name": "Arya",
+		"description": "Libre Software Enthusiast and ProjectSegfault SysAdmin",
+		"position": "Sysadmin",
+		"website": "https://aryak.vern.cc",
+		"matrix": "https://matrix.to/#/@aryak:projectsegfau.lt",
+		"git": "https://codeberg.org/aryak",
+		"email": "arya@projectsegfau.lt",
+		"pgp": "https://keys.openpgp.org/vks/v1/by-fingerprint/690DBA971F1AE9BBBBD94AC13A6EA2D0EE314EEF"
+	},
+	{
 		"name": "Midou",
 		"description": "A random person with an obsession to online cat pics, also happens to be the sysadmin of the project",
 		"matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
