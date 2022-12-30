@@ -1,58 +1,58 @@
 <script lang="ts">
-	import { Note, Captcha, Form, Meta, TextArea } from "$lib/Form";
-	import type { PageData } from "./$types";
+	import { Note, Captcha, Meta, TextArea } from "$lib/Form";
+	import type { ActionData } from "./$types";
 
-	export let data: PageData;
-
-	let title = "Contact us | Project Segfault";
+	export let form: ActionData;
 </script>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>Contact us | Project Segfault</title>
 </svelte:head>
 
 <h1>Contact us</h1>
 
 <div class="contact-form">
 	<h2>Contact form</h2>
-	{#if data.state.enabled === true}
-		<Form
-			action="{data.apiUrl}/api/v1/form"
-			method="POST"
-			id="contact-form"
+	<form
+		method="POST"
+		action="?/form"
+		id="contact-form"
+		class="flex flex-col gap-4 w-fit"
+	>
+		<Note
+			content="Your IP will be logged for anti-abuse measures."
+			icon="i-fa6-solid:lock"
+		/>
+		<Meta
+			inputType="email"
+			inputPlaceholder="Your email"
+			selectType="commentType"
 		>
-			<Note
-				content="Your IP will be logged for anti-abuse measures."
-				icon="i-fa6-solid:lock"
-			/>
-			<Meta
-				inputType="email"
-				inputPlaceholder="Your email"
-				selectType="commentType"
+			<option
+				value=""
+				selected
+				disabled>Select a type of comment</option
 			>
-				<option
-					value=""
-					selected
-					disabled>Select a type of comment</option
-				>
-				<option value="Feedback">Feedback</option>
-				<option value="Suggestion">Suggestion</option>
-				<option value="Question">Question</option>
-				<option value="Bug">Bug</option>
-			</Meta>
-			<TextArea
-				id="comment"
-				name="message"
-				placeholder="Your message"
-			/>
-			<Captcha />
-		</Form>
-	{:else}
-		<div class="flex items-center gap-2">
-			<div class="i-fa6-solid:circle-info" />
-			<span>The contact form is currently disabled.</span>
-		</div>
-	{/if}
+			<option value="Feedback">Feedback</option>
+			<option value="Suggestion">Suggestion</option>
+			<option value="Question">Question</option>
+			<option value="Bug">Bug</option>
+		</Meta>
+		<TextArea
+			id="comment"
+			name="message"
+			placeholder="Your message"
+		/>
+		<Captcha>
+			{#if form?.success}
+				{form.message}
+			{/if}
+
+			{#if form?.error}
+				{form.message}
+			{/if}
+		</Captcha>
+	</form>
 </div>
 
 <noscript>

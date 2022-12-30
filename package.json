@@ -14,7 +14,10 @@
 		"@iconify-json/simple-icons": "^1.1.39",
 		"@sveltejs/adapter-node": "1.0.0",
 		"@sveltejs/kit": "1.0.0",
+		"axios": "^1.2.2",
+		"consola": "^2.15.3",
 		"dayjs": "^1.11.7",
+		"discord-webhook-node": "^1.1.8",
 		"mdsvex": "^0.10.6",
 		"prettier": "^2.8.1",
 		"prettier-plugin-svelte": "^2.9.0",
@@ -28,7 +31,16 @@
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.4",
 		"unocss": "^0.47.6",
-		"vite": "4.0.1"
+		"vite": "4.0.1",
+		"yaml": "^2.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@auth/core": "^0.2.3",
+		"@auth/sveltekit": "^0.1.10",
+		"joi": "^17.7.0",
+		"pg": "^8.8.0",
+		"pg-hstore": "^2.3.4",
+		"sequelize": "^6.28.0"
+	}
 }

@@ -36,8 +36,7 @@
 		{ name: "Contact us", url: "/contact" },
 		{ name: "Our team", url: "/team" },
 		{ name: "Timeline", url: "/timeline" },
-		//{ name: "Blog", url: "/blog" },
-		{ name: "Blog", url: "https://blog.projectsegfau.lt/", external: true },
+		{ name: "Blog", url: "/blog" },
 		{ name: "Legal", url: "/legal" },
 		{
 			name: "Status",

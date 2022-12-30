@@ -1,8 +1,28 @@
 services:
-    website:
-        container_name: website
-        image: realprojectsegfault/website
+    segfaultapi:
+        container_name: segfaultapi
+        #image: realprojectsegfault/segfaultapi
         restart: always
-        #build: .
+        build:
+            context: .
+            dockerfile: Dockerfile
         ports:
-            - "80:80"
+            - 6893:6893
+        volumes:
+            - ./config:/app/config
+    segfaultapi-db:
+        image: mongo
+        container_name: segfaultapi-db
+        restart: always
+        ports:
+            - 27017:27017
+        volumes:
+            - segfaultapi-db-data:/data/db
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: $MONGO_USER
+            MONGO_INITDB_ROOT_PASSWORD: $MONGO_PASSWORD
+            MONGO_INITDB_DATABASE: segfaultapi
+        command: [--auth]
+
+volumes:
+    segfaultapi-db-data:

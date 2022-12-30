@@ -7,10 +7,10 @@
 </script>
 
 <svelte:head>
-	<title>Timeline | Project Segfault</title>
+	<title>Blog | Project Segfault</title>
 	<meta
 		name="description"
-		content="Timeline of Project Segfault's history."
+		content="Project Segfault's blog"
 	/>
 </svelte:head>
 

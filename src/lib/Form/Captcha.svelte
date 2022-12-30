@@ -1,6 +1,7 @@
 <script>
 	import HCaptcha from "svelte-hcaptcha";
 	import { Note } from "$lib/Form";
+	import config from "$lib/config";
 
 	let submit = false;
 
@@ -14,13 +15,18 @@
 	icon="i-fa6-solid:circle-info"
 />
 <HCaptcha
-	sitekey="41a7e3f9-595b-494e-ad73-150c410d4a51"
+	sitekey={config.app.hcaptcha.sitekey}
 	on:success={showSubmitButton}
 />
+
+<slot />
+
 {#if submit}
-	<input
+	<button
 		type="submit"
 		value="Submit"
 		class="form-button"
-	/>
+	>
+		Submit
+	</button>
 {/if}
