@@ -13,7 +13,7 @@
 		"matrix": "https://matrix.to/#/@aryak:projectsegfau.lt",
 		"git": "https://codeberg.org/aryak",
 		"email": "arya@projectsegfau.lt",
-		"pgp": "https://keys.openpgp.org/vks/v1/by-fingerprint/690DBA971F1AE9BBBBD94AC13A6EA2D0EE314EEF"
+		"pgp": "https://keys.openpgp.org/vks/v1/by-fingerprint/9D56914428A62CF1B6A32175842D12BDA50DF120"
 	},
 	{
 		"name": "Midou",
@@ -33,10 +33,10 @@
 		"description": "using windows server for soleil levant was a mistake"
 	},
 	{
-		"name": "openssl_rand",
+		"name": "Devrand",
 		"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
 		"position": "Sysadmin",
-		"description": "\"I am openssl_rand, a system administrator of the project Segfau.lt.\" - GitHub Copilot",
+		"description": "High schooler who is interested in internet freedom, programming, and open source software. (Previously openssl_rand)",
 		"email": "mailto:openssl_rand@projectsegfau.lt"
 	}
 ]
