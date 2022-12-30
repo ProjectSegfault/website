@@ -33,10 +33,10 @@
 		"description": "using windows server for soleil levant was a mistake"
 	},
 	{
-		"name": "openssl_rand",
+		"name": "Devrand",
 		"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
 		"position": "Sysadmin",
-		"description": "\"I am openssl_rand, a system administrator of the project Segfau.lt.\" - GitHub Copilot",
+		"description": "High schooler who is interested in internet freedom, programming, and open source software. (Previously openssl_rand)",
 		"email": "mailto:openssl_rand@projectsegfau.lt"
 	}
 ]
