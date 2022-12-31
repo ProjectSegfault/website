@@ -1,8 +1,14 @@
-import type { Actions } from "./$types";
+import type { Actions, PageServerLoad } from "./$types";
 import { Webhook, MessageBuilder } from "discord-webhook-node";
 import Joi from "joi";
 import { fail } from "@sveltejs/kit";
-import config from "$lib/config";
+import { env } from "$env/dynamic/private";
+
+export const load = (() => {
+	return {
+		hcaptchaSitekey: env.HCAPTCHA_SITEKEY
+	}
+}) satisfies PageServerLoad
 
 export const actions: Actions = {
 	form: async ({ request, getClientAddress, fetch }) => {
@@ -27,14 +33,14 @@ export const actions: Actions = {
 					"Content-Type": "application/x-www-form-urlencoded"
 				},
 				body: new URLSearchParams({
-					secret: config.app.hcaptcha.secret,
+					secret: env.HCAPTCHA_SECRET,
 					response: String(formData.get("h-captcha-response")),
 					remoteip: ip
 				})
 			}).then((res) => res.json())
 
 
-			const hook = new Webhook(config.app.webhook);
+			const hook = new Webhook(env.WEBHOOK);
 
 			const data = await verify;
 

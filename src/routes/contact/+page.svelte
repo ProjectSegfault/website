@@ -1,8 +1,9 @@
 <script lang="ts">
 	import { Note, Captcha, Meta, TextArea } from "$lib/Form";
-	import type { ActionData } from "./$types";
+	import type { ActionData, PageServerData } from "./$types";
 
 	export let form: ActionData;
+	export let data: PageServerData;
 </script>
 
 <svelte:head>
@@ -43,7 +44,7 @@
 			name="message"
 			placeholder="Your message"
 		/>
-		<Captcha>
+		<Captcha sitekey={data.hcaptchaSitekey}>
 			{#if form?.success}
 				{form.message}
 			{/if}

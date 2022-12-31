@@ -6,8 +6,6 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        environment:
-          AUTH_SECRET: ${AUTH_SECRET}
         ports:
             - 1337:4173
         volumes:

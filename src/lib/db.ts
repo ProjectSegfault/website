@@ -1,8 +1,8 @@
 import { Sequelize, DataTypes } from "sequelize";
-import config from "$lib/config";
 import consola from "consola";
+import { env } from "$env/dynamic/private";
 
-const sequelize = new Sequelize(config.db.url);
+const sequelize = new Sequelize(env.DB_URL);
 
 sequelize.define("Announcements", {
 	title: {
