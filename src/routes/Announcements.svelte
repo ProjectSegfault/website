@@ -15,7 +15,7 @@
 				class="announcement !text-[#252525] p-6 rounded-2 w-fit flex flex-col gap-4"
 			>
 				<div
-					class="flex gap-4 flex-col sm:flex-row border-b-2 p-2 pt-0"
+					class="flex gap-4 flex-col sm:flex-row border-b-2 border-b-solid p-2 pt-0"
 				>
 					{#if announcements.severity === "info"}
 						<div class="flex items-center gap-2">

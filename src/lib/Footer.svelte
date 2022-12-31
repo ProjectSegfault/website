@@ -1,6 +1,6 @@
 <footer class="flex flex-col text-xl sticky top-full">
 	<div
-		class="flex items-center flex-col border-t border-grey p-2 children:(text-text text-sm font-500 text-center)"
+		class="flex items-center flex-col border-t border-t-solid border-t-grey p-2 children:(text-text text-sm font-500 text-center)"
 	>
 		<span>© 2021 - present, Project Segfault <a href="/team">team</a></span>
 		<span

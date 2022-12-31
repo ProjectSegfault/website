@@ -56,7 +56,7 @@
 <svelte:window bind:innerWidth />
 
 <nav
-	class="bg-primary border-b-1 border-b-solid border-b-grey flex p-2 flex-col justify-between nav:(flex-row items-center)"
+	class="bg-primary border-b border-b-solid border-b-grey flex p-2 flex-col justify-between nav:(flex-row items-center)"
 >
 	<div class="flex flex-row items-center justify-between">
 		<a
