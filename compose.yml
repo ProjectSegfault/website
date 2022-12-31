@@ -1,14 +1,30 @@
 services:
     website:
         container_name: website
-        #image: realprojectsegfault/website
+        #image: realprojectsegfault/website:latest
         restart: unless-stopped
         build:
             context: .
             dockerfile: Dockerfile
         ports:
-            - 1337:4173
-    website-db:
+            - 1339:4173
+        environment:
+          AUTH_SECRET: ${AUTH_SECRET}
+          AUTH_TRUST_HOST: ${AUTH_TRUST_HOST}
+          ORIGIN: ${ORIGIN}
+          AUTH_URL: ${AUTH_URL}
+          DB_HOST: ${DB_HOST}
+          DB_PORT: ${DB_PORT}
+          DB_USERNAME: ${DB_USERNAME}
+          DB_PASSWORD: ${DB_PASSWORD}
+          AUTH_CLIENT_ID: ${AUTH_CLIENT_ID}
+          AUTH_CLIENT_SECRET: ${AUTH_CLIENT_SECRET}
+          AUTH_ISSUER: ${AUTH_ISSUER}
+          HCAPTCHA_SECRET: ${HCAPTCHA_SECRET}
+          HCAPTCHA_SITEKEY: ${HCAPTCHA_SITEKEY}
+          WEBHOOK: ${WEBHOOK}
+
+    website-db-dev:
         image: postgres
         container_name: website-db
         environment:
@@ -18,8 +34,7 @@ services:
           POSTGRES_DB: website
         volumes:
           - website-db-data:/data/postgres
-        ports:
-          - "5432:5432"
+
         restart: unless-stopped
 
 volumes:

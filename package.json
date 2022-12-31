@@ -31,13 +31,13 @@
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.4",
 		"unocss": "^0.48.0",
-		"vite": "4.0.3",
-		"yaml": "^2.2.1"
+		"vite": "4.0.3"
 	},
 	"type": "module",
 	"dependencies": {
 		"@auth/core": "^0.2.4",
 		"@auth/sveltekit": "^0.1.11",
+		"dotenv": "^16.0.3",
 		"joi": "^17.7.0",
 		"pg": "^8.8.0",
 		"pg-hstore": "^2.3.4",
