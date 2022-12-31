@@ -8,8 +8,6 @@ services:
             dockerfile: Dockerfile
         ports:
             - 1337:4173
-        volumes:
-            - ./config:/app/config
     website-db:
         image: postgres
         container_name: website-db
