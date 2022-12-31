@@ -2,8 +2,13 @@ import { Sequelize, DataTypes } from "sequelize";
 import consola from "consola";
 import { env } from "$env/dynamic/private";
 
-const sequelize = new Sequelize(env.DB_URL, {
-	dialect: "postgres"
+const sequelize = new Sequelize({
+	database: "website",
+	password: String(env.DB_PASSWORD),
+	port: Number(env.DB_PORT),
+	host: String(env.DB_HOST),
+	dialect: "postgres",
+	username: String(env.DB_USERNAME),
 });
 
 sequelize.define("Announcements", {
