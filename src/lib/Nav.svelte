@@ -6,8 +6,6 @@
 
 	let showMenuButton = false;
 
-	let listStyles = "";
-
 	let innerWidth: number = 0;
 
 	$: showMenuButton = innerWidth < 1030;
@@ -49,7 +47,6 @@
 		menuOpen = true;
 		showMenuButton = false;
 		showThemeToggle = false;
-		listStyles = "list-styles";
 	}
 </script>
 
@@ -81,7 +78,9 @@
 
 	{#if menuOpen}
 		<div
-			class="{listStyles} flex flex-col pt-2 nav:(flex-row pt-0) gap-2 links"
+			class="links"
+			class:hasJS={typeof Window !== "undefined"}
+			class:noJS={typeof Window === "undefined"}
 		>
 			{#each menus as { url, name, external }}
 				<a
@@ -139,12 +138,21 @@
 		@apply flex flex-row items-center gap-2;
 	}
 
-	:global(.list-styles) {
-		@apply grid grid-cols-2 gap-2 w-fit links;
+	.hasJS {
+		@apply flex flex-col pt-2 gap-2;
 	}
 
-	@media screen and (min-width: 1030px) {
-		:global(.list-styles) {
+	.noJS {
+		@apply grid grid-cols-2 gap-2 pt-2 w-fit;
+	}
+
+	@media (min-width: 1030px) {
+		.hasJS {
+			flex-direction: row;
+			padding-top: 0;
+		}
+
+		.noJS {
 			display: flex;
 			flex-direction: row;
 			padding-top: 0;
