@@ -11,7 +11,6 @@ specifiers:
   consola: ^2.15.3
   dayjs: ^1.11.7
   discord-webhook-node: ^1.1.8
-  dotenv: ^16.0.3
   joi: ^17.7.0
   mdsvex: ^0.10.6
   pg: ^8.8.0
@@ -34,7 +33,6 @@ specifiers:
 dependencies:
   '@auth/core': 0.2.4
   '@auth/sveltekit': 0.1.11_f5fzfhbe3oooig6fzl5vkyl5v4
-  dotenv: 16.0.3
   joi: 17.7.0
   pg: 8.8.0
   pg-hstore: 2.3.4
@@ -945,11 +943,6 @@ packages:
     transitivePeerDependencies:
       - encoding
     dev: true
-
-  /dotenv/16.0.3:
-    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
-    engines: {node: '>=12'}
-    dev: false
 
   /dottie/2.0.2:
     resolution: {integrity: sha512-fmrwR04lsniq/uSr8yikThDTrM7epXHBAAjH9TbeH3rEA8tdCO7mRzB9hdmdGyJCxF8KERo9CITcm3kGuoyMhg==}

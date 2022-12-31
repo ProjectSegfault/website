@@ -15,8 +15,4 @@ RUN pnpm build
 
 EXPOSE 4173
 
-ENV PORT=4173
-
-ENV ORIGIN=http://localhost:4173
-
-CMD ["node", "build"]
+CMD ["pnpm", "preview", "--host"]
