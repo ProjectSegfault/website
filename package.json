@@ -10,10 +10,10 @@
 		"format": "prettier -w --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@iconify-json/fa6-solid": "^1.1.9",
-		"@iconify-json/simple-icons": "^1.1.39",
+		"@iconify-json/fa6-solid": "^1.1.10",
+		"@iconify-json/simple-icons": "^1.1.40",
 		"@sveltejs/adapter-node": "1.0.0",
-		"@sveltejs/kit": "1.0.0",
+		"@sveltejs/kit": "1.0.1",
 		"axios": "^1.2.2",
 		"consola": "^2.15.3",
 		"dayjs": "^1.11.7",
@@ -22,7 +22,7 @@
 		"prettier": "^2.8.1",
 		"prettier-plugin-svelte": "^2.9.0",
 		"svelte": "^3.55.0",
-		"svelte-check": "^2.10.2",
+		"svelte-check": "^3.0.1",
 		"svelte-dark-mode": "^2.1.0",
 		"svelte-hcaptcha": "^0.1.1",
 		"svelte-preprocess": "^5.0.0",
@@ -30,14 +30,14 @@
 		"svelte-vertical-timeline": "^0.0.2",
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.4",
-		"unocss": "^0.47.6",
-		"vite": "4.0.1",
-		"yaml": "^2.2.0"
+		"unocss": "^0.48.0",
+		"vite": "4.0.3",
+		"yaml": "^2.2.1"
 	},
 	"type": "module",
 	"dependencies": {
-		"@auth/core": "^0.2.3",
-		"@auth/sveltekit": "^0.1.10",
+		"@auth/core": "^0.2.4",
+		"@auth/sveltekit": "^0.1.11",
 		"joi": "^17.7.0",
 		"pg": "^8.8.0",
 		"pg-hstore": "^2.3.4",
