@@ -1,20 +1,10 @@
 import type { PageServerLoad } from "./$types";
-import db from "$lib/db";
+import fetchApi from "$lib/ghost";
 
-export const load: PageServerLoad = async () => {
-	const Posts = db.model("Posts");
+export const load = (async () => {
+	const data = await fetchApi("posts");
 
-	const posts = await Posts.findAll().then((docs) => {
-		return docs.map((doc) => doc.get());
-	});
-
-	if (posts.length === 0 || posts[0] === undefined) {
-		return {
-			posts: []
-		}
-	} else {
-		return {
-			posts: posts.sort((a, b) => b["created"] - a["created"])
-		}
-	}
-};
+	return {
+		posts: data.posts
+	};
+}) satisfies PageServerLoad;

@@ -7,6 +7,6 @@
 
 <div class="flex flex-col gap-4">
 	{#each data.authors as author}
-		<a href="/blog/authors/{author}" class="bg-secondary w-fit p-2 rounded-2 no-underline">{author}</a>
+		<a href="/blog/authors/{author.slug}" class="bg-secondary w-fit p-2 rounded-2 no-underline">{author.name}</a>
 	{/each}
 </div>

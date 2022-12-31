@@ -1,27 +1,10 @@
 import type { PageServerLoad } from "./$types";
-import db from "$lib/db";
-import { compile } from "mdsvex";
+import fetchApi from "$lib/ghost";
 
-export const load: PageServerLoad = async ({ params }) => {
-	const Posts = db.model("Posts");
+export const load = (async ({ params }) => {
+	const data = await fetchApi("posts/slug/" + params.title);
 
-	const data = await Posts.findAll({
-		where: {
-			title: params.title
-		}
-	}).then((docs) => {
-		return docs.map((doc) => doc.get());
-	});
-
-	if (data.length === 0 || data[0] === undefined) {
-		return {
-			post: {},
-			content: {}
-		}
-	} else {
-		return {
-			post: data[0],
-			content: compile(data[0].content).then((res) => res?.code)
-		}	
-	}
-};
+	return {
+		post: data.posts[0]
+	};
+}) satisfies PageServerLoad;

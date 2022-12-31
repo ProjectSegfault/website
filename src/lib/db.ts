@@ -34,42 +34,6 @@ sequelize.define("Announcements", {
 	}
 });
 
-sequelize.define("Posts", {
-	title: {
-		type: DataTypes.STRING,
-		allowNull: false
-	},
-	content: {
-		type: DataTypes.TEXT,
-		allowNull: false
-	},
-	tags: {
-		type: DataTypes.ARRAY(DataTypes.STRING),
-		allowNull: false
-	},
-	author: {
-		type: DataTypes.STRING,
-		allowNull: false
-	},
-	created: {
-		type: DataTypes.BIGINT,
-		allowNull: false
-	},
-	updated: {
-		type: DataTypes.BIGINT,
-		allowNull: true,
-		defaultValue: null
-	},
-	words: {
-		type: DataTypes.INTEGER,
-		allowNull: false
-	},
-	readingTime: {
-		type: DataTypes.INTEGER,
-		allowNull: false
-	}
-});
-
 try {
 	await sequelize.authenticate();
 	await sequelize.sync();

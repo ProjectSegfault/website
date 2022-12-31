@@ -15,19 +15,21 @@
 					<div class="flex flex-row items-center gap-2">
 						<div class="i-fa6-solid:tags" />
 						{#each post.tags as tag}
-							<a href="/blog/tags/{tag}" class="no-underline">{tag}</a>
+							<a href="/blog/tags/{tag.slug}" class="no-underline">{tag.name}</a>
 						{/each}
 					</div>
 				{/if}
-				<a href="/blog/authors/{post.author}" class="flex items-center gap-2 no-underline"><div class="i-fa6-solid:user" />{post.author}</a>
+				{#each post.authors as author}
+					<a href="/blog/authors/{author.slug}" class="flex items-center gap-2 no-underline"><div class="i-fa6-solid:user" />{author.name}</a>
+				{/each}
 				<span class="flex items-center gap-2"><div class="i-fa6-solid:calendar" /> {dayjs
-					.unix(post.created)
+					(post.published_at)
 					.format("ddd, DD MMM YYYY HH:mm")}</span>
-				<span class="flex items-center gap-2"><div class="i-fa6-solid:pencil" /> {post.words} words</span>
-				<span class="flex items-center gap-2"><div class="i-fa6-solid:book-open-reader" /> {post.readingTime} minute read</span>
+				<span class="flex items-center gap-2"><div class="i-fa6-solid:pencil" /> {post.plaintext.trim().split(/\s+/).length} words</span>
+				<span class="flex items-center gap-2"><div class="i-fa6-solid:book-open-reader" /> {post.reading_time} minute read</span>
 			</div>
-			<span>{post.content.split(" ").slice(0, 20).join(" ") + "..."}</span>
-			<a href="/blog/{post.title}">Read more...</a>
+			<span>{post.plaintext.split(" ").slice(0, 20).join(" ") + "..."}</span>
+			<a href="/blog/{post.slug}">Read more...</a>
 		</div>
 	{/each}
 </div>
