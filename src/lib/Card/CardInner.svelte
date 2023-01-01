@@ -1,9 +1,9 @@
 <script lang="ts">
-	export let title: any;
-	export let position: any;
-	export let description: any;
-	export let icon: any;
-	export let positionStyles: any;
+	export let title: string = "";
+	export let position: string = "";
+	export let description: string = "";
+	export let icon: string = "";
+	export let positionStyles: string = "";
 </script>
 
 <div class="bg-secondary rounded-2 p-4 w-[18rem] sm:w-md flex flex-col">

@@ -1,21 +1,22 @@
 ---
-title: Donate to Project Segfault
-description: The ways you can donate to us and more.
+title: Donate
 ---
 
 <script>
 	import LinkButton from "$lib/LinkButton.svelte";
 </script>
 
+<svelte:head>
+	<title>{title} | Project Segfault</title>
+</svelte:head>
+
 # { title }
 
-{ description }
-
-## Reasons to donate to our project.
-
-If you donate, we will be more motivated to work on the server and host more stuff and maybe even get more hardware. As well as that, we may donate PayPal funds to project we heavily rely on. Thanks!
+## What we do with donations
+These donations primarily help us pay for our VPSes, domain names and other expenses related to crucial infrastructure we have to maintain. We also sometimes donate to developers who maintain software we rely heavily on such as our authentication provider.
 
 ## Donation methods
+You can currently donate by credit card through [Liberapay](https://liberaypay.com) and cryptocurrencies.
 
 ### Credit card
 
@@ -23,7 +24,7 @@ If you donate, we will be more motivated to work on the server and host more stu
 
 ### Cryptocurrency
 
-You can use our [domain name](https://projectsegfau.lt) as a crypto wallet address in supported OpenAlias clients such as [MyMonero](https://mymonero.com/), [Electrum](https://electrum.org/) and [Electrum-LTC](https://electrum-ltc.org/).
+You can use [projectsegfau.lt](https://projectsegfau.lt) as a crypto wallet address in supported OpenAlias clients such as [MyMonero](https://mymonero.com/), [Electrum](https://electrum.org/) and [Electrum-LTC](https://electrum-ltc.org/).
 
 #### Monero
 

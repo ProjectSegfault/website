@@ -79,13 +79,15 @@
 
 <h2>Our Email</h2>
 
-<a href="mailto:contact@projectsegfau.lt">contact@projectsegfau.lt</a>
+<div class="flex flex-col gap-4">
+	<a href="mailto:contact@projectsegfau.lt">contact@projectsegfau.lt</a>
 
-<span class="italic">
-	Please be aware that Microsoft often blocks non-popular emails, if you do
-	contact us through there, make sure to check your spam and mark it as
-	not-spam!
-</span>
+	<span class="italic">
+		Please be aware that Microsoft and other email providers often block non-popular emails, if you do
+		contact us through there, make sure to check your spam and mark it as
+		not-spam!
+	</span>
+</div>
 
 <h2>People</h2>
 

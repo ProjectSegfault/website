@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let action: string;
-	export let method: string;
-	export let id: string;
+	export let action: string = "";
+	export let method: string = "";
+	export let id: string = "";
 </script>
 
 <form

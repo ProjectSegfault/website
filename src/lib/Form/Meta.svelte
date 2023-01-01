@@ -1,7 +1,7 @@
 <script lang="ts">
-	export let inputType: string;
-	export let inputPlaceholder: string;
-	export let selectType: string;
+	export let inputType: string = "";
+	export let inputPlaceholder: string = "";
+	export let selectType: string = "";
 </script>
 
 <div

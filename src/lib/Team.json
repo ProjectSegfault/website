@@ -16,6 +16,13 @@
 		"pgp": "https://keys.openpgp.org/vks/v1/by-fingerprint/9D56914428A62CF1B6A32175842D12BDA50DF120"
 	},
 	{
+		"name": "Devrand",
+		"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
+		"position": "Sysadmin",
+		"description": "High schooler who is interested in internet freedom, programming, and open source software. (Previously openssl_rand)",
+		"email": "mailto:openssl_rand@projectsegfau.lt"
+	},
+	{
 		"name": "Midou",
 		"description": "A random person with an obsession to online cat pics, also happens to be the sysadmin of the project",
 		"matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
@@ -31,12 +38,5 @@
 		"matrix": "https://matrix.to/#/@mrlerien:projectsegfau.lt/",
 		"position": "France server owner",
 		"description": "using windows server for soleil levant was a mistake"
-	},
-	{
-		"name": "Devrand",
-		"matrix": "https://matrix.to/#/@openssl_rand:projectsegfau.lt/",
-		"position": "Sysadmin",
-		"description": "High schooler who is interested in internet freedom, programming, and open source software. (Previously openssl_rand)",
-		"email": "mailto:openssl_rand@projectsegfau.lt"
 	}
 ]

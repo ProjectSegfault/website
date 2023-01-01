@@ -1,10 +1,10 @@
 <script lang="ts">
-	export let url: string;
-	export let icon: string;
-	export let title: string;
-	export let bg: string;
-	export let color: string;
-	export let styles: string;
+	export let url: string = "";
+	export let icon: string = "";
+	export let title: string = "";
+	export let bg: string = "";
+	export let color: string = "";
+	export let styles: string = "";
 </script>
 
 <a

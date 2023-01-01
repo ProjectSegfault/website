@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let url: any;
+	export let url: string = "";
 	let classes: string = "";
 	export { classes as class };
 </script>

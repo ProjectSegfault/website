@@ -8,7 +8,7 @@
 		submit = !submit;
 	};
 
-	export let sitekey: string;
+	export let sitekey: string = "";
 </script>
 
 <Note
