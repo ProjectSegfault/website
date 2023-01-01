@@ -9,7 +9,7 @@
 	<title>Blog tag {data.tagName} | Project Segfault Blog</title>
 </svelte:head>
 
-<h1>Blog tag {data.tagName}</h1>
+<h1>Blog tag <span class="text-accent">{data.tagName}</span></h1>
 
 <PostsContainer>
 	{#each data.posts as post}

@@ -14,7 +14,13 @@ export default defineConfig({
 
 	presets: [
 		presetIcons(),
-		presetTypography(),
+		presetTypography({
+			cssExtend: {
+				"h1,h2,h3,h4,h5,h6": {
+					"font-weight": "800"
+				}
+			}
+		}),
 		presetWind({
 			dark: "class"
 		})

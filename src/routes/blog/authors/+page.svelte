@@ -11,5 +11,5 @@
 
 <h1>Blog authors</h1>
 
-<SingleWordLists items={data.authors} />
+<SingleWordLists items={data.authors} name="authors" />
 

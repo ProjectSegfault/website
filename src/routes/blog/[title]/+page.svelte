@@ -9,7 +9,7 @@
 	<title>{data.post.title} | Project Segfault Blog</title>
 </svelte:head>
 
-<PostOuter>
+<PostOuter url={data.post.url}>
 	<TitleWithBackButton {data} />
 	<Meta post={data.post} />
 	<PostContent {data} />

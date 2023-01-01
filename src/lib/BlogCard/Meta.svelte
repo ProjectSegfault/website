@@ -9,7 +9,7 @@
 		<div class="flex flex-row items-center gap-2">
 			<div class="i-fa6-solid:tags" />
 			{#each post.tags as tag}
-				<a href="/blog/tags/{tag.slug}" class="no-underline">{tag.name}</a>
+				<a href="/blog/tags/{tag.slug}" class="no-underline bg-primary rounded-2 p-1">{tag.name}</a>
 			{/each}
 		</div>
 	{/if}

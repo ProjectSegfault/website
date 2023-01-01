@@ -11,4 +11,4 @@
 
 <h1>Blog tags</h1>
 
-<SingleWordLists items={data.tags} />
+<SingleWordLists items={data.tags} name="tags" />

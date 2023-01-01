@@ -9,7 +9,7 @@
 	<title>Blog author {data.authorName} | Project Segfault Blog</title>
 </svelte:head>
 
-<h1>Blog author {data.authorName}</h1>
+<h1>Blog author <span class="text-accent">{data.authorName}</span></h1>
 
 <PostsContainer>
 	{#each data.posts as post}
