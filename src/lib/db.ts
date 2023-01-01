@@ -13,7 +13,7 @@ const sequelize = new Sequelize({
 
 sequelize.define("Announcements", {
 	title: {
-		type: DataTypes.STRING,
+		type: DataTypes.TEXT,
 		allowNull: false
 	},
 	severity: {

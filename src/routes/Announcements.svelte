@@ -51,7 +51,7 @@
 				</div>
 
 				<div class="title">
-					<div class="text-xl font-semibold font-primary">
+					<div class="prose">
 						{@html data.content}
 					</div>
 				</div>
