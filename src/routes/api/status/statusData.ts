@@ -1,20 +1,5 @@
 import axios from "axios";
 
-import invidiousIcon from "./icons/invidious.svg";
-import librarianIcon from "./icons/librarian.png";
-import libredditIcon from "./icons/libreddit.png";
-import nitterIcon from "./icons/nitter.png";
-import pipedIcon from "./icons/piped.svg";
-import beatbumpIcon from "./icons/beatbump.svg";
-import breezeWikiIcon from "./icons/breezewiki.svg";
-import elementIcon from "./icons/element.svg";
-import searxngIcon from "./icons/searxng.svg";
-import giteaIcon from "./icons/gitea.png";
-import portainerIcon from "./icons/portainer.png";
-import authentikIcon from "./icons/authentik.png";
-import mailcowIcon from "./icons/mailcow.svg";
-import plausibleIcon from "./icons/plausible.png";
-
 const fetchStatus = (domain: string) => {
 	const req = axios("https://" + domain, { timeout: 10000 })
 		.then((res) => res.status)
@@ -33,7 +18,7 @@ const statusData = [
 				eu: "https://invidious.projectsegfau.lt/",
 				us: "https://inv.us.projectsegfau.lt",
 				bp: "https://inv.bp.projectsegfau.lt",
-				icon: invidiousIcon,
+				icon: "/icons/invidious.svg",
 				statusEu: await fetchStatus("invidious.projectsegfau.lt"),
 				statusUs: await fetchStatus("inv.us.projectsegfau.lt"),
 				statusBp: await fetchStatus("inv.bp.projectsegfau.lt")
@@ -43,7 +28,7 @@ const statusData = [
 				description: "A frontend for Odysee.",
 				eu: "https://lbry.projectsegfau.lt/",
 				geo: "https://lbry.g.projectsegfau.lt/",
-				icon: librarianIcon,
+				icon: "/icons/librarian.png",
 				statusEu: await fetchStatus("lbry.projectsegfau.lt"),
 				statusGeo: await fetchStatus("lbry.g.projectsegfau.lt")
 			},
@@ -53,7 +38,7 @@ const statusData = [
 				eu: "https://libreddit.projectsegfau.lt/",
 				us: "https://libreddit.us.projectsegfau.lt",
 				geo: "https://libreddit.g.projectsegfau.lt/",
-				icon: libredditIcon,
+				icon: "/icons/libreddit.png",
 				statusEu: await fetchStatus("libreddit.projectsegfau.lt"),
 				statusUs: await fetchStatus("libreddit.us.projectsegfau.lt"),
 				statusGeo: await fetchStatus("libreddit.g.projectsegfau.lt")
@@ -64,7 +49,7 @@ const statusData = [
 				eu: "https://nitter.projectsegfau.lt/",
 				us: "https://nitter.us.projectsegfau.lt",
 				geo: "https://nitter.g.projectsegfau.lt/",
-				icon: nitterIcon,
+				icon: "/icons/nitter.png",
 				statusEu: await fetchStatus("nitter.projectsegfau.lt"),
 				statusUs: await fetchStatus("nitter.us.projectsegfau.lt"),
 				statusGeo: await fetchStatus("nitter.g.projectsegfau.lt")
@@ -74,7 +59,7 @@ const statusData = [
 				description: "Another frontend for YouTube.",
 				eu: "https://piped.projectsegfau.lt/",
 				us: "https://piped.us.projectsegfau.lt",
-				icon: pipedIcon,
+				icon: "/icons/piped.svg",
 				statusEu: await fetchStatus("piped.projectsegfau.lt"),
 				statusUs: await fetchStatus("piped.us.projectsegfau.lt")
 			},
@@ -84,7 +69,7 @@ const statusData = [
 				eu: "https://bb.eu.projectsegfau.lt/",
 				us: "https://bb.us.projectsegfau.lt/",
 				geo: "https://bb.g.projectsegfau.lt/",
-				icon: beatbumpIcon,
+				icon: "/icons/beatbump.svg",
 				statusEu: await fetchStatus("bb.eu.projectsegfau.lt"),
 				statusUs: await fetchStatus("bb.us.projectsegfau.lt"),
 				statusGeo: await fetchStatus("bb.g.projectsegfau.lt")
@@ -95,7 +80,7 @@ const statusData = [
 				eu: "https://bw.eu.projectsegfau.lt/",
 				us: "https://bw.us.projectsegfau.lt/",
 				geo: "https://bw.g.projectsegfau.lt/",
-				icon: breezeWikiIcon,
+				icon: "/icons/breezewiki.svg",
 				statusEu: await fetchStatus("bw.eu.projectsegfau.lt"),
 				statusUs: await fetchStatus("bw.us.projectsegfau.lt"),
 				statusGeo: await fetchStatus("bw.g.projectsegfau.lt")
@@ -110,7 +95,7 @@ const statusData = [
 				description:
 					"An open source and decentralized chat application.",
 				eu: "https://chat.projectsegfau.lt/",
-				icon: elementIcon,
+				icon: "/icons/element.svg",
 				statusEu: await fetchStatus("chat.projectsegfau.lt")
 			},
 			{
@@ -118,7 +103,7 @@ const statusData = [
 				description: "A private meta-search engine.",
 				eu: "https://search.projectsegfau.lt/search",
 				us: "https://search.us.projectsegfau.lt",
-				icon: searxngIcon,
+				icon: "/icons/searxng.svg",
 				statusEu: await fetchStatus("search.projectsegfau.lt"),
 				statusUs: await fetchStatus("search.us.projectsegfau.lt")
 			},
@@ -126,7 +111,7 @@ const statusData = [
 				name: "Gitea",
 				description: "A web interface for Git, alternative to GitHub.",
 				eu: "https://git.projectsegfau.lt/",
-				icon: giteaIcon,
+				icon: "/icons/gitea.png",
 				statusEu: await fetchStatus("git.projectsegfau.lt")
 			}
 		]
@@ -138,28 +123,28 @@ const statusData = [
 				name: "Portainer",
 				description: "Portainer instance for our servers.",
 				eu: "https://portainer.projectsegfau.lt/",
-				icon: portainerIcon,
+				icon: "/icons/portainer.png",
 				statusEu: await fetchStatus("portainer.projectsegfau.lt")
 			},
 			{
 				name: "Authentik",
 				description: "Our OAuth provider.",
 				eu: "https://sekuritee.projectsegfau.lt/",
-				icon: authentikIcon,
+				icon: "/icons/authentik.png",
 				statusEu: await fetchStatus("sekuritee.projectsegfau.lt")
 			},
 			{
 				name: "mailcow",
 				description: "Our mail server and webmail.",
 				eu: "https://mail.projectsegfau.lt/",
-				icon: mailcowIcon,
+				icon: "/icons/mailcow.svg",
 				statusEu: await fetchStatus("mail.projectsegfau.lt")
 			},
 			{
 				name: "Plausible analytics",
 				description: "Analytics for our website.",
 				eu: "https://analytics.projectsegfau.lt/projectsegfau.lt",
-				icon: plausibleIcon,
+				icon: "/icons/plausible.png",
 				statusEu: await fetchStatus("analytics.projectsegfau.lt")
 			}
 		]
