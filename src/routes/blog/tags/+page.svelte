@@ -1,12 +1,14 @@
 <script lang="ts">
 	import type { PageData } from "./$types";
 	export let data: PageData;
+
+	import { SingleWordLists } from "$lib/BlogCard";
 </script>
+
+<svelte:head>
+	<title>Blog tags | Project Segfault Blog</title>
+</svelte:head>
 
 <h1>Blog tags</h1>
 
-<div class="flex flex-col gap-4">
-	{#each data.tags as tag}
-		<a href="/blog/tags/{tag.slug}" class="bg-secondary w-fit p-2 rounded-2 no-underline">{tag.name}</a>
-	{/each}
-</div>
+<SingleWordLists items={data.tags} />
