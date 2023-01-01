@@ -84,6 +84,16 @@ const statusData = [
 				statusEu: await fetchStatus("bw.eu.projectsegfau.lt"),
 				statusUs: await fetchStatus("bw.us.projectsegfau.lt"),
 				statusGeo: await fetchStatus("bw.g.projectsegfau.lt")
+			},
+			{
+				name: "Scribe",
+				description: "A frontend for Medium.",
+				eu: "https://scribe.eu.projectsegfau.lt/",
+				us: "https://scribe.us.projectsegfau.lt/",
+				geo: "https://scribe.g.projectsegfau.lt/",
+				statusEu: await fetchStatus("scribe.eu.projectsegfau.lt"),
+				statusUs: await fetchStatus("scribe.us.projectsegfau.lt"),
+				statusGeo: await fetchStatus("scribe.g.projectsegfau.lt")
 			}
 		]
 	},
