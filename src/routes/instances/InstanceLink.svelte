@@ -3,7 +3,7 @@
 
 	export let url: string;
 	export let item: any;
-	export let type: "main" | "us" | "backup";
+	export let type: "geo" | "eu" | "us" | "backup";
 </script>
 
 <Link
@@ -22,8 +22,10 @@
 			{#if item !== 200}
 				({item})
 			{/if}
-			{#if type === "main"}
-				Visit
+			{#if type === "geo"}
+				GeoDNS
+			{:else if type === "eu"}
+				EU
 			{:else if type === "us"}
 				US
 			{:else if type === "backup"}

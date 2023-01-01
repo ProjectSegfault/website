@@ -30,11 +30,21 @@
 							icon={item.icon}
 						>
 							<LinksOuter>
-								<InstanceLink
-									url={item.link}
-									item={item.status}
-									type="main"
-								/>
+								{#if item.geo}
+									<InstanceLink
+										url={item.geo}
+										item={item.statusGeo}
+										type="geo"
+									/>
+								{/if}
+
+								{#if item.eu}
+									<InstanceLink
+										url={item.eu}
+										item={item.statusEu}
+										type="eu"
+									/>
+								{/if}
 
 								{#if item.us}
 									<InstanceLink
@@ -59,7 +69,7 @@
 		</div>
 	</CardOuter>
 
-	<span class="bg-accent w-fit p-2 rounded-2 text-primary"
+	<span class="bg-secondary w-fit p-2 rounded-2"
 		>Instances status last updated: {dayjs
 			.unix(data.instances.updated)
 			.format("DD/MM/YYYY HH:mm:ss")}
