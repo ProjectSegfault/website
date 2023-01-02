@@ -84,7 +84,6 @@
 		>
 			{#each menus as { url, name, external }}
 				<a
-					data-sveltekit-preload-data
 					class:active={url !== "/"
 						? currentPage.match(url)
 						: url === currentPage}

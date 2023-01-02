@@ -12,7 +12,7 @@ const updateMap = () => {
 
 updateMap();
 
-setInterval(updateMap, 30000);
+setInterval(updateMap, 60000);
 
 export const GET = (() => {
 	const data = map.get("data");

@@ -42,4 +42,8 @@
 	.githubcolored {
 		@apply bg-alt text-alt-text;
 	}
+
+	.torcolored {
+		@apply bg-[#7d4698] text-white;
+	}
 </style>

@@ -16,7 +16,7 @@ title: Donate
 These donations primarily help us pay for our VPSes, domain names and other expenses related to crucial infrastructure we have to maintain. We also sometimes donate to developers who maintain software we rely heavily on such as our authentication provider.
 
 ## Donation methods
-You can currently donate by credit card through [Liberapay](https://liberaypay.com) and cryptocurrencies.
+You can currently donate by credit card through [Liberapay](https://liberapay.com) and cryptocurrencies.
 
 ### Credit card
 

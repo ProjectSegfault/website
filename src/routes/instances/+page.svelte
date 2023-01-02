@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { CardInner, CardOuter, LinksOuter } from "$lib/Card";
+	import { CardInner, CardOuter, LinksOuter, Link } from "$lib/Card";
 	import InstanceLink from "./InstanceLink.svelte";
 	import dayjs from "dayjs";
 	import type { PageData } from "./$types";
@@ -59,6 +59,20 @@
 										url={item.bp}
 										item={item.statusBp}
 										type="backup"
+									/>
+								{/if}
+
+								{#if item.tor}
+									<InstanceLink
+										url={item.tor}
+										type="tor"
+									/>
+								{/if}
+
+								{#if item.torBp}
+									<InstanceLink
+										url={item.torBp}
+										type="torBp"
 									/>
 								{/if}
 							</LinksOuter>

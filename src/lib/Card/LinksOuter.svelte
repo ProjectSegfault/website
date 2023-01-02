@@ -1,3 +1,3 @@
-<div class="flex flex-row gap-2">
+<div class="flex flex-row flex-wrap gap-2">
 	<slot />
 </div>

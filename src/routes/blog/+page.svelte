@@ -31,9 +31,14 @@
 			title="Authors"
 			icon="i-fa6-solid:user"
 		/>
+		<LinkButton
+			url="https://blog.projectsegfau.lt/rss/"
+			title="RSS"
+			icon="i-simple-icons:rss"
+			bg="#ee802f"
+		/>
 	</div>
 </Hero>
-
 <PostsContainer hasMt>
 	{#each data.posts as post}
 		<PostOuter>
