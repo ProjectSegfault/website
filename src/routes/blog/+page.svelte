@@ -39,7 +39,7 @@
 		/>
 	</div>
 </Hero>
-<PostsContainer hasMt>
+<PostsContainer hasMt isHome>
 	{#each data.posts as post}
 		<PostOuter>
 			<Title {post} />

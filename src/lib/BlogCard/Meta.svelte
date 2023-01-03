@@ -2,14 +2,15 @@
 	import dayjs from "dayjs";
 
 	export let post: any;
+	export let isPost: boolean = false;
 </script>
 
-<div class="flex flex-col md:(flex-row gap-4) gap-2">
+<div class="flex flex-col gap-2 flex-1 {isPost ? "nav:(flex-row gap-4)" : ""}">
 	{#if post.tags.length > 0}
 		<div class="flex flex-row items-center gap-2">
 			<div class="i-fa6-solid:tags" />
 			{#each post.tags as tag}
-				<a href="/blog/tags/{tag.slug}" class="no-underline bg-primary rounded-2 p-1">{tag.name}</a>
+				<a href="/blog/tags/{tag.slug}" class="no-underline rounded-2 p-1 {isPost ? "bg-secondary" : "bg-primary"}">{tag.name}</a>
 			{/each}
 		</div>
 	{/if}
