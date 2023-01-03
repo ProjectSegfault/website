@@ -1,18 +1,5 @@
 import type { RequestHandler } from './$types';
-import statusData from "./statusData";
-
-const map = new Map();
-
-const updateMap = () => {
-	map.set("data", {
-		status: statusData,
-		updated: Math.floor(Date.now() / 1000)
-	});
-};
-
-updateMap();
-
-setInterval(updateMap, 60000);
+import map from "$lib/map";
 
 export const GET = (() => {
 	const data = map.get("data");
