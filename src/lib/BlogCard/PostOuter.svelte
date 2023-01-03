@@ -7,6 +7,6 @@
 	<slot />
 
 	{#if url}
-		<a href={url}>View on Ghost</a>
+		<a href={url} class="text-center">View on Ghost</a>
 	{/if}
 </div>
