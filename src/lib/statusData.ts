@@ -18,6 +18,7 @@ const statusData = [
 				eu: "https://invidious.projectsegfau.lt/",
 				us: "https://inv.us.projectsegfau.lt",
 				bp: "https://inv.bp.projectsegfau.lt",
+				tor: "http://inv.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				torBp: "http://invbp.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/invidious.svg",
 				statusEu: await fetchStatus("invidious.projectsegfau.lt"),
@@ -109,17 +110,34 @@ const statusData = [
 		data: [
 			{
 				name: "Element",
-				description:
-					"An open source and decentralized chat application.",
+				description: "A feature-rich Matrix client.",
 				eu: "https://chat.projectsegfau.lt/",
+				tor: "http://element.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/element.svg",
 				statusEu: await fetchStatus("chat.projectsegfau.lt")
 			},
 			{
+				name: "Hydrogen",
+				description: "A lightweight Matrix client.",
+				eu: "https://hydrogen.projectsegfau.lt/",
+				tor: "http://hydrogen.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				icon: "/icons/hydrogen.svg",
+				statusEu: await fetchStatus("hydrogen.projectsegfau.lt")
+			},
+			{
+				name: "Cinny",
+				description: "An elegant Matrix client.",
+				eu: "https://cinny.projectsegfau.lt/",
+				tor: "http://cinny.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				icon: "/icons/cinny.svg",
+				statusEu: await fetchStatus("cinny.projectsegfau.lt")
+			},
+			{
 				name: "SearXNG",
 				description: "A private meta-search engine.",
-				eu: "https://search.projectsegfau.lt/search",
+				eu: "https://search.projectsegfau.lt/",
 				us: "https://search.us.projectsegfau.lt",
+				tor: "http://search.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/searxng.svg",
 				statusEu: await fetchStatus("search.projectsegfau.lt"),
 				statusUs: await fetchStatus("search.us.projectsegfau.lt")
@@ -128,6 +146,7 @@ const statusData = [
 				name: "Gitea",
 				description: "A web interface for Git, alternative to GitHub.",
 				eu: "https://git.projectsegfau.lt/",
+				tor: "http://git.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/gitea.png",
 				statusEu: await fetchStatus("git.projectsegfau.lt")
 			},
@@ -135,6 +154,7 @@ const statusData = [
 				name: "Akkoma",
 				description: "Federated microblogging platform.",
 				eu: "https://social.projectsegfau.lt/",
+				tor: "http://social.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/akkoma.png",
 				statusEu: await fetchStatus("social.projectsegfau.lt")
 			},
@@ -142,6 +162,7 @@ const statusData = [
 				name: "Vikunja",
 				description: "A task management platform.",
 				eu: "https://todo.projectsegfau.lt/",
+				tor: "http://todo.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/vikunja.png",
 				statusEu: await fetchStatus("todo.projectsegfau.lt")
 			}
