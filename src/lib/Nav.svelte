@@ -57,8 +57,9 @@
 <svelte:window bind:innerWidth />
 
 <nav
-	class="bg-primary {menuOpenMobile ? "" : "border-b border-b-solid border-b-grey"} flex p-2 flex-col justify-between nav:(flex-row items-center)"
+	class="bg-primary {menuOpenMobile ? "border-none" : "border-b border-b-solid border-b-grey"} flex p-2 flex-col justify-between nav:(flex-row items-center)"
 	class:hasJSNav={typeof Window !== "undefined"}
+	class:noJSNav={typeof Window === "undefined"}
 >
 	<div class="flex flex-row items-center justify-between">
 		<a
@@ -153,6 +154,10 @@
 
 	.hasJSNav {
 		@apply sticky top-0 z-50;
+	}
+
+	.noJSNav {
+		@apply border-b border-b-solid border-b-grey;
 	}
 
 	@media (min-width: 1030px) {
