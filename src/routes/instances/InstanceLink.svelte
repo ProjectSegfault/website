@@ -28,8 +28,8 @@
 		<div class="flex items-center gap-2 text-base">
 			<div
 				class={item === 200
-					? "i-fa6-solid:arrow-up-right-from-square"
-					: "i-fa6-solid:xmark"}
+					? "i-ic:outline-open-in-new text-xl"
+					: "i-ic:outline-close"}
 			/>
 			<span>
 				{#if item !== 200}

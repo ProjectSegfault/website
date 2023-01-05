@@ -26,11 +26,11 @@
 		<LinkButton
 			url="/instances"
 			title="Explore our instances"
-			icon="i-fa6-solid:bell-concierge"
+			icon="i-ic:outline-room-service text-xl"
 		/>
 		<LinkButton
 			url="/donate"
-			icon="i-fa6-solid:money-bill"
+			icon="i-ic:outline-attach-money text-xl"
 			title="Donate"
 			bg="#F6C915"
 			color="#151515"

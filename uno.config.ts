@@ -56,5 +56,5 @@ export default defineConfig({
 
 	transformers: [transformerVariantGroup(), transformerDirectives()],
 
-	safelist: ["i-fa6-solid:moon", "i-fa6-solid:sun"]
+	safelist: ["i-ic:outline-dark-mode", "i-ic:outline-light-mode"]
 });

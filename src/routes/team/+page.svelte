@@ -61,7 +61,7 @@
 						url={website}
 						class="web"
 					>
-						<div class="i-fa6-solid:globe" />
+						<div class="i-ic:outline-language" />
 					</Link>
 				{/if}
 
@@ -70,7 +70,7 @@
 						url="mailto:{email}"
 						class="email"
 					>
-						<div class="i-fa6-solid:envelope" />
+						<div class="i-ic:outline-mail" />
 					</Link>
 				{/if}
 
@@ -79,7 +79,7 @@
 						url={pgp}
 						class="pgp"
 					>
-						<div class="i-fa6-solid:key" />
+						<div class="i-ic:outline-vpn-key" />
 					</Link>
 				{/if}
 
@@ -88,7 +88,7 @@
 						url={picture}
 						class="picture"
 					>
-						<div class="i-fa6-solid:camera" />
+						<div class="i-ic:outline-photo-camera" />
 					</Link>
 				{/if}
 			</LinksOuter>

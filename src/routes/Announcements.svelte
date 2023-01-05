@@ -19,31 +19,31 @@
 				>
 					{#if announcements.severity === "info"}
 						<div class="flex items-center gap-2">
-							<div class="i-fa6-solid:circle-info" />
+							<div class="i-ic:outline-info text-xl" />
 							<span>Info</span>
 						</div>
 					{:else if announcements.severity === "low"}
 						<div class="flex items-center gap-2">
-							<div class="i-fa6-solid:check" />
+							<div class="i-ic:outline-check-circle text-xl" />
 							<span>Resolved</span>
 						</div>
 					{:else if announcements.severity === "medium"}
 						<div class="flex items-center gap-2">
-							<div class="i-fa6-solid:triangle-exclamation" />
+							<div class="i-ic:outline-priority-high text-xl" />
 							<span>Attention</span>
 						</div>
 					{:else if announcements.severity === "high"}
 						<div class="flex items-center gap-2">
-							<div class="i-fa6-solid:ban" />
+							<div class="i-ic:outline-block text-xl" />
 							<span>Attention</span>
 						</div>
 					{/if}
 					<span class="flex items-center gap-2">
-						<div class="i-fa6-solid:user" />
+						<div class="i-ic:outline-person text-xl" />
 						{announcements.author}
 					</span>
 					<span class="flex items-center gap-2">
-						<div class="i-fa6-solid:calendar" />
+						<div class="i-ic:outline-calendar-month text-xl" />
 						{dayjs
 							.unix(announcements.created)
 							.format("DD/MM/YYYY HH:mm")}

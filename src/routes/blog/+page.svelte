@@ -24,12 +24,12 @@
 		<LinkButton
 			url="/blog/tags"
 			title="Tags"
-			icon="i-fa6-solid:tags"
+			icon="i-ic:outline-bookmarks"
 		/>
 		<LinkButton
 			url="/blog/authors"
 			title="Authors"
-			icon="i-fa6-solid:user"
+			icon="i-ic:outline-people text-xl"
 		/>
 		<LinkButton
 			url="https://blog.projectsegfau.lt/rss/"

@@ -1,6 +1,8 @@
 <script lang="ts">
 	import ThemeToggle from "./ThemeToggle.svelte";
 	import { page } from "$app/stores";
+	import { slide } from "svelte/transition";
+	import { quintOut } from 'svelte/easing';
 
 	$: currentPage = $page.url.pathname;
 
@@ -13,6 +15,8 @@
 	let menuOpen = false;
 
 	$: menuOpen = innerWidth > 1030;
+
+	$: menuOpenMobile = innerWidth < 1030 && menuOpen;
 
 	let showThemeToggle: boolean = true;
 
@@ -53,7 +57,8 @@
 <svelte:window bind:innerWidth />
 
 <nav
-	class="bg-primary border-b border-b-solid border-b-grey flex p-2 flex-col justify-between nav:(flex-row items-center)"
+	class="bg-primary {menuOpenMobile ? "" : "border-b border-b-solid border-b-grey"} flex p-2 flex-col justify-between nav:(flex-row items-center)"
+	class:hasJSNav={typeof Window !== "undefined"}
 >
 	<div class="flex flex-row items-center justify-between">
 		<a
@@ -71,7 +76,7 @@
 		{#if showMenuButton}
 			<button
 				on:click={toggleMenu}
-				class="i-fa6-solid:bars cursor-pointer mr-2"
+				class="{menuOpen ? "i-ic:outline-close" : "i-ic:outline-menu"} h-4 w-4 cursor-pointer mr-2"
 			/>
 		{/if}
 	</div>
@@ -81,6 +86,7 @@
 			class="links"
 			class:hasJS={typeof Window !== "undefined"}
 			class:noJS={typeof Window === "undefined"}
+			transition:slide="{{duration: 300, easing: quintOut }}"
 		>
 			{#each menus as { url, name, external }}
 				<a
@@ -91,7 +97,7 @@
 					on:click={handleNavigation}
 					>{#if external}
 						<div
-							class="i-fa6-solid:arrow-up-right-from-square mr-2"
+							class="i-ic:outline-open-in-new mr-2 h-4 w-4"
 						/>
 					{/if}
 					{name}
@@ -138,17 +144,30 @@
 	}
 
 	.hasJS {
-		@apply flex flex-col pt-2 gap-2;
+		@apply flex flex-col pt-2 gap-2 fixed bg-primary w-full left-0 top-[2.8rem] p-2 z-50 border-b-solid border-b border-b-grey shadow shadow-secondary;
 	}
 
 	.noJS {
 		@apply grid grid-cols-2 gap-2 pt-2 w-fit;
 	}
 
+	.hasJSNav {
+		@apply sticky top-0 z-50;
+	}
+
 	@media (min-width: 1030px) {
 		.hasJS {
 			flex-direction: row;
 			padding-top: 0;
+			position: initial;
+			background-color: initial;
+			width: initial;
+			left: initial;
+			top: initial;
+			padding: initial;
+			z-index: initial;
+			border-bottom: initial;
+			box-shadow: initial;
 		}
 
 		.noJS {

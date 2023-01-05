@@ -22,7 +22,7 @@
 	>
 		<Note
 			content="Your IP will be logged for anti-abuse measures."
-			icon="i-fa6-solid:lock"
+			icon="i-ic:outline-lock text-xl"
 		/>
 		<Meta
 			inputType="email"
@@ -59,7 +59,7 @@
 <noscript>
 	<Note
 		content="The contact form does not work without JavaScript enabled."
-		icon="i-fa6-solid:circle-info"
+		icon="i-ic:outline-info text-xl"
 	/>
 	<style>
 		.contact-form {

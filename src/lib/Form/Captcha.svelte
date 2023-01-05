@@ -13,7 +13,7 @@
 
 <Note
 	content="The submit button will be visible when you complete the Captcha."
-	icon="i-fa6-solid:circle-info"
+	icon="i-ic:outline-info text-xl"
 />
 <HCaptcha
 	{sitekey}
