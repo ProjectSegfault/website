@@ -126,7 +126,7 @@
 	}
 
 	.links > * {
-		@apply p-2 cursor-pointer text-text decoration-none transition-color duration-25 text-sm font-500 flex items-center hover\:text-accent;
+		@apply p-2 cursor-pointer text-text decoration-none transition-color duration-250 text-sm font-500 flex items-center hover\:text-accent;
 	}
 
 	.icon > span {

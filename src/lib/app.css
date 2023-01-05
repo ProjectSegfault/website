@@ -4,21 +4,10 @@
 	font-display: swap;
 }
 
-html {
+html, html.light {
 	--accent: #00a584;
 	--accent-translucent: #00a58498;
 	--font-primary: "JetBrains Mono", monospace;
-	--primary: #151515;
-	--secondary: #252525;
-	--tertiary: #353535;
-	--text: #ffffffde;
-	--grey: #5454547a;
-	--alt: #333;
-	--alt-text: #ddd;
-	color-scheme: dark;
-}
-
-html.light {
 	--primary: #ffffff;
 	--secondary: #eeeeee;
 	--tertiary: #939393;
@@ -27,6 +16,19 @@ html.light {
 	--alt: #ddd;
 	--alt-text: #333;
 	color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--primary: #151515;
+		--secondary: #252525;
+		--tertiary: #353535;
+		--text: #ffffffde;
+		--grey: #5454547a;
+		--alt: #333;
+		--alt-text: #ddd;
+		color-scheme: dark;
+	}
 }
 
 body {
