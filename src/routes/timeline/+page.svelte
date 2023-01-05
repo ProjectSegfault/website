@@ -240,10 +240,7 @@
 				Devnol, Odyssey and akisblack resigned from the team leading to
 				a serious loss of manpower. To combat this, we decided to shut
 				down some of our unused instances as well as the ones that were
-				painful to deal with. You can read more over at <a
-					href="https://blog.projectsegfau.lt/resignation-of-3-members-of-projectsegfault/"
-					>this blog post</a
-				>.
+				painful to deal with. 
 			</p>
 		</TimelineContent>
 	</TimelineItem>
