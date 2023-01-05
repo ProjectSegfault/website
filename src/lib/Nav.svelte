@@ -145,7 +145,7 @@
 	}
 
 	.hasJS {
-		@apply flex flex-col pt-2 gap-2 fixed bg-primary w-full left-0 top-[2.8rem] p-2 z-50 border-b-solid border-b border-b-grey shadow shadow-secondary;
+		@apply flex flex-col pt-2 gap-2 fixed bg-primary w-full left-0 top-[2.75rem] p-2 z-50 border-b-solid border-b border-b-grey shadow shadow-secondary;
 	}
 
 	.noJS {
