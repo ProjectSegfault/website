@@ -1,5 +1,6 @@
 import type { PageServerLoad } from "./$types";
 import { compile } from "mdsvex";
+import sanitizeHtml from "sanitize-html";
 import db from "$lib/db";
 
 export const load: PageServerLoad = async () => {
@@ -9,10 +10,12 @@ export const load: PageServerLoad = async () => {
 		return docs.map((doc) => doc.get());
 	});
 
+	const sanitizedContent = sanitizeHtml(data[0].title)
+
 	if (data.length !== 0 || data[0] !== undefined) {
 		return {
 			announcements: data[0],
-			content: compile(data[0]["title"]).then((compiled) => compiled?.code)
+			content: compile(sanitizedContent).then((compiled) => compiled?.code)
 		}
 	}
 };
