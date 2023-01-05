@@ -25,7 +25,6 @@
 		"svelte-check": "^3.0.1",
 		"svelte-dark-mode": "^2.1.0",
 		"svelte-hcaptcha": "^0.1.1",
-		"svelte-preprocess": "^5.0.0",
 		"svelte-seo": "^1.4.1",
 		"svelte-vertical-timeline": "^0.0.2",
 		"tslib": "^2.4.1",

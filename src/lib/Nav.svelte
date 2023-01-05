@@ -137,11 +137,11 @@
 	}
 
 	.icon > span {
-		@apply flex nav\:hidden;
+		@apply flex text-sm nav\:hidden;
 	}
 
 	.icon {
-		@apply flex flex-row items-center gap-2;
+		@apply flex flex-row items-center gap-2 text-base;
 	}
 
 	.hasJS {
