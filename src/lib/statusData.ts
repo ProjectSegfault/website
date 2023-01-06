@@ -3,7 +3,7 @@ import axios from "axios";
 const fetchStatus = (domain: string) => {
 	const req = axios("https://" + domain, { timeout: 5000 })
 		.then((res) => res.status)
-		.catch((error) => error.response ? error.response.status : 500);
+		.catch((error) => (error.response ? error.response.status : 500));
 
 	return req;
 };
@@ -27,7 +27,7 @@ const statusData = [
 			},
 			{
 				name: "Librarian",
-				description: "A frontend for Odysee.",
+				description: "A frontend for LBRY/Odysee.",
 				eu: "https://lbry.projectsegfau.lt/",
 				geo: "https://lbry.g.projectsegfau.lt/",
 				tor: "http://lbry.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
