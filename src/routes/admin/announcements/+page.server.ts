@@ -8,8 +8,6 @@ export const actions: Actions = {
 		if (!await locals.getSession()) {
 			return fail(401, { addError: true, addMessage: "You must be logged in to post an announcement." });
 		} else {
-			const Announcements = db.model("Announcements");
-
 			const formData = await request.formData();
 			
 			const BodyTypeSchema = Joi.object({
@@ -28,11 +26,9 @@ export const actions: Actions = {
 					created: now
 				};
 	
-				await Announcements.sync();
-	
-				await Announcements.destroy({ where: {} });
+				await db.delete("*").from("Announcements");
 		
-				await Announcements.create(data);
+				await db("Announcements").insert(data);
 		
 				return { addSuccess: true, addMessage: "Your announcement has been posted." };
 			}
@@ -43,11 +39,8 @@ export const actions: Actions = {
 		if (!await locals.getSession()) {
 			return fail(401, { deleteError: true, deleteMessage: "You must be logged in to delete an announcement." });
 		} else {
-			const Announcements = db.model("Announcements");
 
-			await Announcements.sync();
-
-			await Announcements.destroy({ where: {} });
+			await db.delete("*").from("Announcements");
 
 			return { deleteSuccess: true, deleteMessage: "Your announcement has been deleted." };
 		}

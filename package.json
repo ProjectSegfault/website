@@ -38,9 +38,9 @@
 	"dependencies": {
 		"@auth/core": "^0.2.4",
 		"@auth/sveltekit": "^0.1.11",
+		"dotenv": "^16.0.3",
 		"joi": "^17.7.0",
-		"pg": "^8.8.0",
-		"pg-hstore": "^2.3.4",
-		"sequelize": "^6.28.0"
+		"knex": "^2.3.0",
+		"pg": "^8.8.0"
 	}
 }

@@ -1,45 +1,26 @@
-import { Sequelize, DataTypes } from "sequelize";
-import consola from "consola";
+import knex from "knex";
 import { env } from "$env/dynamic/private";
 
-const sequelize = new Sequelize({
-	database: "website",
-	password: String(env.DB_PASSWORD),
-	port: Number(env.DB_PORT),
-	host: String(env.DB_HOST),
-	dialect: "postgres",
-	username: String(env.DB_USERNAME),
-});
-
-sequelize.define("Announcements", {
-	title: {
-		type: DataTypes.TEXT,
-		allowNull: false
-	},
-	severity: {
-		type: DataTypes.STRING,
-		allowNull: false
-	},
-	author: {
-		type: DataTypes.STRING,
-		allowNull: false
-	},
-	link: {
-		type: DataTypes.STRING,
-		allowNull: true
-	},
-	created: {
-		type: DataTypes.BIGINT,
-		allowNull: false
+const db = knex({
+	client: "pg",
+	connection: {
+		host: String(env.DB_HOST),
+		port: Number(env.DB_PORT),
+		user: String(env.DB_USERNAME),
+		password: String(env.DB_PASSWORD),
+		database: "website"
 	}
-});
+})
 
-try {
-	await sequelize.authenticate();
-	await sequelize.sync();
-	consola.success("Connected to Postgres");
-} catch (error) {
-	consola.error("Failed to connect to Postgres:", error);
+if (! await db.schema.hasTable("Announcements")) {
+	await db.schema.createTable("Announcements", (table) => {
+		table.increments("id");
+		table.text("title").notNullable();
+		table.string("severity").notNullable();
+		table.string("author").notNullable();
+		table.string("link").nullable();
+		table.bigInteger("created").notNullable();
+	});
 }
 
-export default sequelize;
+export default db;
