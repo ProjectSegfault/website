@@ -1,7 +1,7 @@
 import type { Actions } from "./$types";
 import Joi from "joi";
 import { fail } from "@sveltejs/kit";
-import db from "$lib/db";
+import { db } from "$lib/server/db";
 
 export const actions: Actions = {
 	add: async ({ request, locals }) => {

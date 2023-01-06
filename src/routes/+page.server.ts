@@ -1,7 +1,7 @@
 import type { PageServerLoad } from "./$types";
 import { compile } from "mdsvex";
 import sanitizeHtml from "sanitize-html";
-import db from "$lib/db";
+import { db } from "$lib/server/db";
 
 export const load: PageServerLoad = async () => {
 
