@@ -15,4 +15,6 @@ RUN pnpm build
 
 EXPOSE 4173
 
-CMD ["pnpm", "preview", "--host"]
+ARG ORIGIN=https://projectsegfau.lt
+
+CMD ["node", "build/index.js"]
