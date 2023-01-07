@@ -20,7 +20,6 @@
 		"dayjs": "^1.11.7",
 		"discord-webhook-node": "^1.1.8",
 		"mdsvex": "^0.10.6",
-		"pg": "^8.8.0",
 		"prettier": "^2.8.1",
 		"prettier-plugin-svelte": "^2.9.0",
 		"sanitize-html": "^2.8.1",
@@ -41,6 +40,7 @@
 		"@auth/sveltekit": "^0.1.11",
 		"dotenv": "^16.0.3",
 		"joi": "^17.7.0",
-		"knex": "^2.4.0"
+		"knex": "^2.4.0",
+		"pg": "^8.8.0"
 	}
 }
