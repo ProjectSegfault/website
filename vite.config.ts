@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 const config = defineConfig({
 	plugins: [sveltekit(), unoCSS(), viteCommonjs()],
 	ssr: {
-		noExternal: ["pg"]
+		noExternal: ["pg", "knex"]
 	}
 });
 
