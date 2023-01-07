@@ -26,6 +26,7 @@
 		/>
 		<Meta
 			inputType="email"
+			inputName="email"
 			inputPlaceholder="Your email"
 			selectType="commentType"
 		>

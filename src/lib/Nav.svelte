@@ -10,13 +10,13 @@
 
 	let innerWidth: number = 0;
 
-	$: showMenuButton = innerWidth < 1030;
+	$: showMenuButton = innerWidth < 1090;
 
 	let menuOpen = false;
 
-	$: menuOpen = innerWidth > 1030;
+	$: menuOpen = innerWidth > 1090;
 
-	$: menuOpenMobile = innerWidth < 1030 && menuOpen;
+	$: menuOpenMobile = innerWidth < 1090 && menuOpen;
 
 	let showThemeToggle: boolean = true;
 
@@ -35,6 +35,7 @@
 	const menus = [
 		{ name: "Instances", url: "/instances" },
 		{ name: "Donate", url: "/donate" },
+		{ name: "Pubnix", url: "/pubnix" },
 		{ name: "Contact us", url: "/contact" },
 		{ name: "Our team", url: "/team" },
 		{ name: "Timeline", url: "/timeline" },
@@ -160,7 +161,7 @@
 		@apply border-b border-b-solid border-b-grey;
 	}
 
-	@media (min-width: 1030px) {
+	@media (min-width: 1090px) {
 		.hasJS {
 			flex-direction: row;
 			padding-top: 0;

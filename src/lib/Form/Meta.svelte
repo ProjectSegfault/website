@@ -1,7 +1,13 @@
 <script lang="ts">
 	export let inputType: string = "";
+	export let inputName: string = "";
 	export let inputPlaceholder: string = "";
+	export let select: boolean = true;
 	export let selectType: string = "";
+	export let input2: boolean = false;
+	export let input2Type: string = "";
+	export let input2Name: string = "";
+	export let input2Placeholder: string = "";
 </script>
 
 <div
@@ -9,24 +15,37 @@
 >
 	<input
 		type={inputType}
-		name={inputType}
+		name={inputName}
 		class="form-textbox"
 		placeholder={inputPlaceholder}
 		required
 	/>
-	<select
-		name={selectType}
-		required
-		class="form-button"
-	>
-		<slot />
-	</select>
+	{#if input2}
+		<input
+			type={input2Type}
+			name={input2Name}
+			class="form-textbox"
+			placeholder={input2Placeholder}
+			required
+		/>
+	{/if}
+	{#if select}
+		<select
+			name={selectType}
+			required
+			class="form-button"
+		>
+			<slot />
+		</select>
+	{/if}
 </div>
 
-<style>
-	@media screen and (max-width: 640px) {
-		div > :nth-child(2) {
-			width: 100%;
+{#if select}
+	<style>
+		@media screen and (max-width: 640px) {
+			div > :nth-child(2) {
+				width: 100%;
+			}
 		}
-	}
-</style>
+	</style>
+{/if}
