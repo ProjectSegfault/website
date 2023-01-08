@@ -13,7 +13,7 @@ COPY . .
 
 RUN npm run build
 
-EXPOSE 4173
+EXPOSE 3000
 
 ARG ORIGIN=https://projectsegfau.lt
 
