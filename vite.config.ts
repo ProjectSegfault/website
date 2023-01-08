@@ -4,7 +4,13 @@ import { viteCommonjs } from "@originjs/vite-plugin-commonjs";
 import { defineConfig } from "vite";
 
 const config = defineConfig({
-	plugins: [sveltekit(), unoCSS(), viteCommonjs()],
+	plugins: [
+		sveltekit(),
+		unoCSS(),
+		viteCommonjs({
+			include: ["pg", "knex"]
+		})
+	],
 	ssr: {
 		noExternal: ["pg"]
 	}
