@@ -23,7 +23,9 @@ export const actions: Actions = {
 				const now = Math.floor(Date.now() / 1000);
 				const data = {
 					...Object.fromEntries(formData.entries()),
-					created: now
+					created: now,
+					createdAt: now,
+					updatedAt: now
 				};
 	
 				await db.delete("*").from("Announcements");
