@@ -7,7 +7,7 @@ services:
             context: .
             dockerfile: Dockerfile
         ports:
-            - 1339:4173
+            - 1339:3000
         environment:
           AUTH_SECRET: ${AUTH_SECRET}
           AUTH_TRUST_HOST: ${AUTH_TRUST_HOST}
