@@ -25,7 +25,7 @@ if (!building) {
 			table.string("author").notNullable();
 			table.string("link").nullable();
 			table.bigInteger("created").notNullable();
-			table.timestamps();
+			table.timestamps(true, true, true);
 		});
 	}
 }
