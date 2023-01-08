@@ -2,6 +2,7 @@ import type { Actions } from "./$types";
 import Joi from "joi";
 import { fail } from "@sveltejs/kit";
 import { db } from "$lib/server/db";
+import dayjs from "dayjs";
 
 export const actions: Actions = {
 	add: async ({ request, locals }) => {
@@ -24,8 +25,8 @@ export const actions: Actions = {
 				const data = {
 					...Object.fromEntries(formData.entries()),
 					created: now,
-					createdAt: now,
-					updatedAt: now
+					createdAt: dayjs.unix(now).toISOString(),
+					updatedAt: dayjs.unix(now).toISOString()
 				};
 	
 				await db.delete("*").from("Announcements");
