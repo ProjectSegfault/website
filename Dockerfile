@@ -15,6 +15,4 @@ RUN pnpm build
 
 EXPOSE 3000
 
-ARG ORIGIN=https://projectsegfau.lt
-
 CMD ["node", "build/index.js"]
