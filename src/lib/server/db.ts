@@ -20,7 +20,7 @@ if (!building) {
 	if (! await db.schema.hasTable("Announcements")) {
 		await db.schema.createTable("Announcements", (table) => {
 			table.increments("id");
-			table.text("title").notNullable();
+			table.specificType("title", "varchar").notNullable();
 			table.string("severity").notNullable();
 			table.string("author").notNullable();
 			table.string("link").nullable();

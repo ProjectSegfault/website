@@ -35,7 +35,7 @@
 	const menus = [
 		{ name: "Instances", url: "/instances" },
 		{ name: "Donate", url: "/donate" },
-		{ name: "Pubnix", url: "/pubnix" },
+		// { name: "Pubnix", url: "/pubnix" },
 		{ name: "Contact us", url: "/contact" },
 		{ name: "Our team", url: "/team" },
 		{ name: "Timeline", url: "/timeline" },
