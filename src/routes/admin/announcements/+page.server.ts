@@ -2,9 +2,6 @@ import type { Actions } from "./$types";
 import Joi from "joi";
 import { fail } from "@sveltejs/kit";
 import { db } from "$lib/server/db";
-import dayjs from "dayjs";
-
-const collection = db.collection("announcements");
 
 export const actions: Actions = {
 	add: async ({ request, locals }) => {
@@ -29,6 +26,8 @@ export const actions: Actions = {
 					created: now
 				};
 
+				const collection = db.collection("announcements");
+
 				await collection.deleteMany({});
 		
 				await collection.insertOne(data);
@@ -42,6 +41,7 @@ export const actions: Actions = {
 		if (!await locals.getSession()) {
 			return fail(401, { deleteError: true, deleteMessage: "You must be logged in to delete an announcement." });
 		} else {
+			const collection = db.collection("announcements");
 
 			await collection.deleteMany({});
 
