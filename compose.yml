@@ -24,18 +24,17 @@ services:
           WEBHOOK: ${WEBHOOK}
         #args: [ "ORIGIN=" ]
 
-    website-db-dev:
-        image: postgres
+    website-db:
+        image: mongo
         container_name: website-db
-        environment:
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-          PGDATA: /data/postgres
-          POSTGRES_DB: website
-        volumes:
-          - website-db-data:/data/postgres
-
         restart: unless-stopped
+        volumes:
+            - website-db-data:/data/db
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: $MONGO_USER
+            MONGO_INITDB_ROOT_PASSWORD: $MONGO_PASSWORD
+            MONGO_INITDB_DATABASE: website
+        command: [--auth]
 
 volumes:
     website-db-data:

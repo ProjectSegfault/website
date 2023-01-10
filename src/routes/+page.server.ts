@@ -5,7 +5,9 @@ import { db } from "$lib/server/db";
 
 export const load: PageServerLoad = async () => {
 
-	const data = await db("Announcements").select("*");
+	const collection = db.collection("announcements");
+
+	const data = await collection.find({}, { projection: { _id: 0 } }).toArray();
 
 	if (data.length !== 0 || data[0] !== undefined) {
 

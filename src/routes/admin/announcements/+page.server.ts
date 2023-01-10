@@ -4,6 +4,8 @@ import { fail } from "@sveltejs/kit";
 import { db } from "$lib/server/db";
 import dayjs from "dayjs";
 
+const collection = db.collection("announcements");
+
 export const actions: Actions = {
 	add: async ({ request, locals }) => {
 		if (!await locals.getSession()) {
@@ -24,14 +26,12 @@ export const actions: Actions = {
 				const now = Math.floor(Date.now() / 1000);
 				const data = {
 					...Object.fromEntries(formData.entries()),
-					created: now,
-					createdAt: dayjs.unix(now).toISOString(),
-					updatedAt: dayjs.unix(now).toISOString()
+					created: now
 				};
-	
-				await db.delete("*").from("Announcements");
+
+				await collection.deleteMany({});
 		
-				await db("Announcements").insert(data);
+				await collection.insertOne(data);
 		
 				return { addSuccess: true, addMessage: "Your announcement has been posted." };
 			}
@@ -43,7 +43,7 @@ export const actions: Actions = {
 			return fail(401, { deleteError: true, deleteMessage: "You must be logged in to delete an announcement." });
 		} else {
 
-			await db.delete("*").from("Announcements");
+			await collection.deleteMany({});
 
 			return { deleteSuccess: true, deleteMessage: "Your announcement has been deleted." };
 		}

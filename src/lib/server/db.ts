@@ -1,31 +1,14 @@
-import knex from "knex";
-import type { Knex } from "knex";
 import { env } from "$env/dynamic/private";
 import { building } from "$app/environment";
+import { MongoClient } from "mongodb";
+import type { Db } from "mongodb";
 
-export let db: Knex;
+export let db: Db;
 
 if (!building) {
-	db = knex({
-		client: "pg",
-		connection: {
-			host: String(env.DB_HOST),
-			port: Number(env.DB_PORT),
-			user: String(env.DB_USERNAME),
-			password: String(env.DB_PASSWORD),
-			database: "website"
-		}
-	})
+	const client = new MongoClient(env.DB_URL);
 
-	if (! await db.schema.hasTable("Announcements")) {
-		await db.schema.createTable("Announcements", (table) => {
-			table.increments("id");
-			table.specificType("title", "varchar").notNullable();
-			table.string("severity").notNullable();
-			table.string("author").notNullable();
-			table.string("link").nullable();
-			table.bigInteger("created").notNullable();
-			table.timestamps(true, true, true);
-		});
-	}
+	await client.connect();
+
+	db = client.db("website");
 }
