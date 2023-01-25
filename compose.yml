@@ -1,38 +1,11 @@
 services:
     website:
         container_name: website
-        image: realprojectsegfault/website:latest # or :dev if you want to use the dev version
+        image: ghcr.io/ProjectSegfault/website:latest
         restart: unless-stopped
         # uncomment these lines if you want to build from source
         #build:
         #    context: .
         #    dockerfile: Dockerfile
         ports:
-            - 1339:3000 # change the first number to whatever port you want to use
-        environment: # these are documented in the readme
-          AUTH_SECRET: ${AUTH_SECRET}
-          AUTH_CLIENT_ID: ${AUTH_CLIENT_ID}
-          AUTH_CLIENT_SECRET: ${AUTH_CLIENT_SECRET}
-          AUTH_ISSUER: ${AUTH_ISSUER}
-          AUTH_TRUST_HOST: ${AUTH_TRUST_HOST}
-          HCAPTCHA_SECRET: ${HCAPTCHA_SECRET}
-          HCAPTCHA_SITEKEY: ${HCAPTCHA_SITEKEY}
-          WEBHOOK: ${WEBHOOK}
-          GHOST_API_KEY: ${GHOST_API_KEY}
-          DB_URL: ${DB_URL}
-          ORIGIN: ${ORIGIN}
-
-    website-db: # this is the mongodb database container
-        image: mongo:6
-        container_name: website-db
-        restart: unless-stopped
-        volumes:
-            - website-db-data:/data/db
-        environment: # these are documented in the readme
-            MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER}
-            MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
-            MONGO_INITDB_DATABASE: website
-        command: [--auth]
-
-volumes:
-    website-db-data:
+            - "127.0.0.1:1339:3000"

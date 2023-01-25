@@ -3,5 +3,8 @@
 	"useTabs": true,
 	"bracketSpacing": true,
 	"singleAttributePerLine": true,
-	"trailingComma": "none"
+	"trailingComma": "none",
+	"plugins": ["prettier-plugin-svelte"],
+	"pluginSearchDirs": ["."],
+	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }]
 }

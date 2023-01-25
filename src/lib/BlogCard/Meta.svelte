@@ -10,7 +10,7 @@
 		<div class="flex flex-row items-center gap-2">
 			<div class="i-ic:outline-bookmarks text-xl -ml-1" />
 			{#each post.tags as tag}
-				<a href="/blog/tags/{tag.slug}" class="no-underline rounded-2 p-1 {isPost ? "bg-secondary" : "bg-primary"}">{tag.name}</a>
+				<a href="/blog/tags/{tag.slug}" class="no-underline rounded p-1 {isPost ? "bg-secondary" : "bg-primary"}">{tag.name}</a>
 			{/each}
 		</div>
 	{/if}

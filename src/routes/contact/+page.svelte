@@ -1,99 +1,20 @@
 <script lang="ts">
-	import { Note, Captcha, Meta, TextArea } from "$lib/Form";
-	import type { ActionData, PageServerData } from "./$types";
+	import type { PageData } from "./$types";
 
-	export let form: ActionData;
-	export let data: PageServerData;
+	export let data: PageData;
 </script>
 
-<svelte:head>
-	<title>Contact us | Project Segfault</title>
-</svelte:head>
 
-<h1>Contact us</h1>
-
-<div class="contact-form">
-	<h2>Contact form</h2>
-	<form
-		method="POST"
-		action="?/form"
-		id="contact-form"
-		class="flex flex-col gap-4 w-fit"
-	>
-		<Note
-			content="Your IP will be logged for anti-abuse measures."
-			icon="i-ic:outline-lock text-xl"
-		/>
-		<Meta
-			inputType="email"
-			inputName="email"
-			inputPlaceholder="Your email"
-			selectType="commentType"
-		>
-			<option
-				value=""
-				selected
-				disabled>Select a type of comment</option
-			>
-			<option value="Feedback">Feedback</option>
-			<option value="Suggestion">Suggestion</option>
-			<option value="Question">Question</option>
-			<option value="Bug">Bug</option>
-		</Meta>
-		<TextArea
-			id="comment"
-			name="message"
-			placeholder="Your message"
-		/>
-		<Captcha sitekey={data.hcaptchaSitekey}>
-			{#if form?.success}
-				{form.message}
-			{/if}
-
-			{#if form?.error}
-				{form.message}
-			{/if}
-		</Captcha>
-	</form>
-</div>
-
-<noscript>
-	<Note
-		content="The contact form does not work without JavaScript enabled."
-		icon="i-ic:outline-info text-xl"
-	/>
-	<style>
-		.contact-form {
-			display: none;
-		}
-	</style>
-</noscript>
+<h1>{data.title}</h1>
 
 <h2>Matrix</h2>
-<span
-	>We have a Matrix space for general discussion, support and announcements
-	about Project Segfault over at <a
-		href="https://matrix.to/#/#project-segfault:projectsegfau.lt/"
-		>this link</a
-	>.</span
->
 
-<h2>Our Email</h2>
+<p>We have a Matrix space for general discussion, support and announcements about Project Segfault over at <a href="https://matrix.to/#/#project-segfault:projectsegfau.lt/">this link</a>.</p>
 
-<div class="flex flex-col gap-4">
-	<a href="mailto:contact@projectsegfau.lt">contact@projectsegfau.lt</a>
+<h2>Email</h2>
 
-	<span class="italic">
-		Please be aware that Microsoft and other email providers often block non-popular emails, if you do
-		contact us through there, make sure to check your spam and mark it as
-		not-spam!
-	</span>
-</div>
+<p>Our primary email address is <a href="mailto:contact@projectsegfau.lt">contact@projectsegfau.lt</a>. You can use this as a way to send feedback or other stuff to us if you don't have or don't want to make a Matrix account. When waiting for us to answer make sure to check your spam, since some email providers block non-popular domains.</p>
 
-<h2>People</h2>
+<h2>Members</h2>
 
-<span>
-	You can find ways to contact individual team members <a href="/team"
-		>on our team page</a
-	>.
-</span>
+<p>You can contact individual members by using the links provided in <a href="/team">the team page</a>.</p>

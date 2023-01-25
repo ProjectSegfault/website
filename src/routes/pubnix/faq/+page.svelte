@@ -1,12 +1,10 @@
-<svelte:head>
-	<title>Pubnix FAQ | Project Segfault</title>
-</svelte:head>
+<script lang="ts">
+	import type { PageData } from "./$types";
 
-<div class="flex flex-col items-center m-auto text-center prose justify-center">
-	<h1>Pubnix FAQ</h1>
+	export let data: PageData;
+</script>
 
-	<p>Here are some frequently asked questions about the pubnix.</p>
+<h1>{data.title}</h1>
 
-	<h2>What is a pubnix?</h2>
-	<span>A pubnix is a [[Unix?]] server provided by a person or a group to a group for non-commercial recreational goals.</span>
-</div>
+<h2>What is a pubnix?</h2>
+<span>A pubnix is a [[Unix?]] server provided by a person or a group to a group for non-commercial recreational goals.</span>

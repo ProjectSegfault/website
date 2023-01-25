@@ -4,13 +4,12 @@ Live at [projectsegfau.lt](https://projectsegfau.lt).
 
 ## Developing
 
-> You need a lot of infrastructure to run a complete version of the website including: Ghost CMS deployment, Authentik authentication, a Discord channel with a webhook and a hCaptcha sitekey and secret from a hCaptcha account.
+> You need a lot of infrastructure to run a complete version of the website including: Ghost CMS deployment and Authentik authentication.
 
 ### Prerequisites
 
 -   Install [node.js](https://nodejs.org).
 -   Install [pnpm](https://pnpm.io/).
--   Install [MongoDB](https://mongodb.com).
 -   Learn [Svelte](https://svelte.dev).
 -	Add the environment variables from the [environment variables section](#environment-variables).
 
@@ -40,14 +39,11 @@ The website has the following **mandatory** environment variables
 
 | Name               | Description               |
 |:------------------ |:------------------------- |
-| AUTH_SECRET        | Random 32 char secret     |
 | AUTH_CLIENT_ID     | Authentik client ID       |
 | AUTH_CLIENT_SECRET | Authentik client secret   |
 | AUTH_ISSUER        | Authentication issuer URL |
 | AUTH_TRUST_HOST    | Your domain               |
-| HCAPTCHA_SECRET    | Your hCaptcha secret      |
-| HCAPTCHA_SITEKEY   | Your hCaptcha sitekey     |
-| WEBHOOK            | Your Discord webhook URL  |
+| AUTH_SECRET        | Random 32 char secret     |
+| GHOST_URL          | Your Ghost CMS URL        |
 | GHOST_API_KEY      | Your Ghost CMS API key    |
-| DB_URL             | Your MongoDB url          |
 | ORIGIN             | Your domain               |

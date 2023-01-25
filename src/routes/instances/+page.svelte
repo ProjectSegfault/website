@@ -1,91 +1,31 @@
 <script lang="ts">
-	import { CardInner, CardOuter, LinksOuter, Link } from "$lib/Card";
-	import InstanceLink from "./InstanceLink.svelte";
-	import dayjs from "dayjs";
 	import type { PageData } from "./$types";
 
 	export let data: PageData;
 </script>
 
-<svelte:head>
-	<title>Our instances | Project Segfault</title>
-	<meta
-		name="description"
-		content="Our collection of instances."
-	/>
-</svelte:head>
+<div class="h1-no-lg flex flex-col sm:(flex-row items-center) gap-4 !mb-0">
+	<span class="text-4xl font-bold">{data.title}</span>
+	<a href="/instances/advanced" class="button sm:w-fit"><div class="i-ic:outline-computer" /> Advanced</a>
+</div>
 
-<h1>Our instances</h1>
-
-<div class="flex flex-col gap-4">
-	<CardOuter>
+<div class="flex flex-col">
+	{#each data.instances as category}
 		<div class="flex flex-col">
-			{#each data.instances.status as group}
-				<h2>{group.name}</h2>
-				<div class="flex flex-row flex-wrap gap-8">
-					{#each group.data as item}
-						<CardInner
-							title={item.name}
-							description={item.description}
-							icon={item.icon}
-						>
-							<LinksOuter>
-								{#if item.geo}
-									<InstanceLink
-										url={item.geo}
-										item={item.statusGeo}
-										type="geo"
-									/>
-								{/if}
-
-								{#if item.eu}
-									<InstanceLink
-										url={item.eu}
-										item={item.statusEu}
-										type="eu"
-									/>
-								{/if}
-
-								{#if item.us}
-									<InstanceLink
-										url={item.us}
-										item={item.statusUs}
-										type="us"
-									/>
-								{/if}
-
-								{#if item.bp}
-									<InstanceLink
-										url={item.bp}
-										item={item.statusBp}
-										type="backup"
-									/>
-								{/if}
-
-								{#if item.tor}
-									<InstanceLink
-										url={item.tor}
-										type="tor"
-									/>
-								{/if}
-
-								{#if item.torBp}
-									<InstanceLink
-										url={item.torBp}
-										type="torBp"
-									/>
-								{/if}
-							</LinksOuter>
-						</CardInner>
-					{/each}
-				</div>
-			{/each}
+			<h2>{category.name}</h2>
+			<div class="flex flex-row flex-wrap gap-4">
+				{#each category.data as instance}
+					<a href={instance.geo || instance.eu} class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text">
+						{#if instance.icon}
+							<img src={instance.icon} alt="{instance.name} logo" class="h-20 rounded">
+						{/if}
+						<div>
+							<span class="text-2xl">{instance.name}</span>
+							<p>{instance.description}</p>
+						</div>
+					</a>
+				{/each}
+			</div>
 		</div>
-	</CardOuter>
-
-	<span class="bg-secondary w-fit p-2 rounded-2"
-		>Instances status last updated: {dayjs
-			.unix(data.instances.updated)
-			.format("DD/MM/YYYY HH:mm:ss")}
-	</span>
+	{/each}	
 </div>

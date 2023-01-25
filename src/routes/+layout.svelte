@@ -1,43 +1,30 @@
-<script>
-	import "$lib/app.css";
-	import Nav from "$lib/Nav.svelte";
-	import Footer from "$lib/Footer.svelte";
-	import SvelteSeo from "svelte-seo";
+<script lang="ts">
 	import "uno.css";
+	import "@unocss/reset/tailwind.css";
+	import "../app.css";
+
+	import Nav from "$lib/Nav/Nav.svelte";
+	import Footer from "$lib/Footer.svelte";
+	import { page } from "$app/stores";
+	import PageTransition from "$lib/PageTransition.svelte";
+	import type { LayoutData } from "./$types";
+
+	export let data: LayoutData;
 </script>
 
-<SvelteSeo
-	title="Project Segfault"
-	description="Open source development and hosted services."
-	canonical="https://projectsegfau.lt/"
-	keywords="projectsegfault, project segfault, privacy services, privacy instances, invidious, nitter, searxng"
-	openGraph={{
-		url: "https://projectsegfau.lt/",
-		title: "Project Segfault",
-		description: "Open source development and hosted services.",
-		images: [
-			{
-				url: "/ProjectSegfault_Desktop_16-9.png",
-				width: 850,
-				height: 650,
-				alt: "Our banner"
-			}
-		]
-	}}
-/>
-
 <svelte:head>
-	<script
-		defer
-		data-domain="projectsegfau.lt"
-		src="https://analytics.projectsegfau.lt/js/plausible.js"
-	></script>
+	<title>{$page.data.title} | Project Segfault {$page.url.pathname.startsWith("/blog") ? "blog" : ""}</title>
+	{#if $page.data.description}
+		<meta name="description" content={$page.data.description} />
+	{/if}
 </svelte:head>
 
 <Nav />
 
-<main>
-	<slot />
-</main>
+	<main class="px-8 mb-8 max-w-90rem m-auto">
+		<PageTransition pathname={data.pathname}>
+				<slot />
+		</PageTransition>
+	</main>
 
 <Footer />

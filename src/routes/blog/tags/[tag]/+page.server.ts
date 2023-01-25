@@ -1,17 +1,24 @@
 import type { PageServerLoad } from "./$types";
-import fetchApi from "$lib/ghost";
+import fetchGhost from "../../fetchGhost";
 
-export const load: PageServerLoad = async ({ params }) => {
-	const data = await fetchApi("posts", "&filter=tags:" + params.tag);
+export const load = (async ({ params, fetch }) => {
+	const data = await fetchGhost("posts", "&filter=tags:" + params.tag);
 
-	const tagsLoop = data.posts[0].tags.map((tag: { slug: string; name: any; }) => {
+	const tagsLoop = !data.error ? data.posts[0].tags.map((tag: { slug: string; name: any; }) => {
 		if (tag.slug === params.tag) {
 			return tag.name;
 		}
-	});
+	}) : [];
+
+	const tagName = tagsLoop.filter((tag: any) => tag !== undefined)[0];
+
+	const meta = {
+		title: "Blog tag " + tagName
+	}
 
 	return {
-		posts: data.posts,
-		tagName: tagsLoop.filter((tag: any) => tag !== undefined)[0]
+		posts: data,
+		tagName: tagName,
+		...meta
 	}
-};
+}) satisfies PageServerLoad;

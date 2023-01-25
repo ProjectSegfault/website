@@ -5,11 +5,10 @@
 	import { SingleWordLists } from "$lib/BlogCard";
 </script>
 
-<svelte:head>
-	<title>Blog authors | Project Segfault Blog</title>
-</svelte:head>
+<h1>{data.title}</h1>
 
-<h1>Blog authors</h1>
-
-<SingleWordLists items={data.authors} name="authors" />
-
+{#if !data.authors.error}
+	<SingleWordLists items={data.authors.authors} name="authors" />
+{:else}
+	<p>{data.authors.message}</p>
+{/if}

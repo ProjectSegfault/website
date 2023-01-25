@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "JetBrains Mono";
+	src: url("/JetBrainsMono.woff2");
+	font-display: swap;
+}
+
+html, html.light {
+	--accent: #00a584;
+	--accent-translucent: #00a58498;
+	--font-primary: "JetBrains Mono", monospace;
+	--primary: #ffffff;
+	--secondary: #e9e9e9;
+	--tertiary: #939393;
+	--text: #444444;
+	--grey: #cecece;
+	--alt: #ddd;
+	--alt-text: #333;
+	--black: #151515;
+	color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--primary: #151515;
+		--secondary: #1d1d1d;
+		--tertiary: #353535;
+		--text: #ffffffde;
+		--grey: #5454547a;
+		--alt: #333;
+		--alt-text: #ddd;
+		color-scheme: dark;
+	}
+}
+
+body {
+	@apply bg-primary text-text font-primary m-0 leading-loose min-h-screen transition-colors duration-200;
+}
+
+::selection {
+	@apply bg-accentTranslucent;
+}
+
+a {
+	@apply text-accent underline underline-offset-4 transition-filter duration-200;
+}
+
+a:hover {
+	@apply brightness-70;
+}
+
+h1 {
+	@apply text-4xl font-bold my-8 border-b-2 border-accent pb-2;
+}
+
+.h1-no-lg {
+	@apply my-8 border-b-2 border-accent pb-2;
+}
+
+h2 {
+	@apply text-3xl font-bold my-8;
+}
+
+h3 {
+	@apply text-2xl font-bold my-8;
+}
+
+h4 {
+	@apply text-xl font-bold my-8;
+}
+
+details {
+	@apply cursor-pointer;
+}
+
+.button {
+	@apply px-2 py-1 bg-accent text-primary rounded no-underline flex flex-row items-center gap-2;
+}

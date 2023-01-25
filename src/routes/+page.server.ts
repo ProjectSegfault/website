@@ -1,21 +1,27 @@
 import type { PageServerLoad } from "./$types";
-import { marked } from "marked";
-import sanitizeHtml from "sanitize-html";
-import { db } from "$lib/server/db";
+import axios from "axios";
+import { Agent } from "https";
+import { env } from "$env/dynamic/private";
 
-export const load: PageServerLoad = async () => {
+const agent = new Agent({
+	family: 4
+});
 
-	const collection = db.collection("announcements");
-
-	const data = await collection.find({}, { projection: { _id: 0 } }).toArray();
-
-	if (data.length !== 0 || data[0] !== undefined) {
-
-		const sanitizedContent = sanitizeHtml(data[0].title)
-
-		return {
-			announcements: data[0],
-			content: marked(sanitizedContent)
-		}
+export const load = (async () => {
+	const meta = {
+		title: "Home",
+		description: "Open source development and hosted services."
 	}
-};
+
+	try {
+		const res = await axios(env.KUMA_URL, { httpsAgent: agent });
+
+		if (res.status === 200) {
+			return { announcements: res.data, ...meta };
+		} else {
+			return { error: true, message: "Error: " + res.status };
+		}
+	} catch (err) {
+		return { error: true, message: "Error: " + err };
+	}
+}) satisfies PageServerLoad;

@@ -1,41 +1,52 @@
 <script lang="ts">
-	import SvelteSeo from "svelte-seo";
 	import Hero from "$lib/Hero.svelte";
-	import LinkButton from "$lib/LinkButton.svelte";
-	import Announcements from "./Announcements.svelte";
+	import sanitizeHtml from "sanitize-html";
 	import type { PageData } from "./$types";
 
 	export let data: PageData;
 
-	let description: string = "Open source development and hosted services.";
+	$: backgroundColor = "#5cdd8b";
+
+	$: if (!data.error) {
+		if (data.announcements.incident) {
+			if (data.announcements.incident.style === "info") {
+				backgroundColor = "#0dcaf0";
+			} else if (data.announcements.incident.style === "warning") {
+				backgroundColor = "#f8a306";
+			} else if (data.announcements.incident.style === "danger") {
+				backgroundColor = "#dc3545";
+			} else if (data.announcements.incident.style === "primary") {
+				backgroundColor = "#5cdd8b";
+			} else if (data.announcements.incident.style === "light") {
+				backgroundColor = "#f8f9fa";
+			} else if (data.announcements.incident.style === "dark") {
+				backgroundColor = "#212529";
+			}
+		}
+	}
 </script>
 
-<SvelteSeo
-	title="Home | Project Segfault"
-	{description}
-/>
+<Hero />
 
-<Hero
-	title="Project Segfault"
-	{description}
-	marginTop="4"
->
-	<div
-		class="flex flex-col sm:flex-row justify-center items-center gap-4 m-4"
-	>
-		<LinkButton
-			url="/instances"
-			title="Explore our instances"
-			icon="i-ic:outline-room-service text-xl"
-		/>
-		<LinkButton
-			url="/donate"
-			icon="i-ic:outline-attach-money text-xl"
-			title="Donate"
-			bg="#F6C915"
-			color="#151515"
-		/>
-	</div>
-</Hero>
+{#if !data.error}
+	{#if data.announcements.incident}
+		<div class="flex flex-col items-center mt-16">
+			<div class="flex flex-col prose break-words rounded p-4 lt-sm:max-w-74 sm:(p-8) {backgroundColor === "#212529" ? "text-text" : "text-black"}" style="background-color: {backgroundColor};">
+				{#if data.announcements.incident.title}
+					<span class="text-xl font-semibold">{data.announcements.incident.title}</span>
+				{/if}
 
-<Announcements {data} />
+				{#if data.announcements.incident.content}
+					<p>{@html sanitizeHtml(data.announcements.incident.content.replace(/\n/g, "<br />"))}</p>
+				{/if}
+
+				<span>Created - {data.announcements.incident.createdDate}</span>
+				{#if data.announcements.incident.lastUpdatedDate}
+					<span>Updated - {data.announcements.incident.lastUpdatedDate}</span>
+				{/if}
+			</div>
+		</div>	
+	{/if}
+{:else}
+	<p>{data.message}</p>
+{/if}

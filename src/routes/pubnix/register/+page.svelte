@@ -1,41 +1,25 @@
 <script lang="ts">
-	import type { ActionData } from "./$types";
-	import { Note, Meta } from "$lib/Form";
-
+	import type { ActionData, PageData } from "./$types";
 	export let form: ActionData;
+	export let data: PageData;
 </script>
 
-<svelte:head>
-	<title>Pubnix registration | Project Segfault</title>
-</svelte:head>
+<h1>{data.title}</h1>
+<form
+	method="POST"
+	class="flex flex-col gap-4 w-fit children:(!bg-secondary text-start text-text rounded p-2)"
+>
 
-<div class="pubnix-form flex flex-col items-center text-center">
-	<h2>Pubnix registration</h2>
-	<form
-		method="POST"
-		class="flex flex-col gap-4 w-fit"
-	>
-		<Note
-			content="Your IP will be logged for anti-abuse measures."
-			icon="i-ic:outline-lock text-xl"
-		/>
-		<Meta
-			inputType="email"
-			inputName="email"
-			inputPlaceholder="Your email"
-			input2
-			input2Type="text"
-			input2Placeholder="Your username"
-			input2Name="username"
-			select={false}
-		/>
-		{#if form?.success}
-			{form.message}
-		{/if}
+	<input type="text" name="username" placeholder="Username" />
+	<input type="email" name="email" placeholder="Email" />
+	<textarea name="ssh" placeholder="SSH public key" class="resize w-60 h-30 sm:(w-100 h-50)" />
 
-		{#if form?.error}
-			{form.message}
-		{/if}
-		<button type="submit" class="form-button">Submit</button>
-	</form>
-</div>
+	{#if form?.success}
+		{form.message}
+	{/if}
+
+	{#if form?.error}
+		{form.message}
+	{/if}
+	<button type="submit" class="transition-all duration-200 text-text hover:brightness-70">Submit</button>
+</form>

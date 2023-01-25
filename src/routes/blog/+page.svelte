@@ -1,50 +1,27 @@
 <script lang="ts">
-	import Hero from "$lib/Hero.svelte";
-	import LinkButton from "$lib/LinkButton.svelte";
 	import type { PageData } from "./$types";
 	export let data: PageData;
+
 	import { PostsContainer, PostOuter, Title, Meta, ReadMore } from "$lib/BlogCard";
 </script>
 
-<svelte:head>
-	<title>Blog | Project Segfault</title>
-	<meta
-		name="description"
-		content="Project Segfault's blog"
-	/>
-</svelte:head>
+<div class="h1-no-lg flex flex-col sm:(flex-row items-center) gap-4">
+	<span class="text-4xl font-bold">{data.title}</span>
+	<a href="/blog/tags" class="button sm:w-fit"><div class="i-ic:outline-bookmarks" /> Tags</a>
+	<a href="/blog/authors" class="button sm:w-fit"><div class="i-ic:outline-people text-xl" /> Authors</a>
+	<a href="https://blog.projectsegfau.lt/rss" class="button sm:w-fit !bg-[#ee802f]"><div class="i-simple-icons:rss" /> RSS</a>
+</div>
 
-<Hero marginTop="4">
-	<h1 class="text-5xl font-800">
-		<span class="text-accent">Project Segfault</span> blog
-	</h1>
-	<div
-		class="flex flex-col sm:flex-row justify-center items-center gap-4 m-4"
-	>
-		<LinkButton
-			url="/blog/tags"
-			title="Tags"
-			icon="i-ic:outline-bookmarks"
-		/>
-		<LinkButton
-			url="/blog/authors"
-			title="Authors"
-			icon="i-ic:outline-people text-xl"
-		/>
-		<LinkButton
-			url="https://blog.projectsegfau.lt/rss/"
-			title="RSS"
-			icon="i-simple-icons:rss"
-			bg="#ee802f"
-		/>
-	</div>
-</Hero>
-<PostsContainer hasMt isHome>
-	{#each data.posts as post}
-		<PostOuter>
-			<Title {post} />
-			<Meta {post} />
-			<ReadMore {post} />
-		</PostOuter>
-	{/each}
-</PostsContainer>
+{#if !data.posts.error}
+	<PostsContainer>
+		{#each data.posts.posts as post}
+			<PostOuter>
+				<Title {post} />
+				<Meta {post} />
+				<ReadMore {post} />
+			</PostOuter>
+		{/each}
+	</PostsContainer>
+{:else}
+	<p>{data.posts.message}</p>
+{/if}

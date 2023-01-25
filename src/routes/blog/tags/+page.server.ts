@@ -1,10 +1,15 @@
 import type { PageServerLoad } from "./$types";
-import fetchApi from "$lib/ghost";
+import fetchGhost from "../fetchGhost";
 
-export const load: PageServerLoad = async () => {
-	const data = await fetchApi("tags");
+export const load = (async () => {
+	const data = await fetchGhost("tags");
+
+	const meta = {
+		title: "Blog tags"
+	}
 
 	return {
-		tags: data.tags
+		tags: data,
+		...meta
 	}
-};
+}) satisfies PageServerLoad;

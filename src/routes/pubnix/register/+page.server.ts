@@ -1,39 +1,47 @@
-import type { Actions } from "./$types";
+import type { Actions, PageServerLoad } from "./$types";
 import Joi from "joi";
 import { fail } from "@sveltejs/kit";
-import { env } from "$env/dynamic/private";
+
+export const load = (() => {
+    return {
+      title: "Pubnix registration"
+    };
+}) satisfies PageServerLoad;
 
 export const actions: Actions = {
 	default: async ({ request, fetch, getClientAddress }) => {
 		const formData = await request.formData();
 
 		const BodyTypeSchema = Joi.object({
-			username: Joi.string().required(),
-			email: Joi.string().email().required()
+			username: Joi.string().required().alphanum().message("Username must be alphanumeric"),
+			email: Joi.string().email().required(),
+			ssh: Joi.string().required().pattern(/^(ssh-rsa|ssh-ed25519|ecdsa-sha2-nistp256|ecdsa-sha2-nistp384|ecdsa-sha2-nistp521) [A-Za-z0-9+/]+[=]{0,3}( [^@]+@[^@]+)?$/).message("Invalid SSH key"),
+			ip: Joi.string().required().ip()
 		});
+
+		formData.append("ip", getClientAddress());
 
 		if (BodyTypeSchema.validate(Object.fromEntries(formData.entries())).error) {
 			return fail(400, { error: true, message: String(BodyTypeSchema.validate(Object.fromEntries(formData.entries())).error) });
 		} else {
-			const request = await fetch("https://publapi.projectsegfau.lt/signup", {
-				method: "POST",
-				headers: {
-					"Content-Type": "application/json"
-				},
-				body: JSON.stringify({
-					username: formData.get("username"),
-					email: formData.get("email"),
-					ip: getClientAddress()
+			try {
+				const request = await fetch("https://publapi.p.projectsegfau.lt/signup", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/x-www-form-urlencoded"
+					},
+					body: new URLSearchParams(formData as any).toString()
 				})
-			}).then((res) => res.json())
-			.catch((err) => {
-				return fail(400, { error: true, message: "Error: " + err });
-			});
 
-			if (request.ok) {
-				return { success: true, message: request.message, username: request.username, email: request.email };
-			} else {
-				return fail(400, { error: true, message: "Error: " + request.status });
+				const json = await request.json();
+		
+				if (request.ok) {
+					return { success: true, message: json.message, username: json.username, email: json.email };
+				} else {
+					return fail(400, { error: true, message: "Error: " + request.status });
+				}
+			} catch (err) {
+				return { error: true, message: "Error: " + err };
 			}
 		}
 	}

@@ -14,24 +14,19 @@ export default defineConfig({
 
 	presets: [
 		presetIcons(),
-		presetTypography({
-			cssExtend: {
-				"h1,h2,h3,h4,h5,h6": {
-					"font-weight": "800"
-				}
-			}
-		}),
 		presetWind({
 			dark: "class"
-		})
+		}),
+		presetTypography()
 	],
+
+	transformers: [transformerVariantGroup(), transformerDirectives()],
+
+	safelist: ["i-ic:outline-dark-mode", "i-ic:outline-light-mode"],
 
 	theme: {
 		fontFamily: {
 			primary: ["var(--font-primary)"]
-		},
-		margin: {
-			"0-auto": "0 auto"
 		},
 		colors: {
 			accent: "var(--accent)",
@@ -52,9 +47,5 @@ export default defineConfig({
 			"2xl": "1536px",
 			nav: "1090px"
 		}
-	},
-
-	transformers: [transformerVariantGroup(), transformerDirectives()],
-
-	safelist: ["i-ic:outline-dark-mode", "i-ic:outline-light-mode"]
+	}
 });

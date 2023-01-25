@@ -1,9 +1,10 @@
+import instances from "./instances";
 import type { PageServerLoad } from "./$types";
 
-export const load: PageServerLoad = async ({ fetch }) => {
-	return {
-		instances: await fetch("/api/status").then(
-			(res) => res.json()
-		)
-	};
-};
+export const load = (() => {
+	const meta = {
+		title: "Instances"
+	}
+
+	return { instances, ...meta };
+}) satisfies PageServerLoad;

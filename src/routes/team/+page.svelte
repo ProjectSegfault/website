@@ -1,97 +1,42 @@
 <script lang="ts">
-	import { CardInner, CardOuter, Link, LinksOuter } from "$lib/Card";
-	import members from "$lib/Team.json";
+	import type { PageData } from "./$types";
+	import Team from "./Team.json";
+
+	export let data: PageData;
 </script>
 
-<svelte:head>
-	<title>Our team | Project Segfault</title>
-	<meta
-		name="description"
-		content="Team members of Project Segfault."
-	/>
-</svelte:head>
+<h1>{data.title}</h1>
 
-<h1>Our team</h1>
-<CardOuter>
-	{#each members as { name, discord, matrix, position, description, github, git, pgp, website, email, picture }}
-		<CardInner
-			title={name}
-			{position}
-			{description}
-		>
-			<LinksOuter>
-				{#if matrix}
-					<Link
-						url={matrix}
-						class="matrixcolored"
-					>
-						<div class="i-simple-icons:matrix" />
-					</Link>
+<div class="flex flex-row flex-wrap gap-4">
+	{#each Team as member}
+		<div class="flex flex-col gap-4 rounded bg-secondary p-4 w-110 no-underline text-text">
+			<div class="flex flex-col gap-2 flex-1">
+				<span class="text-2xl">{member.name} - {member.position}</span>
+				{#if member.description}
+					<p>{member.description}</p>
+				{/if}
+			</div>
+			<div class="children:text-text flex flex-row gap-4 text-lg">
+				{#if member.website}
+					<a href={member.website}><div class="i-ic:outline-language" /></a>
 				{/if}
 
-				{#if discord}
-					<Link
-						url={discord}
-						class="discordcolored"
-					>
-						<div class="i-simple-icons:discord" />
-					</Link>
+				{#if member.matrix}
+					<a href={member.matrix}><div class="i-simple-icons:matrix" /></a>
 				{/if}
 
-				{#if github}
-					<Link
-						url={github}
-						class="githubcolored"
-					>
-						<div class="i-simple-icons:github" />
-					</Link>
+				{#if member.git}
+					<a href={member.git}><div class="i-simple-icons:git" /></a>
 				{/if}
 
-				{#if git}
-					<Link
-						url={git}
-						class="gitcolored"
-					>
-						<div class="i-simple-icons:git" />
-					</Link>
+				{#if member.email}
+					<a href="mailto:{member.email}"><div class="i-ic:outline-email" /></a>
 				{/if}
 
-				{#if website}
-					<Link
-						url={website}
-						class="web"
-					>
-						<div class="i-ic:outline-language" />
-					</Link>
+				{#if member.pgp}
+					<a href={member.pgp}><div class="i-ic:outline-vpn-key" /></a>
 				{/if}
-
-				{#if email}
-					<Link
-						url="mailto:{email}"
-						class="email"
-					>
-						<div class="i-ic:outline-mail" />
-					</Link>
-				{/if}
-
-				{#if pgp}
-					<Link
-						url={pgp}
-						class="pgp"
-					>
-						<div class="i-ic:outline-vpn-key" />
-					</Link>
-				{/if}
-
-				{#if picture}
-					<Link
-						url={picture}
-						class="picture"
-					>
-						<div class="i-ic:outline-photo-camera" />
-					</Link>
-				{/if}
-			</LinksOuter>
-		</CardInner>
+			</div>
+		</div>
 	{/each}
-</CardOuter>
+</div>

@@ -1,20 +1,8 @@
-<script lang="ts">
-	export let title: string = "";
-	export let description: string = "";
-	export let marginTop: string = "";
-	let styles: string = "";
-	export { styles as style };
-</script>
-
-<div
-	class="flex flex-col items-center justify-center children:(m-4 p-0 text-center)"
-	style="margin-top: {marginTop}%; {styles}"
->
-	{#if title}
-		<h1 class="text-5xl font-800 text-accent">{title}</h1>
-	{/if}
-	{#if description}
-		<p class="text-3xl text-text">{description}</p>
-	{/if}
-	<slot />
+<div class="flex flex-col gap-6 items-center text-center mt-[7%]">
+	<h1 class="text-5xl font-extrabold text-accent my-0 border-b-0 pb-0">Project Segfault</h1>
+	<p class="text-2xl">Open source development and hosted services.</p>
+	<div class="flex flex-row gap-4">
+		<a href="/instances" class="button"><div class="i-ic:outline-computer" /> Instances</a>
+		<a href="/donate" class="button !bg-amber !text-black"><div class="i-ic:outline-attach-money" /> Donate</a>
+	</div>
 </div>

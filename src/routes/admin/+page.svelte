@@ -1,5 +1,8 @@
-<h1>Admin dashboard</h1>
+<script lang="ts">
+	import type { PageData } from "./$types";
 
-<div class="col">
-	<a href="/admin/announcements">Announcements</a>
-</div>
+	export let data: PageData;
+</script>
+
+<h1>{data.title}</h1>
+<p>Nothing here yet.</p>
