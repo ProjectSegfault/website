@@ -30,7 +30,7 @@ jobs:
       - name: 'Build:dockerimage'
         uses: docker/build-push-action@v3
         with:
-          tags: ghcr.io/ProjectSegfault/website:dev
+          tags: ghcr.io/projectsegfault/website:dev
           context: "."
           push: true
           no-cache: true
