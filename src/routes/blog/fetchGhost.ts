@@ -6,9 +6,18 @@ const agent = new Agent({
 	family: 4
 });
 
-const fetchGhost = async (action: string, additional?: string ) => {
+const fetchGhost = async (action: string, additional?: string) => {
 	try {
-		const request = await axios(env.GHOST_URL + "/ghost/api/content/" + action + "/?key=" + env.GHOST_API_KEY + "&include=authors,tags&limit=all&formats=html,plaintext" + (additional ? additional : ""), { httpsAgent: agent });
+		const request = await axios(
+			env.GHOST_URL +
+				"/ghost/api/content/" +
+				action +
+				"/?key=" +
+				env.GHOST_API_KEY +
+				"&include=authors,tags&limit=all&formats=html,plaintext" +
+				(additional ? additional : ""),
+			{ httpsAgent: agent }
+		);
 
 		if (request.status === 200) {
 			return request.data;
@@ -18,6 +27,6 @@ const fetchGhost = async (action: string, additional?: string ) => {
 	} catch (err) {
 		return { error: true, message: "Error: " + err };
 	}
-}
+};
 
 export default fetchGhost;

@@ -6,7 +6,12 @@
 
 <div class="h1-no-lg flex flex-col sm:(flex-row items-center) gap-4 !mb-0">
 	<span class="text-4xl font-bold">{data.title}</span>
-	<a href="/instances" class="button sm:w-fit"><div class="i-ic:outline-computer" /> Simple</a>
+	<a
+		href="/instances"
+		class="button sm:w-fit"
+		><div class="i-ic:outline-computer" />
+		 Simple</a
+	>
 </div>
 
 <div class="flex flex-col">
@@ -40,5 +45,5 @@
 				{/if}
 			</div>
 		{/each}
-	{/each}	
+	{/each}
 </div>

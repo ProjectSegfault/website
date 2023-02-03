@@ -1,9 +1,7 @@
-<script lang="ts">
-	export let user: UserType;
-	import dayjs from "dayjs";
-</script>
-
-<script context="module" lang="ts">
+<script
+	context="module"
+	lang="ts"
+>
 	export type UserType = {
 		name: string;
 		fullName?: string;
@@ -20,7 +18,14 @@
 	};
 </script>
 
-<div class="flex flex-col gap-4 rounded bg-secondary p-4 w-110 no-underline text-text">
+<script lang="ts">
+	export let user: UserType;
+	import dayjs from "dayjs";
+</script>
+
+<div
+	class="flex flex-col gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
+>
 	<div class="flex flex-col gap-2 flex-1">
 		<div>
 			{#if user.fullName}
@@ -38,7 +43,9 @@
 		{#if user.loc}
 			<span class="button w-fit !bg-alt !text-text">{user.loc}</span>
 		{/if}
-		<span class="button w-fit !bg-alt !text-text">Joined: {dayjs.unix(user.created).format("DD/MM/YYYY")}</span>
+		<span class="button w-fit !bg-alt !text-text"
+			>Joined: {dayjs.unix(user.created).format("DD/MM/YYYY")}</span
+		>
 	</div>
 	<div class="children:text-text flex flex-row items-center gap-4 text-lg">
 		{#if user.email}
@@ -58,7 +65,10 @@
 		{/if}
 
 		{#if user.capsule}
-			<a href={user.capsule} class="no-underline text-base">Gemini</a>
+			<a
+				href={user.capsule}
+				class="no-underline text-base">Gemini</a
+			>
 		{/if}
 	</div>
 </div>

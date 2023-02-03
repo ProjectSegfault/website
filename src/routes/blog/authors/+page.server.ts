@@ -6,7 +6,7 @@ export const load = (async ({ fetch }) => {
 
 	const meta = {
 		title: "Blog authors"
-	}
+	};
 
 	return {
 		authors: data,

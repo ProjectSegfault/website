@@ -4,14 +4,29 @@
 
 	import User, { type UserType } from "./User.svelte";
 
-	const isOnline = (user: UserType) => user.online
+	const isOnline = (user: UserType) => user.online;
 </script>
 
 <div class="h1-no-lg flex flex-col sm:(flex-row items-center) gap-4">
 	<span class="text-4xl font-bold">Pubnix</span>
-	<a href="/pubnix/register" class="button sm:w-fit"><div class="i-ic:outline-plus" /> Register</a>
-	<a href="/pubnix/users" class="button sm:w-fit"><div class="i-ic:outline-people" /> Users</a>
-	<a href="/pubnix/faq" class="button sm:w-fit"><div class="i-ic:outline-question-mark" /> FAQ</a>
+	<a
+		href="/pubnix/register"
+		class="button sm:w-fit"
+		><div class="i-ic:outline-plus" />
+		 Register</a
+	>
+	<a
+		href="/pubnix/users"
+		class="button sm:w-fit"
+		><div class="i-ic:outline-people" />
+		 Users</a
+	>
+	<a
+		href="/pubnix/faq"
+		class="button sm:w-fit"
+		><div class="i-ic:outline-question-mark" />
+		 FAQ</a
+	>
 </div>
 
 <h2>Online users</h2>

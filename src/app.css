@@ -4,7 +4,8 @@
 	font-display: swap;
 }
 
-html, html.light {
+html,
+html.light {
 	--accent: #00a584;
 	--accent-translucent: #00a58498;
 	--font-primary: "JetBrains Mono", monospace;

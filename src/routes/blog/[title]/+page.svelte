@@ -1,19 +1,39 @@
 <script lang="ts">
-	import { PostOuter, Title, Meta, PostContent, ReadMore, PostsContainer } from "$lib/BlogCard";
+	import {
+		PostOuter,
+		Title,
+		Meta,
+		PostContent,
+		ReadMore,
+		PostsContainer
+	} from "$lib/BlogCard";
 
 	import type { PageData } from "./$types";
 	export let data: PageData;
 
-	$: index = !data.allPosts.error ? data.allPosts.posts.findIndex((post: { slug: string; }) => post.slug === data.post.slug) : null;
+	$: index = !data.allPosts.error
+		? data.allPosts.posts.findIndex(
+				(post: { slug: string }) => post.slug === data.post.slug
+		  )
+		: null;
 	$: next = !data.allPosts.error ? data.allPosts.posts[index - 1] : null;
 	$: previous = !data.allPosts.error ? data.allPosts.posts[index + 1] : null;
 </script>
 
 {#if !data.allPosts.error}
-	<PostOuter url={data.post.url} isPost>
+	<PostOuter
+		url={data.post.url}
+		isPost
+	>
 		<div class="text-center mt-4 flex flex-col items-center gap-4">
-			<Title post={data.post} isPost />
-			<Meta post={data.post} isPost />
+			<Title
+				post={data.post}
+				isPost
+			/>
+			<Meta
+				post={data.post}
+				isPost
+			/>
 		</div>
 		<PostContent {data} />
 	</PostOuter>
@@ -27,7 +47,7 @@
 					<ReadMore post={previous} />
 				</PostOuter>
 			{/if}
-			
+
 			{#if next}
 				<PostOuter>
 					<h1 class="more-posts">Next post</h1>

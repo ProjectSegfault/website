@@ -1,7 +1,7 @@
 import type { PageLoad } from "./$types";
 
 export const load = (() => {
-    return {
-      title: "Donate"
-    };
+	return {
+		title: "Donate"
+	};
 }) satisfies PageLoad;

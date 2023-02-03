@@ -2,7 +2,13 @@
 	import type { PageData } from "./$types";
 	export let data: PageData;
 
-	import { PostsContainer, PostOuter, Title, Meta, ReadMore } from "$lib/BlogCard";
+	import {
+		PostsContainer,
+		PostOuter,
+		Title,
+		Meta,
+		ReadMore
+	} from "$lib/BlogCard";
 </script>
 
 <h1>Blog tag <span class="text-accent">{data.tagName}</span></h1>

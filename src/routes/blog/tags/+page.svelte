@@ -8,7 +8,10 @@
 <h1>{data.title}</h1>
 
 {#if !data.tags.error}
-	<SingleWordLists items={data.tags.tags} name="tags" />
+	<SingleWordLists
+		items={data.tags.tags}
+		name="tags"
+	/>
 {:else}
 	<p>{data.tags.message}</p>
 {/if}

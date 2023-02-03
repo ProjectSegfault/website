@@ -19,6 +19,10 @@
 	on:click={toggle}
 	class="text-text flex items-center text-sm"
 >
-	<div class="i-ic:{theme === 'dark' ? 'outline-light-mode' : 'outline-dark-mode'} h-4 w-4" />
+	<div
+		class="i-ic:{theme === 'dark'
+			? 'outline-light-mode'
+			: 'outline-dark-mode'} h-4 w-4"
+	/>
 	<span class="ml-2 nav:(hidden ml-1)">Toggle theme</span>
 </button>

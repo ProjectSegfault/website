@@ -11,7 +11,7 @@ Live at [projectsegfau.lt](https://projectsegfau.lt).
 -   Install [node.js](https://nodejs.org).
 -   Install [pnpm](https://pnpm.io/).
 -   Learn [Svelte](https://svelte.dev).
--	Add the environment variables from the [environment variables section](#environment-variables).
+-   Add the environment variables from the [environment variables section](#environment-variables).
 
 ### Running a dev server.
 
@@ -37,13 +37,14 @@ If you want to run the website locally in production follow the steps in [develo
 
 The website has the following **mandatory** environment variables
 
-| Name               | Description               |
-|:------------------ |:------------------------- |
-| AUTH_CLIENT_ID     | Authentik client ID       |
-| AUTH_CLIENT_SECRET | Authentik client secret   |
-| AUTH_ISSUER        | Authentication issuer URL |
-| AUTH_TRUST_HOST    | Your domain               |
-| AUTH_SECRET        | Random 32 char secret     |
-| GHOST_URL          | Your Ghost CMS URL        |
-| GHOST_API_KEY      | Your Ghost CMS API key    |
-| ORIGIN             | Your domain               |
+| Name               | Description                        |
+| :----------------- | :----------------------------------|
+| AUTH_CLIENT_ID     | Authentik client ID                |
+| AUTH_CLIENT_SECRET | Authentik client secret            |
+| AUTH_ISSUER        | Authentication issuer URL          |
+| AUTH_TRUST_HOST    | Your domain                        |
+| AUTH_SECRET        | Random 32 char secret              |
+| GHOST_URL          | Your Ghost CMS URL                 |
+| GHOST_API_KEY      | Your Ghost CMS API key             |
+| KUMA_URL           | Your Uptime Kuma announcements URL |
+| ORIGIN             | Your domain                        |

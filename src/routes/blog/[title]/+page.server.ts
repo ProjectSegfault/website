@@ -8,7 +8,7 @@ export const load = (async ({ params, fetch }) => {
 
 	const meta = {
 		title: !allPosts.error ? data.posts[0].title : ""
-	}
+	};
 
 	return {
 		post: !allPosts.error ? data.posts[0] : {},

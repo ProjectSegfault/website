@@ -11,7 +11,7 @@ export const load = (async () => {
 	const meta = {
 		title: "Home",
 		description: "Open source development and hosted services."
-	}
+	};
 
 	try {
 		const res = await axios(env.KUMA_URL, { httpsAgent: agent });

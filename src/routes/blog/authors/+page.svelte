@@ -8,7 +8,10 @@
 <h1>{data.title}</h1>
 
 {#if !data.authors.error}
-	<SingleWordLists items={data.authors.authors} name="authors" />
+	<SingleWordLists
+		items={data.authors.authors}
+		name="authors"
+	/>
 {:else}
 	<p>{data.authors.message}</p>
 {/if}

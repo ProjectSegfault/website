@@ -6,7 +6,14 @@ import type { Profile } from "@auth/core/types";
 import { redirect, type Handle } from "@sveltejs/kit";
 import { sequence } from "@sveltejs/kit/hooks";
 
-const hasAuth = !env.AUTH_CLIENT_ID || !env.AUTH_CLIENT_SECRET || !env.AUTH_ISSUER || !env.AUTH_TRUST_HOST || !env.AUTH_SECRET ? false : true;
+const hasAuth =
+	!env.AUTH_CLIENT_ID ||
+	!env.AUTH_CLIENT_SECRET ||
+	!env.AUTH_ISSUER ||
+	!env.AUTH_TRUST_HOST ||
+	!env.AUTH_SECRET
+		? false
+		: true;
 
 export const handle: Handle = sequence(
 	//@ts-ignore
@@ -19,26 +26,28 @@ export const handle: Handle = sequence(
 			}) as Provider<Profile>
 		]
 	}),
-	hasAuth ? async ({ event, resolve }) => {
-		if (event.url.pathname.startsWith("/admin")) {
-			const session = await event.locals.getSession();
-			if (!session) {
-				throw redirect(303, "/login");
-			}
-		}
-	
-		const result = await resolve(event, {
-			transformPageChunk: ({ html }) => html
-		});
-		return result;
-	} : async ({ event, resolve }) => {
-		if (event.url.pathname.startsWith("/admin")) {
-			throw redirect(303, "/login");
-		}
-	
-		const result = await resolve(event, {
-			transformPageChunk: ({ html }) => html
-		});
-		return result;
-	}
+	hasAuth
+		? async ({ event, resolve }) => {
+				if (event.url.pathname.startsWith("/admin")) {
+					const session = await event.locals.getSession();
+					if (!session) {
+						throw redirect(303, "/login");
+					}
+				}
+
+				const result = await resolve(event, {
+					transformPageChunk: ({ html }) => html
+				});
+				return result;
+		  }
+		: async ({ event, resolve }) => {
+				if (event.url.pathname.startsWith("/admin")) {
+					throw redirect(303, "/login");
+				}
+
+				const result = await resolve(event, {
+					transformPageChunk: ({ html }) => html
+				});
+				return result;
+		  }
 );

@@ -6,10 +6,10 @@ export const load = (async () => {
 
 	const meta = {
 		title: "Blog tags"
-	}
+	};
 
 	return {
 		tags: data,
 		...meta
-	}
+	};
 }) satisfies PageServerLoad;
