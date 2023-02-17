@@ -17,7 +17,7 @@
 >
 <h2>What can I do on the pubnix?</h2>
 <span
-	>Quite a lot! You can run Docker containers, set up a website, and learn
+	>Quite a lot! You can run containers, set up a website, and learn
 	some amount of Linux system administration.</span
 >
 <h2>How do I get started?</h2>
@@ -25,7 +25,7 @@
 	>First, you need to register an account. You can do that <a
 		href="/pubnix/register">here</a
 	>. After registering, you need to wait a while because we manually check
-	each registration. If you get accepted, you will receive an E-mail.</span
+	each registration. If you get accepted, you will receive an email.</span
 >
 <h2>What's your systems specs?</h2>
 <span>Guess you'll have to find out. Join today!</span>
@@ -33,12 +33,12 @@
 <span
 	>No worries! We have put out tutorials on how to do common things on our <a
 		href="https://wiki.projectsegfau.lt/index.php?title=Category%3APubnix"
-		>wiki.</a
-	></span
+		>wiki</a
+	>.</span
 >
-<h2>Do you have a place to discuss the pubnix</h2>
+<h2>Do you have a place to discuss the pubnix?</h2>
 <span
 	>Yep! We have a <a href="https://matrix.to/#/#pubnix:projectsegfau.lt"
-		>matrix room</a
+		>Matrix room</a
 	> to discuss the pubnix.</span
 >
