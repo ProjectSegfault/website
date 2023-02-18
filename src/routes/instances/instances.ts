@@ -42,7 +42,7 @@ const instances: Instances[] = [
 				in: "https://lbry.in.projectsegfau.lt/",
 				tor: "http://lbry.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsf7uucpqf2crcmfo3nvwdmjhirxxjfyuvibdfp5x3af2ghqnaa.b32.i2p",
-				icon: "/icons/librarian.png"
+				icon: "/icons/librarian.svg"
 			},
 			{
 				name: "Libreddit",
@@ -151,7 +151,13 @@ const instances: Instances[] = [
 				eu: "https://git.projectsegfau.lt/",
 				tor: "http://git.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsfdrtv2465bisenvzhfvdleznx4arlih2hlnrhpzugailnm7iq.b32.i2p",
-				icon: "/icons/gitea.png"
+				icon: "/icons/gitea.svg"
+			},
+			{
+				name: "Hedgedoc",
+				description: "Collaborative markdown notes.",
+				eu: "https://doc.projectsegfau.lt",
+				icon: "/icons/hedgedoc.svg"
 			},
 			{
 				name: "Akkoma",
@@ -174,6 +180,12 @@ const instances: Instances[] = [
 				description: "An open source video conferencing platform.",
 				eu: "https://jitsi.projectsegfau.lt",
 				icon: "/icons/jitsi.svg"
+			},
+			{
+				name: "Vaultwarden",
+				description: "An open source password manager.",
+				eu: "https://pass.projectsegfau.lt",
+				icon: "/icons/vaultwarden.svg"
 			}
 		]
 	},
@@ -190,13 +202,13 @@ const instances: Instances[] = [
 				name: "Authentik",
 				description: "Our OAuth provider.",
 				eu: "https://sekuritee.projectsegfau.lt/",
-				icon: "/icons/authentik.png"
+				icon: "/icons/authentik.svg"
 			},
 			{
-				name: "mailcow",
+				name: "MailU",
 				description: "Our mail server and webmail.",
 				eu: "https://mail.projectsegfau.lt/",
-				icon: "/icons/mailcow.svg"
+				icon: "/icons/mailu.svg"
 			},
 			{
 				name: "Plausible analytics",
