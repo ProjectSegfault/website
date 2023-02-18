@@ -1,11 +1,6 @@
 import type { PageServerLoad } from "./$types";
-import axios from "axios";
-import { Agent } from "https";
-import { env } from "$env/dynamic/private";
-
-const agent = new Agent({
-	family: 4
-});
+import { announcements } from "../stores";
+import { get } from "svelte/store";
 
 export const load = (async () => {
 	const meta = {
@@ -13,15 +8,8 @@ export const load = (async () => {
 		description: "Open source development and hosted services."
 	};
 
-	try {
-		const res = await axios(env.KUMA_URL, { httpsAgent: agent });
-
-		if (res.status === 200) {
-			return { announcements: res.data, ...meta };
-		} else {
-			return { error: true, message: "Error: " + res.status };
-		}
-	} catch (err) {
-		return { error: true, message: "Error: " + err };
+	return {
+		announcements: get(announcements),
+		...meta
 	}
 }) satisfies PageServerLoad;

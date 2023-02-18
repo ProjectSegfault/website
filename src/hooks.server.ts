@@ -5,6 +5,13 @@ import type { Provider } from "@auth/core/providers";
 import type { Profile } from "@auth/core/types";
 import { redirect, type Handle } from "@sveltejs/kit";
 import { sequence } from "@sveltejs/kit/hooks";
+import { announcements } from "./stores";
+import axios from "axios";
+import { Agent } from "https";
+
+const agent = new Agent({
+	family: 4
+});
 
 const hasAuth =
 	!env.AUTH_CLIENT_ID ||
@@ -51,3 +58,24 @@ export const handle: Handle = sequence(
 				return result;
 		  }
 );
+
+const updateMap = async () => {
+	try {
+		const res = await axios(
+			env.KUMA_URL,
+			{ httpsAgent: agent, timeout: 10000 }
+		);
+
+		if (res.status === 200) {
+			announcements.set(res.data);
+		} else {
+			announcements.set({ error: true, message: "Error: " + res.status });
+		}
+	} catch (err) {
+		announcements.set({ error: true, message: "Error: " + err });
+	}
+};
+
+updateMap();
+
+setInterval(updateMap, 30000);
