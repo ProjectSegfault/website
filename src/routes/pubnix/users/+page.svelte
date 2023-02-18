@@ -7,7 +7,7 @@
 
 <h1>{data.title}</h1>
 
-{#if !data.error}
+{#if !data.users.error}
 	{#if data.users.users.length > 0}
 		<div class="flex flex-row flex-wrap gap-4">
 			{#each data.users.users as user}
@@ -18,5 +18,5 @@
 		<p>No users</p>
 	{/if}
 {:else}
-	<p>{data.message}</p>
+	<p>{data.users.message}</p>
 {/if}

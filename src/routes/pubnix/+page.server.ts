@@ -1,26 +1,14 @@
 import type { PageServerLoad } from "./$types";
+import { pubnixUsers } from "../../stores";
+import { get } from "svelte/store";
 
-export const load = (async ({ fetch }) => {
+export const load = (async () => {
 	const meta = {
 		title: "Pubnix"
 	};
 
-	try {
-		const request = await fetch("https://publapi.p.projectsegfau.lt/users");
-
-		if (request.ok) {
-			return {
-				users: await request.json(),
-				...meta
-			};
-		} else {
-			return {
-				error: true,
-				message: "Error: " + request.status,
-				...meta
-			};
-		}
-	} catch (err) {
-		return { error: true, message: "Error: " + err, ...meta };
+	return {
+		users: get(pubnixUsers),
+		...meta
 	}
 }) satisfies PageServerLoad;

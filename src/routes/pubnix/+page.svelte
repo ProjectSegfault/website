@@ -31,7 +31,7 @@
 
 <h2>Online users</h2>
 
-{#if !data.error}
+{#if !data.users.error}
 	{#if data.users.users.some(isOnline)}
 		<div class="flex flex-row flex-wrap gap-4">
 			{#each data.users.users as user}
@@ -44,5 +44,5 @@
 		<p>No users online</p>
 	{/if}
 {:else}
-	<p>{data.message}</p>
+	<p>{data.users.message}</p>
 {/if}

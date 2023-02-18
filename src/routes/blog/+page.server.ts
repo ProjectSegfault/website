@@ -1,13 +1,14 @@
 import type { PageServerLoad } from "./$types";
-import fetchGhost from "./fetchGhost";
+import { blogPosts } from "../../stores";
+import { get } from "svelte/store";
 
-export const load = (async ({ fetch }) => {
+export const load = (async () => {
 	const meta = {
 		title: "Blog"
 	};
 
 	return {
-		posts: fetchGhost("posts"),
+		posts: get(blogPosts),
 		...meta
 	};
 }) satisfies PageServerLoad;

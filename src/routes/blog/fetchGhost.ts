@@ -1,23 +1,8 @@
-import { env } from "$env/dynamic/private";
-import axios from "axios";
-import { Agent } from "https";
-
-const agent = new Agent({
-	family: 4
-});
+import { fetchGhost as func } from "../../hooks.server";
 
 const fetchGhost = async (action: string, additional?: string) => {
 	try {
-		const request = await axios(
-			env.GHOST_URL +
-				"/ghost/api/content/" +
-				action +
-				"/?key=" +
-				env.GHOST_API_KEY +
-				"&include=authors,tags&limit=all&formats=html,plaintext" +
-				(additional ? additional : ""),
-			{ httpsAgent: agent }
-		);
+		const request = await func(action, additional);
 
 		if (request.status === 200) {
 			return request.data;
