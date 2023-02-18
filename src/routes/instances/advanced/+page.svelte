@@ -28,6 +28,9 @@
 				{#if instance.us}
 					<a href={instance.us}>US</a>
 				{/if}
+				{#if instance.in}
+					<a href={instance.in}>IN</a>
+				{/if}
 				{#if instance.bp}
 					<a href={instance.bp}>Backup</a>
 				{/if}

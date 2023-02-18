@@ -26,6 +26,7 @@ const instances: Instances[] = [
 				description: "A frontend for YouTube.",
 				eu: "https://invidious.projectsegfau.lt/",
 				us: "https://inv.us.projectsegfau.lt",
+				in: "https://inv.in.projectsegfau.lt",
 				bp: "https://inv.bp.projectsegfau.lt",
 				tor: "http://inv.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				torBp: "http://invbp.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
@@ -38,6 +39,7 @@ const instances: Instances[] = [
 				description: "A frontend for LBRY/Odysee.",
 				geo: "https://lbry.projectsegfau.lt/",
 				eu: "https://lbry.eu.projectsegfau.lt/",
+				in: "https://lbry.in.projectsegfau.lt/",
 				tor: "http://lbry.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsf7uucpqf2crcmfo3nvwdmjhirxxjfyuvibdfp5x3af2ghqnaa.b32.i2p",
 				icon: "/icons/librarian.png"
@@ -48,6 +50,7 @@ const instances: Instances[] = [
 				geo: "https://libreddit.projectsegfau.lt/",
 				eu: "https://libreddit.eu.projectsegfau.lt/",
 				us: "https://libreddit.us.projectsegfau.lt",
+				in: "https://libreddit.in.projectsegfau.lt",
 				tor: "http://libreddit.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsfkref7g66mji45kyccqnn5hmjtjp3cfodozabpyplj2rmv5sa.b32.i2p",
 				icon: "/icons/libreddit.png"
@@ -58,6 +61,7 @@ const instances: Instances[] = [
 				geo: "https://nitter.projectsegfau.lt/",
 				eu: "https://nitter.eu.projectsegfau.lt/",
 				us: "https://nitter.us.projectsegfau.lt",
+				in: "https://nitter.in.projectsegfau.lt",
 				tor: "http://nitter.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsfs4ukb6prmfx3qx3a5ef2cpcupkvcrxdh72kqn2rxc2cw4nka.b32.i2p",
 				icon: "/icons/nitter.png"
@@ -67,6 +71,7 @@ const instances: Instances[] = [
 				description: "Another frontend for YouTube.",
 				eu: "https://piped.projectsegfau.lt/",
 				us: "https://piped.us.projectsegfau.lt",
+				in: "https://piped.in.projectsegfau.lt",
 				icon: "/icons/piped.svg"
 			},
 			{
@@ -75,6 +80,7 @@ const instances: Instances[] = [
 				geo: "https://bb.projectsegfau.lt/",
 				eu: "https://bb.eu.projectsegfau.lt/",
 				us: "https://bb.us.projectsegfau.lt/",
+				in: "https://bb.in.projectsegfau.lt/",
 				tor: "http://beatbump.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsflmvtqax7ii44qy4ladap65c3kqspbs7h7krqy7x43uovklla.b32.i2p",
 				icon: "/icons/beatbump.svg"
@@ -85,6 +91,7 @@ const instances: Instances[] = [
 				geo: "https://bw.projectsegfau.lt/",
 				eu: "https://bw.eu.projectsegfau.lt/",
 				us: "https://bw.us.projectsegfau.lt/",
+				in: "https://bw.in.projectsegfau.lt/",
 				tor: "http://breezewiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsfk4xvekoc7wx4pteevp3q2wy7jmzlem7rvl74nx33zkdr4vyq.b32.i2p",
 				icon: "/icons/breezewiki.svg"
@@ -95,6 +102,7 @@ const instances: Instances[] = [
 				geo: "https://scribe.projectsegfau.lt/",
 				eu: "https://scribe.eu.projectsegfau.lt/",
 				us: "https://scribe.us.projectsegfau.lt/",
+				in: "https://scribe.in.projectsegfau.lt/",
 				tor: "http://scribe.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsflkkkcn33ahmzmpyq6idy2knkzh4atp7zaetqfsnenpyori6a.b32.i2p"
 			}
@@ -132,6 +140,7 @@ const instances: Instances[] = [
 				description: "A private meta-search engine.",
 				eu: "https://search.projectsegfau.lt/",
 				us: "https://search.us.projectsegfau.lt",
+				in: "https://search.in.projectsegfau.lt",
 				tor: "http://search.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsfwklrellqoj275kzeu2tz4c3j5zktnqod56s7l5dc25ro3wgq.b32.i2p",
 				icon: "/icons/searxng.svg"
