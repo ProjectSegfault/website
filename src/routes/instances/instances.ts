@@ -208,7 +208,7 @@ const instances: Instances[] = [
 				name: "MailU",
 				description: "Our mail server and webmail.",
 				eu: "https://mail.projectsegfau.lt/",
-				icon: "/icons/mailu.svg"
+				icon: "/icons/mailu.png"
 			},
 			{
 				name: "Plausible analytics",
