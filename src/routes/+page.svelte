@@ -7,7 +7,7 @@
 
 	$: backgroundColor = "#5cdd8b";
 
-	$: if (!data.error) {
+	$: if (!data.announcements.error) {
 		if (data.announcements.incident) {
 			if (data.announcements.incident.style === "info") {
 				backgroundColor = "#0dcaf0";
@@ -28,7 +28,7 @@
 
 <Hero />
 
-{#if !data.error}
+{#if !data.announcements.error}
 	{#if data.announcements.incident}
 		<div class="flex flex-col items-center mt-16">
 			<div
@@ -66,5 +66,5 @@
 		</div>
 	{/if}
 {:else}
-	<p>{data.message}</p>
+	<p>{data.announcements.message}</p>
 {/if}
