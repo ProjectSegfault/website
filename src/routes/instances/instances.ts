@@ -97,6 +97,15 @@ const instances: Instances[] = [
 				icon: "/icons/breezewiki.svg"
 			},
 			{
+				name: "Rimgo",
+				description: "A frontend for Imgur.",
+				geo: "https://rimgo.projectsegfau.lt/",
+				eu: "https://rimgo.eu.projectsegfau.lt/",
+				us: "https://rimgo.us.projectsegfau.lt/",
+				in: "https://rimgo.in.projectsegfau.lt/",
+				icon: "/icons/rimgo.png"
+			},
+			{
 				name: "Scribe",
 				description: "A frontend for Medium.",
 				geo: "https://scribe.projectsegfau.lt/",
