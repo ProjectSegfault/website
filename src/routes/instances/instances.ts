@@ -105,6 +105,15 @@ const instances: Instances[] = [
 				in: "https://scribe.in.projectsegfau.lt/",
 				tor: "http://scribe.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsflkkkcn33ahmzmpyq6idy2knkzh4atp7zaetqfsnenpyori6a.b32.i2p"
+			},
+			{
+				name: "Teddit",
+				description: "Another frontend for Reddit.",
+				geo: "https://teddit.projectsegfau.lt/",
+				eu: "https://teddit.eu.projectsegfau.lt/",
+				us: "https://teddit.us.projectsegfau.lt/",
+				in: "https://teddit.in.projectsegfau.lt/",
+				icon: "/icons/teddit.png"
 			}
 		]
 	},
