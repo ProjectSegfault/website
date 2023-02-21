@@ -9,6 +9,7 @@ interface Instance {
 	geo?: string;
 	eu?: string;
 	us?: string;
+	in?: string;
 	bp?: string;
 	tor?: string;
 	torBp?: string;
@@ -42,7 +43,7 @@ const instances: Instances[] = [
 				in: "https://lbry.in.projectsegfau.lt/",
 				tor: "http://lbry.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsf7uucpqf2crcmfo3nvwdmjhirxxjfyuvibdfp5x3af2ghqnaa.b32.i2p",
-				icon: "/icons/librarian.svg"
+				icon: "/icons/librarian.png"
 			},
 			{
 				name: "Libreddit",
