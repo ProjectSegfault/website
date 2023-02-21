@@ -24,5 +24,5 @@
 			? 'outline-light-mode'
 			: 'outline-dark-mode'} h-4 w-4"
 	/>
-	<span class="ml-2 nav:(hidden ml-1)">Toggle theme</span>
+	<span class="ml-2 navPlus1:(hidden)">Toggle theme</span>
 </button>

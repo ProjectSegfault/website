@@ -1,144 +1,136 @@
 <script lang="ts">
-	import ThemeToggle from "$lib/Nav/ThemeToggle.svelte";
-	import { page } from "$app/stores";
-	import { slide } from "svelte/transition"
+	import ThemeToggle from "./ThemeToggle.svelte";
+	import Link from "./Link.svelte";
+	import Logo from "./Logo.svelte";
+	import { slide } from "svelte/transition";
 	import { quintOut } from "svelte/easing";
 
-	$: currentPage = $page.url.pathname;
-
-	$: innerWidth = 0;
-
-	$: isMobile = innerWidth < 1090;
-
-	$: hasJS = typeof Window !== "undefined";
-
-	$: showMenuButton = hasJS && isMobile;
-
-	$: menuOpen = !hasJS || (hasJS && !isMobile);
-
-	$: menuOpenMobile = isMobile && menuOpen;
-
-	$: showThemeToggle = hasJS;
-
-	const toggleMenu = () => (menuOpen = !menuOpen);
-
-	const handleNavigation = () =>
-		showMenuButton ? (menuOpen = false) : (menuOpen = true);
-
-	const menus = [
-		{ name: "Instances", url: "/instances" },
-		{ name: "Donate", url: "/donate" },
-		{ name: "Pubnix", url: "/pubnix" },
-		{ name: "Contact", url: "/contact" },
-		{ name: "Team", url: "/team" },
+	const links = [
+		{ href: "/instances", text: "Instances" },
+		{ href: "/donate", text: "Donate" },
+		{ href: "/pubnix", text: "Pubnix" },
+		{ href: "/contact", text: "Contact" },
+		{ href: "/team", text: "Team" },
 		{
-			name: "Wiki",
-			url: "https://wiki.projectsegfau.lt/",
+			href: "https://wiki.projectsegfau.lt/",
+			text: "Wiki",
 			external: true
 		},
-		{ name: "Blog", url: "/blog" },
+		{ href: "/blog", text: "Blog"},
 		{
-			name: "Status",
-			url: "https://status.projectsegfau.lt/",
+			href: "https://status.projectsegfau.lt/",
+			text: "Status",
 			external: true
 		},
-		{ name: "Legal", url: "/legal" }
+		{ href: "/legal", text: "Legal" },
+		{
+			href: "https://matrix.to/#/#project-segfault:projectsegfau.lt/",
+			text: "Matrix",
+			icon: "i-simple-icons:matrix"
+		},
+		{
+			href: "https://github.com/ProjectSegfault/",
+			text: "GitHub",
+			icon: "i-simple-icons:github"
+		}
 	];
+
+	const allowedWidth = 890;
+
+	let width: number;
+
+	$: showMenu = width > allowedWidth;
+
+	const navStyles =
+		"flex items-center justify-between lt-navPlus1:(flex-col items-start) gap-2 p-4 bg-secondary z-50 mb-16";
+
+	const linkContainerStyles =
+		"flex items-center gap-4 bg-secondary children:(no-underline text-text)";
+
+	let nav: HTMLElement;
+
+	let lastScrollTop: number;
+
+	let scrollTop: number;
+
+	const handleScroll = () => {
+		if (!showMenu) {
+			if (scrollTop > lastScrollTop) {
+				nav.style.top = "-80px";
+			} else {
+				nav.style.top = "0";
+			}
+		}
+
+		lastScrollTop = scrollTop;
+	};
 </script>
 
-<svelte:window bind:innerWidth />
+<svelte:window
+	bind:innerWidth={width}
+	bind:scrollY={scrollTop}
+	on:scroll={handleScroll}
+/>
 
 <nav
-	class="bg-primary {menuOpenMobile
-		? 'border-none'
-		: 'border-b border-b-solid border-b-grey'} {isMobile
-		? 'py-2'
-		: ''} flex px-2 flex-col justify-between nav:(flex-row items-center) {hasJS
-		? 'sticky top-0 z-50'
-		: 'border-b border-b-solid border-b-grey'}"
+	class="{navStyles} sticky w-full top-0 z-50 js transition-top duration-200"
+	bind:this={nav}
 >
-	<div class="flex flex-row items-center justify-between">
-		<a
-			class="flex items-center decoration-none text-text gap-2 transition-filter duration-250"
-			href="/"
+	<!-- Slot for the progress bar -->
+	<slot />
+	<div class="flex items-center justify-between w-full">
+		<Logo />
+		<button
+			on:click={() => (showMenu = !showMenu)}
+			aria-label="Toggle menu"
 		>
-			<img
-				src="/logo.png"
-				alt="Project Segfault logo"
-				class="h-7"
-			/>
-			<span>Project Segfault</span>
-		</a>
-
-		{#if showMenuButton}
-			<button
-				on:click={toggleMenu}
-				class="{menuOpen
+			<div
+				class="{showMenu
 					? 'i-ic:outline-close'
-					: 'i-ic:outline-menu'} h-4 w-4 cursor-pointer mr-2"
+					: 'i-ic:outline-menu'} navPlus1:hidden"
 			/>
-		{/if}
+		</button>
 	</div>
-
-	{#if menuOpen}
+	{#if showMenu}
 		<div
-			class="links flex flex-row gap-2 {isMobile
-				? '!children:py-2'
-				: ''} {hasJS
-				? 'lt-nav:(flex flex-col pt-2 gap-2 fixed bg-primary w-full left-0 top-[2.75rem] p-2 z-50 border-b-solid border-b border-b-grey shadow shadow-secondary)'
-				: 'lt-nav:(grid grid-cols-2 gap-2 pt-2 w-fit)'}"
+			class="
+			{linkContainerStyles}
+			lt-navPlus1:(flex-col !items-start fixed pl-4 pb-4 z-50 w-full left-0 top-16)
+			"
 			transition:slide={{ duration: 300, easing: quintOut }}
 		>
-			{#each menus as { url, name, external }}
-				<a
-					class:active={url !== "/"
-						? currentPage.match(url)
-						: url === currentPage}
-					href={url}
-					on:click={handleNavigation}
-					>{#if external}
-						<div class="i-ic:outline-open-in-new mr-2 h-4 w-4" />
-					{/if}
-					{name}
-				</a>
+			{#each links as link}
+				<Link
+					{link}
+					on:click={() =>
+						width < allowedWidth
+							? (showMenu = false)
+							: (showMenu = true)}
+				/>
 			{/each}
-			<a
-				href="https://matrix.to/#/#project-segfault:projectsegfau.lt/"
-				class="icon"
-			>
-				<div class="i-simple-icons:matrix" />
-				<span>Matrix</span>
-			</a>
-			<a
-				href="https://github.com/ProjectSegfault/"
-				class="icon"
-			>
-				<div class="i-simple-icons:github" />
-				<span>GitHub</span>
-			</a>
-			{#if showThemeToggle}
-				<div class="icon">
-					<ThemeToggle />
-				</div>
-			{/if}
+			<ThemeToggle />
 		</div>
 	{/if}
 </nav>
 
-<style>
-	a.active {
-		@apply text-accent;
-	}
+<noscript>
+	<nav class="{navStyles} no-js">
+		<Logo />
+		<div
+			class="
+			{linkContainerStyles}
+			lt-navPlus1:(grid grid-cols-2 p-1)
+			"
+		>
+			{#each links as link}
+				<Link {link} />
+			{/each}
+		</div>
+	</nav>
 
-	.links > * {
-		@apply py-4 px-2 text-text decoration-none transition-filter duration-250 text-sm flex items-center;
-	}
-
-	.icon > span {
-		@apply text-sm nav\:hidden;
-	}
-
-	.icon {
-		@apply flex items-center gap-2 text-base;
-	}
-</style>
+	<style>
+		.js {
+			display: none;
+		}
+	</style>
+</noscript>
