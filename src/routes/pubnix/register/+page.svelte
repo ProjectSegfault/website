@@ -5,25 +5,40 @@
 </script>
 
 <h1>{data.title}</h1>
+
 <form
 	method="POST"
-	class="flex flex-col gap-4 w-fit children:(!bg-secondary text-start text-text rounded p-2)"
+	class="flex flex-col gap-5"
 >
-	<input
-		type="text"
-		name="username"
-		placeholder="Username"
-	/>
-	<input
-		type="email"
-		name="email"
-		placeholder="Email"
-	/>
-	<textarea
-		name="ssh"
-		placeholder="SSH public key"
-		class="resize w-60 h-30 sm:(w-100 h-50)"
-	/>
+	<div>
+		<label for="username">Username</label>
+		<input
+			type="text"
+			name="username"
+			placeholder="Username"
+			required
+		/>
+	</div>
+
+	<div>
+		<label for="email">Email</label>
+		<input
+			type="email"
+			name="email"
+			placeholder="name@example.com"
+			required
+		/>
+	</div>
+
+	<div>
+		<label for="ssh"><a href="https://wiki.projectsegfau.lt/index.php?title=Generating_an_SSH_key">SSH public key</a></label>
+		<textarea
+			name="ssh"
+			placeholder="[...]"
+			rows="5"
+			required
+		/>
+	</div>
 
 	{#if form?.success}
 		{form.message}
@@ -32,9 +47,24 @@
 	{#if form?.error}
 		{form.message}
 	{/if}
+
 	<button
 		type="submit"
-		class="transition-all duration-200 text-text hover:brightness-70"
-		>Submit</button
+		class="transition-filter duration-200 hover:brightness-75"
+		>Submit registration <div class="i-ic:outline-arrow-circle-right" /></button
 	>
 </form>
+
+<style>
+	form > div {
+		@apply flex flex-col items-start gap-2 w-fit;
+	}
+	form > div > label {
+		@apply text-xl font-semibold;
+	}
+	form > div > input,
+	form > div > textarea,
+	form > button {
+		@apply w-110 lt-sm\:w-70 px-2 py-1 bg-secondary rounded flex items-center gap-2 text-lg;
+	}
+</style>
