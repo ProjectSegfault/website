@@ -230,6 +230,12 @@ const instances: Instances[] = [
 				icon: "/icons/mailu.png"
 			},
 			{
+				name: "SimpleLogin",
+				description: "An open source email alias creator/manager",
+				eu: "https://sl.projectsegfau.lt/",
+				icon: "/icons/simplelogin.svg"
+			},
+			{
 				name: "Plausible analytics",
 				description: "Analytics for our website.",
 				eu: "https://analytics.projectsegfau.lt/projectsegfau.lt",
