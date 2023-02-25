@@ -16,7 +16,7 @@ export const actions: Actions = {
 			username: Joi.string()
 				.required()
 				.alphanum()
-				.message("Username must be alphanumeric"),
+				.lowercase(),
 			email: Joi.string().email().required(),
 			ssh: Joi.string()
 				.required()
