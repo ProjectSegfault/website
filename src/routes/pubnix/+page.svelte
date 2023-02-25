@@ -5,6 +5,10 @@
 	import User, { type UserType } from "./User.svelte";
 
 	const isOnline = (user: UserType) => user.online;
+
+	const onlineUserCount = data.users.users.filter(isOnline).length;
+
+	const userCount = data.users.users.length;
 </script>
 
 <div class="h1-no-lg flex flex-col sm:(flex-row items-center) gap-4">
@@ -33,6 +37,7 @@
 
 {#if !data.users.error}
 	{#if data.users.users.some(isOnline)}
+		<p>There are {onlineUserCount} users online out of {userCount} users.</p>
 		<div class="flex flex-row flex-wrap gap-4">
 			{#each data.users.users as user}
 				{#if user.online}
