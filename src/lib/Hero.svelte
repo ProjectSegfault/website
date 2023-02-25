@@ -3,7 +3,7 @@
 		Project Segfault
 	</h1>
 	<p class="text-2xl">Open source development and hosted services.</p>
-	<div class="flex flex-row gap-4">
+	<div class="flex gap-4 flex-col w-full sm:(flex-row justify-center)">
 		<a
 			href="/instances"
 			class="button"
@@ -15,6 +15,12 @@
 			class="button !bg-amber !text-black"
 			><div class="i-ic:outline-attach-money" />
 			 Donate</a
+		>
+		<a
+			href="/pubnix"
+			class="button !bg-purple"
+			><div class="i-simple-icons:linux" />
+			 Pubnix</a
 		>
 	</div>
 </div>
