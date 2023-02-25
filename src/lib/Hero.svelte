@@ -16,5 +16,11 @@
 			><div class="i-ic:outline-attach-money" />
 			 Donate</a
 		>
+		<a
+			href="/pubnix"
+			class="button !bg-purple !text-black"
+			><div class="i-simple-icons:linux" />
+			 Pubnix</a
+		>
 	</div>
 </div>
