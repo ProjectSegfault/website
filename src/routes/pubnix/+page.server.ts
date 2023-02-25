@@ -9,7 +9,6 @@ export const load = (async () => {
 
 	return {
 		users: get(pubnixUsers),
-		onlineUserCount: get(pubnixUsers).length,
 		...meta
 	}
 }) satisfies PageServerLoad;

@@ -37,7 +37,7 @@
 
 {#if !data.users.error}
 	{#if data.users.users.some(isOnline)}
-		<p>There are {onlineUserCount} users online out of {userCount} users.</p>
+		<p class="my-4">There are {onlineUserCount} users online out of {userCount} users.</p>
 		<div class="flex flex-row flex-wrap gap-4">
 			{#each data.users.users as user}
 				{#if user.online}
