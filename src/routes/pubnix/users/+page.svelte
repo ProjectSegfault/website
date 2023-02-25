@@ -3,12 +3,15 @@
 	export let data: PageData;
 
 	import User from "../User.svelte";
+
+	const userCount = data.users.users.length;
 </script>
 
 <h1>{data.title}</h1>
 
 {#if !data.users.error}
 	{#if data.users.users.length > 0}
+		<p>There are {userCount} users on the pubnix.</p>
 		<div class="flex flex-row flex-wrap gap-4">
 			{#each data.users.users as user}
 				<User {user} />
