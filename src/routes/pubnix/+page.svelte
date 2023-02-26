@@ -36,7 +36,16 @@
 <h2>Online users</h2>
 
 {#if !data.users.error}
-	{#if data.users.users.some(isOnline)}
+	{#if onlineUserCount == 1}
+		<p class="my-4">There is {onlineUserCount} user online out of {userCount} users.</p>
+		<div class="flex flex-row flex-wrap gap-4">
+			{#each data.users.users as user}
+				{#if user.online}
+					<User {user} />
+				{/if}
+			{/each}
+		</div>
+	{:else if onlineUserCount > 1}
 		<p class="my-4">There are {onlineUserCount} users online out of {userCount} users.</p>
 		<div class="flex flex-row flex-wrap gap-4">
 			{#each data.users.users as user}
@@ -46,7 +55,7 @@
 			{/each}
 		</div>
 	{:else}
-		<p>No users online</p>
+		<p>No users online out of {userCount} users.</p>
 	{/if}
 {:else}
 	<p>{data.users.message}</p>
