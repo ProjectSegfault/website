@@ -208,7 +208,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Cal",
-				description: "Open scheduling infrastructure for everyone."
+				description: "Open scheduling infrastructure for everyone.",
 				eu: "https://cal.projectsegfau.lt",
 				icon: "/icons/cal.svg"
 			}
