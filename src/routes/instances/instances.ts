@@ -205,6 +205,12 @@ const instances: Instances[] = [
 				description: "An open source password manager.",
 				eu: "https://pass.projectsegfau.lt",
 				icon: "/icons/vaultwarden.svg"
+			},
+			{
+				name: "Cal",
+				description: "Open scheduling infrastructure for everyone."
+				eu: "https://cal.projectsegfau.lt",
+				icon: "/icons/cal.svg"
 			}
 		]
 	},
