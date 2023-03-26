@@ -36,14 +36,12 @@ const instances: Instances[] = [
 				icon: "/icons/invidious.svg"
 			},
 			{
-				name: "Librarian",
-				description: "A frontend for LBRY/Odysee.",
-				geo: "https://lbry.projectsegfau.lt/",
-				eu: "https://lbry.eu.projectsegfau.lt/",
-				in: "https://lbry.in.projectsegfau.lt/",
-				tor: "http://lbry.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsf7uucpqf2crcmfo3nvwdmjhirxxjfyuvibdfp5x3af2ghqnaa.b32.i2p",
-				icon: "/icons/librarian.png"
+				name: "Piped",
+				description: "Another frontend for YouTube.",
+				eu: "https://piped.projectsegfau.lt/",
+				us: "https://piped.us.projectsegfau.lt",
+				in: "https://piped.in.projectsegfau.lt",
+				icon: "/icons/piped.svg"
 			},
 			{
 				name: "Libreddit",
@@ -68,12 +66,13 @@ const instances: Instances[] = [
 				icon: "/icons/nitter.png"
 			},
 			{
-				name: "Piped",
-				description: "Another frontend for YouTube.",
-				eu: "https://piped.projectsegfau.lt/",
-				us: "https://piped.us.projectsegfau.lt",
-				in: "https://piped.in.projectsegfau.lt",
-				icon: "/icons/piped.svg"
+				name: "AnonymousOverflow",
+				description: "A frontend for StackOverflow.",
+				geo: "https://overflow.projectsegfau.lt",
+				eu: "https://overflow.eu.projectsegfau.lt",
+				us: "https://overflow.us.projectsegfau.lt",
+				in: "https://overflow.in.projectsegfau.lt",
+				icon: "/icons/anonymousoverflow.png"
 			},
 			{
 				name: "Beatbump",
@@ -96,6 +95,25 @@ const instances: Instances[] = [
 				tor: "http://breezewiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsfk4xvekoc7wx4pteevp3q2wy7jmzlem7rvl74nx33zkdr4vyq.b32.i2p",
 				icon: "/icons/breezewiki.svg"
+			},
+			{
+				name: "Gothub",
+				description: "A frontend for Github.",
+				geo: "https://gothub.projectsegfau.lt",
+				eu: "https://gothub.eu.projectsegfau.lt",
+				us: "https://gothub.us.projectsegfau.lt",
+				in: "https://gothub.in.projectsegfau.lt",
+				icon: "/icons/gothub.svg"
+			},
+			{
+				name: "Librarian",
+				description: "A frontend for LBRY/Odysee.",
+				geo: "https://lbry.projectsegfau.lt/",
+				eu: "https://lbry.eu.projectsegfau.lt/",
+				in: "https://lbry.in.projectsegfau.lt/",
+				tor: "http://lbry.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				i2p: "http://pjsf7uucpqf2crcmfo3nvwdmjhirxxjfyuvibdfp5x3af2ghqnaa.b32.i2p",
+				icon: "/icons/librarian.png"
 			},
 			{
 				name: "Rimgo",
@@ -124,7 +142,7 @@ const instances: Instances[] = [
 				us: "https://teddit.us.projectsegfau.lt/",
 				in: "https://teddit.in.projectsegfau.lt/",
 				icon: "/icons/teddit.png"
-			}
+			},
 		]
 	},
 	{
