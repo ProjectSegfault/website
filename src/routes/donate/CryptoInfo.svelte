@@ -7,7 +7,7 @@
 	<details class="p-0">
 		<summary>Address</summary>
 		<code class="break-words whitespace-normal"
-			>49burTxWHyqa9NkkC9PV33D79PrwARMq8aic4XezTx36i66qyLA3afYXicycTTA5st93CV5Rr9AGkKpeE5GPueRN2PkfFQN</code
+			>{address}</code
 		>
 	</details>
 {/if}
