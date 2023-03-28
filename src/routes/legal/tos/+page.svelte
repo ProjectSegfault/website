@@ -15,7 +15,7 @@
 	<li>Do not use our services to dox someone.</li>
 	<li>
 		Do not do anything on our services that would be illegal in France, the
-		USA, Luxembourg, and India.
+		USA, Luxembourg, and India. (Example: CSAM, Loli, Drugs etc...)
 	</li>
 	<li>Do not harass people using our services.</li>
 	<li>
