@@ -149,6 +149,12 @@ const instances: Instances[] = [
 		name: "Useful tools and services",
 		data: [
 			{
+				name: "Matrix",
+				description: "An open network for secure, decentralized communication.",
+				eu: "https://wiki.projectsegfau.lt/Matrix",
+				icon: "/icons/matrix.svg"
+			},
+			{
 				name: "Element",
 				description: "A feature-rich Matrix client.",
 				eu: "https://chat.projectsegfau.lt/",
@@ -171,6 +177,12 @@ const instances: Instances[] = [
 				tor: "http://cinny.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsfgcl4gfbfrk5qte7qb7hqnfwyhflrjcqdldlzmy6yyr2l65oa.b32.i2p",
 				icon: "/icons/cinny.svg"
+			},
+			{
+				name: "XMPP",
+				description: "The universal messaging standard.",
+				eu: "https://wiki.projectsegfau.lt/XMPP",
+				icon: "/icons/xmpp.svg"
 			},
 			{
 				name: "SearXNG",
