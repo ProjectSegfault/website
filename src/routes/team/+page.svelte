@@ -32,8 +32,7 @@
 				{/if}
 
 				{#if member.xmpp}
-					<a href={member.xmpp}
-						><div class="i-simple-icons:xmpp" /></a
+					<a href={member.xmpp}><div class="i-simple-icons:xmpp" /></a
 					>
 				{/if}
 

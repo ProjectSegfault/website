@@ -8,19 +8,19 @@
 			href="/instances"
 			class="button"
 			><div class="i-ic:outline-computer" />
-			 Instances</a
+			Instances</a
 		>
 		<a
 			href="/donate"
 			class="button !bg-amber !text-black"
 			><div class="i-ic:outline-attach-money" />
-			 Donate</a
+			Donate</a
 		>
 		<a
 			href="/pubnix"
 			class="button !bg-purple"
 			><div class="i-simple-icons:linux" />
-			 Pubnix</a
+			Pubnix</a
 		>
 	</div>
 </div>

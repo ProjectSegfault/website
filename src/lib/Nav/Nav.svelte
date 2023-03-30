@@ -16,7 +16,7 @@
 			text: "Wiki",
 			external: true
 		},
-		{ href: "/blog", text: "Blog"},
+		{ href: "/blog", text: "Blog" },
 		{
 			href: "https://status.projectsegfau.lt/",
 			text: "Status",

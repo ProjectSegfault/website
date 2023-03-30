@@ -29,7 +29,7 @@
 	href="https://liberapay.com/ProjectSegfault/donate"
 	class="button !bg-amber !text-black w-fit"
 	><div class="i-simple-icons:liberapay" />
-	 Liberapay</a
+	Liberapay</a
 >
 
 <h3>Cryptocurrencies</h3>

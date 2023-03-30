@@ -17,19 +17,19 @@
 		href="/pubnix/register"
 		class="button sm:w-fit"
 		><div class="i-ic:outline-plus" />
-		 Register</a
+		Register</a
 	>
 	<a
 		href="/pubnix/users"
 		class="button sm:w-fit"
 		><div class="i-ic:outline-people" />
-		 Users</a
+		Users</a
 	>
 	<a
 		href="/pubnix/faq"
 		class="button sm:w-fit"
 		><div class="i-ic:outline-question-mark" />
-		 FAQ</a
+		FAQ</a
 	>
 </div>
 
@@ -37,7 +37,12 @@
 
 {#if !data.users.error}
 	{#if data.users.users.some(isOnline)}
-		<p class="my-4">There {onlineUserCount === 1 ? "is" : "are"} {onlineUserCount} {onlineUserCount === 1 ? "user" : "users"} online out of {userCount} users.</p>
+		<p class="my-4">
+			There {onlineUserCount === 1 ? "is" : "are"}
+			{onlineUserCount}
+			{onlineUserCount === 1 ? "user" : "users"} online out of {userCount}
+			users.
+		</p>
 		<div class="flex flex-row flex-wrap gap-4">
 			{#each data.users.users as user}
 				{#if user.online}

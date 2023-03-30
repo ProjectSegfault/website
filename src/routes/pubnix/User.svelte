@@ -53,11 +53,15 @@
 		{/if}
 
 		{#if user.matrix}
-			<a href="https://matrix.to/#/{user.matrix}"><div class="i-simple-icons:matrix" /></a>
+			<a href="https://matrix.to/#/{user.matrix}"
+				><div class="i-simple-icons:matrix" /></a
+			>
 		{/if}
 
 		{#if user.fediverse}
-			<a href="https://{user.fediverse}"><div class="i-simple-icons:mastodon" /></a>
+			<a href="https://{user.fediverse}"
+				><div class="i-simple-icons:mastodon" /></a
+			>
 		{/if}
 
 		{#if user.website}

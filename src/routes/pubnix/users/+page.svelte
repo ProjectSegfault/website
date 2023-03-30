@@ -9,7 +9,9 @@
 
 {#if !data.users.error}
 	{#if data.users.users.length > 0}
-		<p class="my-4">There are {data.users.users.length} users on the pubnix.</p>
+		<p class="my-4">
+			There are {data.users.users.length} users on the pubnix.
+		</p>
 		<div class="flex flex-row flex-wrap gap-4">
 			{#each data.users.users as user}
 				<User {user} />

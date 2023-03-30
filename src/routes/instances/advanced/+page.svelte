@@ -10,7 +10,7 @@
 		href="/instances"
 		class="button sm:w-fit"
 		><div class="i-ic:outline-computer" />
-		 Simple</a
+		Simple</a
 	>
 </div>
 

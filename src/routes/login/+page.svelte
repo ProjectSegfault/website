@@ -23,7 +23,7 @@
 				on:click={() => signOut()}
 				class={buttonStyles}
 				><div class="i-ic:outline-logout" />
-				 Sign out</button
+				Sign out</button
 			>
 		</div>
 	{:else}
@@ -33,7 +33,7 @@
 				on:click={() => signIn("authentik")}
 				class={buttonStyles}
 				><div class="i-ic:outline-login" />
-				 Sign in using Authentik</button
+				Sign in using Authentik</button
 			>
 		</div>
 	{/if}

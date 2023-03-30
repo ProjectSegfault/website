@@ -31,7 +31,12 @@
 	</div>
 
 	<div>
-		<label for="ssh"><a href="https://wiki.projectsegfau.lt/index.php?title=Generating_an_SSH_key">SSH public key</a></label>
+		<label for="ssh"
+			><a
+				href="https://wiki.projectsegfau.lt/index.php?title=Generating_an_SSH_key"
+				>SSH public key</a
+			></label
+		>
 		<textarea
 			name="ssh"
 			placeholder="[...]"
@@ -51,7 +56,9 @@
 	<button
 		type="submit"
 		class="transition-filter duration-200 hover:brightness-75"
-		>Submit registration <div class="i-ic:outline-arrow-circle-right" /></button
+		>Submit registration <div
+			class="i-ic:outline-arrow-circle-right"
+		/></button
 	>
 </form>
 

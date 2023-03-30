@@ -10,7 +10,7 @@
 		href="/instances/advanced"
 		class="button sm:w-fit"
 		><div class="i-ic:outline-computer" />
-		 Advanced</a
+		Advanced</a
 	>
 </div>
 

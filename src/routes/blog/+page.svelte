@@ -17,19 +17,19 @@
 		href="/blog/tags"
 		class="button sm:w-fit"
 		><div class="i-ic:outline-bookmarks" />
-		 Tags</a
+		Tags</a
 	>
 	<a
 		href="/blog/authors"
 		class="button sm:w-fit"
 		><div class="i-ic:outline-people text-xl" />
-		 Authors</a
+		Authors</a
 	>
 	<a
 		href="https://blog.projectsegfau.lt/rss"
 		class="button sm:w-fit !bg-[#ee802f]"
 		><div class="i-simple-icons:rss" />
-		 RSS</a
+		RSS</a
 	>
 </div>
 

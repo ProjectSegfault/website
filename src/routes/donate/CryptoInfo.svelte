@@ -6,9 +6,7 @@
 {#if address}
 	<details class="p-0">
 		<summary>Address</summary>
-		<code class="break-words whitespace-normal"
-			>{address}</code
-		>
+		<code class="break-words whitespace-normal">{address}</code>
 	</details>
 {/if}
 
