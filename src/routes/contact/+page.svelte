@@ -16,6 +16,14 @@
 	>.
 </p>
 
+<h2>XMPP</h2>
+
+<p>
+	We have an XMPP MUC for general discussion about Project Segfault over at <a
+		href="general@conference.projectsegfau.lt?join">this link</a
+	>.
+</p>
+
 <h2>Email</h2>
 
 <p>
@@ -25,6 +33,12 @@
 	don't have or don't want to make a Matrix account. When waiting for us to
 	answer make sure to check your spam, since some email providers block
 	non-popular domains.
+</p>
+<p>
+	We also have a PGP key which you can find on <a
+		href="https://keys.openpgp.org/vks/v1/by-fingerprint/250D46134750F5193CAF2959506C8A610A2777B3"
+		>keys.openpgp.org</a
+	>.
 </p>
 
 <h2>Members</h2>

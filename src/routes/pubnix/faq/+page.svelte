@@ -17,8 +17,8 @@
 >
 <h2>What can I do on the pubnix?</h2>
 <span
-	>Quite a lot! You can run containers, set up a website, and learn
-	some amount of Linux system administration.</span
+	>Quite a lot! You can run containers, set up a website, and learn some
+	amount of Linux system administration.</span
 >
 <h2>How do I get started?</h2>
 <span
@@ -40,5 +40,7 @@
 <span
 	>Yep! We have a <a href="https://matrix.to/#/#pubnix:projectsegfau.lt"
 		>Matrix room</a
-	> to discuss the pubnix.</span
+	>
+	and an <a href="xmpp:pubnix@conference.projectsegfau.lt?join">XMPP MUC</a> to
+	discuss the pubnix.</span
 >
