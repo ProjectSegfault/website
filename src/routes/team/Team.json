@@ -11,6 +11,8 @@
 		"position": "Sysadmin",
 		"website": "https://arya.projectsegfau.lt",
 		"matrix": "https://matrix.to/#/@aryak:projectsegfau.lt",
+		"xmpp": "xmpp:arya@projectsegfau.lt",
+		"fedi": "https://social.projectsegfau.lt/aryak",
 		"git": "https://codeberg.org/aryak",
 		"email": "arya@projectsegfau.lt",
 		"pgp": "https://keys.openpgp.org/vks/v1/by-fingerprint/9D56914428A62CF1B6A32175842D12BDA50DF120"

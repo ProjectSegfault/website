@@ -31,6 +31,18 @@
 					>
 				{/if}
 
+				{#if member.xmpp}
+					<a href={member.xmpp}
+						><div class="i-simple-icons:xmpp" /></a
+					>
+				{/if}
+
+				{#if member.fedi}
+					<a href={member.fedi}
+						><div class="i-simple-icons:mastodon" /></a
+					>
+				{/if}
+
 				{#if member.git}
 					<a href={member.git}><div class="i-simple-icons:git" /></a>
 				{/if}
