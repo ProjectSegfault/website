@@ -31,7 +31,7 @@ const instances: Instances[] = [
 				bp: "https://inv.bp.projectsegfau.lt",
 				tor: "http://inv.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				torBp: "http://invbp.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http:////pjsfhqamc7k6htnumrvn4cwqqdoggeepj7u5viyimgnxg3gar72q.b32.i2p",
+				i2p: "http://pjsfhqamc7k6htnumrvn4cwqqdoggeepj7u5viyimgnxg3gar72q.b32.i2p",
 				i2pBp: "http://pjsfi2szfkb4guqzmfmlyq4no46fayertjrwt4h2uughccrh2lvq.b32.i2p",
 				icon: "/icons/invidious.svg"
 			},
@@ -72,6 +72,7 @@ const instances: Instances[] = [
 				eu: "https://overflow.eu.projectsegfau.lt",
 				us: "https://overflow.us.projectsegfau.lt",
 				in: "https://overflow.in.projectsegfau.lt",
+				tor: "http://overflow.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/anonymousoverflow.png"
 			},
 			{
@@ -103,6 +104,7 @@ const instances: Instances[] = [
 				eu: "https://gothub.eu.projectsegfau.lt",
 				us: "https://gothub.us.projectsegfau.lt",
 				in: "https://gothub.in.projectsegfau.lt",
+				tor: "http://gothub.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/gothub.svg"
 			},
 			{
@@ -122,6 +124,7 @@ const instances: Instances[] = [
 				eu: "https://rimgo.eu.projectsegfau.lt/",
 				us: "https://rimgo.us.projectsegfau.lt/",
 				in: "https://rimgo.in.projectsegfau.lt/",
+				tor: "http://rimgo.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/rimgo.png"
 			},
 			{
@@ -141,6 +144,7 @@ const instances: Instances[] = [
 				eu: "https://teddit.eu.projectsegfau.lt/",
 				us: "https://teddit.us.projectsegfau.lt/",
 				in: "https://teddit.in.projectsegfau.lt/",
+				tor: "http://teddit.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/teddit.png"
 			},
 		]
@@ -158,24 +162,18 @@ const instances: Instances[] = [
 				name: "Element",
 				description: "A feature-rich Matrix client.",
 				eu: "https://chat.projectsegfau.lt/",
-				tor: "http://element.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfiixntiokc4ioroivnw7dd5hhqmvn2pt2jwfgrqdex5qjnroq.b32.i2p",
 				icon: "/icons/element.svg"
 			},
 			{
 				name: "Hydrogen",
 				description: "A lightweight Matrix client.",
 				eu: "https://hydrogen.projectsegfau.lt/",
-				tor: "http://hydrogen.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfoanqklg3eb3ktvqwmpyiy54b77orr7bmymkwmu56c3zjfltq.b32.i2p",
 				icon: "/icons/hydrogen.svg"
 			},
 			{
 				name: "Cinny",
 				description: "An elegant Matrix client.",
 				eu: "https://cinny.projectsegfau.lt/",
-				tor: "http://cinny.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfgcl4gfbfrk5qte7qb7hqnfwyhflrjcqdldlzmy6yyr2l65oa.b32.i2p",
 				icon: "/icons/cinny.svg"
 			},
 			{
@@ -212,8 +210,6 @@ const instances: Instances[] = [
 				name: "Akkoma",
 				description: "Federated microblogging platform.",
 				eu: "https://social.projectsegfau.lt/",
-				tor: "http://social.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsflarasgpaod2wqccnl7dbolexm7awjz7atqe73nfkhckr66ca.b32.i2p",
 				icon: "/icons/akkoma.png"
 			},
 			{
@@ -234,6 +230,7 @@ const instances: Instances[] = [
 				name: "Vaultwarden",
 				description: "An open source password manager.",
 				eu: "https://pass.projectsegfau.lt",
+				tor: "http://pass.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/vaultwarden.svg"
 			},
 			{
@@ -281,6 +278,7 @@ const instances: Instances[] = [
 				name: "MediaWiki",
 				description: "Our wiki.",
 				eu: "https://wiki.projectsegfau.lt/",
+				tor: "http://wiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/mediawiki.svg"
 			}
 		]
