@@ -12,8 +12,7 @@
 <p>
 	These donations primarily help us pay for our VPSes, domain names and other
 	expenses related to crucial infrastructure we have to maintain. We also
-	sometimes donate to developers who maintain software we rely heavily on such
-	as our authentication provider.
+	sometimes donate to developers who maintain software we rely heavily on.
 </p>
 
 <h2>Donation methods</h2>
