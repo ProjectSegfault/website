@@ -112,6 +112,7 @@ const instances: Instances[] = [
 				description: "A frontend for LBRY/Odysee.",
 				geo: "https://lbry.projectsegfau.lt/",
 				eu: "https://lbry.eu.projectsegfau.lt/",
+				us: "https://lbry.us.projectsegfau.lt/",
 				in: "https://lbry.in.projectsegfau.lt/",
 				tor: "http://lbry.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsf7uucpqf2crcmfo3nvwdmjhirxxjfyuvibdfp5x3af2ghqnaa.b32.i2p",
