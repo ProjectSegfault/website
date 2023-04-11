@@ -243,6 +243,34 @@ const instances: Instances[] = [
 		]
 	},
 	{
+		name: "Pubnix services",
+		data: [
+			{
+				name: "Pubnix",
+				description: "A Unix server open to the public with non-commercial recreational goals.",
+				eu: "https://p.projectsegfau.lt",
+				icon: "/icons/pubnix.png"
+			},
+			{
+				name: "Public Authentik",
+				description: "Authentik for signup to our services.",
+				eu: "https://auth.p.projectsegfau.lt",
+				icon: "/icons/authentik.svg"
+			},
+			{
+				name: "Cockpit",
+				description: "WebUI for users to access the pubnix services.",
+				eu: "https://cockpit.p.projectsegfau.lt",
+				icon: "/icons/cockpit.svg"
+			},
+			{
+				name: "Gemini Proxy",
+				description: "Access Gemini sites from the web.",
+				eu: "https://geminiproxy.p.projectsegfau.lt",
+			}
+		]
+	},
+	{
 		name: "Internal services",
 		data: [
 			{
