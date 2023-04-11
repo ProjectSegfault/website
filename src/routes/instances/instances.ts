@@ -98,8 +98,8 @@ const instances: Instances[] = [
 				icon: "/icons/breezewiki.svg"
 			},
 			{
-				name: "Gothub",
-				description: "A frontend for Github.",
+				name: "GotHub",
+				description: "A frontend for GitHub.",
 				geo: "https://gothub.projectsegfau.lt",
 				eu: "https://gothub.eu.projectsegfau.lt",
 				us: "https://gothub.us.projectsegfau.lt",
