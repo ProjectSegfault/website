@@ -70,7 +70,7 @@
 
 		{#if user.capsule}
 			<a
-				href={user.capsule}
+				href="https://geminiproxy.p.projectsegfau.lt/gemini/{user.capsule}"
 				class="no-underline text-base">Gemini</a
 			>
 		{/if}

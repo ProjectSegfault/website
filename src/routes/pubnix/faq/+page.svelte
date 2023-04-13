@@ -41,6 +41,6 @@
 	>Yep! We have a <a href="https://matrix.to/#/#pubnix:projectsegfau.lt"
 		>Matrix room</a
 	>
-	and an <a href="xmpp:pubnix@conference.projectsegfau.lt?join">XMPP MUC</a> to
+	and an <a href="https://join.jabber.network/#pubnix@conference.projectsegfau.lt?join">XMPP MUC</a> to
 	discuss the pubnix.</span
 >
