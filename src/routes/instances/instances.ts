@@ -184,6 +184,11 @@ const instances: Instances[] = [
 				icon: "/icons/xmpp.svg"
 			},
 			{
+				name: "XMPP Web",
+				description: "Lightweight web chat client for XMPP.",
+				eu: "https://xmpp-web.projectsegfau.lt/"
+			},
+			{
 				name: "SearXNG",
 				description: "A private meta-search engine.",
 				eu: "https://search.projectsegfau.lt/",
