@@ -240,6 +240,12 @@ const instances: Instances[] = [
 				icon: "/icons/vaultwarden.svg"
 			},
 			{
+				name: "Plausible analytics",
+				description: "Analytics for our website.",
+				eu: "https://analytics.projectsegfau.lt/projectsegfau.lt",
+				icon: "/icons/plausible.png"
+			},
+			{
 				name: "Cal",
 				description: "Open scheduling infrastructure for everyone.",
 				eu: "https://cal.projectsegfau.lt",
@@ -301,12 +307,6 @@ const instances: Instances[] = [
 				description: "An open source email alias creator/manager",
 				eu: "https://sl.projectsegfau.lt/",
 				icon: "/icons/simplelogin.svg"
-			},
-			{
-				name: "Plausible analytics",
-				description: "Analytics for our website.",
-				eu: "https://analytics.projectsegfau.lt/projectsegfau.lt",
-				icon: "/icons/plausible.png"
 			},
 			{
 				name: "MediaWiki",
