@@ -29,6 +29,11 @@
 			icon: "i-simple-icons:matrix"
 		},
 		{
+			href: "https://join.jabber.network/#general@conference.projectsegfau.lt?join",
+			text: "XMPP",
+			icon: "i-simple-icons:xmpp"
+		},
+		{
 			href: "https://github.com/ProjectSegfault/",
 			text: "GitHub",
 			icon: "i-simple-icons:github"
