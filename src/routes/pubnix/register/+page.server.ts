@@ -15,8 +15,10 @@ export const actions: Actions = {
 		const BodyTypeSchema = Joi.object({
 			username: Joi.string()
 				.required()
-				.alphanum()
-				.lowercase(),
+				.pattern(
+					/^[a-z_][a-z0-9_]{0,20}$/
+				)
+				.message("Invalid username ([A-Za-z0-9_])"),
 			email: Joi.string().email().required(),
 			ssh: Joi.string()
 				.required()
