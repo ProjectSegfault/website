@@ -244,6 +244,12 @@ const instances: Instances[] = [
 				description: "Analytics for our website.",
 				eu: "https://analytics.projectsegfau.lt/projectsegfau.lt",
 				icon: "/icons/plausible.png"
+			},
+			{
+				name: "Healthchecks",
+				description: "Simple and Effective Cron Job Monitoring.",
+				eu: "https://healthchecks.projectsegfau.lt",
+				icon: "/icons/healthchecks.svg"
 			}
 		]
 	},
@@ -267,6 +273,11 @@ const instances: Instances[] = [
 				description: "WebUI for users to access the pubnix services.",
 				eu: "https://cockpit.p.projectsegfau.lt",
 				icon: "/icons/cockpit.svg"
+			},
+			{
+				name: "Soju",
+				description: "A user-friendly IRC bouncer.",
+				eu: "https://wiki.projectsegfau.lt/IRC_Bouncer"
 			},
 			{
 				name: "Gemini Proxy",
