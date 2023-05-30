@@ -244,12 +244,6 @@ const instances: Instances[] = [
 				description: "Analytics for our website.",
 				eu: "https://analytics.projectsegfau.lt/projectsegfau.lt",
 				icon: "/icons/plausible.png"
-			},
-			{
-				name: "Cal",
-				description: "Open scheduling infrastructure for everyone.",
-				eu: "https://cal.projectsegfau.lt",
-				icon: "/icons/cal.svg"
 			}
 		]
 	},
