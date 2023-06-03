@@ -22,7 +22,7 @@ export default defineConfig({
 
 	transformers: [transformerVariantGroup(), transformerDirectives()],
 
-	safelist: ["i-ic:outline-dark-mode", "i-ic:outline-light-mode"],
+	safelist: ["i-ic:outline-dark-mode", "i-ic:outline-light-mode", "i-ic:baseline-toggle-on", "i-ic:baseline-toggle-off"],
 
 	theme: {
 		fontFamily: {
