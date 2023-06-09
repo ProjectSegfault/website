@@ -2,6 +2,7 @@
 	import Hero from "$lib/Hero.svelte";
 	import sanitizeHtml from "sanitize-html";
 	import type { PageData } from "./$types";
+  import snarkdown from 'snarkdown';
 
 	export let data: PageData;
 
@@ -46,12 +47,12 @@
 
 				{#if data.announcements.incident.content}
 					<p>
-						{@html sanitizeHtml(
+						{@html snarkdown(sanitizeHtml(
 							data.announcements.incident.content.replace(
 								/\n/g,
 								"<br />"
 							)
-						)}
+						))}
 					</p>
 				{/if}
 
