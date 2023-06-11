@@ -34,6 +34,21 @@
 				{#if instance.bp}
 					<a href={instance.bp}>Backup</a>
 				{/if}
+				{#if instance.short_geo}
+					<a href={instance.short_geo}>GeoDNS (Short URL)</a>
+				{/if}
+				{#if instance.short_eu}
+					<a href={instance.short_eu}>EU (Short URL)</a>
+				{/if}
+				{#if instance.short_us}
+					<a href={instance.short_us}>US (Short URL)</a>
+				{/if}
+				{#if instance.short_in}
+					<a href={instance.short_in}>IN (Short URL)</a>
+				{/if}
+				{#if instance.short_bp}
+					<a href={instance.short_bp}>Backup (Short URL)</a>
+				{/if}
 				{#if instance.tor}
 					<a href={instance.tor}>Tor</a>
 				{/if}

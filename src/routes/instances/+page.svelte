@@ -2,6 +2,12 @@
 	import type { PageData } from "./$types";
 
 	export let data: PageData;
+
+	let insturl: "short" | "long";
+	let toggle = () => {
+		insturl = insturl === "long" ? "short" : "long";
+	};
+	insturl = "long";
 </script>
 
 <div class="h1-no-lg flex flex-col sm:(flex-row items-center) gap-4 !mb-0">
@@ -15,6 +21,22 @@
 </div>
 
 <div class="flex flex-col">
+	<button
+		on:click={toggle}
+		class="text-text flex items-center text-sm"
+	>
+		<div
+			class="i-ic:{insturl === 'long'
+				? 'baseline-toggle-off'
+				: 'baseline-toggle-on'} h-10 w-10"
+		/>
+		{#if insturl === "long"}
+			Long URL
+		{:else}
+			Short URL
+		{/if}
+	</button>
+	{#if insturl === "long"}
 	{#each data.instances as category}
 		<div class="flex flex-col">
 			<h2>{category.name}</h2>
@@ -40,4 +62,31 @@
 			</div>
 		</div>
 	{/each}
+	{:else}
+	{#each data.instances as category}
+		<div class="flex flex-col">
+			<h2>{category.name}</h2>
+			<div class="flex flex-row flex-wrap gap-4">
+				{#each category.data as instance}
+					<a
+						href={instance.short_geo || instance.short_eu || instance.geo || instance.eu}
+						class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
+					>
+						{#if instance.icon}
+							<img
+								src={instance.icon}
+								alt="{instance.name} logo"
+								class="h-20 rounded"
+							/>
+						{/if}
+						<div>
+							<span class="text-2xl">{instance.name}</span>
+							<p>{instance.description}</p>
+						</div>
+					</a>
+				{/each}
+			</div>
+		</div>
+	{/each}
+	{/if}
 </div>
