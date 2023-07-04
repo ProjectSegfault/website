@@ -6,8 +6,61 @@
 
 <h1>{data.title}</h1>
 
-<p>Our registration form is currently under maintanence :). Please <a href=/contact>Contact us</a> to get a new account!</p>
-<p>Sorry for the inconvenience!</p>
+<form
+	method="POST"
+	class="flex flex-col gap-5"
+>
+	<div>
+		<label for="username">Username</label>
+		<input
+			type="text"
+			name="username"
+			placeholder="Username"
+			required
+		/>
+	</div>
+
+	<div>
+		<label for="email">Email</label>
+		<input
+			type="email"
+			name="email"
+			placeholder="name@example.com"
+			required
+		/>
+	</div>
+
+	<div>
+		<label for="ssh"
+			><a
+				href="https://wiki.projectsegfau.lt/index.php?title=Generating_an_SSH_key"
+				>SSH public key</a
+			></label
+		>
+		<textarea
+			name="ssh"
+			placeholder="[...]"
+			rows="5"
+			required
+		/>
+	</div>
+
+	{#if form?.success}
+		{form.message}
+	{/if}
+
+	{#if form?.error}
+		{form.message}
+	{/if}
+
+	<button
+		type="submit"
+		class="transition-filter duration-200 hover:brightness-75"
+		>Submit registration <div
+			class="i-ic:outline-arrow-circle-right"
+		/></button
+	>
+</form>
 
 <style>
 	form > div {
