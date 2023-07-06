@@ -46,7 +46,7 @@ export const actions: Actions = {
 		} else {
 			try {
 				const request = await fetch(
-					"https://publapi.p.projectsegfau.lt/signup",
+					"https://pizza1.vpn.projectsegfau.lt/signup",
 					{
 						method: "POST",
 						headers: {
