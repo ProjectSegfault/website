@@ -20,7 +20,7 @@
 <p>
 	You can currently donate by credit card through <a
 		href="https://liberapay.com">Liberapay</a
-	> and cryptocurrencies.
+	>, UPI (for Indians) and cryptocurrencies.
 </p>
 
 <h3>Credit card</h3>
@@ -30,6 +30,12 @@
 	><div class="i-simple-icons:liberapay" />
 	Liberapay</a
 >
+
+<h3>UPI</h3>
+<CryptoInfo
+	address="projectsegfault@icici"
+	qr="UPI.png"
+/>
 
 <h3>Cryptocurrencies</h3>
 <p>
