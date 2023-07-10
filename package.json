@@ -36,6 +36,7 @@
 		"@auth/core": "^0.2.5",
 		"@auth/sveltekit": "^0.1.12",
 		"joi": "^17.7.0",
-		"snarkdown": "^2.0.0"
+		"snarkdown": "^2.0.0",
+		"svelte-hcaptcha": "^0.1.1"
 	}
 }

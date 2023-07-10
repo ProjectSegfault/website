@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { ActionData, PageData } from "./$types";
+	import HCaptcha from "svelte-hcaptcha";
 	export let form: ActionData;
 	export let data: PageData;
+
+	let siteKey = "cb477b1b-6f87-43ee-aa79-71e3302fbb34";
+  	//export const hcaptchaSiteKey = env.HCAPTCHA_SITE_KEY; 
 </script>
 
 <h1>{data.title}</h1>
@@ -43,6 +47,13 @@
 			rows="5"
 			required
 		/>
+	<div>
+		<label for="h-captcha-response"
+		><HCaptcha sitekey={siteKey} />
+	  </label>
+	</div>
+
+
 	</div>
 
 	{#if form?.success}
@@ -52,6 +63,10 @@
 	{#if form?.error}
 		{form.message}
 	{/if}
+
+	<div style="display:block;" >
+	<input type="checkbox" style="display:inline-block;width: 1em;margin-right: 10px;" required><p style="display:inline-block;word-break: break-all;">I agree to the <a href="/legal/tos">Terms of Service</p>.
+	</div>
 
 	<button
 		type="submit"
