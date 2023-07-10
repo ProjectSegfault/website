@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -17,6 +17,9 @@ dependencies:
   snarkdown:
     specifier: ^2.0.0
     version: 2.0.0
+  svelte-hcaptcha:
+    specifier: ^0.1.1
+    version: 0.1.1
 
 devDependencies:
   '@iconify-json/ic':
@@ -1666,6 +1669,10 @@ packages:
   /svelte-dark-mode@2.1.0:
     resolution: {integrity: sha512-/QmIqWGwzcfE82FAMuHBlKFwudW7Vcos60Ii8j/mJZ0H6kGAXwL5EGlcc8voBJMJv/i0QZmhp5b1ZX/XKg9NJQ==}
     dev: true
+
+  /svelte-hcaptcha@0.1.1:
+    resolution: {integrity: sha512-iFF3HwfrCRciJnDs4Y9/rpP/BM2U/5zt+vh+9d4tALPAHVkcANiJIKqYuS835pIaTm6gt+xOzjfFI3cgiRI29A==}
+    dev: false
 
   /svelte-hmr@0.15.1(svelte@3.55.1):
     resolution: {integrity: sha512-BiKB4RZ8YSwRKCNVdNxK/GfY+r4Kjgp9jCLEy0DuqAKfmQtpL38cQK3afdpjw4sqSs4PLi3jIPJIFp259NkZtA==}

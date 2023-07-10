@@ -15,9 +15,7 @@ export const actions: Actions = {
 		const BodyTypeSchema = Joi.object({
 			username: Joi.string()
 				.required()
-				.pattern(
-					/^[a-z_][a-z0-9_]{0,20}$/
-				)
+				.pattern(/^[a-z_][a-z0-9_]{0,20}$/)
 				.message("Invalid username ([A-Za-z0-9_])"),
 			email: Joi.string().email().required(),
 			ssh: Joi.string()
@@ -26,7 +24,10 @@ export const actions: Actions = {
 					/^(ssh-rsa|ssh-ed25519|ecdsa-sha2-nistp256|ecdsa-sha2-nistp384|ecdsa-sha2-nistp521) [A-Za-z0-9+/]+[=]{0,3}( [^@]+@[^@]+)?$/
 				)
 				.message("Invalid SSH key"),
-			ip: Joi.string().required().ip()
+			ip: Joi.string().required().ip(),
+			"h-captcha-response": Joi.string().required().messages({
+				"any.only": "Captcha is required."
+			})
 		});
 
 		formData.append("ip", getClientAddress());
