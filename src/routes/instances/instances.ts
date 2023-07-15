@@ -100,18 +100,6 @@ const instances: Instances[] = [
 				icon: "/icons/anonymousoverflow.png"
 			},
 			{
-				name: "Beatbump",
-				description: "A frontend for YouTube Music.",
-				geo: "https://bb.projectsegfau.lt/",
-				short_geo: "https://bb.projectsegfau.lt/",
-				eu: "https://bb.eu.projectsegfau.lt/",
-				us: "https://bb.us.projectsegfau.lt/",
-				in: "https://bb.in.projectsegfau.lt/",
-				tor: "http://beatbump.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsflmvtqax7ii44qy4ladap65c3kqspbs7h7krqy7x43uovklla.b32.i2p",
-				icon: "/icons/beatbump.svg"
-			},
-			{
 				name: "BreezeWiki",
 				description: "A frontend for Fandom.",
 				geo: "https://bw.projectsegfau.lt/",
@@ -141,6 +129,19 @@ const instances: Instances[] = [
 				icon: "/icons/gothub.svg"
 			},
 			{
+				name: "HyperPipe",
+				description: "A frontend for YT Music.",
+				geo: "https://hyperpipe.projectsegfau.lt/",
+				short_geo: "https://hp.psf.lt/",
+				eu: "https://hyperpipe.eu.projectsegfau.lt/",
+				short_eu: "https://hp.eu.psf.lt/",
+				us: "https://hyperpipe.us.projectsegfau.lt/",
+				short_us: "https://hp.us.psf.lt/",
+				in: "https://hyperpipe.in.projectsegfau.lt/",
+				short_in: "https://hp.in.psf.lt/",
+				icon: "/icons/hyperpipe.svg"
+			},
+			{
 				name: "Rimgo",
 				description: "A frontend for Imgur.",
 				geo: "https://rimgo.projectsegfau.lt/",
@@ -155,6 +156,20 @@ const instances: Instances[] = [
 				icon: "/icons/rimgo.png"
 			},
 			{
+				name: "Safetwitch",
+				description: "A frontend for Twitch.",
+				geo: "https://safetwitch.projectsegfau.lt/",
+				short_geo: "https://tw.psf.lt/",
+				eu: "https://safetwitch.eu.projectsegfau.lt/",
+				short_eu: "https://tw.eu.psf.lt/",
+				us: "https://safetwitch.us.projectsegfau.lt/",
+				short_us: "https://tw.us.psf.lt/",
+				in: "https://safetwitch.in.projectsegfau.lt/",
+				short_in: "https://tw.in.psf.lt/",
+				tor: "http://safetwitch.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				icon: "/icons/safetwitch.png"
+			},
+			{
 				name: "Scribe",
 				description: "A frontend for Medium.",
 				geo: "https://scribe.projectsegfau.lt/",
@@ -167,6 +182,19 @@ const instances: Instances[] = [
 				short_in: "https://sc.in.psf.lt/",
 				tor: "http://scribe.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				i2p: "http://pjsflkkkcn33ahmzmpyq6idy2knkzh4atp7zaetqfsnenpyori6a.b32.i2p"
+			},
+			{
+				name: "SimplyTranslate",
+				description: "A frontend for many translation engines.",
+				geo: "https://simplytranslate.projectsegfau.lt/",
+				short_geo: "https://tl.psf.lt/",
+				eu: "https://simplytranslate.eu.projectsegfau.lt/",
+				short_eu: "https://tl.eu.psf.lt/",
+				us: "https://simplytranslate.us.projectsegfau.lt/",
+				short_us: "https://tl.us.psf.lt/",
+				in: "https://simplytranslate.in.projectsegfau.lt/",
+				short_in: "https://tl.in.psf.lt/",
+				icon: "/icons/simplytranslate.svg"
 			},
 			{
 				name: "Teddit",
@@ -265,6 +293,13 @@ const instances: Instances[] = [
 				icon: "/icons/akkoma.png"
 			},
 			{
+				name: "Kbin",
+				description: "Federated reddit alternative.",
+				eu: "https://kbin.projectsegfau.lt/",
+				short_eu: "https://kb.psf.lt/",
+				icon: "/icons/kbin.svg"
+			},
+			{
 				name: "Vikunja",
 				description: "A task management platform.",
 				eu: "https://todo.projectsegfau.lt/",
@@ -300,6 +335,14 @@ const instances: Instances[] = [
 				eu: "https://healthchecks.projectsegfau.lt/",
 				short_eu: "https://hc.psf.lt/",
 				icon: "/icons/healthchecks.svg"
+			},
+			{
+				name: "MediaWiki",
+				description: "Our wiki.",
+				eu: "https://wiki.projectsegfau.lt/",
+				short_eu: "https://w.psf.lt/",
+				tor: "http://wiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				icon: "/icons/mediawiki.svg"
 			}
 		]
 	},
@@ -339,20 +382,8 @@ const instances: Instances[] = [
 		]
 	},
 	{
-		name: "Internal services",
+		name: "Invite-only services",
 		data: [
-			{
-				name: "Portainer",
-				description: "Portainer instance for our servers.",
-				eu: "https://portainer.projectsegfau.lt/",
-				icon: "/icons/portainer.png"
-			},
-			{
-				name: "Authentik",
-				description: "Our OAuth provider.",
-				eu: "https://sekuritee.projectsegfau.lt/",
-				icon: "/icons/authentik.svg"
-			},
 			{
 				name: "MailU",
 				description: "Our mail server and webmail.",
@@ -367,12 +398,10 @@ const instances: Instances[] = [
 				icon: "/icons/simplelogin.svg"
 			},
 			{
-				name: "MediaWiki",
-				description: "Our wiki.",
-				eu: "https://wiki.projectsegfau.lt/",
-				short_eu: "https://w.psf.lt/",
-				tor: "http://wiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				icon: "/icons/mediawiki.svg"
+				name: "Dendrite",
+				description: "Another matrix server, running on Project Segfault's India node!",
+				eu: "https://w.psf.lt/Matrix#Dendrite",
+				icon: "/icons/matrix.svg"
 			}
 		]
 	}
