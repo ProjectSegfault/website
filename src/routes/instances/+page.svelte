@@ -18,24 +18,29 @@
 		><div class="i-ic:outline-computer" />
 		Advanced</a
 	>
+ <button                                        
+ 	on:click={toggle}                            
+ 	class="text-text flex items-center text-sm"  
+ >                                              
+ 	<div                                         
+ 		class="i-ic:{insturl === 'long'            
+ 			? 'baseline-toggle-off bg-accent'                  
+ 			: 'baseline-toggle-on bg-amber-500'} h-15 w-15"       
+ 	/>                                           
+ 	{#if insturl === "long"}                     
+ 		Long URL                                   
+ 	{:else}                                      
+ 		Short URL                                  
+ 	{/if}                                        
+ </button>                                      
+
+
+
+
 </div>
 
 <div class="flex flex-col">
-	<button
-		on:click={toggle}
-		class="text-text flex items-center text-sm"
-	>
-		<div
-			class="i-ic:{insturl === 'long'
-				? 'baseline-toggle-off'
-				: 'baseline-toggle-on'} h-10 w-10"
-		/>
-		{#if insturl === "long"}
-			Long URL
-		{:else}
-			Short URL
-		{/if}
-	</button>
+
 	{#if insturl === "long"}
 	{#each data.instances as category}
 		<div class="flex flex-col">
