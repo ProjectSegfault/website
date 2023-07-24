@@ -1,15 +1,9 @@
 [
 	{
-		"name": "akisblack",
-		"description": "I am a soydev maintaining the website and api.",
-		"position": "Web dev",
-		"website": "https://akisblack.github.io/"
-	},
-	{
 		"name": "Arya",
 		"description": "Libre Software Enthusiast and Project Segfault Sysadmin",
 		"position": "Sysadmin",
-		"website": "https://arya.projectsegfau.lt",
+		"website": "https://aryak.me",
 		"matrix": "https://matrix.to/#/@aryak:projectsegfau.lt",
 		"xmpp": "https://join.jabber.network/#arya@projectsegfau.lt",
 		"fedi": "https://social.projectsegfau.lt/aryak",
@@ -40,5 +34,13 @@
 		"matrix": "https://matrix.to/#/@mrlerien:projectsegfau.lt/",
 		"position": "France server owner",
 		"description": "using windows server for soleil levant was a mistake"
+	},
+	{
+		"name": "py_",
+		"description": "High schooler who is interested in internet freedom, programming, and open source software. (Previously openssl_rand)",
+		"position": "Webdev",
+		"website": "https://py.p.psf.lt",
+		"matrix": "https://matrix.to/#/@py_:catgirl.cloud",
+		"git": "https://github.com/Supercolbat"
 	}
 ]
