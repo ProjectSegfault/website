@@ -286,6 +286,13 @@ const instances: Instances[] = [
 				icon: "/icons/hedgedoc.svg"
 			},
 			{
+				name: "LibreTranslate",
+				description: "Free and Open Source Machine Translation API.",
+				in: "https://libretranslate.projectsegfau.lt",
+				short_in: "https://lt.psf.lt/",
+				icon: "/icons/libretranslate.png"
+			},
+			{
 				name: "Akkoma",
 				description: "Federated microblogging platform.",
 				eu: "https://social.projectsegfau.lt/",
