@@ -84,6 +84,8 @@
 >
 	<!-- Slot for the progress bar -->
 	<slot />
+
+	<!-- Nav without links -->
 	<div class="flex items-center justify-between w-full">
 		<Logo />
 		<button
@@ -97,7 +99,9 @@
 			/>
 		</button>
 	</div>
-	{#if showMenu}
+
+	<!-- Nav with links -->
+	<div class={showMenu ? "contents" : "hidden"}>
 		<div
 			class="
 			{linkContainerStyles}
@@ -116,7 +120,7 @@
 			{/each}
 			<ThemeToggle />
 		</div>
-	{/if}
+	</div>
 </nav>
 
 <noscript>
