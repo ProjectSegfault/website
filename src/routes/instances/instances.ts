@@ -374,7 +374,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Cockpit",
-				description: "WebUI for users to access the Pubnix services.",
+				description: "WebUI for users to access the pubnix services.",
 				eu: "https://cockpit.p.projectsegfau.lt/",
 				icon: "/icons/cockpit.svg"
 			},

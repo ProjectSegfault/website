@@ -22,16 +22,15 @@
 >
 <h2>How do I get started?</h2>
 <span
-	>First, you need to register an account. You can do that <a
-		href="/pubnix/register">here</a
-	>. After registering, you need to wait a while because we manually check
-	each registration. If you get accepted, you will receive an email.</span
+	>First, you need to <a href="/pubnix/register">register an account</a>.
+	After registering, you need to wait a while because we manually check each
+	registration. If you get accepted, you will receive an email.</span
 >
-<h2>What's your systems specs?</h2>
+<h2>What are your system's specs?</h2>
 <span>Guess you'll have to find out. Join today!</span>
 <h2>I joined, but I have no idea what to do.</h2>
 <span
-	>No worries! We have put out tutorials on how to do common things on our <a
+	>No worries! We put out tutorials on how to do common things on our <a
 		href="https://wiki.projectsegfau.lt/index.php?title=Category%3APubnix"
 		>wiki</a
 	>.</span
@@ -41,6 +40,9 @@
 	>Yep! We have a <a href="https://matrix.to/#/#pubnix:projectsegfau.lt"
 		>Matrix room</a
 	>
-	and an <a href="https://join.jabber.network/#pubnix@conference.projectsegfau.lt?join">XMPP MUC</a> to
-	discuss the pubnix.</span
+	and an
+	<a
+		href="https://join.jabber.network/#pubnix@conference.projectsegfau.lt?join"
+		>XMPP MUC</a
+	> to discuss the pubnix.</span
 >

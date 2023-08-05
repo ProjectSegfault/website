@@ -5,7 +5,7 @@
 	export let data: PageData;
 
 	let siteKey = "cb477b1b-6f87-43ee-aa79-71e3302fbb34";
-  	//export const hcaptchaSiteKey = env.HCAPTCHA_SITE_KEY; 
+	//export const hcaptchaSiteKey = env.HCAPTCHA_SITE_KEY;
 </script>
 
 <h1>{data.title}</h1>
@@ -47,13 +47,10 @@
 			rows="5"
 			required
 		/>
-	<div>
-		<label for="h-captcha-response"
-		><HCaptcha sitekey={siteKey} />
-	  </label>
 	</div>
 
-
+	<div>
+		<label for="h-captcha-response"><HCaptcha sitekey={siteKey} /> </label>
 	</div>
 
 	{#if form?.success}
@@ -64,8 +61,18 @@
 		{form.message}
 	{/if}
 
-	<div style="display:block;" >
-	<input type="checkbox" style="display:inline-block;width: 1em;margin-right: 10px;" required><p style="display:inline-block;word-break: break-all;">I agree to the <a href="/legal/tos">Terms of Service</p>.
+	<div style="display:block;">
+		<input
+			id="tos"
+			type="checkbox"
+			required
+		/>
+		<label
+			for="tos"
+			style="display:inline-block;word-break: break-all;"
+		>
+			I agree to the <a href="/legal/tos">Terms of Service</a>.
+		</label>
 	</div>
 
 	<button
@@ -81,12 +88,20 @@
 	form > div {
 		@apply flex flex-col items-start gap-2 w-fit;
 	}
-	form > div > label {
+
+	form label:not([for="tos"]) {
 		@apply text-xl font-semibold;
 	}
-	form > div > input,
-	form > div > textarea,
-	form > button {
-		@apply w-110 lt-sm\:w-70 px-2 py-1 bg-secondary rounded flex items-center gap-2 text-lg;
+
+	form input,
+	form textarea,
+	form button {
+		@apply w-110 lt-sm\:w-70 px-2 py-1 bg-secondary rounded flex justify-center items-center gap-2 text-lg;
+		border: 1pt solid var(--alt);
+	}
+
+	form input[type="checkbox"] {
+		display: inline-block;
+		width: min-content;
 	}
 </style>

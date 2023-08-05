@@ -9,17 +9,15 @@
 	import PageTransition from "$lib/PageTransition.svelte";
 	import type { LayoutData } from "./$types";
 
+	const title = $page.url.pathname.startsWith("/blog")
+		? `${$page.data.title} | Project Segfault blog`
+		: `${$page.data.title} | Project Segfault`;
+
 	export let data: LayoutData;
 </script>
 
 <svelte:head>
-	<title
-		>{$page.data.title} | Project Segfault {$page.url.pathname.startsWith(
-			"/blog"
-		)
-			? "blog"
-			: ""}</title
-	>
+	<title>{title}</title>
 	{#if $page.data.description}
 		<meta
 			name="description"
