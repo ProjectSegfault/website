@@ -105,7 +105,7 @@
 		<div
 			class="
 			{linkContainerStyles}
-			lt-navPlus1:(flex-col !items-start fixed pl-4 pb-4 z-50 w-full left-0 top-16)
+			lt-navPlus1:(flex-col !items-end fixed pr-4 pb-4 z-50 w-full left-0 top-16)
 			"
 			transition:slide={{ duration: 300, easing: quintOut }}
 		>
