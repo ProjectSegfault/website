@@ -27,7 +27,7 @@
 <a
 	href="https://liberapay.com/ProjectSegfault/donate"
 	class="button !bg-amber !text-black w-fit"
-	><div class="i-simple-icons:liberapay" />
+	><div class="va-icon i-simple-icons:liberapay" />
 	Liberapay</a
 >
 
@@ -46,7 +46,13 @@
 	and <a href="https://electrum-ltc.org">Electrum-LTC</a>.
 </p>
 
-<h4>Monero</h4>
+<p class="text-text font-bold mt-4">
+	<i
+		class="va-icon i-simple-icons:monero inline-block text-[#F60]"
+		aria-hidden="true"
+	/>
+	Monero
+</p>
 
 <CryptoInfo
 	name="Monero"
@@ -54,7 +60,13 @@
 	qr="Monero.png"
 />
 
-<h4>Bitcoin</h4>
+<p class="text-text font-bold mt-4">
+	<i
+		class="va-icon i-simple-icons:bitcoin inline-block text-[#F7931A]"
+		aria-hidden="true"
+	/>
+	Bitcoin
+</p>
 
 <CryptoInfo
 	name="Bitcoin"
@@ -62,10 +74,22 @@
 	qr="Bitcoin.png"
 />
 
-<h4>Litecoin</h4>
+<p class="text-text font-bold mt-4">
+	<i
+		class="va-icon i-simple-icons:litecoin inline-block text-[#A6A9AA]"
+		aria-hidden="true"
+	/>
+	Litecoin
+</p>
 
 <CryptoInfo
 	name="Litecoin"
 	address="ltc1qn3ald586h2ntt0n3zkvwsmju2e5vndgtvvgatj"
 	qr="Litecoin.png"
 />
+
+<style>
+	.va-icon {
+		vertical-align: -0.125em;
+	}
+</style>

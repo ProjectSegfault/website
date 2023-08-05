@@ -17,12 +17,19 @@
 
 <button
 	on:click={toggle}
-	class="text-text flex items-center text-sm"
+	class="theme-toggle button text-text flex items-center text-sm"
+	aria-label="Toggle theme"
 >
 	<div
 		class="i-ic:{theme === 'dark'
 			? 'outline-light-mode'
 			: 'outline-dark-mode'} h-4 w-4"
 	/>
-	<span class="ml-2 navPlus1:(hidden)">Toggle theme</span>
+	<span class="navPlus1:(hidden)">Toggle theme</span>
 </button>
+
+<style>
+	.theme-toggle:hover {
+		@apply brightness-70;
+	}
+</style>
