@@ -7,16 +7,17 @@
 
 	const links = [
 		{ href: "/instances", text: "Instances" },
-		{ href: "/donate", text: "Donate" },
 		{ href: "/pubnix", text: "Pubnix" },
-		{ href: "/contact", text: "Contact" },
-		{ href: "/team", text: "Team" },
 		{
 			href: "https://wiki.projectsegfau.lt/",
 			text: "Wiki",
 			external: true
 		},
 		{ href: "/blog", text: "Blog" },
+
+		{ href: "/donate", text: "Donate" },
+		{ href: "/contact", text: "Contact" },
+		{ href: "/team", text: "Team" },
 		{
 			href: "https://status.projectsegfau.lt/",
 			text: "Status",

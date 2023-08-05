@@ -3,7 +3,7 @@
 		Project Segfault
 	</h1>
 	<p class="text-2xl text-text">
-		Open source development and hosted services.
+		Open-source development and hosted services.
 	</p>
 	<div class="flex gap-4 flex-col w-full sm:(flex-row justify-center)">
 		<a

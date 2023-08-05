@@ -7,7 +7,7 @@
 
 <h1>{data.title}</h1>
 
-<h2>What we do with donations</h2>
+<h2>What we do with donations?</h2>
 
 <p>
 	These donations primarily help us pay for our VPSes, domain names and other
