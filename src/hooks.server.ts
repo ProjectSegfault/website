@@ -5,7 +5,13 @@ import type { Provider } from "@auth/core/providers";
 import type { Profile } from "@auth/core/types";
 import { redirect, type Handle } from "@sveltejs/kit";
 import { sequence } from "@sveltejs/kit/hooks";
-import { announcements, pubnixUsers, blogPosts, blogTags, blogAuthors } from "./stores";
+import {
+	announcements,
+	pubnixUsers,
+	blogPosts,
+	blogTags,
+	blogAuthors
+} from "./stores";
 import axios from "axios";
 import { Agent } from "https";
 
@@ -74,10 +80,10 @@ export const fetchGhost = async (action: string, additional?: string) => {
 
 const updateMap = async () => {
 	try {
-		const res = await axios(
-			env.KUMA_URL,
-			{ httpsAgent: agent, timeout: 10000 }
-		);
+		const res = await axios(env.KUMA_URL, {
+			httpsAgent: agent,
+			timeout: 10000
+		});
 
 		if (res.status === 200) {
 			announcements.set(res.data);
@@ -89,10 +95,10 @@ const updateMap = async () => {
 	}
 
 	try {
-		const res = await axios(
-			"https://publapi.p.projectsegfau.lt/users",
-			{ httpsAgent: agent, timeout: 10000 }
-		);
+		const res = await axios("https://publapi.p.projectsegfau.lt/users", {
+			httpsAgent: agent,
+			timeout: 10000
+		});
 
 		if (res.status === 200) {
 			pubnixUsers.set(res.data);
