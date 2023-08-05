@@ -20,40 +20,55 @@
 			</div>
 			<div class="children:text-text flex flex-row gap-4 text-lg">
 				{#if member.website}
-					<a href={member.website}
+					<a
+						href={member.website}
+						aria-label="Website"
 						><div class="i-ic:outline-language" /></a
 					>
 				{/if}
 
 				{#if member.matrix}
-					<a href={member.matrix}
+					<a
+						href={member.matrix}
+						aria-label="Matrix"
 						><div class="i-simple-icons:matrix" /></a
 					>
 				{/if}
 
 				{#if member.xmpp}
-					<a href={member.xmpp}><div class="i-simple-icons:xmpp" /></a
+					<a
+						href={member.xmpp}
+						aria-label="XMPP"><div class="i-simple-icons:xmpp" /></a
 					>
 				{/if}
 
 				{#if member.fedi}
-					<a href={member.fedi}
+					<a
+						href={member.fedi}
+						aria-label="Fediverse"
 						><div class="i-simple-icons:mastodon" /></a
 					>
 				{/if}
 
 				{#if member.git}
-					<a href={member.git}><div class="i-simple-icons:git" /></a>
+					<a
+						href={member.git}
+						aria-label="Git"><div class="i-simple-icons:git" /></a
+					>
 				{/if}
 
 				{#if member.email}
-					<a href="mailto:{member.email}"
-						><div class="i-ic:outline-email" /></a
+					<a
+						href="mailto:{member.email}"
+						aria-label="Email"><div class="i-ic:outline-email" /></a
 					>
 				{/if}
 
 				{#if member.pgp}
-					<a href={member.pgp}><div class="i-ic:outline-vpn-key" /></a
+					<a
+						href={member.pgp}
+						aria-label="PGP key"
+						><div class="i-ic:outline-vpn-key" /></a
 					>
 				{/if}
 			</div>
