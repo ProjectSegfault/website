@@ -49,6 +49,7 @@
 <h4>Monero</h4>
 
 <CryptoInfo
+	name="Monero"
 	address="47L7Qsto7XcifY3CdG18ySe5Tt83kpFLDLve9jQwbc9taPBLNGv6ZrJNUKpMG9Nj9zHgCZ4FQMSyt75e8Jvx12JFLtJyFdA"
 	qr="Monero.png"
 />
@@ -56,6 +57,7 @@
 <h4>Bitcoin</h4>
 
 <CryptoInfo
+	name="Bitcoin"
 	address="bc1qrc8ywgp95a6p3zausp4nff70qzstp6h8z86sxd"
 	qr="Bitcoin.png"
 />
@@ -63,6 +65,7 @@
 <h4>Litecoin</h4>
 
 <CryptoInfo
+	name="Litecoin"
 	address="ltc1qn3ald586h2ntt0n3zkvwsmju2e5vndgtvvgatj"
 	qr="Litecoin.png"
 />

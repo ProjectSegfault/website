@@ -69,7 +69,7 @@ h4 {
 	@apply text-xl font-bold my-8;
 }
 
-details {
+summary {
 	@apply cursor-pointer;
 }
 
