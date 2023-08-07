@@ -29,7 +29,7 @@ const instances: Instances[] = [
 		data: [
 			{
 				name: "Invidious",
-				description: "A frontend for YouTube.",
+				description: "A front-end for YouTube.",
 				eu: "https://invidious.projectsegfau.lt/",
 				short_eu: "https://i.psf.lt/",
 				us: "https://inv.us.projectsegfau.lt/",
@@ -46,7 +46,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Piped",
-				description: "Another frontend for YouTube.",
+				description: "Another front-end for YouTube.",
 				eu: "https://piped.projectsegfau.lt/",
 				short_eu: "https://pi.psf.lt/",
 				us: "https://piped.us.projectsegfau.lt/",
@@ -57,7 +57,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Libreddit",
-				description: "A frontend for Reddit.",
+				description: "A front-end for Reddit.",
 				geo: "https://libreddit.projectsegfau.lt/",
 				short_geo: "https://lr.psf.lt/",
 				eu: "https://libreddit.eu.projectsegfau.lt/",
@@ -72,7 +72,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Nitter",
-				description: "A frontend for Twitter.",
+				description: "A front-end for Twitter.",
 				geo: "https://nitter.projectsegfau.lt/",
 				short_geo: "https://n.psf.lt/",
 				eu: "https://nitter.eu.projectsegfau.lt/",
@@ -87,7 +87,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "AnonymousOverflow",
-				description: "A frontend for StackOverflow.",
+				description: "A front-end for StackOverflow.",
 				geo: "https://overflow.projectsegfau.lt/",
 				short_geo: "https://o.psf.lt/",
 				eu: "https://overflow.eu.projectsegfau.lt/",
@@ -101,7 +101,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "BreezeWiki",
-				description: "A frontend for Fandom.",
+				description: "A front-end for Fandom.",
 				geo: "https://bw.projectsegfau.lt/",
 				short_geo: "https://bw.psf.lt/",
 				eu: "https://bw.eu.projectsegfau.lt/",
@@ -116,7 +116,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "GotHub",
-				description: "A frontend for GitHub.",
+				description: "A front-end for GitHub.",
 				geo: "https://gothub.projectsegfau.lt/",
 				short_geo: "https://gh.psf.lt/",
 				eu: "https://gothub.eu.projectsegfau.lt/",
@@ -130,7 +130,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "HyperPipe",
-				description: "A frontend for YT Music.",
+				description: "A front-end for YT Music.",
 				geo: "https://hyperpipe.projectsegfau.lt/",
 				short_geo: "https://hp.psf.lt/",
 				eu: "https://hyperpipe.eu.projectsegfau.lt/",
@@ -143,7 +143,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Rimgo",
-				description: "A frontend for Imgur.",
+				description: "A front-end for Imgur.",
 				geo: "https://rimgo.projectsegfau.lt/",
 				short_geo: "https://rg.psf.lt/",
 				eu: "https://rimgo.eu.projectsegfau.lt/",
@@ -157,7 +157,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Safetwitch",
-				description: "A frontend for Twitch.",
+				description: "A front-end for Twitch.",
 				geo: "https://safetwitch.projectsegfau.lt/",
 				short_geo: "https://tw.psf.lt/",
 				eu: "https://safetwitch.eu.projectsegfau.lt/",
@@ -171,7 +171,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Scribe",
-				description: "A frontend for Medium.",
+				description: "A front-end for Medium.",
 				geo: "https://scribe.projectsegfau.lt/",
 				short_geo: "https://sc.psf.lt/",
 				eu: "https://scribe.eu.projectsegfau.lt/",
@@ -185,7 +185,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "SimplyTranslate",
-				description: "A frontend for many translation engines.",
+				description: "A front-end for many translation engines.",
 				geo: "https://simplytranslate.projectsegfau.lt/",
 				short_geo: "https://tl.psf.lt/",
 				eu: "https://simplytranslate.eu.projectsegfau.lt/",
@@ -198,7 +198,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Teddit",
-				description: "Another frontend for Reddit.",
+				description: "Another front-end for Reddit.",
 				geo: "https://teddit.projectsegfau.lt/",
 				short_geo: "https://t.psf.lt/",
 				eu: "https://teddit.eu.projectsegfau.lt/",
@@ -209,7 +209,7 @@ const instances: Instances[] = [
 				short_in: "https://t.in.psf.lt/",
 				tor: "http://teddit.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/teddit.png"
-			},
+			}
 		]
 	},
 	{
@@ -217,7 +217,8 @@ const instances: Instances[] = [
 		data: [
 			{
 				name: "Matrix",
-				description: "An open network for secure, decentralized communication.",
+				description:
+					"An open network for secure, decentralized communication.",
 				eu: "https://wiki.projectsegfau.lt/Matrix",
 				short_eu: "https://w.psf.lt/Matrix",
 				icon: "/icons/matrix.svg"
@@ -258,7 +259,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "SearXNG",
-				description: "A private meta-search engine.",
+				description: "A private metasearch engine.",
 				eu: "https://search.projectsegfau.lt/",
 				short_eu: "https://s.psf.lt/",
 				us: "https://search.us.projectsegfau.lt/",
@@ -271,7 +272,8 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Gitea",
-				description: "A web interface for Git, alternative to GitHub.",
+				description:
+					"A web interface for Git. An alternative to GitHub.",
 				eu: "https://git.projectsegfau.lt/",
 				short_eu: "https://git.psf.lt/",
 				tor: "http://git.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
@@ -280,14 +282,14 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Hedgedoc",
-				description: "Collaborative markdown notes.",
+				description: "Collaborative Markdown notes.",
 				eu: "https://doc.projectsegfau.lt/",
 				short_eu: "https://d.psf.lt/",
 				icon: "/icons/hedgedoc.svg"
 			},
 			{
 				name: "LibreTranslate",
-				description: "Free and Open Source Machine Translation API.",
+				description: "Free and open-source machine translation API.",
 				in: "https://libretranslate.projectsegfau.lt",
 				short_in: "https://lt.psf.lt/",
 				icon: "/icons/libretranslate.png"
@@ -301,7 +303,7 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Kbin",
-				description: "Federated reddit alternative.",
+				description: "Federated Reddit alternative.",
 				eu: "https://kbin.projectsegfau.lt/",
 				short_eu: "https://kb.psf.lt/",
 				icon: "/icons/kbin.svg"
@@ -317,28 +319,28 @@ const instances: Instances[] = [
 			},
 			{
 				name: "Jitsi",
-				description: "An open source video conferencing platform.",
+				description: "An open-source video conferencing platform.",
 				eu: "https://jitsi.projectsegfau.lt/",
 				short_eu: "https://j.psf.lt/",
 				icon: "/icons/jitsi.svg"
 			},
 			{
 				name: "Vaultwarden",
-				description: "An open source password manager.",
+				description: "An open-source password manager.",
 				eu: "https://pass.projectsegfau.lt/",
 				short_eu: "https://vw.psf.lt/",
 				tor: "http://pass.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/vaultwarden.svg"
 			},
 			{
-				name: "Plausible analytics",
+				name: "Plausible Analytics",
 				description: "Analytics for our website.",
 				eu: "https://analytics.projectsegfau.lt/",
 				icon: "/icons/plausible.png"
 			},
 			{
 				name: "Healthchecks",
-				description: "Simple and Effective Cron Job Monitoring.",
+				description: "Simple and effective cron job monitoring.",
 				eu: "https://healthchecks.projectsegfau.lt/",
 				short_eu: "https://hc.psf.lt/",
 				icon: "/icons/healthchecks.svg"
@@ -358,7 +360,8 @@ const instances: Instances[] = [
 		data: [
 			{
 				name: "Pubnix",
-				description: "A Unix server open to the public with non-commercial recreational goals.",
+				description:
+					"A Unix server open to the public for non-commercial recreational usage.",
 				eu: "https://p.projectsegfau.lt/",
 				short_eu: "https://p.psf.lt/",
 				icon: "/icons/pubnix.png"
@@ -399,14 +402,15 @@ const instances: Instances[] = [
 			},
 			{
 				name: "SimpleLogin",
-				description: "An open source email alias creator/manager",
+				description: "An open-source email alias creator/manager",
 				eu: "https://sl.projectsegfau.lt/",
 				short_eu: "https://sl.psf.lt/",
 				icon: "/icons/simplelogin.svg"
 			},
 			{
 				name: "Dendrite",
-				description: "Another matrix server, running on Project Segfault's India node!",
+				description:
+					"Another Matrix server running on Project Segfault's India node!",
 				eu: "https://w.psf.lt/Matrix#Dendrite",
 				icon: "/icons/matrix.svg"
 			}

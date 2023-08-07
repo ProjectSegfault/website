@@ -3,95 +3,112 @@
 
 	export let data: PageData;
 
-	let insturl: "short" | "long";
+	$: longUrl = data.queryLongUrl;
+
 	let toggle = () => {
-		insturl = insturl === "long" ? "short" : "long";
+		longUrl = !longUrl;
 	};
-	insturl = "long";
 </script>
 
 <div class="h1-no-lg flex flex-col sm:(flex-row items-center) gap-4 !mb-0">
 	<span class="text-4xl font-bold">{data.title}</span>
+
+	<!-- With JavaScript -->
 	<a
 		href="/instances/advanced"
 		class="button sm:w-fit"
 		><div class="i-ic:outline-computer" />
 		Advanced</a
 	>
- <button                                        
- 	on:click={toggle}                            
- 	class="text-text flex items-center text-sm"  
- >                                              
- 	<div                                         
- 		class="i-ic:{insturl === 'long'            
- 			? 'baseline-toggle-off bg-accent'                  
- 			: 'baseline-toggle-on bg-amber-500'} h-15 w-15"       
- 	/>                                           
- 	{#if insturl === "long"}                     
- 		Long URL                                   
- 	{:else}                                      
- 		Short URL                                  
- 	{/if}                                        
- </button>                                      
+	<button
+		on:click={toggle}
+		class="text-text flex items-center text-sm js"
+	>
+		<div
+			class="i-ic:{longUrl
+				? 'baseline-toggle-off bg-alt'
+				: 'baseline-toggle-on bg-accent'} h-15 w-15"
+		/>
+		Use short URL
+	</button>
 
+	<!-- Without JavaScript -->
+	<noscript>
+		<a
+			href="?{data.queryLongUrl ? 'short' : ''}"
+			class="text-text flex items-center text-sm"
+		>
+			<div
+				class="i-ic:{data.queryLongUrl
+					? 'baseline-toggle-off bg-alt'
+					: 'baseline-toggle-on bg-accent'} h-15 w-15"
+			/>
+			Use short URL
+		</a>
 
-
-
+		<style>
+			.js {
+				display: none;
+			}
+		</style>
+	</noscript>
 </div>
 
 <div class="flex flex-col">
-
-	{#if insturl === "long"}
-	{#each data.instances as category}
-		<div class="flex flex-col">
-			<h2>{category.name}</h2>
-			<div class="flex flex-row flex-wrap gap-4">
-				{#each category.data as instance}
-					<a
-						href={instance.geo || instance.eu}
-						class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
-					>
-						{#if instance.icon}
-							<img
-								src={instance.icon}
-								alt="{instance.name} logo"
-								class="h-20 rounded"
-							/>
-						{/if}
-						<div>
-							<span class="text-2xl">{instance.name}</span>
-							<p>{instance.description}</p>
-						</div>
-					</a>
-				{/each}
+	{#if longUrl}
+		{#each data.instances as category}
+			<div class="flex flex-col">
+				<h2>{category.name}</h2>
+				<div class="flex flex-row flex-wrap gap-4">
+					{#each category.data as instance}
+						<a
+							href={instance.geo || instance.eu}
+							class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
+						>
+							{#if instance.icon}
+								<img
+									src={instance.icon}
+									alt="{instance.name} logo"
+									class="h-20 rounded"
+								/>
+							{/if}
+							<div>
+								<span class="text-2xl">{instance.name}</span>
+								<p>{instance.description}</p>
+							</div>
+						</a>
+					{/each}
+				</div>
 			</div>
-		</div>
-	{/each}
+		{/each}
 	{:else}
-	{#each data.instances as category}
-		<div class="flex flex-col">
-			<h2>{category.name}</h2>
-			<div class="flex flex-row flex-wrap gap-4">
-				{#each category.data as instance}
-					<a
-						href={instance.short_geo || instance.short_eu || instance.geo || instance.eu}
-						class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
-					>
-						{#if instance.icon}
-							<img
-								src={instance.icon}
-								alt="{instance.name} logo"
-								class="h-20 rounded"
-							/>
-						{/if}
-						<div>
-							<span class="text-2xl">{instance.name}</span>
-							<p>{instance.description}</p>
-						</div>
-					</a>
-				{/each}
+		{#each data.instances as category}
+			<div class="flex flex-col">
+				<h2>{category.name}</h2>
+				<div class="flex flex-row flex-wrap gap-4">
+					{#each category.data as instance}
+						<a
+							href={instance.short_geo ||
+								instance.short_eu ||
+								instance.geo ||
+								instance.eu}
+							class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
+						>
+							{#if instance.icon}
+								<img
+									src={instance.icon}
+									alt="{instance.name} logo"
+									class="h-20 rounded"
+								/>
+							{/if}
+							<div>
+								<span class="text-2xl">{instance.name}</span>
+								<p>{instance.description}</p>
+							</div>
+						</a>
+					{/each}
+				</div>
 			</div>
-		</div>
-	{/each}
+		{/each}
 	{/if}
 </div>

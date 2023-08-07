@@ -12,7 +12,7 @@
 	We have a Matrix space for general discussion, support and announcements
 	about Project Segfault over at <a
 		href="https://matrix.to/#/#project-segfault:projectsegfau.lt/"
-		>this link</a
+		>#project-segfault:projectsegfau.lt</a
 	>.
 </p>
 
@@ -20,7 +20,8 @@
 
 <p>
 	We have an XMPP MUC for general discussion about Project Segfault over at <a
-		href="https://join.jabber.network/#general@conference.projectsegfau.lt?join">this link</a
+		href="https://join.jabber.network/#general@conference.projectsegfau.lt?join"
+		>#general@conference.projectsegfau.lt</a
 	>.
 </p>
 
@@ -44,7 +45,7 @@
 <h2>Members</h2>
 
 <p>
-	You can contact individual members by using the links provided in <a
-		href="/team">the team page</a
+	You can contact individual members by using the links provided in the <a
+		href="/team">team page</a
 	>.
 </p>

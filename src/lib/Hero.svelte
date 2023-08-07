@@ -2,7 +2,9 @@
 	<h1 class="text-5xl font-extrabold text-accent my-0 border-b-0 pb-0">
 		Project Segfault
 	</h1>
-	<p class="text-2xl">Open source development and hosted services.</p>
+	<p class="text-2xl text-text">
+		Open-source development and hosted services.
+	</p>
 	<div class="flex gap-4 flex-col w-full sm:(flex-row justify-center)">
 		<a
 			href="/instances"

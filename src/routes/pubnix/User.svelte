@@ -49,28 +49,38 @@
 	</div>
 	<div class="children:text-text flex flex-row items-center gap-4 text-lg">
 		{#if user.email}
-			<a href="mailto:{user.email}"><div class="i-ic:outline-email" /></a>
+			<a
+				href="mailto:{user.email}"
+				aria-label="Email"><div class="i-ic:outline-email" /></a
+			>
 		{/if}
 
 		{#if user.matrix}
-			<a href="https://matrix.to/#/{user.matrix}"
-				><div class="i-simple-icons:matrix" /></a
+			<a
+				href="https://matrix.to/#/{user.matrix}"
+				aria-label="Matrix"><div class="i-simple-icons:matrix" /></a
 			>
 		{/if}
 
 		{#if user.fediverse}
-			<a href="https://{user.fediverse}"
+			<a
+				href="https://{user.fediverse}"
+				aria-label="Fediverse"
 				><div class="i-simple-icons:mastodon" /></a
 			>
 		{/if}
 
 		{#if user.website}
-			<a href={user.website}><div class="i-ic:outline-language" /></a>
+			<a
+				href={user.website}
+				aria-label="Website"><div class="i-ic:outline-language" /></a
+			>
 		{/if}
 
 		{#if user.capsule}
 			<a
 				href="https://geminiproxy.p.projectsegfau.lt/gemini/{user.capsule}"
+				aria-label="Gemini"
 				class="no-underline text-base">Gemini</a
 			>
 		{/if}

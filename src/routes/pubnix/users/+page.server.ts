@@ -10,5 +10,5 @@ export const load = (async () => {
 	return {
 		users: get(pubnixUsers),
 		...meta
-	}
+	};
 }) satisfies PageServerLoad;

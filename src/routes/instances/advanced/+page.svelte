@@ -18,50 +18,56 @@
 	{#each data.instances as category}
 		{#each category.data as instance}
 			<h2>{instance.name}</h2>
-			<div class="flex flex-row gap-2">
+			<ul class="instances flex flex-row flex-wrap gap-2">
 				{#if instance.geo}
-					<a href={instance.geo}>GeoDNS</a>
+					<li><a href={instance.geo}>GeoDNS</a></li>
 				{/if}
 				{#if instance.eu}
-					<a href={instance.eu}>EU</a>
+					<li><a href={instance.eu}>EU</a></li>
 				{/if}
 				{#if instance.us}
-					<a href={instance.us}>US</a>
+					<li><a href={instance.us}>US</a></li>
 				{/if}
 				{#if instance.in}
-					<a href={instance.in}>IN</a>
+					<li><a href={instance.in}>IN</a></li>
 				{/if}
 				{#if instance.bp}
-					<a href={instance.bp}>Backup</a>
+					<li><a href={instance.bp}>Backup</a></li>
 				{/if}
 				{#if instance.short_geo}
-					<a href={instance.short_geo}>GeoDNS (Short URL)</a>
+					<li><a href={instance.short_geo}>GeoDNS (Short URL)</a></li>
 				{/if}
 				{#if instance.short_eu}
-					<a href={instance.short_eu}>EU (Short URL)</a>
+					<li><a href={instance.short_eu}>EU (Short URL)</a></li>
 				{/if}
 				{#if instance.short_us}
-					<a href={instance.short_us}>US (Short URL)</a>
+					<li><a href={instance.short_us}>US (Short URL)</a></li>
 				{/if}
 				{#if instance.short_in}
-					<a href={instance.short_in}>IN (Short URL)</a>
+					<li><a href={instance.short_in}>IN (Short URL)</a></li>
 				{/if}
 				{#if instance.short_bp}
-					<a href={instance.short_bp}>Backup (Short URL)</a>
+					<li><a href={instance.short_bp}>Backup (Short URL)</a></li>
 				{/if}
 				{#if instance.tor}
-					<a href={instance.tor}>Tor</a>
+					<li><a href={instance.tor}>Tor</a></li>
 				{/if}
 				{#if instance.torBp}
-					<a href={instance.torBp}>Tor backup</a>
+					<li><a href={instance.torBp}>Tor backup</a></li>
 				{/if}
 				{#if instance.i2p}
-					<a href={instance.i2p}>I2P</a>
+					<li><a href={instance.i2p}>I2P</a></li>
 				{/if}
 				{#if instance.i2pBp}
-					<a href={instance.i2pBp}>I2P backup</a>
+					<li><a href={instance.i2pBp}>I2P backup</a></li>
 				{/if}
-			</div>
+			</ul>
 		{/each}
 	{/each}
 </div>
+
+<style>
+	.instances li:not(:last-child)::after {
+		content: ",";
+	}
+</style>
