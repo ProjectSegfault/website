@@ -186,13 +186,13 @@ const instances: Instances[] = [
 			{
 				name: "SimplyTranslate",
 				description: "A frontend for many translation engines.",
-				geo: "https://simplytranslate.projectsegfau.lt/",
+				geo: "https://translate.projectsegfau.lt/",
 				short_geo: "https://tl.psf.lt/",
-				eu: "https://simplytranslate.eu.projectsegfau.lt/",
+				eu: "https://translate.eu.projectsegfau.lt/",
 				short_eu: "https://tl.eu.psf.lt/",
-				us: "https://simplytranslate.us.projectsegfau.lt/",
+				us: "https://translate.us.projectsegfau.lt/",
 				short_us: "https://tl.us.psf.lt/",
-				in: "https://simplytranslate.in.projectsegfau.lt/",
+				in: "https://translate.in.projectsegfau.lt/",
 				short_in: "https://tl.in.psf.lt/",
 				icon: "/icons/simplytranslate.svg"
 			},
