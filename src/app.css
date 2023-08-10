@@ -17,7 +17,20 @@ html.light {
 	--alt: #ddd;
 	--alt-text: #333;
 	--black: #151515;
+	--body-text: #666;
 	color-scheme: light;
+}
+
+html.dark {
+	--primary: #151515;
+	--secondary: #1d1d1d;
+	--tertiary: #353535;
+	--text: #ffffffde;
+	--grey: #5454547a;
+	--alt: #333;
+	--alt-text: #ddd;
+	--body-text: #bbb;
+	color-scheme: dark;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,6 +42,7 @@ html.light {
 		--grey: #5454547a;
 		--alt: #333;
 		--alt-text: #ddd;
+		--body-text: #bbb;
 		color-scheme: dark;
 	}
 }
@@ -50,26 +64,35 @@ a:hover {
 }
 
 h1 {
-	@apply text-4xl font-bold my-8 border-b-2 border-accent pb-2;
+	@apply text-4xl font-bold mt-8 mb-2 border-b-2 border-accent pb-2;
 }
 
 .h1-no-lg {
-	@apply my-8 border-b-2 border-accent pb-2;
+	@apply mt-8 mb-2 border-b-2 border-accent pb-2;
 }
 
 h2 {
-	@apply text-3xl font-bold my-8;
+	@apply text-3xl font-bold mt-8 mb-2;
 }
 
 h3 {
-	@apply text-2xl font-bold my-8;
+	@apply text-2xl font-bold mt-8 mb-2;
 }
 
 h4 {
-	@apply text-xl font-bold my-8;
+	@apply text-xl font-bold mt-8 mb-2;
 }
 
-details {
+p {
+	color: var(--body-text);
+}
+
+/* Between-paragraph spacing */
+p + p {
+	@apply mt-4;
+}
+
+summary {
 	@apply cursor-pointer;
 }
 

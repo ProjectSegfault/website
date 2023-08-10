@@ -7,16 +7,17 @@
 
 	const links = [
 		{ href: "/instances", text: "Instances" },
-		{ href: "/donate", text: "Donate" },
 		{ href: "/pubnix", text: "Pubnix" },
-		{ href: "/contact", text: "Contact" },
-		{ href: "/team", text: "Team" },
 		{
 			href: "https://wiki.projectsegfau.lt/",
 			text: "Wiki",
 			external: true
 		},
 		{ href: "/blog", text: "Blog" },
+
+		{ href: "/donate", text: "Donate" },
+		{ href: "/contact", text: "Contact" },
+		{ href: "/team", text: "Team" },
 		{
 			href: "https://status.projectsegfau.lt/",
 			text: "Status",
@@ -83,6 +84,8 @@
 >
 	<!-- Slot for the progress bar -->
 	<slot />
+
+	<!-- Nav without links -->
 	<div class="flex items-center justify-between w-full">
 		<Logo />
 		<button
@@ -96,11 +99,13 @@
 			/>
 		</button>
 	</div>
-	{#if showMenu}
+
+	<!-- Nav with links -->
+	<div class={showMenu ? "contents" : "hidden"}>
 		<div
 			class="
 			{linkContainerStyles}
-			lt-navPlus1:(flex-col !items-start fixed pl-4 pb-4 z-50 w-full left-0 top-16)
+			lt-navPlus1:(flex-col !items-end fixed pr-4 pb-4 z-50 w-full left-0 top-16)
 			"
 			transition:slide={{ duration: 300, easing: quintOut }}
 		>
@@ -115,7 +120,7 @@
 			{/each}
 			<ThemeToggle />
 		</div>
-	{/if}
+	</div>
 </nav>
 
 <noscript>

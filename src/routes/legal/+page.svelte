@@ -24,22 +24,22 @@
 <h3>What do I do if a user is disturbing me?</h3>
 
 <p>
-	If some user of our services is disturbing you, you should immediately
-	contact us. You can do that either by <a
-		href="mailto:contact@projectsegfau.lt">emailing us</a
+	If you are being disturbed by a user on our services, then you should
+	immediately contact us. You can do that by sending us an <a
+		href="mailto:contact@projectsegfau.lt">email</a
 	>
-	or sending us a message on
-	<a href="https://matrix.to/#/#support:projectsegfau.lt"
-		>the Matrix support channel</a
-	>. If you prefer to keep your report private on Matrix, contact one of our
-	team members. You can find their info on <a href="/team">our team page</a>.
+	or through our Matrix
+	<a href="https://matrix.to/#/#support:projectsegfau.lt">support channel</a>.
+	If you prefer to keep your report private on Matrix, contact one of our team
+	members directly. You can find their info on our
+	<a href="/team">team page</a>.
 </p>
 
 <h3>How can I trust you?</h3>
 
 <p>
-	We have written a privacy policy, which is accessible through this website!
-	You can find it <a href="/legal/privacy-policy">here</a>.
+	We have a <a href="/legal/privacy-policy">privacy policy</a> which outlines how
+	we collect and handle your data.
 </p>
 
 <style>
