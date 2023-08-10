@@ -194,6 +194,7 @@ const instances: Instances[] = [
 				short_us: "https://tl.us.psf.lt/",
 				in: "https://translate.in.projectsegfau.lt/",
 				short_in: "https://tl.in.psf.lt/",
+				tor: "http://translate.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/simplytranslate.svg"
 			},
 			{
@@ -343,6 +344,7 @@ const instances: Instances[] = [
 				description: "Simple and effective cron job monitoring.",
 				eu: "https://healthchecks.projectsegfau.lt/",
 				short_eu: "https://hc.psf.lt/",
+				tor: "http://healthchecks.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/healthchecks.svg"
 			},
 			{
@@ -376,6 +378,7 @@ const instances: Instances[] = [
 				name: "Cockpit",
 				description: "WebUI for users to access the pubnix services.",
 				eu: "https://cockpit.p.projectsegfau.lt/",
+				tor: "http://cockpit.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/cockpit.svg"
 			},
 			{
@@ -388,6 +391,7 @@ const instances: Instances[] = [
 				description: "Access Gemini sites from the web.",
 				eu: "https://geminiproxy.p.projectsegfau.lt/",
 				short_eu: "https://gp.p.psf.lt/"
+				tor: "http://geminiproxy.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 			}
 		]
 	},
