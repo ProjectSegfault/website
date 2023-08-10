@@ -390,8 +390,8 @@ const instances: Instances[] = [
 				name: "Gemini Proxy",
 				description: "Access Gemini sites from the web.",
 				eu: "https://geminiproxy.p.projectsegfau.lt/",
-				short_eu: "https://gp.p.psf.lt/"
-				tor: "http://geminiproxy.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				short_eu: "https://gp.p.psf.lt/",
+				tor: "http://geminiproxy.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion"
 			}
 		]
 	},
