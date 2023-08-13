@@ -291,8 +291,8 @@ const instances: Instances[] = [
 			{
 				name: "LibreTranslate",
 				description: "Free and open-source machine translation API.",
-				in: "https://libretranslate.projectsegfau.lt",
-				short_in: "https://lt.psf.lt/",
+				eu: "https://libretranslate.projectsegfau.lt",
+				short_eu: "https://lt.psf.lt/",
 				icon: "/icons/libretranslate.png"
 			},
 			{
