@@ -73,7 +73,7 @@ export const fetchGhost = async (action: string, additional?: string) => {
 			"/?key=" +
 			env.GHOST_API_KEY +
 			"&include=authors,tags&limit=all&formats=html,plaintext" +
-			(additional ? additional : ""),
+			additional || "",
 		{ httpsAgent: agent, timeout: 10000 }
 	);
 };

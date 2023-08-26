@@ -61,8 +61,8 @@
 				<span>Created - {data.announcements.incident.createdDate}</span>
 				{#if data.announcements.incident.lastUpdatedDate}
 					<span
-						>Updated - {data.announcements.incident
-							.lastUpdatedDate}</span
+						>Updated - {data.announcements.incident.lastUpdatedDate}
+						UTC</span
 					>
 				{/if}
 			</div>
