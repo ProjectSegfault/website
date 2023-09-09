@@ -296,6 +296,13 @@ const instances: Instances[] = [
 				icon: "/icons/libretranslate.png"
 			},
 			{
+				name: "NextCloud",
+				description: "Open-source file storage solution and alternative to the google suite.",
+				eu: "https://nc.projectsegfau.lt/",
+				short_eu: "https://nc.psf.lt/",
+				icon: "/icons/nextcloud.svg"
+			},
+			{
 				name: "Akkoma",
 				description: "Federated microblogging platform.",
 				eu: "https://social.projectsegfau.lt/",

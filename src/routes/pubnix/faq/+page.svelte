@@ -46,3 +46,5 @@
 		>XMPP MUC</a
 	> to discuss the pubnix.</span
 >
+<h2>10GB isn't enough for me!</h2>
+<span>Money doesn't grow on trees :P. To make the project sustainable, we have decided to make extra storage (upto 30GB) on the Pubnix require at minimum an yearly donation of 10$ (or equivalent in UPI/Crypto). Once you have donated, please <a href=/contact>contact us</a> so we can give you the extra storage once verified.</span>
