@@ -217,35 +217,6 @@ const instances: Instances[] = [
 		name: "Useful tools and services",
 		data: [
 			{
-				name: "Matrix",
-				description:
-					"An open network for secure, decentralized communication.",
-				eu: "https://wiki.projectsegfau.lt/Matrix",
-				short_eu: "https://w.psf.lt/Matrix",
-				icon: "/icons/matrix.svg"
-			},
-			{
-				name: "Element",
-				description: "A feature-rich Matrix client.",
-				eu: "https://chat.projectsegfau.lt/",
-				short_eu: "https://el.psf.lt/",
-				icon: "/icons/element.svg"
-			},
-			{
-				name: "Hydrogen",
-				description: "A lightweight Matrix client.",
-				eu: "https://hydrogen.projectsegfau.lt/",
-				short_eu: "https://h2.psf.lt/",
-				icon: "/icons/hydrogen.svg"
-			},
-			{
-				name: "Cinny",
-				description: "An elegant Matrix client.",
-				eu: "https://cinny.projectsegfau.lt/",
-				short_eu: "https://cy.psf.lt/",
-				icon: "/icons/cinny.svg"
-			},
-			{
 				name: "XMPP",
 				description: "The universal messaging standard.",
 				eu: "https://wiki.projectsegfau.lt/XMPP",
@@ -289,27 +260,6 @@ const instances: Instances[] = [
 				icon: "/icons/hedgedoc.svg"
 			},
 			{
-				name: "LibreTranslate",
-				description: "Free and open-source machine translation API.",
-				eu: "https://libretranslate.projectsegfau.lt",
-				short_eu: "https://lt.psf.lt/",
-				icon: "/icons/libretranslate.png"
-			},
-			{
-				name: "NextCloud",
-				description: "Open-source file storage solution and alternative to the google suite.",
-				eu: "https://nc.projectsegfau.lt/",
-				short_eu: "https://nc.psf.lt/",
-				icon: "/icons/nextcloud.svg"
-			},
-			{
-				name: "Akkoma",
-				description: "Federated microblogging platform.",
-				eu: "https://social.projectsegfau.lt/",
-				short_eu: "https://ak.psf.lt/",
-				icon: "/icons/akkoma.png"
-			},
-			{
 				name: "Kbin",
 				description: "Federated Reddit alternative.",
 				eu: "https://kbin.projectsegfau.lt/",
@@ -339,12 +289,6 @@ const instances: Instances[] = [
 				short_eu: "https://vw.psf.lt/",
 				tor: "http://pass.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/vaultwarden.svg"
-			},
-			{
-				name: "Plausible Analytics",
-				description: "Analytics for our website.",
-				eu: "https://analytics.projectsegfau.lt/",
-				icon: "/icons/plausible.png"
 			},
 			{
 				name: "Healthchecks",
@@ -417,13 +361,6 @@ const instances: Instances[] = [
 				eu: "https://sl.projectsegfau.lt/",
 				short_eu: "https://sl.psf.lt/",
 				icon: "/icons/simplelogin.svg"
-			},
-			{
-				name: "Dendrite",
-				description:
-					"Another Matrix server running on Project Segfault's India node!",
-				eu: "https://w.psf.lt/Matrix#Dendrite",
-				icon: "/icons/matrix.svg"
 			}
 		]
 	}
