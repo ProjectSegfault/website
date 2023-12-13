@@ -31,9 +31,6 @@
 				{#if instance.in}
 					<li><a href={instance.in}>IN</a></li>
 				{/if}
-				{#if instance.bp}
-					<li><a href={instance.bp}>Backup</a></li>
-				{/if}
 				{#if instance.short_geo}
 					<li><a href={instance.short_geo}>GeoDNS (Short URL)</a></li>
 				{/if}
@@ -46,20 +43,8 @@
 				{#if instance.short_in}
 					<li><a href={instance.short_in}>IN (Short URL)</a></li>
 				{/if}
-				{#if instance.short_bp}
-					<li><a href={instance.short_bp}>Backup (Short URL)</a></li>
-				{/if}
 				{#if instance.tor}
 					<li><a href={instance.tor}>Tor</a></li>
-				{/if}
-				{#if instance.torBp}
-					<li><a href={instance.torBp}>Tor backup</a></li>
-				{/if}
-				{#if instance.i2p}
-					<li><a href={instance.i2p}>I2P</a></li>
-				{/if}
-				{#if instance.i2pBp}
-					<li><a href={instance.i2pBp}>I2P backup</a></li>
 				{/if}
 			</ul>
 		{/each}

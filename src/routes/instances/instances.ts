@@ -14,12 +14,7 @@ interface Instance {
 	short_us?: string;
 	in?: string;
 	short_in?: string;
-	bp?: string;
-	short_bp?: string;
 	tor?: string;
-	torBp?: string;
-	i2p?: string;
-	i2pBp?: string;
 	icon?: string;
 }
 
@@ -36,12 +31,7 @@ const instances: Instances[] = [
 				short_us: "https://i.us.psf.lt/",
 				in: "https://inv.in.projectsegfau.lt/",
 				short_in: "https://i.in.psf.lt/",
-				bp: "https://inv.bp.projectsegfau.lt/",
-				short_bp: "https://i.bp.psf.lt/",
 				tor: "http://inv.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				torBp: "http://invbp.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfhqamc7k6htnumrvn4cwqqdoggeepj7u5viyimgnxg3gar72q.b32.i2p",
-				i2pBp: "http://pjsfi2szfkb4guqzmfmlyq4no46fayertjrwt4h2uughccrh2lvq.b32.i2p",
 				icon: "/icons/invidious.svg"
 			},
 			{
@@ -67,7 +57,6 @@ const instances: Instances[] = [
 				in: "https://libreddit.in.projectsegfau.lt/",
 				short_in: "https://lr.in.psf.lt/",
 				tor: "http://libreddit.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfkref7g66mji45kyccqnn5hmjtjp3cfodozabpyplj2rmv5sa.b32.i2p",
 				icon: "/icons/libreddit.png"
 			},
 			{
@@ -82,7 +71,6 @@ const instances: Instances[] = [
 				in: "https://nitter.in.projectsegfau.lt/",
 				short_in: "https://n.in.psf.lt/",
 				tor: "http://nitter.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfs4ukb6prmfx3qx3a5ef2cpcupkvcrxdh72kqn2rxc2cw4nka.b32.i2p",
 				icon: "/icons/nitter.png"
 			},
 			{
@@ -111,7 +99,6 @@ const instances: Instances[] = [
 				in: "https://bw.in.projectsegfau.lt/",
 				short_in: "https://bw.in.psf.lt/",
 				tor: "http://breezewiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfk4xvekoc7wx4pteevp3q2wy7jmzlem7rvl74nx33zkdr4vyq.b32.i2p",
 				icon: "/icons/breezewiki.svg"
 			},
 			{
@@ -181,10 +168,9 @@ const instances: Instances[] = [
 				in: "https://scribe.in.projectsegfau.lt/",
 				short_in: "https://sc.in.psf.lt/",
 				tor: "http://scribe.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsflkkkcn33ahmzmpyq6idy2knkzh4atp7zaetqfsnenpyori6a.b32.i2p"
 			},
 			{
-				name: "SimplyTranslate",
+				name: "Mozhi",
 				description: "A front-end for many translation engines.",
 				geo: "https://translate.projectsegfau.lt/",
 				short_geo: "https://tl.psf.lt/",
@@ -195,7 +181,7 @@ const instances: Instances[] = [
 				in: "https://translate.in.projectsegfau.lt/",
 				short_in: "https://tl.in.psf.lt/",
 				tor: "http://translate.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				icon: "/icons/simplytranslate.svg"
+				icon: "/icons/mozhi.svg"
 			},
 			{
 				name: "Teddit",
@@ -239,7 +225,6 @@ const instances: Instances[] = [
 				in: "https://search.in.projectsegfau.lt/",
 				short_in: "https://s.in.psf.lt/",
 				tor: "http://search.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfwklrellqoj275kzeu2tz4c3j5zktnqod56s7l5dc25ro3wgq.b32.i2p",
 				icon: "/icons/searxng.svg"
 			},
 			{
@@ -249,7 +234,6 @@ const instances: Instances[] = [
 				eu: "https://git.projectsegfau.lt/",
 				short_eu: "https://git.psf.lt/",
 				tor: "http://git.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfdrtv2465bisenvzhfvdleznx4arlih2hlnrhpzugailnm7iq.b32.i2p",
 				icon: "/icons/gitea.svg"
 			},
 			{
@@ -272,7 +256,6 @@ const instances: Instances[] = [
 				eu: "https://todo.projectsegfau.lt/",
 				short_eu: "https://vi.psf.lt/",
 				tor: "http://todo.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				i2p: "http://pjsfivs2sxudfy65kojxqophc6vqjqdr6woczy6hzaxvxvbj3bkq.b32.i2p",
 				icon: "/icons/vikunja.png"
 			},
 			{
