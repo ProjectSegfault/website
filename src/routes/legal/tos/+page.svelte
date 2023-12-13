@@ -14,8 +14,8 @@
 	</li>
 	<li class="mt-2">Do not use our services to dox someone.</li>
 	<li class="mt-2">
-		Do not do anything on our services that would be illegal in France, the
-		USA, Luxembourg, and India. (Example: CSAM, Loli, Drugs etc...)
+		Do not do anything on our services that would be illegal in the
+		USA, Netherlands, and India. (Example: CSAM, Loli, Drugs etc...)
 	</li>
 	<li class="mt-2">Do not harass people using our services.</li>
 	<li class="mt-2">
