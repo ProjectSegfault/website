@@ -205,15 +205,15 @@ const instances: Instances[] = [
 			{
 				name: "XMPP",
 				description: "The universal messaging standard.",
-				eu: "https://wiki.projectsegfau.lt/XMPP",
-				short_eu: "https://w.psf.lt/XMPP",
+				in: "https://wiki.projectsegfau.lt/XMPP",
+				short_in: "https://w.psf.lt/XMPP",
 				icon: "/icons/xmpp.svg"
 			},
 			{
 				name: "XMPP Web",
 				description: "Lightweight web chat client for XMPP.",
-				eu: "https://xmpp-web.projectsegfau.lt/",
-				short_eu: "https://x.psf.lt/"
+				in: "https://xmpp-web.projectsegfau.lt/",
+				short_in: "https://x.psf.lt/"
 			},
 			{
 				name: "SearXNG",
@@ -231,61 +231,61 @@ const instances: Instances[] = [
 				name: "Gitea",
 				description:
 					"A web interface for Git. An alternative to GitHub.",
-				eu: "https://git.projectsegfau.lt/",
-				short_eu: "https://git.psf.lt/",
+				in: "https://git.projectsegfau.lt/",
+				short_in: "https://git.psf.lt/",
 				tor: "http://git.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/gitea.svg"
 			},
 			{
 				name: "Hedgedoc",
 				description: "Collaborative Markdown notes.",
-				eu: "https://doc.projectsegfau.lt/",
-				short_eu: "https://d.psf.lt/",
+				in: "https://doc.projectsegfau.lt/",
+				short_in: "https://d.psf.lt/",
 				icon: "/icons/hedgedoc.svg"
 			},
 			{
 				name: "Kbin",
 				description: "Federated Reddit alternative.",
-				eu: "https://kbin.projectsegfau.lt/",
-				short_eu: "https://kb.psf.lt/",
+				in: "https://kbin.projectsegfau.lt/",
+				short_in: "https://kb.psf.lt/",
 				icon: "/icons/kbin.svg"
 			},
 			{
 				name: "Vikunja",
 				description: "A task management platform.",
-				eu: "https://todo.projectsegfau.lt/",
-				short_eu: "https://vi.psf.lt/",
+				in: "https://todo.projectsegfau.lt/",
+				short_in: "https://vi.psf.lt/",
 				tor: "http://todo.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/vikunja.png"
 			},
 			{
 				name: "Jitsi",
 				description: "An open-source video conferencing platform.",
-				eu: "https://jitsi.projectsegfau.lt/",
-				short_eu: "https://j.psf.lt/",
+				in: "https://jitsi.projectsegfau.lt/",
+				short_in: "https://j.psf.lt/",
 				icon: "/icons/jitsi.svg"
 			},
 			{
 				name: "Vaultwarden",
 				description: "An open-source password manager.",
-				eu: "https://pass.projectsegfau.lt/",
-				short_eu: "https://vw.psf.lt/",
+				in: "https://pass.projectsegfau.lt/",
+				short_in: "https://vw.psf.lt/",
 				tor: "http://pass.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/vaultwarden.svg"
 			},
 			{
 				name: "Healthchecks",
 				description: "Simple and effective cron job monitoring.",
-				eu: "https://healthchecks.projectsegfau.lt/",
-				short_eu: "https://hc.psf.lt/",
+				in: "https://healthchecks.projectsegfau.lt/",
+				short_in: "https://hc.psf.lt/",
 				tor: "http://healthchecks.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/healthchecks.svg"
 			},
 			{
 				name: "MediaWiki",
 				description: "Our wiki.",
-				eu: "https://wiki.projectsegfau.lt/",
-				short_eu: "https://w.psf.lt/",
+				in: "https://wiki.projectsegfau.lt/",
+				short_in: "https://w.psf.lt/",
 				tor: "http://wiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/mediawiki.svg"
 			}
@@ -298,33 +298,33 @@ const instances: Instances[] = [
 				name: "Pubnix",
 				description:
 					"A Unix server open to the public for non-commercial recreational usage.",
-				eu: "https://p.projectsegfau.lt/",
-				short_eu: "https://p.psf.lt/",
+				in: "https://p.projectsegfau.lt/",
+				short_in: "https://p.psf.lt/",
 				icon: "/icons/pubnix.png"
 			},
 			{
 				name: "Public Authentik",
 				description: "Authentik for signup to our services.",
-				eu: "https://auth.p.projectsegfau.lt/",
+				in: "https://auth.p.projectsegfau.lt/",
 				icon: "/icons/authentik.svg"
 			},
 			{
 				name: "Cockpit",
 				description: "WebUI for users to access the pubnix services.",
-				eu: "https://cockpit.p.projectsegfau.lt/",
+				in: "https://cockpit.p.projectsegfau.lt/",
 				tor: "http://cockpit.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/cockpit.svg"
 			},
 			{
 				name: "Soju",
 				description: "A user-friendly IRC bouncer.",
-				eu: "https://wiki.projectsegfau.lt/IRC_Bouncer"
+				in: "https://wiki.projectsegfau.lt/IRC_Bouncer"
 			},
 			{
 				name: "Gemini Proxy",
 				description: "Access Gemini sites from the web.",
-				eu: "https://geminiproxy.p.projectsegfau.lt/",
-				short_eu: "https://gp.p.psf.lt/",
+				in: "https://geminiproxy.p.projectsegfau.lt/",
+				short_in: "https://gp.p.psf.lt/",
 				tor: "http://geminiproxy.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion"
 			}
 		]
@@ -335,7 +335,7 @@ const instances: Instances[] = [
 			{
 				name: "MailU",
 				description: "Our mail server and webmail.",
-				eu: "https://mail.projectsegfau.lt/",
+				in: "https://mail.projectsegfau.lt/",
 				icon: "/icons/mailu.png"
 			},
 			{

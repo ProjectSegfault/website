@@ -62,7 +62,7 @@
 				<div class="flex flex-row flex-wrap gap-4">
 					{#each category.data as instance}
 						<a
-							href={instance.geo || instance.eu}
+							href={instance.geo || instance.eu || instance.in }
 							class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
 						>
 							{#if instance.icon}
@@ -90,8 +90,10 @@
 						<a
 							href={instance.short_geo ||
 								instance.short_eu ||
+								instance.short_in ||
 								instance.geo ||
-								instance.eu}
+								instance.eu ||
+								instance.in}
 							class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
 						>
 							{#if instance.icon}
