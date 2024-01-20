@@ -7,7 +7,7 @@ import {
 	presetWind
 } from "unocss";
 
-import { extractorSvelte } from "unocss";
+import extractorSvelte from "@unocss/extractor-svelte";
 
 export default defineConfig({
 	extractors: [extractorSvelte],
