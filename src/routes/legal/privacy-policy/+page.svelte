@@ -24,22 +24,13 @@
 	services. Your IP and User-Agent are not logged in this case, we only need
 	to know how much traffic we get to prioritize our resources.
 </PMargin>
-
-<PMargin
-	>Some of our services have things like databases and things, for example <a
-		href="https://chat.projectsegfau.lt">Matrix</a
-	>, but that should be pretty obvious the moment you make an account on
-	there. They may collect some things, however we barely even access those
-	databases so you should be fine.</PMargin
->
-
-<PMargin
-	><a href="https://chat.projectsegfau.lt">Matrix</a> logs IPs, there is nothing
-	we can do to prevent that. We will only check IP addresses whenever there is
-	serious abuse coming from someone's Matrix account, so we can ban their IP from
-	using Project Segfault services. This includes, but is not limited to ban evading
-	and harassment of communities and people.</PMargin
->
+<PMargin>
+	We may occasionally log all traffic for a short period of time in order to
+	prevent abuse of our services. This is only done when we detect some attack
+	against our services, The logs are deleted after the attack is over.
+	Information collected are: IP address, User-Agent, Request path, Request
+	method, Request body, Request headers, Response status code.
+</PMargin>
 
 <PMargin
 	>If you want the data we've collected on you to be sent, please contact us
