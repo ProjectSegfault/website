@@ -17,7 +17,7 @@
 >
 <PMargin class="italic"
 	>Some services require us to enable traffic logging, such as Nitter and
-	libreddit, This is required to prevent abuse of those proxies who have
+	Libreddit, This is required to prevent abuse of those proxies who have
 	recently become harder and harder to proxy due to their active sabotage of
 	proxies. We also log traffic from all services in order to get a better
 	understanding of how much traffic we get and how we can improve our
