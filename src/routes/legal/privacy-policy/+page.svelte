@@ -15,22 +15,22 @@
 	what path you visited (like https://libreddit.projectsegfau.lt/r/cats), your
 	IP address, your User-Agent will not be logged by us!</PMargin
 >
-
-<PMargin
-	>Some of our services have things like databases and things, for example <a
-		href="https://chat.projectsegfau.lt">Matrix</a
-	>, but that should be pretty obvious the moment you make an account on
-	there. They may collect some things, however we barely even access those
-	databases so you should be fine.</PMargin
->
-
-<PMargin
-	><a href="https://chat.projectsegfau.lt">Matrix</a> logs IPs, there is nothing
-	we can do to prevent that. We will only check IP addresses whenever there is
-	serious abuse coming from someone's Matrix account, so we can ban their IP from
-	using Project Segfault services. This includes, but is not limited to ban evading
-	and harassment of communities and people.</PMargin
->
+<PMargin class="italic"
+	>Some services require us to enable traffic logging, such as Nitter and
+	Libreddit, This is required to prevent abuse of those proxies who have
+	recently become harder and harder to proxy due to their active sabotage of
+	proxies. We also log traffic from all services in order to get a better
+	understanding of how much traffic we get and how we can improve our
+	services. Your IP and User-Agent are not logged in this case, we only need
+	to know how much traffic we get to prioritize our resources.
+</PMargin>
+<PMargin>
+	We may occasionally log all traffic for a short period of time in order to
+	prevent abuse of our services. This is only done when we detect some attack
+	against our services, The logs are deleted after the attack is over.
+	Information collected are: IP address, User-Agent, Request path, Request
+	method, Request body, Request headers, Response status code.
+</PMargin>
 
 <PMargin
 	>If you want the data we've collected on you to be sent, please contact us
@@ -43,32 +43,6 @@
 >
 
 <h2>For our website and blog</h2>
-
-<PMargin
-	>We have Plausible analytics installed on our website (the one you are on
-	right now!), and our <a href="https://blog.projectsegfau.lt">blog</a>, which
-	means we can just easily see what part of our site you're on, what country
-	you are from, what platform you are from, potentially a referrer and all
-	those get clumped up together.</PMargin
->
-
-<PMargin class="italic"
-	>Plausible Analytics is completely anonymous. We can't exactly figure out
-	who you are through Plausible. It is also GDPR compliant.</PMargin
->
-
-<PMargin
-	>We use analytics in order to see how many visitors we get every day, what
-	pages get visited the most, what countries visit our website the most etc.
-	uBlock and other privacy extensions block Plausible by default.</PMargin
->
-
-<PMargin
-	>If you would like to see our website's statistics, <a
-		href="https://analytics.projectsegfau.lt/projectsegfau.lt"
-		>look no further</a
-	>.</PMargin
->
 
 <h2>
 	We don't give any of the data we collect to anyone outside of Project
@@ -108,4 +82,4 @@
 	official and they have a warrant.</PMargin
 >
 
-<span class="italic">Last updated 09.08.2022 16:57 UTC+1</span>
+<span class="italic">Last updated 25.01.2024 15:30 UTC+1</span>
