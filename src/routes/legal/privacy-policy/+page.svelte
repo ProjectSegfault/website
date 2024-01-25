@@ -15,6 +15,15 @@
 	what path you visited (like https://libreddit.projectsegfau.lt/r/cats), your
 	IP address, your User-Agent will not be logged by us!</PMargin
 >
+<PMargin class="italic"
+	>Some services require us to enable traffic logging, such as Nitter and
+	libreddit, This is required to prevent abuse of those proxies who have
+	recently become harder and harder to proxy due to their active sabotage of
+	proxies. We also log traffic from all services in order to get a better
+	understanding of how much traffic we get and how we can improve our
+	services. Your IP and User-Agent are not logged in this case, we only need
+	to know how much traffic we get to prioritize our resources.
+</PMargin>
 
 <PMargin
 	>Some of our services have things like databases and things, for example <a
@@ -43,32 +52,6 @@
 >
 
 <h2>For our website and blog</h2>
-
-<PMargin
-	>We have Plausible analytics installed on our website (the one you are on
-	right now!), and our <a href="https://blog.projectsegfau.lt">blog</a>, which
-	means we can just easily see what part of our site you're on, what country
-	you are from, what platform you are from, potentially a referrer and all
-	those get clumped up together.</PMargin
->
-
-<PMargin class="italic"
-	>Plausible Analytics is completely anonymous. We can't exactly figure out
-	who you are through Plausible. It is also GDPR compliant.</PMargin
->
-
-<PMargin
-	>We use analytics in order to see how many visitors we get every day, what
-	pages get visited the most, what countries visit our website the most etc.
-	uBlock and other privacy extensions block Plausible by default.</PMargin
->
-
-<PMargin
-	>If you would like to see our website's statistics, <a
-		href="https://analytics.projectsegfau.lt/projectsegfau.lt"
-		>look no further</a
-	>.</PMargin
->
 
 <h2>
 	We don't give any of the data we collect to anyone outside of Project
