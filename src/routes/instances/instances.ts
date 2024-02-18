@@ -231,7 +231,7 @@ const instances: Instances[] = [
 				name: "RSSBridge",
 				description:
 					"A bridge that allows you to generate RSS feeds for websites that don't have one.",
-				in: "https://rssbridge.projetcsegfau.lt/",
+				in: "https://rssbridge.projectsegfau.lt/",
 				short_in: "https://rb.psf.lt/",
 				tor: "http://rssbridge.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/rssbridge-short.svg"
