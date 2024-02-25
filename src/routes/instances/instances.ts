@@ -182,20 +182,6 @@ const instances: Instances[] = [
 				short_in: "https://tl.in.psf.lt/",
 				tor: "http://translate.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/mozhi.svg"
-			},
-			{
-				name: "Teddit",
-				description: "Another front-end for Reddit.",
-				geo: "https://teddit.projectsegfau.lt/",
-				short_geo: "https://t.psf.lt/",
-				eu: "https://teddit.eu.projectsegfau.lt/",
-				short_eu: "https://t.eu.psf.lt/",
-				us: "https://teddit.us.projectsegfau.lt/",
-				short_us: "https://t.us.psf.lt/",
-				in: "https://teddit.in.projectsegfau.lt/",
-				short_in: "https://t.in.psf.lt/",
-				tor: "http://teddit.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				icon: "/icons/teddit.png"
 			}
 		]
 	},
