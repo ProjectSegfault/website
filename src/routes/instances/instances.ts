@@ -239,13 +239,6 @@ const instances: Instances[] = [
 				icon: "/icons/hedgedoc.svg"
 			},
 			{
-				name: "Kbin",
-				description: "Federated Reddit alternative.",
-				in: "https://kbin.projectsegfau.lt/",
-				short_in: "https://kb.psf.lt/",
-				icon: "/icons/kbin.svg"
-			},
-			{
 				name: "Vikunja",
 				description: "A task management platform.",
 				in: "https://todo.projectsegfau.lt/",
