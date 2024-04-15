@@ -20,11 +20,11 @@
 	},
 	{
 		"name": "Midou",
-		"description": "A random person with an obsession to online cat pics, also happens to be the sysadmin of the project",
+		"description": "A random person with an obsession for online cat pics, also happens to be the sysadmin of the project",
 		"matrix": "https://matrix.to/#/@midou:projectsegfau.lt/",
 		"position": "Sysadmin",
 		"git": "https://github.com/Midou36O/",
-		"website": "https://midou36o.github.io/",
+		"website": "https://midou.dev",
 		"email": "midou@projectsegfau.lt",
 		"pgp": "https://keys.openpgp.org/vks/v1/by-fingerprint/E2CA3E4AAC6FF624A1EB993FFC7429AE78981D71"
 	},
