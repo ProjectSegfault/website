@@ -241,6 +241,15 @@ const instances: Instances[] = [
 				icon: "/icons/searxng.svg"
 			},
 			{
+				name: "FreshRSS",
+				description:
+					"A RSS Web Client you can use to read your feeds and sync them with your other devices.",
+				in: "https://rss.projectsegfau.lt/",
+				short_in: "https://rss.psf.lt/",
+				tor: "http://rss.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				icon: "/icons/FreshRSS-logo.svg"
+			},
+			{
 				name: "RSSBridge",
 				description:
 					"A bridge that allows you to generate RSS feeds for websites that don't have one.",
