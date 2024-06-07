@@ -143,6 +143,33 @@ const instances: Instances[] = [
 				icon: "/icons/rimgo.png"
 			},
 			{
+				name: "Priviblur",
+				description: "A front-end for Tumblr.",
+				geo: "https://priviblur.projectsegfau.lt/",
+				short_geo: "https://pb.psf.lt/",
+				eu: "https://priviblur.eu.projectsegfau.lt/",
+				short_eu: "https://pb.eu.psf.lt/",
+				us: "https://priviblur.us.projectsegfau.lt/",
+				short_us: "https://pb.us.psf.lt/",
+				in: "https://priviblur.in.projectsegfau.lt/",
+				short_in: "https://pb.in.psf.lt/",
+				tor: "http://priviblur.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+			},
+			{
+				name: "Shoelace",
+				description: "A front-end for Threads.",
+				geo: "https://shoelace.projectsegfau.lt/",
+				short_geo: "https://l.psf.lt/",
+				eu: "https://shoelace.eu.projectsegfau.lt/",
+				short_eu: "https://l.eu.psf.lt/",
+				us: "https://shoelace.us.projectsegfau.lt/",
+				short_us: "https://l.us.psf.lt/",
+				in: "https://shoelace.in.projectsegfau.lt/",
+				short_in: "https://l.in.psf.lt/",
+				tor: "http://shoelace.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				icon: "/icons/shoelace.svg"
+			},
+			{
 				name: "Safetwitch",
 				description: "A front-end for Twitch.",
 				geo: "https://safetwitch.projectsegfau.lt/",
