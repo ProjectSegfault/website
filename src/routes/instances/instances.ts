@@ -158,15 +158,15 @@ const instances: Instances[] = [
 			{
 				name: "Shoelace",
 				description: "A front-end for Threads.",
-				geo: "https://shoelace.projectsegfau.lt/",
+				geo: "https://lace.projectsegfau.lt/",
 				short_geo: "https://l.psf.lt/",
-				eu: "https://shoelace.eu.projectsegfau.lt/",
+				eu: "https://lace.eu.projectsegfau.lt/",
 				short_eu: "https://l.eu.psf.lt/",
-				us: "https://shoelace.us.projectsegfau.lt/",
+				us: "https://lace.us.projectsegfau.lt/",
 				short_us: "https://l.us.psf.lt/",
-				in: "https://shoelace.in.projectsegfau.lt/",
+				in: "https://lace.in.projectsegfau.lt/",
 				short_in: "https://l.in.psf.lt/",
-				tor: "http://shoelace.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				tor: "http://lace.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/shoelace.svg"
 			},
 			{
