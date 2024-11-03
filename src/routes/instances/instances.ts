@@ -312,6 +312,11 @@ const instances: Instances[] = [
 				short_in: "https://w.psf.lt/",
 				tor: "http://wiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/mediawiki.svg"
+			},
+			{
+				name: "Mirror of various distros",
+				description: "Mirror of various Linux distributions.",
+				in: "https://mirror.bom.albony.in"
 			}
 		]
 	},
