@@ -62,14 +62,8 @@ const instances: Instances[] = [
 			{
 				name: "Nitter",
 				description: "A front-end for Twitter.",
-				geo: "https://nitter.projectsegfau.lt/",
-				short_geo: "https://n.psf.lt/",
 				eu: "https://nitter.eu.projectsegfau.lt/",
 				short_eu: "https://n.eu.psf.lt/",
-				us: "https://nitter.us.projectsegfau.lt/",
-				short_us: "https://n.us.psf.lt/",
-				in: "https://nitter.in.projectsegfau.lt/",
-				short_in: "https://n.in.psf.lt/",
 				tor: "http://nitter.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/nitter.png"
 			},
