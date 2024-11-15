@@ -22,28 +22,42 @@ const instances: Instances[] = [
 	{
 		name: "Privacy front-ends",
 		data: [
+			//{
+			//	name: "Invidious",
+			//	description: "A front-end for YouTube.",
+			//	eu: "https://invidious.projectsegfau.lt/",
+			//	short_eu: "https://i.psf.lt/",
+			//	us: "https://inv.us.projectsegfau.lt/",
+			//	short_us: "https://i.us.psf.lt/",
+			//	in: "https://inv.in.projectsegfau.lt/",
+			//	short_in: "https://i.in.psf.lt/",
+			//	tor: "http://inv.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+			//	icon: "/icons/invidious.svg"
+			//},
+			//{
+			//	name: "Piped",
+			//	description: "Another front-end for YouTube.",
+			//	eu: "https://piped.projectsegfau.lt/",
+			//	short_eu: "https://pi.psf.lt/",
+			//	us: "https://piped.us.projectsegfau.lt/",
+			//	short_us: "https://pi.us.psf.lt/",
+			//	in: "https://piped.in.projectsegfau.lt/",
+			//	short_in: "https://piped.in.projectsegfau.lt/",
+			//	icon: "/icons/piped.svg"
+			//},
 			{
-				name: "Invidious",
-				description: "A front-end for YouTube.",
-				eu: "https://invidious.projectsegfau.lt/",
-				short_eu: "https://i.psf.lt/",
-				us: "https://inv.us.projectsegfau.lt/",
-				short_us: "https://i.us.psf.lt/",
-				in: "https://inv.in.projectsegfau.lt/",
-				short_in: "https://i.in.psf.lt/",
-				tor: "http://inv.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				icon: "/icons/invidious.svg"
-			},
-			{
-				name: "Piped",
-				description: "Another front-end for YouTube.",
-				eu: "https://piped.projectsegfau.lt/",
-				short_eu: "https://pi.psf.lt/",
-				us: "https://piped.us.projectsegfau.lt/",
-				short_us: "https://pi.us.psf.lt/",
-				in: "https://piped.in.projectsegfau.lt/",
-				short_in: "https://piped.in.projectsegfau.lt/",
-				icon: "/icons/piped.svg"
+				name: "SearXNG",
+				description: "A private metasearch engine.",
+				geo: "https://search.projectsegfau.lt",
+				short_geo: "https://s.psf.lt",
+				eu: "https://search.eu.projectsegfau.lt/",
+				short_eu: "https://s.eu.psf.lt/",
+				us: "https://search.us.projectsegfau.lt/",
+				short_us: "https://s.us.psf.lt/",
+				in: "https://search.in.projectsegfau.lt/",
+				short_in: "https://s.in.psf.lt/",
+				tor: "http://search.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				icon: "/icons/searxng.svg"
 			},
 			{
 				name: "Libreddit",
@@ -60,7 +74,7 @@ const instances: Instances[] = [
 				icon: "/icons/libreddit.png"
 			},
 			{
-				name: "Nitter",
+				name: "Nitter (Donator-Only)",
 				description: "A front-end for Twitter.",
 				eu: "https://nitter.eu.projectsegfau.lt/",
 				short_eu: "https://n.eu.psf.lt/",
@@ -109,19 +123,19 @@ const instances: Instances[] = [
 				tor: "http://gothub.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
 				icon: "/icons/gothub.svg"
 			},
-			{
-				name: "HyperPipe",
-				description: "A front-end for YT Music.",
-				geo: "https://hyperpipe.projectsegfau.lt/",
-				short_geo: "https://hp.psf.lt/",
-				eu: "https://hyperpipe.eu.projectsegfau.lt/",
-				short_eu: "https://hp.eu.psf.lt/",
-				us: "https://hyperpipe.us.projectsegfau.lt/",
-				short_us: "https://hp.us.psf.lt/",
-				in: "https://hyperpipe.in.projectsegfau.lt/",
-				short_in: "https://hp.in.psf.lt/",
-				icon: "/icons/hyperpipe.svg"
-			},
+			//{
+			//	name: "HyperPipe",
+			//	description: "A front-end for YT Music.",
+			//	geo: "https://hyperpipe.projectsegfau.lt/",
+			//	short_geo: "https://hp.psf.lt/",
+			//	eu: "https://hyperpipe.eu.projectsegfau.lt/",
+			//	short_eu: "https://hp.eu.psf.lt/",
+			//	us: "https://hyperpipe.us.projectsegfau.lt/",
+			//	short_us: "https://hp.us.psf.lt/",
+			//	in: "https://hyperpipe.in.projectsegfau.lt/",
+			//	short_in: "https://hp.in.psf.lt/",
+			//	icon: "/icons/hyperpipe.svg"
+			//},
 			{
 				name: "Rimgo",
 				description: "A front-end for Imgur.",
@@ -223,18 +237,6 @@ const instances: Instances[] = [
 				short_in: "https://x.psf.lt/"
 			},
 			{
-				name: "SearXNG",
-				description: "A private metasearch engine.",
-				eu: "https://search.projectsegfau.lt/",
-				short_eu: "https://s.psf.lt/",
-				us: "https://search.us.projectsegfau.lt/",
-				short_us: "https://s.us.psf.lt/",
-				in: "https://search.in.projectsegfau.lt/",
-				short_in: "https://s.in.psf.lt/",
-				tor: "http://search.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				icon: "/icons/searxng.svg"
-			},
-			{
 				name: "FreshRSS",
 				description:
 					"A RSS Web Client you can use to read your feeds and sync them with your other devices.",
@@ -292,6 +294,27 @@ const instances: Instances[] = [
 				icon: "/icons/vaultwarden.svg"
 			},
 			{
+				name: "Owncloud",
+				description: "A File Storage and Collaboration Software.",
+				in: "https://owncloud.projectsegfau.lt/",
+				icon: "/icons/owncloud.svg"
+			},
+			{
+				name: "Ente",
+				description: "A safe home for your photos.",
+				in: "https://ente.projectsegfau.lt/",
+				short_in: "https://pic.psf.lt/",
+				tor: "http://ente.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
+				icon: "/icons/ente.svg"
+			},
+			{
+				name: "TimeTagger",
+				description: "Tag your time, get the insight.",
+				in: "https://timetagger.projectsegfau.lt/",
+				short_in: "https://tt.psf.lt/",
+				icon: "/icons/timetagger.svg"
+			},
+			{
 				name: "Healthchecks",
 				description: "Simple and effective cron job monitoring.",
 				in: "https://healthchecks.projectsegfau.lt/",
@@ -300,17 +323,24 @@ const instances: Instances[] = [
 				icon: "/icons/healthchecks.svg"
 			},
 			{
-				name: "MediaWiki",
+				name: "WikiJS",
 				description: "Our wiki.",
 				in: "https://wiki.projectsegfau.lt/",
 				short_in: "https://w.psf.lt/",
 				tor: "http://wiki.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				icon: "/icons/mediawiki.svg"
+				icon: "/icons/wikijs.svg"
 			},
 			{
 				name: "Mirror of various distros",
 				description: "Mirror of various Linux distributions.",
 				in: "https://mirror.bom.albony.in"
+			},
+			{
+				name: "Gemini Proxy",
+				description: "Access Gemini sites from the web.",
+				in: "https://geminiproxy.p.projectsegfau.lt/",
+				short_in: "https://gp.p.psf.lt/",
+				tor: "http://geminiproxy.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion"
 			}
 		]
 	},
@@ -332,28 +362,14 @@ const instances: Instances[] = [
 				icon: "/icons/authentik.svg"
 			},
 			{
-				name: "Cockpit",
-				description: "WebUI for users to access the pubnix services.",
-				in: "https://cockpit.p.projectsegfau.lt/",
-				tor: "http://cockpit.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion",
-				icon: "/icons/cockpit.svg"
-			},
-			{
 				name: "Soju",
 				description: "A user-friendly IRC bouncer.",
 				in: "https://wiki.projectsegfau.lt/IRC_Bouncer"
-			},
-			{
-				name: "Gemini Proxy",
-				description: "Access Gemini sites from the web.",
-				in: "https://geminiproxy.p.projectsegfau.lt/",
-				short_in: "https://gp.p.psf.lt/",
-				tor: "http://geminiproxy.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion"
 			}
 		]
 	},
 	{
-		name: "Invite-only services",
+		name: "Mail Services (Contact us to get access)",
 		data: [
 			{
 				name: "MailU",
