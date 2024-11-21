@@ -31,8 +31,7 @@
 <h2>I joined, but I have no idea what to do.</h2>
 <span
 	>No worries! We put out tutorials on how to do common things on our <a
-		href="https://wiki.projectsegfau.lt/index.php?title=Category%3APubnix"
-		>wiki</a
+		href="https://wiki.projectsegfau.lt/t/pubnix">wiki</a
 	>.</span
 >
 <h2>Do you have a place to discuss the pubnix?</h2>
@@ -47,4 +46,10 @@
 	> to discuss the pubnix.</span
 >
 <h2>10GB isn't enough for me!</h2>
-<span>Money doesn't grow on trees :P. To make the project sustainable, we have decided to make extra storage (upto 30GB) on the Pubnix require at minimum an yearly donation of 10$ (or equivalent in UPI/Crypto). Once you have donated, please <a href=/contact>contact us</a> so we can give you the extra storage once verified.</span>
+<span
+	>Money doesn't grow on trees :P. To make the project sustainable, we have
+	decided to make extra storage (upto 30GB) on the Pubnix require at minimum
+	an yearly donation of 10$ (or equivalent in UPI/Crypto). Once you have
+	donated, please <a href="/contact">contact us</a> so we can give you the extra
+	storage once verified.</span
+>
