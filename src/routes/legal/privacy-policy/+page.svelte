@@ -9,7 +9,7 @@
 
 <h2>We don't collect more information than we need to.</h2>
 
-<PMargin
+<PMargin class="break-all"
 	>We have disabled request logging. This is because it is extremely
 	identifiable. This means that, for example, what website you visited and
 	what path you visited (like https://libreddit.projectsegfau.lt/r/cats), your

@@ -17,7 +17,7 @@
 
 <button
 	on:click={toggle}
-	class="theme-toggle button text-text flex items-center text-sm"
+	class="theme-toggle button text-text flex items-center text-sm navPlus1:!p-x-[.25rem]"
 	aria-label="Toggle theme"
 >
 	<div

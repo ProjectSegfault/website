@@ -21,6 +21,7 @@
 <p>
 	We have an XMPP MUC for general discussion about Project Segfault over at <a
 		href="https://join.jabber.network/#general@conference.projectsegfau.lt?join"
+		class="break-all"
 		>#general@conference.projectsegfau.lt</a
 	>.
 </p>

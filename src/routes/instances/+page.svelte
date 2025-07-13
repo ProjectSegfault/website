@@ -63,7 +63,7 @@
 					{#each category.data as instance}
 						<a
 							href={instance.geo || instance.eu || instance.in }
-							class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
+							class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text break-all"
 						>
 							{#if instance.icon}
 								<img
@@ -94,7 +94,7 @@
 								instance.geo ||
 								instance.eu ||
 								instance.in}
-							class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text"
+							class="flex flex-row items-center gap-4 rounded bg-secondary p-4 w-110 no-underline text-text break-all"
 						>
 							{#if instance.icon}
 								<img
