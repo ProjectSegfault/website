@@ -4,7 +4,7 @@ Live at [projectsegfau.lt](https://projectsegfau.lt).
 
 ## Developing
 
-> You need a lot of infrastructure to run a complete version of the website including: Ghost CMS deployment and Authentik authentication.
+> You need a lot of infrastructure to run a complete version of the website including a Ghost CMS deployment.
 
 ### Prerequisites
 
@@ -39,11 +39,6 @@ The website has the following **mandatory** environment variables
 
 | Name               | Description                                    |
 | :----------------- | :--------------------------------------------- |
-| AUTH_CLIENT_ID     | Authentik client ID                            |
-| AUTH_CLIENT_SECRET | Authentik client secret                        |
-| AUTH_ISSUER        | Authentication issuer URL                      |
-| AUTH_TRUST_HOST    | Your domain                                    |
-| AUTH_SECRET        | Random 32 char secret                          |
 | GHOST_URL          | Your Ghost CMS URL                             |
 | GHOST_API_KEY      | Your Ghost CMS API key                         |
 | KUMA_URL           | Your Uptime Kuma announcements URL             |
