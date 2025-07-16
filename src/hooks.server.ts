@@ -58,7 +58,10 @@ const updateMap = async () => {
 	}
 
 	try {
-		const res = await fetchGhost("posts");
+		const res = await axios(env.GHOST_ALLPOSTS_URL, {
+			httpsAgent: agent,
+			timeout: 10000
+		});
 
 		if (res.status === 200) {
 			blogPosts.set(res.data);

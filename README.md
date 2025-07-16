@@ -41,6 +41,9 @@ The website has the following **mandatory** environment variables
 | :----------------- | :--------------------------------------------- |
 | GHOST_URL          | Your Ghost CMS URL                             |
 | GHOST_API_KEY      | Your Ghost CMS API key                         |
+| GHOST_ALLPOSTS_URL | Your URL for all ghost posts, see below        |
 | KUMA_URL           | Your Uptime Kuma announcements URL             |
 | ORIGIN             | Your domain                                    |
 | ADDRESS_HEADER     | Header used to retrieve client IP (Caddy only) |
+
+> GHOST_ALLPOSTS_URL should be of the form `https://GHOST_URL/ghost/api/content/posts/?key=GHOST_API_KEY&include=authors,tags&limit=all&formats=html,plaintext`
