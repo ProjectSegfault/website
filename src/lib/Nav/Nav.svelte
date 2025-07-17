@@ -13,9 +13,7 @@
 			text: "Wiki",
 			external: true
 		},
-		// Temporary workaround.
-		//{ href: "/blog", text: "Blog" },
-		{ href: "https://blog.projectsegfau.lt", text: "Blog" }, 
+		{ href: "/blog", text: "Blog" },
 
 		{ href: "/donate", text: "Donate" },
 		{ href: "/contact", text: "Contact" },
